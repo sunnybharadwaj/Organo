@@ -75,15 +75,9 @@
   font-size: 33px;
   font-weight: bold;
   letter-spacing: -0.035em;
-
-  .text {
-    color: $primary-color;
-    display: inline-block;
-    margin: 0 auto;
-    border-bottom: 4px solid white;
-  }
   text-decoration: underline;
-  text-decoration-color: $primary-color;
+  text-decoration-color: $link-blue;
+
 
   &:hover {
     text-decoration-color: $highlight;
@@ -139,9 +133,16 @@
   p.alt-body {
     font-weight: normal;
   }
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  input {
+    margin-top:50px;
+  }
 
   .lg-button {
-    text-align: left;
+    margin-top: 15px;
   }
 }
 
@@ -159,4 +160,22 @@
   }
 }
 
-
+//Help Component
+.help-component {
+  h2 {
+    margin-bottom: 30px;
+  }
+  .help-item {
+    margin-bottom: 30px;
+    max-width: 900px;
+  }
+  .link {
+    font-size: 23px;
+    padding: 8px 40px 8px 0px;
+    color: $link-blue;
+    text-decoration-color: $black;
+    &:first-of-type {
+      padding-left: 0;
+    }
+  }
+}

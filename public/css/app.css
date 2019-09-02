@@ -11552,15 +11552,8 @@ p {
   font-weight: bold;
   letter-spacing: -0.035em;
   text-decoration: underline;
-  -webkit-text-decoration-color: #5D3331;
-          text-decoration-color: #5D3331;
-}
-
-.lg-button .text {
-  color: #5D3331;
-  display: inline-block;
-  margin: 0 auto;
-  border-bottom: 4px solid white;
+  -webkit-text-decoration-color: #4f9cd1;
+          text-decoration-color: #4f9cd1;
 }
 
 .lg-button:hover {
@@ -11614,8 +11607,16 @@ p {
   font-weight: normal;
 }
 
+.updates-cta h2 {
+  margin-bottom: 10px;
+}
+
+.updates-cta input {
+  margin-top: 50px;
+}
+
 .updates-cta .lg-button {
-  text-align: left;
+  margin-top: 15px;
 }
 
 .feature-component .image-container {
@@ -11629,15 +11630,87 @@ p {
   left: 20px;
 }
 
+.help-component h2 {
+  margin-bottom: 30px;
+}
+
+.help-component .help-item {
+  margin-bottom: 30px;
+  max-width: 900px;
+}
+
+.help-component .link {
+  font-size: 23px;
+  padding: 8px 40px 8px 0px;
+  color: #4f9cd1;
+  -webkit-text-decoration-color: #202218;
+          text-decoration-color: #202218;
+}
+
+.help-component .link:first-of-type {
+  padding-left: 0;
+}
+
+.form-item {
+  margin: 30px 0;
+}
+
+label {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.sub-label {
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
 input {
-  border: 2px solid #5D3331;
-  border-radius: 3px;
-  background: rgba(243, 240, 240, 0.62);
-  padding: 16px 20px;
+  max-width: 500px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  border: 4px solid #5D3331;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px 15px;
   width: 100%;
   display: block;
+  font-size: 18px;
+}
+
+input.lg {
+  padding: 16px 20px;
+  display: block;
   font-size: 23px;
-  margin: 30px 0;
+}
+
+select {
+  max-width: 500px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  border: 4px solid #5D3331;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px 15px;
+  width: 100%;
+  display: block;
+  font-size: 18px;
+}
+
+textarea {
+  max-width: 500px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  border: 4px solid #5D3331;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px 15px;
+  width: 100%;
+  display: block;
+  font-size: 18px;
 }
 
 #purpose h3 {
@@ -12029,7 +12102,7 @@ input {
 #amenities .filter-buttons .filter-button {
   display: inline-block;
   margin-right: 50px;
-  color: #57ADE3;
+  color: #4f9cd1;
 }
 
 #amenities .filter-buttons .filter-button:hover {
@@ -12136,7 +12209,6 @@ input {
 #contact-page .map-block .map {
   height: 80%;
   overflow: hidden;
-  overflow: hidden;
 }
 
 #contact-page .map-block .map img {
@@ -12183,6 +12255,19 @@ input {
   text-align: center;
 }
 
+#contact-page-form {
+  padding: 100px;
+  background: rgba(243, 240, 240, 0.62);
+}
+
+#contact-page-form p.alt-body {
+  max-width: 900px;
+}
+
+#contact-page-form .form {
+  max-width: 500px;
+}
+
 section {
   margin: 140px 0;
 }
@@ -12195,15 +12280,20 @@ section {
 .link {
   font-weight: bold;
   font-size: 18px;
-  color: #5D3331;
-  transition: 0.3s all ease-in-out;
+  color: #202218;
+  text-decoration: underline;
+  transition: 0.1s all ease-in-out;
+  -webkit-text-decoration-color: #4f9cd1;
+          text-decoration-color: #4f9cd1;
   display: inline-block;
   margin-right: 10px;
 }
 
 .link:hover {
   cursor: pointer;
-  color: #ffde39;
+  color: #5D3331;
+  -webkit-text-decoration-color: #ffde39;
+          text-decoration-color: #ffde39;
 }
 
 .link-decorate {

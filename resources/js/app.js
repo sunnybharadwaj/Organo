@@ -6,6 +6,8 @@ import TestimonialsComponent from './components/partials/TestimonialsComponent';
 import SchoolCTAComponent from './components/partials/SchoolCTAComponent';
 import StandardCTAComponent from './components/partials/StandardCTAComponent';
 import FeatureComponent from './components/partials/FeatureComponent';
+import HelpComponent from './components/partials/HelpComponent';
+import FeedbackComponent from './components/partials/FeedbackComponent';
 
 import FormContactComponent from './components/forms/FormContactComponent';
 
@@ -16,6 +18,8 @@ Vue.component('TestimonialsComponent', TestimonialsComponent);
 Vue.component('SchoolCTAComponent', SchoolCTAComponent);
 Vue.component('StandardCTAComponent', StandardCTAComponent);
 Vue.component('FeatureComponent', FeatureComponent);
+Vue.component('HelpComponent', HelpComponent);
+Vue.component('FeedbackComponent', FeedbackComponent);
 
 //Forms
 Vue.component('FormContactComponent', FormContactComponent);

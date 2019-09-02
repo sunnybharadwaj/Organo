@@ -25,13 +25,16 @@ section {
 .link {
   font-weight: bold;
   font-size: 18px;
-  color: $primary-color;
-  transition: 0.3s all ease-in-out;
+  color: $black;
+  text-decoration: underline;
+  transition: 0.1s all ease-in-out;
+  text-decoration-color: $link-blue;
   display: inline-block;
   margin-right: 10px;
   &:hover {
     cursor: pointer;
-    color: $highlight;
+    color: $primary-color;
+    text-decoration-color: $highlight ;
   }
 }
 

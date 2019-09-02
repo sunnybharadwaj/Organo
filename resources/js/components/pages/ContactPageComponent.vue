@@ -53,8 +53,19 @@
             </div>
         </section>
 
+        <section>
+            <HelpComponent></HelpComponent>
+        </section>
+        <section id="contact-page-form" class="m-0">
+            <div class="container mx-auto">
+                <p class="alt-body">If we missed something, please write us a quick message.<br/> <span class="font-normal">Be as specific as you can so we can serve you as soon as possible.</span></p>
+                <p class="opacity-50 font-bold">Please fill all below fields</p>
+                <div class="form">
+                    <FormContactComponent></FormContactComponent>
+                </div>
 
-
+            </div>
+        </section>
     </div>
 </template>
 
