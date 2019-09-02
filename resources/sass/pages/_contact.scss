@@ -1,0 +1,70 @@
+#contact-page {
+
+  .map-block {
+    padding-right: 60px;
+    h2 {
+      margin-bottom: 30px;
+    }
+    .map {
+      height: 80%;
+      overflow: hidden;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+  .contact-details {
+    .contact-item {
+      display: flex;
+      margin-bottom: 40px;
+      .text {
+        padding-left: 20px;
+      }
+
+      &:nth-of-type(1), &:nth-of-type(2) {
+        .icon {
+          padding: 18px;
+        }
+      }
+
+      &.mail {
+        .icon {
+          padding: 15px;
+        }
+      }
+
+      &.phone-1, &.phone-2 {
+        .text {
+          position: relative;
+          .pre {
+            font-size: 18px;
+            font-weight: bold;
+            color: $dark-grey;
+            position: absolute;
+            letter-spacing: 0.002em;
+
+            left: -12px;
+          }
+        }
+      }
+
+
+
+      &:nth-of-type(3) {
+        .icon {
+        padding: 15px 10px;
+        }
+
+      }
+
+      .icon {
+        float: right;
+        min-width: 60px;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+
+
+//Importing Tailwind. Do not touch.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import 'variables';
+@import 'typography';
+@import 'components';
+@import 'form';
+@import './pages/pages';
+
+
+section {
+  margin: 140px 0;
+}
+
+.content-block {
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 18px;
+  color: $primary-color;
+  transition: 0.3s all ease-in-out;
+  display: inline-block;
+  margin-right: 10px;
+  &:hover {
+    cursor: pointer;
+    color: $highlight;
+  }
+}
+
+.link-decorate {
+  text-decoration: underline;
+  text-decoration-color: $primary-color;
+  &:hover {
+    text-decoration-color: $highlight;
+  }
+}

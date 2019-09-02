@@ -1,0 +1,169 @@
+#naandi-page {
+  #introduction {
+    h1 {
+      max-width: 650px;
+    }
+  }
+}
+
+
+#about-project {
+  .about-naandi {
+    margin: 0;
+    padding: 100px 0;
+
+    .wrapper {
+      max-width: 900px;
+      h3 {
+        margin-bottom: 20px;
+      }
+    }
+
+    .metrics {
+      padding: 40px 0 0;
+      .number {
+        margin-right: 10px;
+      }
+      .metric {
+        margin-right: 60px;
+        .number {
+          display: inline-block;
+          font-size: 67px !important;
+          font-weight: bold;
+          letter-spacing: -0.045em;
+          line-height: 1.2;
+          margin-right: 10px;
+        }
+        .description {
+          display: inline-block;
+          font-weight: normal !important;
+          font-size: 33px;
+          letter-spacing: -0.025em;
+          color: $primary-color;
+          line-height: 105px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+#naandi-features {
+  .intro-text {
+    max-width: 1000px;
+    margin-bottom: 60px;
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-weight: normal;
+    }
+  }
+
+  .feature-list {
+    padding-bottom: 60px;
+    .text-block {
+      .feature {
+        margin-bottom: 40px;
+        .icon {
+          width: 60px;
+          height: 60px;
+          margin-bottom: 15px;
+        }
+        p {
+          max-width: 550px;
+        }
+      }
+    }
+
+    .image-block {
+      .image {
+        height: 69%;
+        background: gray;
+        margin-bottom: 80px;
+      }
+    }
+  }
+}
+
+#amenities {
+  .intro-text {
+    max-width: 1000px;
+    margin-bottom: 60px;
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-weight: normal;
+    }
+  }
+
+  .filter-buttons {
+    margin-bottom: 40px;
+    .filter-button {
+      display: inline-block;
+      margin-right: 50px;
+      color: $link-blue;
+      &:hover {
+        cursor: pointer;
+        color: $highlight;
+      }
+    }
+  }
+
+  .amenity-list {
+    .amenity {
+      padding-right: 2%;
+    }
+
+    .text-content {
+      margin-bottom: 40px;
+    }
+    .image {
+      height: 220px;
+      background: gray;
+      margin-bottom: 20px;
+    }
+    p.alt-body {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+#share-section {
+  margin-bottom: 0;
+  .social-icons {
+    display: inline-block;
+    .icon {
+      display:inline-block;
+      padding: 25px 0;
+      margin: 0 60px 0 0;
+      transition: all 0.2ms ease-in-out;
+      img {
+        padding: 0 0 7px 0;
+        border-bottom: 4px solid white;
+      }
+      &:hover {
+        cursor: pointer;
+        img:hover {
+
+          border-bottom: 4px solid red;
+        }
+      }
+
+      &:nth-of-type(3) {
+        &:hover {
+          img {
+            &.active {
+              padding: 0 0 12px;
+              border-bottom: 4px solid red;
+            }
+          }
+        }
+        img {
+          padding: 7px 0;
+        }
+      }
+    }
+  }
+}

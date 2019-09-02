@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Aileron';
+  src: url('./fonts/Aileron-Bold.woff2') format('woff2'),
+  url('./fonts/Aileron-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('./fonts/Aileron-SemiBold.woff2') format('woff2'),
+  url('./fonts/Aileron-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('./fonts/Aileron-Regular.woff2') format('woff2'),
+  url('./fonts/Aileron-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*, html, body{
+  font-family: sans-serif, Aileron;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  color: $black;
+}
+
+h1 {
+  font-size: 67px !important;
+  font-weight: bold;
+  letter-spacing: -0.045em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 47px;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  line-height: 1.4;
+}
+
+.alt-body {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  line-height: 1.5;
+}
+
+.hl-body {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: -0.025em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.sm-body {
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 1.6;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  color: $primary-color;
+}
+
+
+.hl-text {          //highlight
+  color: $highlight;
+  font-weight: bold;
+}
+
+.hl-text-secondary {
+  color: green;
+
+}
+
+
+//Style-guide
+.component {
+  margin-bottom: 60px;
+  max-width: 700px;
+
+  .label {
+    margin-bottom: 10px;
+  }
+}

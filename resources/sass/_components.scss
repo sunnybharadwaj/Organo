@@ -1,0 +1,162 @@
+//Hero with bg
+
+.hero-bg {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: $light-grey;
+  .content-block {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    padding: 20px;
+    max-width: 770px;
+  }
+}
+
+//Separator
+.separator {
+  width: 100%;
+  height: 1px;
+  background: black;
+  opacity: 0.2;
+  margin: 15px 0;
+}
+
+//Standard Button
+.std-button, a.std-button {
+  display: inline-block;
+  padding: 18px 18px 18px 0;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  .text {
+    color: $primary-color;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 5px solid white;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: $highlight;
+    .text {
+      border-bottom: 5px solid $highlight;
+    }
+  }
+}
+
+//Medium Button
+.md-button, a.md-button {
+  display: inline-block;
+  padding: 18px 18px 18px 0;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+  .text {
+    color: $primary-color;
+    display: inline-block;
+    border-bottom: 5px solid white;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: $highlight;
+    .text {
+      border-bottom: 5px solid $highlight;
+    }
+  }
+}
+
+//Large buttons
+.lg-button {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+
+  .text {
+    color: $primary-color;
+    display: inline-block;
+    margin: 0 auto;
+    border-bottom: 4px solid white;
+  }
+  text-decoration: underline;
+  text-decoration-color: $primary-color;
+
+  &:hover {
+    text-decoration-color: $highlight;
+    cursor: pointer;
+  }
+}
+
+//Placeholders
+
+.wide-placeholder {
+  max-width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  background: $dark-grey;
+}
+
+.icon-placeholder {
+  height: 54px;
+  width: 54px;
+  background: $dark-grey;
+  margin-bottom: 20px;
+}
+
+//Sliders
+.full-pg-slider {
+  height: 550px;
+  width: 100%;
+  background: $dark-grey;
+}
+
+
+//Testimonials
+.testimonial {
+  min-height: 700px;
+  padding: 60px 0;
+  .text-content {
+    position: relative;
+  }
+  .quote {
+    max-width: 450px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    margin-right: 100px;
+  }
+}
+
+//UpdatesCTA
+.updates-cta {
+  .text-content {
+    max-width: 650px;
+  }
+  p.alt-body {
+    font-weight: normal;
+  }
+
+  .lg-button {
+    text-align: left;
+  }
+}
+
+//Feature Component
+.feature-component {
+  .image-container {
+    position: relative;
+    height: 600px;
+
+    .text-content {
+      position: absolute;
+      bottom: 60px;
+      left: 20px;
+    }
+  }
+}
+
+
