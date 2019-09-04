@@ -20,7 +20,7 @@ let routes = [
         component: HomePage
     },
     {
-        path: '/about',
+        path: '/company',
         component: AboutPage
     },
     {
@@ -28,7 +28,7 @@ let routes = [
         component: TeamPage
     },
     {
-      path: '/eco-habitat',
+      path: '/eco-habitats',
       component: EcoHabitatPage
     },
     {

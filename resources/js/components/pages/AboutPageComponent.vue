@@ -38,7 +38,7 @@
         <section id="bringing-it-togehter">
             <h2 class="text-center">Bringing it all together</h2>
             <div class="mb-8"></div>
-            <div class="nagesh-quote text-center">
+            <div class="nagesh-quote relative z-0 text-center">
                 <div class="container mx-auto">
                     <div class="quote">
                         <h3>
@@ -50,7 +50,7 @@
                         <div class="mb-6"></div>
                     </div>
                     <div class="name">
-                        <p class="alt-body">
+                        <p class="alt-body mb-0">
                             Nagesh Battula
                         </p>
                     </div>
@@ -63,6 +63,7 @@
 
 
                 <div class="pieces-together text-left">
+                    <img class="bg-graphic" :src="'/static/images/bringing_together_graphic.png'" alt="">
                     <div class="container mx-auto">
                         <div class="flex flex-wrap">
                             <div class="piece w-1/3">

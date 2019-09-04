@@ -1,4 +1,36 @@
 #naandi-page {
+  .hero-bg {
+    .video-container {
+      .overlay {
+        position: absolute;
+        height: auto;
+      }
+    }
+
+    video {
+      margin: 0 auto;
+      z-index:-1;
+
+      @media (min-aspect-ratio: 16/9) {
+        width:100% !important;
+        height: auto !important;
+      }
+
+      @media (max-aspect-ratio: 16/9) {
+        width: auto !important;
+        height: 100% !important;
+      }
+    }
+    .content-block {
+
+      background: rgba(255, 255, 255, 0.71);
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      padding: 20px 30px;
+      max-width: 800px;
+    }
+  }
   #introduction {
     h1 {
       max-width: 650px;

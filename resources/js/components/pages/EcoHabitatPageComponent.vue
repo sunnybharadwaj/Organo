@@ -6,7 +6,7 @@
                     <div class="intro">
                         <h1>Organo way of living</h1>
                         <h3 class="sub">When life is on a slow track, you’re on a highway to wellness.</h3>
-                        <span class="link"><span class="text">Watch Video</span></span>
+                        <span class="lg-button"><span class="text">Watch Video</span></span>
                     </div>
 
                     <div class="eco-habitat-features">
@@ -35,46 +35,60 @@
             <div class="strands-wrapper">
                 <div class="flex strands-desc">
                     <div class="w-1/4 strand">
-                        <div class="icon"></div>
+                        <div class="icon">
+                            <img :src="'/static/sapthapatha/food.png'" alt="">
+                        </div>
                         <div class="title"><h3>Food</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
                     <div class="w-1/4 strand">
-                        <div class="icon"></div>
-                        <div class="title"><h3>Food</h3></div>
+                        <div class="icon">
+                            <img :src="'/static/sapthapatha/water.png'" alt="">
+                        </div>
+                        <div class="title"><h3>Water</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
                     <div class="w-1/4 strand">
-                        <div class="icon"></div>
-                        <div class="title"><h3>Food</h3></div>
+                        <div class="icon">
+                            <img :src="'/static/sapthapatha/air.png'" alt="">
+                        </div>
+                        <div class="title"><h3>Air</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
                     <div class="w-1/4 strand">
-                        <div class="icon"></div>
-                        <div class="title"><h3>Food</h3></div>
+                        <div class="icon">
+                            <img :src="'/static/sapthapatha/earth.png'" alt="">
+                        </div>
+                        <div class="title"><h3>Earth</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
                 </div>
                 <div class="flex strands-desc">
                     <div class="w-1/3 strand">
-                        <div class="icon"></div>
-                        <div class="title"><h3>Food</h3></div>
+                        <div class="icon">
+                            <img :src="'/static/sapthapatha/energy.png'" alt="">
+                        </div>
+                        <div class="title"><h3>Energy</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
                     <div class="w-1/3 strand">
-                        <div class="icon"></div>
-                        <div class="title"><h3>Food</h3></div>
+                        <div class="icon">
+                            <img :src="'/static/sapthapatha/shelter.png'" alt="">
+                        </div>
+                        <div class="title"><h3>Shelter</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
                     <div class="w-1/3 strand">
-                        <div class="icon"></div>
-                        <div class="title"><h3>Food</h3></div>
+                        <div class="icon">
+                            <img :src="'/static/sapthapatha/people.png'" alt="">
+                        </div>
+                        <div class="title"><h3>People</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
                 </div>
             </div>
 
-            <div class="lg-button"><div class="text"><h2 class="link-decorate">Learn more about our efforts in each of these areas</h2></div></div>
+            <div class="lg-button"><h2 class="">Learn more about Sustainable Living</h2></div>
         </section>
 
         <section class="m-0">
@@ -94,11 +108,13 @@
                                 experience Nature to its fullest. Experience the manifestation of our first step towards
                                 building self-sustainable eco-habitats.</p>
                             <div class="mb-8"></div>
-                            <div class="md-button mr-6"><span class="text">Explore Naandi</span></div>
-                            <div class="md-button"><span class="text">Watch Video</span></div>
+                            <div class="lg-button inline-block  mr-8"><span class="text">Explore Naandi</span></div>
+                            <div class="lg-button inline-block "><span class="text">Watch Video</span></div>
                         </div>
                         <div class="flex-wrapper w-5/12 ">
                             <div class="slider-container">
+
+                                    <img :src="'/static/images/entertainment_center.jpg'" alt="">
 
                             </div>
                         </div>

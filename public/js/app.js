@@ -2071,6 +2071,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("works?");
@@ -2176,6 +2177,22 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2460,6 +2477,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2477,6 +2506,12 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3048,6 +3083,68 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -3063,6 +3160,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -3222,6 +3320,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -3357,6 +3457,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -3372,6 +3480,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -21223,9 +21333,33 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(1),
+      _c("section", { attrs: { id: "bringing-it-togehter" } }, [
+        _c("h2", { staticClass: "text-center" }, [
+          _vm._v("Bringing it all together")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-8" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "nagesh-quote relative z-0 text-center" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-12" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "pieces-together text-left" }, [
+            _c("img", {
+              staticClass: "bg-graphic",
+              attrs: {
+                src: "/static/images/bringing_together_graphic.png",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _vm._m(2)
+          ])
+        ])
+      ]),
       _vm._v(" "),
-      _vm._m(2),
+      _vm._m(3),
       _vm._v(" "),
       _c("div", { staticClass: "pb-24" }),
       _vm._v(" "),
@@ -21257,115 +21391,105 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "bringing-it-togehter" } }, [
-      _c("h2", { staticClass: "text-center" }, [
-        _vm._v("Bringing it all together")
+    return _c("div", { staticClass: "container mx-auto" }, [
+      _c("div", { staticClass: "quote" }, [
+        _c("h3", [
+          _vm._v(
+            "\n                        “Organo was started to re-establish a conscientious connection with the way we produce and\n                        consume resources as a community. Our goal is to create replicable community development\n                        models\n                        built on triple bottom line success and net zero thinking.”\n                    "
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-6" })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "mb-8" }),
+      _c("div", { staticClass: "name" }, [
+        _c("p", { staticClass: "alt-body mb-0" }, [
+          _vm._v(
+            "\n                        Nagesh Battula\n                    "
+          )
+        ])
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "nagesh-quote text-center" }, [
-        _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "quote" }, [
-            _c("h3", [
-              _vm._v(
-                "\n                        “Organo was started to re-establish a conscientious connection with the way we produce and\n                        consume resources as a community. Our goal is to create replicable community development\n                        models\n                        built on triple bottom line success and net zero thinking.”\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mb-6" })
+      _c("div", { staticClass: "position" }, [
+        _c("div", { staticClass: "hl-body" }, [_vm._v("Founder")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container mx-auto" }, [
+      _c("div", { staticClass: "flex flex-wrap" }, [
+        _c("div", { staticClass: "piece w-1/3" }, [
+          _c("div", { staticClass: "heading alt-body mb-2" }, [
+            _vm._v("The dream")
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "name" }, [
-            _c("p", { staticClass: "alt-body" }, [
-              _vm._v(
-                "\n                        Nagesh Battula\n                    "
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "position" }, [
-            _c("div", { staticClass: "hl-body" }, [_vm._v("Founder")])
+          _c("p", { staticClass: "description" }, [
+            _vm._v(
+              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+            )
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "mb-12" }),
+        _c("div", { staticClass: "piece w-1/3" }, [
+          _c("div", { staticClass: "heading alt-body mb-2" }, [
+            _vm._v("A Collective Vision")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "description" }, [
+            _vm._v(
+              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+            )
+          ])
+        ]),
         _vm._v(" "),
-        _c("div", { staticClass: "pieces-together text-left" }, [
-          _c("div", { staticClass: "container mx-auto" }, [
-            _c("div", { staticClass: "flex flex-wrap" }, [
-              _c("div", { staticClass: "piece w-1/3" }, [
-                _c("div", { staticClass: "heading alt-body mb-2" }, [
-                  _vm._v("The dream")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "description" }, [
-                  _vm._v(
-                    "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "piece w-1/3" }, [
-                _c("div", { staticClass: "heading alt-body mb-2" }, [
-                  _vm._v("A Collective Vision")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "description" }, [
-                  _vm._v(
-                    "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "piece w-1/3" }, [
-                _c("div", { staticClass: "heading alt-body mb-2" }, [
-                  _vm._v("Design & Concept")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "description" }, [
-                  _vm._v(
-                    "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "piece w-1/3" }, [
-                _c("div", { staticClass: "heading alt-body mb-2" }, [
-                  _vm._v("Construction & Development")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "description" }, [
-                  _vm._v(
-                    "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "piece w-1/3" }, [
-                _c("div", { staticClass: "heading alt-body mb-2" }, [
-                  _vm._v("Building a community")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "description" }, [
-                  _vm._v(
-                    "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "piece w-1/3" }, [
-                _c("div", { staticClass: "heading alt-body mb-2" }, [
-                  _vm._v("Enabling self-growth")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "description" }, [
-                  _vm._v(
-                    "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
-                  )
-                ])
-              ])
-            ])
+        _c("div", { staticClass: "piece w-1/3" }, [
+          _c("div", { staticClass: "heading alt-body mb-2" }, [
+            _vm._v("Design & Concept")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "description" }, [
+            _vm._v(
+              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "piece w-1/3" }, [
+          _c("div", { staticClass: "heading alt-body mb-2" }, [
+            _vm._v("Construction & Development")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "description" }, [
+            _vm._v(
+              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "piece w-1/3" }, [
+          _c("div", { staticClass: "heading alt-body mb-2" }, [
+            _vm._v("Building a community")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "description" }, [
+            _vm._v(
+              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "piece w-1/3" }, [
+          _c("div", { staticClass: "heading alt-body mb-2" }, [
+            _vm._v("Enabling self-growth")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "description" }, [
+            _vm._v(
+              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+            )
           ])
         ])
       ])
@@ -21599,11 +21723,152 @@ var render = function() {
   return _c("div", { attrs: { id: "eco-habitat-page" } }, [
     _vm._m(0),
     _vm._v(" "),
-    _vm._m(1),
+    _c("section", { attrs: { id: "sapthapatha" } }, [
+      _vm._m(1),
+      _vm._v(" "),
+      _c("div", { staticClass: "strands-wrapper" }, [
+        _c("div", { staticClass: "flex strands-desc" }, [
+          _c("div", { staticClass: "w-1/4 strand" }, [
+            _c("div", { staticClass: "icon" }, [
+              _c("img", {
+                attrs: { src: "/static/sapthapatha/food.png", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _c("div", { staticClass: "description" }, [
+              _vm._v(
+                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-1/4 strand" }, [
+            _c("div", { staticClass: "icon" }, [
+              _c("img", {
+                attrs: { src: "/static/sapthapatha/water.png", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _c("div", { staticClass: "description" }, [
+              _vm._v(
+                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-1/4 strand" }, [
+            _c("div", { staticClass: "icon" }, [
+              _c("img", {
+                attrs: { src: "/static/sapthapatha/air.png", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(4),
+            _vm._v(" "),
+            _c("div", { staticClass: "description" }, [
+              _vm._v(
+                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-1/4 strand" }, [
+            _c("div", { staticClass: "icon" }, [
+              _c("img", {
+                attrs: { src: "/static/sapthapatha/earth.png", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(5),
+            _vm._v(" "),
+            _c("div", { staticClass: "description" }, [
+              _vm._v(
+                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex strands-desc" }, [
+          _c("div", { staticClass: "w-1/3 strand" }, [
+            _c("div", { staticClass: "icon" }, [
+              _c("img", {
+                attrs: { src: "/static/sapthapatha/energy.png", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(6),
+            _vm._v(" "),
+            _c("div", { staticClass: "description" }, [
+              _vm._v(
+                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-1/3 strand" }, [
+            _c("div", { staticClass: "icon" }, [
+              _c("img", {
+                attrs: { src: "/static/sapthapatha/shelter.png", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(7),
+            _vm._v(" "),
+            _c("div", { staticClass: "description" }, [
+              _vm._v(
+                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-1/3 strand" }, [
+            _c("div", { staticClass: "icon" }, [
+              _c("img", {
+                attrs: { src: "/static/sapthapatha/people.png", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(8),
+            _vm._v(" "),
+            _c("div", { staticClass: "description" }, [
+              _vm._v(
+                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _vm._m(9)
+    ]),
     _vm._v(" "),
     _c("section", { staticClass: "m-0" }, [_c("SliderComponent")], 1),
     _vm._v(" "),
-    _vm._m(2),
+    _c("section", { attrs: { id: "naandi-section" } }, [
+      _c("div", { staticClass: "section-wrapper" }, [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "flex" }, [
+            _vm._m(10),
+            _vm._v(" "),
+            _c("div", { staticClass: "flex-wrapper w-5/12 " }, [
+              _c("div", { staticClass: "slider-container" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/static/images/entertainment_center.jpg",
+                    alt: ""
+                  }
+                })
+              ])
+            ])
+          ])
+        ])
+      ])
+    ]),
     _vm._v(" "),
     _c("section", [_c("TestimonialsComponent")], 1),
     _vm._v(" "),
@@ -21627,7 +21892,7 @@ var staticRenderFns = [
               )
             ]),
             _vm._v(" "),
-            _c("span", { staticClass: "link" }, [
+            _c("span", { staticClass: "lg-button" }, [
               _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
             ])
           ]),
@@ -21667,116 +21932,16 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "sapthapatha" } }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "intro" }, [
-          _c("h2", [_vm._v("Sapthapatha")]),
-          _vm._v(" "),
-          _c("h3", [_vm._v("7 strands of sustainability")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "alt-body" }, [
-            _vm._v(
-              "Our primary endeavor is to protect air, water, land and ecological systems to safeguard individual health and foster a sustainable future. In order to reduce environmental, energy and community footprints, Organo has identified seven different aspects where progress towards sustainability can be achieved. "
-            )
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "strands-wrapper" }, [
-        _c("div", { staticClass: "flex strands-desc" }, [
-          _c("div", { staticClass: "w-1/4 strand" }, [
-            _c("div", { staticClass: "icon" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Food")])]),
-            _vm._v(" "),
-            _c("div", { staticClass: "description" }, [
-              _vm._v(
-                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-1/4 strand" }, [
-            _c("div", { staticClass: "icon" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Food")])]),
-            _vm._v(" "),
-            _c("div", { staticClass: "description" }, [
-              _vm._v(
-                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-1/4 strand" }, [
-            _c("div", { staticClass: "icon" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Food")])]),
-            _vm._v(" "),
-            _c("div", { staticClass: "description" }, [
-              _vm._v(
-                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-1/4 strand" }, [
-            _c("div", { staticClass: "icon" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Food")])]),
-            _vm._v(" "),
-            _c("div", { staticClass: "description" }, [
-              _vm._v(
-                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
-              )
-            ])
-          ])
-        ]),
+    return _c("div", { staticClass: "container mx-auto" }, [
+      _c("div", { staticClass: "intro" }, [
+        _c("h2", [_vm._v("Sapthapatha")]),
         _vm._v(" "),
-        _c("div", { staticClass: "flex strands-desc" }, [
-          _c("div", { staticClass: "w-1/3 strand" }, [
-            _c("div", { staticClass: "icon" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Food")])]),
-            _vm._v(" "),
-            _c("div", { staticClass: "description" }, [
-              _vm._v(
-                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-1/3 strand" }, [
-            _c("div", { staticClass: "icon" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Food")])]),
-            _vm._v(" "),
-            _c("div", { staticClass: "description" }, [
-              _vm._v(
-                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-1/3 strand" }, [
-            _c("div", { staticClass: "icon" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Food")])]),
-            _vm._v(" "),
-            _c("div", { staticClass: "description" }, [
-              _vm._v(
-                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
-              )
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "lg-button" }, [
-        _c("div", { staticClass: "text" }, [
-          _c("h2", { staticClass: "link-decorate" }, [
-            _vm._v("Learn more about our efforts in each of these areas")
-          ])
+        _c("h3", [_vm._v("7 strands of sustainability")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "Our primary endeavor is to protect air, water, land and ecological systems to safeguard individual health and foster a sustainable future. In order to reduce environmental, energy and community footprints, Organo has identified seven different aspects where progress towards sustainability can be achieved. "
+          )
         ])
       ])
     ])
@@ -21785,37 +21950,73 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "naandi-section" } }, [
-      _c("div", { staticClass: "section-wrapper" }, [
-        _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "flex" }, [
-            _c("div", { staticClass: "flex-wrapper w-7/12 content-block" }, [
-              _c("h2", [
-                _vm._v("A way of life for the passionate and conscientious.")
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Privacy of your own villa, the lifestyle of a plush natural resort, the security of a\n                            gated community, the advantage of like-minded people and above all, the unmatched joy of\n                            healthy and sustainable living. Organo’s Naandi works splendidly as your primary\n                            residence as well as a weekend farm-house; All while having the opportunity to\n                            experience Nature to its fullest. Experience the manifestation of our first step towards\n                            building self-sustainable eco-habitats."
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "mb-8" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "md-button mr-6" }, [
-                _c("span", { staticClass: "text" }, [_vm._v("Explore Naandi")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "md-button" }, [
-                _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "flex-wrapper w-5/12 " }, [
-              _c("div", { staticClass: "slider-container" })
-            ])
-          ])
-        ])
+    return _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Food")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Water")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Air")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Earth")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Energy")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("Shelter")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title" }, [_c("h3", [_vm._v("People")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "lg-button" }, [
+      _c("h2", {}, [_vm._v("Learn more about Sustainable Living")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex-wrapper w-7/12 content-block" }, [
+      _c("h2", [_vm._v("A way of life for the passionate and conscientious.")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Privacy of your own villa, the lifestyle of a plush natural resort, the security of a\n                            gated community, the advantage of like-minded people and above all, the unmatched joy of\n                            healthy and sustainable living. Organo’s Naandi works splendidly as your primary\n                            residence as well as a weekend farm-house; All while having the opportunity to\n                            experience Nature to its fullest. Experience the manifestation of our first step towards\n                            building self-sustainable eco-habitats."
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-8" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "lg-button inline-block  mr-8" }, [
+        _c("span", { staticClass: "text" }, [_vm._v("Explore Naandi")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "lg-button inline-block " }, [
+        _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
       ])
     ])
   }
@@ -21901,11 +22102,87 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "home-page" } }, [
-    _vm._m(0),
+    _c(
+      "section",
+      { staticClass: "hero-bg m-0", attrs: { id: "introduction" } },
+      [
+        _c("div", { staticClass: "video-container" }, [
+          _c("div", { staticClass: "overlay" }),
+          _vm._v(" "),
+          _c(
+            "video",
+            {
+              attrs: { autoplay: "", loop: "", muted: "" },
+              domProps: { muted: true }
+            },
+            [
+              _c("source", {
+                attrs: { src: "/static/videos/home2.mp4", type: "video/mp4" }
+              })
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ]
+    ),
     _vm._v(" "),
-    _vm._m(1),
+    _c("section", { attrs: { id: "purpose" } }, [
+      _c("div", { staticClass: "p-12" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "illustration  " }, [
+        _c("img", {
+          staticClass: "mx-auto",
+          attrs: { src: "/static/sapthapatha/sapthapatha_wide.png", alt: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }),
+      _vm._v(" "),
+      _c("h3", [
+        _vm._v(
+          "To counter the drawbacks of urbanization, Organo has taken up the challenge of developing eco-habitats\n            thriving in balanced harmony integrated with nature, offering a rurban living experience."
+        )
+      ]),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _vm._m(2)
+    ]),
     _vm._v(" "),
-    _vm._m(2),
+    _c("section", { attrs: { id: "naandi-section" } }, [
+      _c("div", { staticClass: "section-wrapper" }, [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "flex flex-wrap" }, [
+            _vm._m(3),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12"
+              },
+              [
+                _c("div", { staticClass: "slider-container" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/static/images/entertainment_center.jpg",
+                      alt: ""
+                    }
+                  })
+                ])
+              ]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mobile" }, [
+          _c("img", {
+            attrs: { src: "/static/images/entertainment_center.jpg", alt: "" }
+          })
+        ])
+      ])
+    ]),
     _vm._v(" "),
     _c("section", { staticClass: "m-0" }, [_c("SliderComponent")], 1),
     _vm._v(" "),
@@ -21919,53 +22196,41 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "hero-bg m-0", attrs: { id: "introduction" } },
-      [
-        _c("div", { staticClass: "content-block" }, [
-          _c("h1", [_vm._v("Co-creating eco-habitats that celebrate living")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "separator" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-6" }),
-          _vm._v(" "),
-          _c("p", { staticClass: "hl-body" }, [
-            _vm._v(
-              "Organo builds full-featured sustainable living environments harmlessly integrated\n                into the natural world, supportive of a healthy way of living."
-            )
+    return _c("div", { staticClass: "content-block" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h1", [_vm._v("Co-creating eco-habitats that celebrate living")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "separator" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-6" }),
+        _vm._v(" "),
+        _c("p", { staticClass: "hl-body" }, [
+          _vm._v(
+            "Organo builds full-featured sustainable living environments harmlessly integrated\n                    into the natural world, supportive of a healthy way of living."
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "button-block" }, [
+          _c("div", { staticClass: "lg-button inline-block mr-8" }, [
+            _c("span", { staticClass: "text" }, [_vm._v("Learn More")])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "button-block my-6" }, [
-            _c("div", { staticClass: "std-button" }, [
-              _c("span", { staticClass: "text" }, [_vm._v("Learn More")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "std-button" }, [
-              _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-            ])
+          _c("div", { staticClass: "lg-button inline-block" }, [
+            _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
           ])
         ])
-      ]
-    )
+      ])
+    ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "purpose" } }, [
-      _c("div", { staticClass: "wide-placeholder" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "mb-12" }),
-      _vm._v(" "),
-      _c("h3", [
-        _vm._v(
-          "To counter the drawbacks of urbanization, Organo has taken up the challenge of developing eco-habitats\n            thriving in balanced harmony integrated with nature, offering a rurban living experience."
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "flex feature-points" }, [
-        _c("div", { staticClass: "w-1/4 content-block" }, [
+    return _c("div", { staticClass: "flex flex-wrap feature-points" }, [
+      _c(
+        "div",
+        { staticClass: "w-full sm:w-full md: w-2/4 lg:w-1/4 content-block" },
+        [
           _c("div", { staticClass: "icon-placeholder" }),
           _vm._v(" "),
           _c("div", { staticClass: "alt-body" }, [
@@ -21977,9 +22242,13 @@ var staticRenderFns = [
               "The benefits of urbanization and the feel of a rural environment brings together\n                    the best of both worlds. Organo offers an integrated alternate-living experience where residents\n                    could take part in organic farming and other collective activities, while maintaining their\n                    private space."
             )
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "w-1/4 content-block" }, [
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "w-full sm:w-full md: w-2/4 lg:w-1/4 content-block" },
+        [
           _c("div", { staticClass: "icon-placeholder" }),
           _vm._v(" "),
           _c("div", { staticClass: "alt-body" }, [
@@ -21991,9 +22260,13 @@ var staticRenderFns = [
               "Sustainability, biodiversity, harnessing natural resources and organic living are\n                    at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of sustainable living’\n                    help us individually focus on sustainable development in each of the distinct areas."
             )
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "w-1/4 content-block" }, [
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "w-full sm:w-full md: w-2/4 lg:w-1/4 content-block" },
+        [
           _c("div", { staticClass: "icon-placeholder" }),
           _vm._v(" "),
           _c("div", { staticClass: "alt-body" }, [
@@ -22005,9 +22278,13 @@ var staticRenderFns = [
               "We focus on building communities that grows to be conscious, conscientious and\n                    evolutionary; one that not only takes but gives back. We strive to create the right balance\n                    between private and personal life for the people in our community."
             )
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "w-1/4 content-block" }, [
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "w-full sm:w-full md: w-2/4 lg:w-1/4 content-block" },
+        [
           _c("div", { staticClass: "icon-placeholder" }),
           _vm._v(" "),
           _c("div", { staticClass: "alt-body" }, [
@@ -22019,25 +22296,27 @@ var staticRenderFns = [
               "Our core philosophy of Samvriddhi (prosperity for all) helps us create replicable\n                    community development models built on triple bottom line success (social, environmental and\n                    economic areas) and net zero thinking."
             )
           ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "cta-links text-center" }, [
-          _c("div", { staticClass: "lg-button" }, [
-            _c("span", { staticClass: "text" }, [
-              _vm._v("Learn about the company")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "lg-button" }, [
-            _c("span", { staticClass: "text" }, [
-              _vm._v("How we created an opportunity for '"),
-              _c("span", { staticClass: "hl-text" }, [
-                _vm._v("Sustainable Living")
-              ]),
-              _vm._v("'")
-            ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container mx-auto" }, [
+      _c("div", { staticClass: "cta-links text-center" }, [
+        _c("div", { staticClass: "lg-button" }, [
+          _c("span", { staticClass: "text" }, [
+            _vm._v("Learn about the company")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "lg-button" }, [
+          _c("span", { staticClass: "text" }, [
+            _vm._v("How we created an opportunity for '"),
+            _c("span", {}, [_vm._v("Sustainable Living")]),
+            _vm._v("'")
           ])
         ])
       ])
@@ -22047,39 +22326,34 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "naandi-section" } }, [
-      _c("div", { staticClass: "section-wrapper" }, [
-        _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "flex" }, [
-            _c("div", { staticClass: "flex-wrapper w-7/12 content-block" }, [
-              _c("h2", [
-                _vm._v("A way of life for the passionate and conscientious.")
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Privacy of your own villa, the lifestyle of a plush natural resort, the security of a\n                            gated community, the advantage of like-minded people and above all, the unmatched joy of\n                            healthy and sustainable living. Organo’s Naandi works splendidly as your primary\n                            residence as well as a weekend farm-house; All while having the opportunity to\n                            experience Nature to its fullest. Experience the manifestation of our first step towards\n                            building self-sustainable eco-habitats."
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "mb-8" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "md-button mr-6" }, [
-                _c("span", { staticClass: "text" }, [_vm._v("Explore Naandi")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "md-button" }, [
-                _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "flex-wrapper w-5/12 " }, [
-              _c("div", { staticClass: "slider-container" })
-            ])
-          ])
+    return _c(
+      "div",
+      {
+        staticClass:
+          "flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 content-block"
+      },
+      [
+        _c("h2", [
+          _vm._v("A way of life for the passionate and conscientious.")
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "Privacy of your own villa, the lifestyle of a plush natural resort, the security of a\n                            gated community, the advantage of like-minded people and above all, the unmatched joy of\n                            healthy and sustainable living. Organo’s Naandi works splendidly as your primary\n                            residence as well as a weekend farm-house; All while having the opportunity to\n                            experience Nature to its fullest. Experience the manifestation of our first step towards\n                            building self-sustainable eco-habitats."
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-8" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "lg-button inline-block mr-8" }, [
+          _c("span", { staticClass: "text" }, [_vm._v("Explore Naandi")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "lg-button inline-block" }, [
+          _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
         ])
-      ])
-    ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -22104,7 +22378,30 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "naandi-page" } }, [
-    _vm._m(0),
+    _c(
+      "section",
+      { staticClass: "hero-bg m-0", attrs: { id: "introduction" } },
+      [
+        _c("div", { staticClass: "video-container" }, [
+          _c("div", { staticClass: "overlay" }),
+          _vm._v(" "),
+          _c(
+            "video",
+            {
+              attrs: { autoplay: "", loop: "", muted: "" },
+              domProps: { muted: true }
+            },
+            [
+              _c("source", {
+                attrs: { src: "/static/videos/home2.mp4", type: "video/mp4" }
+              })
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ]
+    ),
     _vm._v(" "),
     _c(
       "section",
@@ -22166,35 +22463,29 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "hero-bg m-0", attrs: { id: "introduction" } },
-      [
-        _c("div", { staticClass: "content-block" }, [
-          _c("h1", [_vm._v("Living space meets Life space")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "separator" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-6" }),
-          _vm._v(" "),
-          _c("p", { staticClass: "hl-body" }, [
-            _vm._v(
-              "Organo builds full-featured sustainable living environments harmlessly integrated\n                into the natural world, supportive of a healthy way of living."
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "button-block my-6" }, [
-            _c("div", { staticClass: "std-button" }, [
-              _c("span", { staticClass: "text" }, [_vm._v("Learn More")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "std-button" }, [
-              _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-            ])
-          ])
+    return _c("div", { staticClass: "content-block" }, [
+      _c("h1", [_vm._v("Living space meets Life space")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "separator" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-6" }),
+      _vm._v(" "),
+      _c("p", { staticClass: "hl-body" }, [
+        _vm._v(
+          "Organo builds full-featured sustainable living environments harmlessly integrated\n                into the natural world, supportive of a healthy way of living."
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "button-block" }, [
+        _c("div", { staticClass: "lg-button inline-block mr-8" }, [
+          _c("span", { staticClass: "text" }, [_vm._v("Learn More")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "lg-button inline-block" }, [
+          _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
         ])
-      ]
-    )
+      ])
+    ])
   },
   function() {
     var _vm = this
@@ -22773,20 +23064,117 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { attrs: { id: "sustainable-living-page" } },
     [
       _vm._m(0),
       _vm._v(" "),
       _c("SliderComponent"),
       _vm._v(" "),
-      _vm._m(1),
+      _c("section", { attrs: { id: "strands-listing" } }, [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "strand" }, [
+            _c("div", { staticClass: "flex" }, [
+              _vm._m(1),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-4/12 icon-container" }, [
+                _c("div", { staticClass: "icon" }, [
+                  _c("img", {
+                    attrs: { src: "/static/sapthapatha/food.png", alt: "" }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "strand" }, [
+            _c("div", { staticClass: "flex" }, [
+              _vm._m(2),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-4/12 icon-container" }, [
+                _c("div", { staticClass: "icon" }, [
+                  _c("img", {
+                    attrs: { src: "/static/sapthapatha/water.png", alt: "" }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "strand" }, [
+            _c("div", { staticClass: "flex" }, [
+              _vm._m(3),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-4/12 icon-container" }, [
+                _c("div", { staticClass: "icon" }, [
+                  _c("img", {
+                    attrs: { src: "/static/sapthapatha/Air.png", alt: "" }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "strand" }, [
+            _c("div", { staticClass: "flex" }, [
+              _vm._m(4),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-4/12 icon-container" }, [
+                _c("div", { staticClass: "icon" }, [
+                  _c("img", {
+                    attrs: { src: "/static/sapthapatha/earth.png", alt: "" }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "strand" }, [
+            _c("div", { staticClass: "flex" }, [
+              _vm._m(5),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-4/12 icon-container" }, [
+                _c("div", { staticClass: "icon" }, [
+                  _c("img", {
+                    attrs: { src: "/static/sapthapatha/energy.png", alt: "" }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "strand" }, [
+            _c("div", { staticClass: "flex" }, [
+              _vm._m(6),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-4/12 icon-container" }, [
+                _c("div", { staticClass: "icon" }, [
+                  _c("img", {
+                    attrs: { src: "/static/sapthapatha/shelter.png", alt: "" }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "strand" }, [
+            _c("div", { staticClass: "flex" }, [
+              _vm._m(7),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-4/12 icon-container" }, [
+                _c("div", { staticClass: "icon" }, [
+                  _c("img", {
+                    attrs: { src: "/static/sapthapatha/people.png", alt: "" }
+                  })
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
       _vm._v(" "),
       _c("section", [_c("StandardCTAComponent")], 1),
       _vm._v(" "),
-      _c("section", [_c("SchoolCTAComponent")], 1),
-      _vm._v(" "),
-      _c("h1", [_vm._v("Sustainable Living Page")]),
-      _vm._v(" "),
-      _vm._m(2)
+      _c("section", { staticClass: "mb-0" }, [_c("SchoolCTAComponent")], 1)
     ],
     1
   )
@@ -22798,32 +23186,32 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "hero" }, [
       _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "flex" }, [
-          _c("div", { staticClass: "text-content w-7/12" }, [
-            _c("h1", [_vm._v("Sapthapatha")]),
-            _vm._v(" "),
-            _c("h3", [_vm._v("Seven strands of sustainable living")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "separator" }),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Everything we need for our survival and well-being depends, either directly or indirectly, on\n                        our\n                        natural environment. To pursue sustainability, it is necessary to create and maintain\n                        conditions\n                        under which the people and nature can co-exist in productive harmony to support present and\n                        future\n                        generations."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "In order to reduce environmental footprint, energy footprint and community’s footprint, we\n                        have\n                        identified seven different areas where progress is achieved. These seven strands maintain a\n                        dynamic\n                        balance and harmonize to nature’s grand symphony."
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "std-button" }, [
-              _c("div", { staticClass: "text" }, [_vm._v("Learn More")])
+        _c("div", { staticClass: "flex mt-12" }, [
+          _c("div", { staticClass: "w-7/12" }, [
+            _c("div", { staticClass: "text-content" }, [
+              _c("h1", [_vm._v("Sapthapatha")]),
+              _vm._v(" "),
+              _c("h3", [_vm._v("Seven strands of sustainable living")]),
+              _vm._v(" "),
+              _c("div", { staticClass: "separator" }),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Everything we need for our survival and well-being depends, either directly or\n                            indirectly, on\n                            our\n                            natural environment. To pursue sustainability, it is necessary to create and maintain\n                            conditions\n                            under which the people and nature can co-exist in productive harmony to support present\n                            and\n                            future\n                            generations."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "In order to reduce environmental footprint, energy footprint and community’s footprint,\n                            we\n                            have\n                            identified seven different areas where progress is achieved. These seven strands\n                            maintain a\n                            dynamic\n                            balance and harmonize to nature’s grand symphony."
+                )
+              ])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "text-content w-5/12 bg-blue-200" })
+          _c("div", {
+            staticClass: "illustration-container w-5/12 bg-blue-200"
+          })
         ])
       ])
     ])
@@ -22832,70 +23220,25 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "seven-listing" } }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "strand" }, [
-          _c("div", { staticClass: "flex" }, [
-            _c("div", { staticClass: "w-8/12" }, [
-              _c("h2", [_vm._v("Food")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Food that is safe to eat, locally produced, seasonal, free of harmful residues and nutritious is the\n                            right of every living being. In Organo Naandi, we work towards producing chemical-free, fresh and\n                            healthy food. Another benefit of growing and eating fresh vegetables and fruits everyday is that it\n                            reduces food miles, thereby reducing carbon footprint. Practices such as using natural fertilizers\n                            and pesticides have helped the members of the community to move steadily towards a holistic, natural\n                            way of eating."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "w-4/12 bg-blue-200" })
-          ])
+    return _c("div", { staticClass: "w-8/12" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h2", [_vm._v("Food")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "Food at Organo is safe to eat, locally produced, seasonal, free of\n                                harmful residues.\n                            "
+          )
+        ]),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "\n                                Natural/Organic farming helps enhance soil fertility by maintaining organic matter\n                                levels and promoting soil biological activities using minimal mechanical\n                                intervention.\n                            "
+          )
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "strand" }, [
-          _c("div", { staticClass: "flex" }, [
-            _c("div", { staticClass: "w-8/12" }, [
-              _c("h2", [_vm._v("Food")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Food that is safe to eat, locally produced, seasonal, free of harmful residues and nutritious is the\n                            right of every living being. In Organo Naandi, we work towards producing chemical-free, fresh and\n                            healthy food. Another benefit of growing and eating fresh vegetables and fruits everyday is that it\n                            reduces food miles, thereby reducing carbon footprint. Practices such as using natural fertilizers\n                            and pesticides have helped the members of the community to move steadily towards a holistic, natural\n                            way of eating."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "w-4/12 bg-blue-200" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "strand" }, [
-          _c("div", { staticClass: "flex" }, [
-            _c("div", { staticClass: "w-8/12" }, [
-              _c("h2", [_vm._v("Food")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Food that is safe to eat, locally produced, seasonal, free of harmful residues and nutritious is the\n                            right of every living being. In Organo Naandi, we work towards producing chemical-free, fresh and\n                            healthy food. Another benefit of growing and eating fresh vegetables and fruits everyday is that it\n                            reduces food miles, thereby reducing carbon footprint. Practices such as using natural fertilizers\n                            and pesticides have helped the members of the community to move steadily towards a holistic, natural\n                            way of eating."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "w-4/12 bg-blue-200" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "strand" }, [
-          _c("div", { staticClass: "flex" }, [
-            _c("div", { staticClass: "w-8/12" }, [
-              _c("h2", [_vm._v("Food")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Food that is safe to eat, locally produced, seasonal, free of harmful residues and nutritious is the\n                            right of every living being. In Organo Naandi, we work towards producing chemical-free, fresh and\n                            healthy food. Another benefit of growing and eating fresh vegetables and fruits everyday is that it\n                            reduces food miles, thereby reducing carbon footprint. Practices such as using natural fertilizers\n                            and pesticides have helped the members of the community to move steadily towards a holistic, natural\n                            way of eating."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "w-4/12 bg-blue-200" })
-          ])
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "\n                                Animal husbandry at Organo Naandi can house 73 cows comfortably. These cows are to\n                                be taken care of through dairy management practices including professional support\n                                for periodic health check-ups.\n                            "
+          )
         ])
       ])
     ])
@@ -22904,26 +23247,108 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", [
-      _c("li", [_vm._v("About")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("Food")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("Water")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("Air")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("Earth")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("Energy")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("Shelter")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("People")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("CTAs")]),
-      _vm._v(" "),
-      _c("li", [_vm._v("UpdatesCTA")])
+    return _c("div", { staticClass: "w-8/12" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h2", [_vm._v("Water")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "\n                                Water as a 'fixed resource' needs to be conserved. We have thus employed various water saving mechanisms like mulching, drip irrigation, multi-cropping, rainwater harvesting, water recycling and more.\n                            "
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "\n                                We take effective watershed measures to enhance the catchment areas and conservative usage at all levels.\n                            "
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-8/12" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h2", [_vm._v("Air")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "\n                                Quality of air plays such a central role in health and well-being that it effects every facet of living. The intent at Organo Naandi is to create an environment where the air quality is always maintained at a healthy level within homes as well as outside.\n                            "
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "\n                                Organo Naandi has an incredible Earth Air Tunnel System (EAT) system that has many benefits throughout the year. Without the use of any artificial coolants, the EAT system facilitates movement of fresh\n                                air into farm villas.\n                            "
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-8/12" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h2", [_vm._v("Earth")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "Various methods have been implemented to ensure soil health and deter erosion like: Plantation of ground cover and mulching techniques, Trenches and Swales along the site contours, Channelling rainwater to reach injection bore-wells/harvesting pits to stop soil erosion, Waste segregation and management."
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-8/12" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h2", [_vm._v("Energy")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "All energy production is through renewable sources - Solar and Bio-gas."
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-8/12" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h2", [_vm._v("Shelter")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "All energy production is through renewable sources - Solar and Bio-gas."
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-8/12" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h2", [_vm._v("People")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "All energy production is through renewable sources - Solar and Bio-gas."
+          )
+        ])
+      ])
     ])
   }
 ]
@@ -22952,7 +23377,20 @@ var render = function() {
     "div",
     { attrs: { id: "team-page" } },
     [
-      _vm._m(0),
+      _c("div", { staticClass: "bg-gray-100" }, [
+        _c("section", { staticClass: "hero m-0 py-32" }, [
+          _c("img", {
+            staticClass: "bg-img",
+            attrs: { src: "static/images/bg_styled.jpg", alt: "" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "label text-center mb-4" }, [
+            _vm._v("ABOUT")
+          ]),
+          _vm._v(" "),
+          _vm._m(0)
+        ])
+      ]),
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
@@ -22970,21 +23408,15 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "bg-gray-100" }, [
-      _c("section", { staticClass: "hero m-0 py-32" }, [
-        _c("div", { staticClass: "label text-center mb-4" }, [_vm._v("ABOUT")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "container text-center mx-auto" }, [
-          _c("h1", {}, [_vm._v("Our Team")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-3" }),
-          _vm._v(" "),
-          _c("p", { staticClass: "alt-body max-w-4xl mx-auto" }, [
-            _vm._v(
-              "We are a group of Architects, Designers and\n                    Visionaries with a wide range of subject-matter expertise, focused towards creating sustainable\n                    eco-habitats."
-            )
-          ])
-        ])
+    return _c("div", { staticClass: "container text-center mx-auto" }, [
+      _c("h1", {}, [_vm._v("Our Team")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-3" }),
+      _vm._v(" "),
+      _c("p", { staticClass: "alt-body max-w-4xl mx-auto" }, [
+        _vm._v(
+          "We are a group of Architects, Designers and\n                    Visionaries with a wide range of subject-matter expertise, focused towards creating sustainable\n                    eco-habitats."
+        )
       ])
     ])
   },
@@ -23184,28 +23616,33 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "feature-component bg-gray-200" }, [
+    _c("img", {
+      staticClass: "bg-image",
+      attrs: { src: "/static/images/tents.jpg", alt: "" }
+    }),
+    _vm._v(" "),
+    _vm._m(0)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "feature-component bg-gray-200" }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "image-container" }, [
-          _c("div", { staticClass: "text-content" }, [
-            _c("h2", { staticClass: "max-w-4xl" }, [
-              _vm._v(
-                "Eco-habitats imperdiet eu enim ut feugiat. Donec laoreet fringilla malesuada."
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mb-4" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "lg-button" }, [
-              _vm._v("Explore our Communities")
-            ])
+    return _c("div", { staticClass: "container mx-auto" }, [
+      _c("div", { staticClass: "image-container" }, [
+        _c("div", { staticClass: "text-content" }, [
+          _c("h2", { staticClass: "max-w-4xl" }, [
+            _vm._v(
+              "Eco-habitats imperdiet eu enim ut feugiat. Donec laoreet fringilla malesuada."
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-4" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "lg-button" }, [
+            _vm._v("Explore our Communities")
           ])
         ])
       ])
@@ -23491,17 +23928,22 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "cta-wrapper bg-gray-400 py-20" }, [
+  return _c("div", [
+    _c("div", { staticClass: "school-cta " }, [
+      _c("div", { staticClass: "bg-container" }, [
+        _c("img", {
+          attrs: { src: "/static/images/school_styled.jpg", alt: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "cta-wrapper py-24" }, [
         _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "h-16 w-16 bg-blue-700 mb-12 mx-auto" }),
+          _c("div", { staticClass: "mb-12 mx-auto" }, [
+            _c("img", {
+              staticClass: "mx-auto",
+              attrs: { src: "/static/icons/school.png", alt: "" }
+            })
+          ]),
           _vm._v(" "),
           _c("h3", { staticClass: "text-center mb-6 max-w-5xl mx-auto" }, [
             _vm._v(
@@ -23509,11 +23951,19 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "lg-button text-center" }, [
-            _c("span", { staticClass: "text" }, [_vm._v("Learn More")])
-          ])
+          _vm._m(0)
         ])
       ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "lg-button text-center" }, [
+      _c("span", { staticClass: "text" }, [_vm._v("Learn More")])
     ])
   }
 ]
@@ -23538,18 +23988,18 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "full-pg-slider" }, [
-      _c("h1", { staticClass: "text-center" })
+  return _c("div", { staticClass: "slider-component" }, [
+    _c("div", { staticClass: "image-container" }, [
+      _c("img", {
+        attrs: {
+          src: "/static/images/organo_feature/entrance_solar.jpg",
+          alt: ""
+        }
+      })
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -23583,14 +24033,14 @@ var staticRenderFns = [
         _c("div", { staticClass: "flex" }, [
           _c("div", { staticClass: "w-5/12 bg-blue-200" }),
           _vm._v(" "),
-          _c("div", { staticClass: "w-7/12 pl-12" }, [
-            _c("h2", [
+          _c("div", { staticClass: "w-7/12 py-12 pl-12" }, [
+            _c("h2", { staticClass: "mb-4" }, [
               _vm._v(
                 "Social Entrepreneurs mollis volunteer nulla ut aliquet. Etiam blandit nibh quis."
               )
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "std-button" }, [
+            _c("div", { staticClass: "lg-button" }, [
               _c("div", { staticClass: "text" }, [_vm._v("Work with us")])
             ])
           ])
@@ -38696,6 +39146,27 @@ new Vue({
   //     NavComponent
   // },
   router: _routes__WEBPACK_IMPORTED_MODULE_1__["default"]
+}); //
+// $(window).scroll(function() {
+//     let scroll = $(window).scrollTop();
+//     let Nav = $('nav');
+//     if (scroll >= 1) {
+//         Nav.removeClass('inverted');
+//     } else if (scroll === 0) {
+//         Nav.addClass('inverted');
+//     }
+// });
+
+var FullScreenNav = $('nav .full-screen-nav'); //Menu opens when 'mobile-menu-button' is clicked
+
+$('#mobile-menu-button').click(function () {
+  FullScreenNav.removeClass('hidden');
+});
+$('#menu-close-button').click(function () {
+  FullScreenNav.addClass('hidden');
+});
+$('.full-screen-nav .lg-button').click(function () {
+  FullScreenNav.addClass('hidden');
 });
 
 /***/ }),
@@ -40164,13 +40635,13 @@ var routes = [{
   path: '/',
   component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
-  path: '/about',
+  path: '/company',
   component: _components_pages_AboutPageComponent__WEBPACK_IMPORTED_MODULE_2__["default"]
 }, {
   path: '/team',
   component: _components_pages_TeamPageComponent__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, {
-  path: '/eco-habitat',
+  path: '/eco-habitats',
   component: _components_pages_EcoHabitatPageComponent__WEBPACK_IMPORTED_MODULE_4__["default"]
 }, {
   path: '/naandi',
@@ -40211,7 +40682,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\n@import 'sustainabileLiving';\n       ^\n      Can't find stylesheet to import.\n  ╷\n7 │ @import 'sustainabileLiving';\n  │         ^^^^^^^^^^^^^^^^^^^^\n  ╵\n  resources/sass/pages/_pages.scss 7:9  @import\n  stdin 13:9                            root stylesheet\n      in /Users/sunny/Desktop/Work/Organo/organo/resources/sass/pages/_pages.scss (line 7, column 9)\n    at /Users/sunny/Desktop/Work/Organo/organo/node_modules/webpack/lib/NormalModule.js:313:20\n    at /Users/sunny/Desktop/Work/Organo/organo/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/sunny/Desktop/Work/Organo/organo/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/sunny/Desktop/Work/Organo/organo/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /Users/sunny/Desktop/Work/Organo/organo/node_modules/sass-loader/dist/index.js:89:7\n    at Function.call$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:53451:16)\n    at _render_closure1.call$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:33267:12)\n    at _RootZone.runBinary$3$3 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:19664:18)\n    at _RootZone.runBinary$3 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:19668:19)\n    at _FutureListener.handleError$1 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18136:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18421:40)\n    at Object._Future__propagateToListeners (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:3470:88)\n    at _Future._completeError$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18257:9)\n    at _SyncCompleter._completeError$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18123:19)\n    at _SyncCompleter.completeError$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18092:12)\n    at _AsyncAwaitCompleter.completeError$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:17629:25)\n    at Object._asyncRethrow (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:3226:17)\n    at /Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:10407:20\n    at _wrapJsFunctionForAsync_closure.$protected (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:3249:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:17664:12)\n    at _awaitOnObject_closure0.call$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:17656:25)\n    at _RootZone.runBinary$3$3 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:19664:18)\n    at _RootZone.runBinary$3 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:19668:19)\n    at _FutureListener.handleError$1 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18136:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18421:40)\n    at Object._Future__propagateToListeners (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:3470:88)\n    at _Future._completeError$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18257:9)\n    at _SyncCompleter._completeError$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18123:19)\n    at _SyncCompleter.completeError$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18092:12)\n    at Object.eval (eval at Closure_forwardCallTo (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:1:1), <anonymous>:3:41)\n    at _RootZone.runBinary$3$3 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:19664:18)\n    at _RootZone.runBinary$3 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:19668:19)\n    at _FutureListener.handleError$1 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18136:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18421:40)\n    at Object._Future__propagateToListeners (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:3470:88)\n    at _Future._completeError$2 (/Users/sunny/Desktop/Work/Organo/organo/node_modules/sass/sass.dart.js:18257:9)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 

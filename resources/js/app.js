@@ -31,3 +31,28 @@ new Vue({
     // },
     router
 });
+
+//
+// $(window).scroll(function() {
+//     let scroll = $(window).scrollTop();
+//     let Nav = $('nav');
+//     if (scroll >= 1) {
+//         Nav.removeClass('inverted');
+//     } else if (scroll === 0) {
+//         Nav.addClass('inverted');
+//     }
+// });
+
+let FullScreenNav = $('nav .full-screen-nav');
+//Menu opens when 'mobile-menu-button' is clicked
+$('#mobile-menu-button').click(function() {
+    FullScreenNav.removeClass('hidden');
+});
+
+$('#menu-close-button').click(function() {
+    FullScreenNav.addClass('hidden');
+});
+
+$('.full-screen-nav .lg-button').click(function() {
+    FullScreenNav.addClass('hidden');
+});

@@ -1,17 +1,23 @@
 <template>
     <div id="naandi-page">
         <section id="introduction" class="hero-bg m-0">
+            <div class="video-container">
+                <div class="overlay"></div>
+                <video autoplay loop muted>
+                    <source :src="'/static/videos/home2.mp4'" type="video/mp4">
+                </video>
+            </div>
             <div class="content-block">
                 <h1>Living space meets Life space</h1>
                 <div class="separator"></div>
                 <div class="mb-6"></div>
                 <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
                     into the natural world, supportive of a healthy way of living.</p>
-                <div class="button-block my-6">
-                    <div class="std-button">
+                <div class="button-block">
+                    <div class="lg-button inline-block mr-8">
                         <span class="text">Learn More</span>
                     </div>
-                    <div class="std-button">
+                    <div class="lg-button inline-block">
                         <span class="text">Watch Video</span>
                     </div>
                 </div>

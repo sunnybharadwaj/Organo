@@ -1,30 +1,34 @@
 <template>
-    <div>
+    <div id="sustainable-living-page">
         <div class="hero">
             <div class="container mx-auto">
-                <div class="flex">
-                    <div class="text-content w-7/12">
-                        <h1>Sapthapatha</h1>
-                        <h3>Seven strands of sustainable living</h3>
-                        <div class="separator"></div>
-                        <p>Everything we need for our survival and well-being depends, either directly or indirectly, on
-                            our
-                            natural environment. To pursue sustainability, it is necessary to create and maintain
-                            conditions
-                            under which the people and nature can co-exist in productive harmony to support present and
-                            future
-                            generations.</p>
-                        <p>In order to reduce environmental footprint, energy footprint and community’s footprint, we
-                            have
-                            identified seven different areas where progress is achieved. These seven strands maintain a
-                            dynamic
-                            balance and harmonize to nature’s grand symphony.</p>
-                        <div class="std-button">
-                            <div class="text">Learn More</div>
+                <div class="flex mt-12">
+                    <div class="w-7/12">
+                        <div class="text-content">
+                            <h1>Sapthapatha</h1>
+                            <h3>Seven strands of sustainable living</h3>
+                            <div class="separator"></div>
+                            <p>Everything we need for our survival and well-being depends, either directly or
+                                indirectly, on
+                                our
+                                natural environment. To pursue sustainability, it is necessary to create and maintain
+                                conditions
+                                under which the people and nature can co-exist in productive harmony to support present
+                                and
+                                future
+                                generations.</p>
+                            <p>In order to reduce environmental footprint, energy footprint and community’s footprint,
+                                we
+                                have
+                                identified seven different areas where progress is achieved. These seven strands
+                                maintain a
+                                dynamic
+                                balance and harmonize to nature’s grand symphony.</p>
                         </div>
+
                     </div>
 
-                    <div class="text-content w-5/12 bg-blue-200">
+                    <div class="illustration-container w-5/12 bg-blue-200">
 
                     </div>
 
@@ -34,96 +38,154 @@
 
         <SliderComponent></SliderComponent>
 
-        <section id="seven-listing">
+        <section id="strands-listing">
             <div class="container mx-auto">
                 <div class="strand">
                     <div class="flex">
                         <div class="w-8/12">
-                            <h2>Food</h2>
-                            <p>Food that is safe to eat, locally produced, seasonal, free of harmful residues and nutritious is the
-                                right of every living being. In Organo Naandi, we work towards producing chemical-free, fresh and
-                                healthy food. Another benefit of growing and eating fresh vegetables and fruits everyday is that it
-                                reduces food miles, thereby reducing carbon footprint. Practices such as using natural fertilizers
-                                and pesticides have helped the members of the community to move steadily towards a holistic, natural
-                                way of eating.</p>
+                            <div class="text-content">
+                                <h2>Food</h2>
+                                <p class="alt-body">Food at Organo is safe to eat, locally produced, seasonal, free of
+                                    harmful residues.
+                                <p class="alt-body">
+                                    Natural/Organic farming helps enhance soil fertility by maintaining organic matter
+                                    levels and promoting soil biological activities using minimal mechanical
+                                    intervention.
+                                </p>
+                                <p class="alt-body">
+                                    Animal husbandry at Organo Naandi can house 73 cows comfortably. These cows are to
+                                    be taken care of through dairy management practices including professional support
+                                    for periodic health check-ups.
+                                </p>
+                            </div>
                         </div>
-                        <div class="w-4/12 bg-blue-200"></div>
+                        <div class="w-4/12 icon-container">
+                            <div class="icon">
+                                <img :src="'/static/sapthapatha/food.png'" alt="">
+                            </div>
+                        </div>
                     </div>
+                </div>
 
+                <div class="strand">
+                    <div class="flex">
+                        <div class="w-8/12">
+                            <div class="text-content">
+                                <h2>Water</h2>
+
+
+                                <p class="alt-body">
+                                    Water as a 'fixed resource' needs to be conserved. We have thus employed various water saving mechanisms like mulching, drip irrigation, multi-cropping, rainwater harvesting, water recycling and more.
+                                </p>
+                                <p class="alt-body">
+                                    We take effective watershed measures to enhance the catchment areas and conservative usage at all levels.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-4/12 icon-container">
+                            <div class="icon">
+                                <img :src="'/static/sapthapatha/water.png'" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="strand">
                     <div class="flex">
                         <div class="w-8/12">
-                            <h2>Food</h2>
-                            <p>Food that is safe to eat, locally produced, seasonal, free of harmful residues and nutritious is the
-                                right of every living being. In Organo Naandi, we work towards producing chemical-free, fresh and
-                                healthy food. Another benefit of growing and eating fresh vegetables and fruits everyday is that it
-                                reduces food miles, thereby reducing carbon footprint. Practices such as using natural fertilizers
-                                and pesticides have helped the members of the community to move steadily towards a holistic, natural
-                                way of eating.</p>
-                        </div>
-                        <div class="w-4/12 bg-blue-200"></div>
-                    </div>
+                            <div class="text-content">
+                                <h2>Air</h2>
 
+                                <p class="alt-body">
+                                    Quality of air plays such a central role in health and well-being that it effects every facet of living. The intent at Organo Naandi is to create an environment where the air quality is always maintained at a healthy level within homes as well as outside.
+                                </p>
+                                <p class="alt-body">
+                                    Organo Naandi has an incredible Earth Air Tunnel System (EAT) system that has many benefits throughout the year. Without the use of any artificial coolants, the EAT system facilitates movement of fresh
+                                    air into farm villas.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-4/12 icon-container">
+                            <div class="icon">
+                                <img :src="'/static/sapthapatha/Air.png'" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="strand">
                     <div class="flex">
                         <div class="w-8/12">
-                            <h2>Food</h2>
-                            <p>Food that is safe to eat, locally produced, seasonal, free of harmful residues and nutritious is the
-                                right of every living being. In Organo Naandi, we work towards producing chemical-free, fresh and
-                                healthy food. Another benefit of growing and eating fresh vegetables and fruits everyday is that it
-                                reduces food miles, thereby reducing carbon footprint. Practices such as using natural fertilizers
-                                and pesticides have helped the members of the community to move steadily towards a holistic, natural
-                                way of eating.</p>
-                        </div>
-                        <div class="w-4/12 bg-blue-200"></div>
-                    </div>
+                            <div class="text-content">
+                                <h2>Earth</h2>
+                                <p class="alt-body">Various methods have been implemented to ensure soil health and deter erosion like: Plantation of ground cover and mulching techniques, Trenches and Swales along the site contours, Channelling rainwater to reach injection bore-wells/harvesting pits to stop soil erosion, Waste segregation and management.</p>
 
+                            </div>
+                        </div>
+                        <div class="w-4/12 icon-container">
+                            <div class="icon">
+                                <img :src="'/static/sapthapatha/earth.png'" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strand">
+                    <div class="flex">
+                        <div class="w-8/12">
+                            <div class="text-content">
+                                <h2>Energy</h2>
+                                <p class="alt-body">All energy production is through renewable sources - Solar and Bio-gas.</p>
+
+                            </div>
+                        </div>
+                        <div class="w-4/12 icon-container">
+                            <div class="icon">
+                                <img :src="'/static/sapthapatha/energy.png'" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strand">
+                    <div class="flex">
+                        <div class="w-8/12">
+                            <div class="text-content">
+                                <h2>Shelter</h2>
+                                <p class="alt-body">All energy production is through renewable sources - Solar and Bio-gas.</p>
+                            </div>
+                        </div>
+                        <div class="w-4/12 icon-container">
+                            <div class="icon">
+                                <img :src="'/static/sapthapatha/shelter.png'" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="strand">
                     <div class="flex">
                         <div class="w-8/12">
-                            <h2>Food</h2>
-                            <p>Food that is safe to eat, locally produced, seasonal, free of harmful residues and nutritious is the
-                                right of every living being. In Organo Naandi, we work towards producing chemical-free, fresh and
-                                healthy food. Another benefit of growing and eating fresh vegetables and fruits everyday is that it
-                                reduces food miles, thereby reducing carbon footprint. Practices such as using natural fertilizers
-                                and pesticides have helped the members of the community to move steadily towards a holistic, natural
-                                way of eating.</p>
-                        </div>
-                        <div class="w-4/12 bg-blue-200"></div>
-                    </div>
+                            <div class="text-content">
+                                <h2>People</h2>
+                                <p class="alt-body">All energy production is through renewable sources - Solar and Bio-gas.</p>
 
+                            </div>
+                        </div>
+                        <div class="w-4/12 icon-container">
+                            <div class="icon">
+                                <img :src="'/static/sapthapatha/people.png'" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </section>
 
         <section>
             <StandardCTAComponent></StandardCTAComponent>
         </section>
 
-        <section>
+        <section class="mb-0">
             <SchoolCTAComponent></SchoolCTAComponent>
         </section>
-
-
-
-
-        <h1>Sustainable Living Page</h1>
-    <ul>
-        <li>About</li>
-        <li>Food</li>
-        <li>Water</li>
-        <li>Air</li>
-        <li>Earth</li>
-        <li>Energy</li>
-        <li>Shelter</li>
-        <li>People</li>
-        <li>CTAs</li>
-        <li>UpdatesCTA</li>
-    </ul>
     </div>
 </template>
 

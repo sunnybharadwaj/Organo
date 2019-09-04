@@ -1,0 +1,48 @@
+#sustainable-living-page {
+  .hero {
+    padding: 150px 0;
+    .text-content {
+      padding-right: 40px;
+      max-width: 600px;
+    }
+  }
+}
+
+#strands-listing {
+  .strand {
+
+    .icon-container {
+      position: relative;
+      min-height: 400px;
+      height: 100%;
+      .icon {
+        position: absolute;
+        top: -30px;
+      }
+    }
+
+    margin-bottom: 60px;
+    .text-content {
+      h2 {
+        margin-bottom: 30px;
+      }
+      p {
+        position: relative;
+        font-weight:normal;
+        margin-bottom: 25px;
+
+        &::before {
+          content: ' ';
+          height: 30px;
+          width: 30px;
+          z-index: -1000;
+          background: $highlight;
+          position: absolute;
+          left: -20px;
+          top: -10px;
+        }
+      }
+      max-width: 600px;
+    }
+  }
+}

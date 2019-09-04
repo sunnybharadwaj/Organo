@@ -38,7 +38,7 @@
 
 #sapthapatha {
   .lg-button {
-    max-width: 600px;
+    max-width: 800px;
     margin: 80px auto;
     text-align: center;
     line-height:1.5;
@@ -73,13 +73,12 @@
   }
 
   .strand {
-    padding: 30px 1%;
+    padding: 0 1%;
     text-align: center;
     .icon {
-      height: 100px;
-      width: 100px;
-      background: $highlight;
-      margin: 0 auto 20px;
+      max-height: 200px;
+      max-width: 200px;
+      margin: 0 auto;
     }
     .title {
       margin-bottom: 10px;

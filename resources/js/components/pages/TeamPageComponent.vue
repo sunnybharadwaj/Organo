@@ -2,6 +2,7 @@
     <div id="team-page">
         <div class="bg-gray-100">
             <section class="hero m-0 py-32">
+                <img class="bg-img" :src="'static/images/bg_styled.jpg'" alt="">
                 <div class="label text-center mb-4">ABOUT</div>
                 <div class="container text-center mx-auto">
                     <h1 class="">Our Team</h1>

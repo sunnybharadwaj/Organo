@@ -1,6 +1,8 @@
 <template>
-    <div class="full-pg-slider">
-        <h1 class="text-center"></h1>
+    <div class="slider-component">
+        <div class="image-container">
+            <img :src="'/static/images/organo_feature/entrance_solar.jpg'" alt="">
+        </div>
     </div>
 </template>
 
