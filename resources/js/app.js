@@ -8,6 +8,7 @@ import StandardCTAComponent from './components/partials/StandardCTAComponent';
 import FeatureComponent from './components/partials/FeatureComponent';
 import HelpComponent from './components/partials/HelpComponent';
 import FeedbackComponent from './components/partials/FeedbackComponent';
+import VideoHeaderComponent from './components/partials/VideoHeaderComponent';
 
 import FormContactComponent from './components/forms/FormContactComponent';
 
@@ -20,6 +21,7 @@ Vue.component('StandardCTAComponent', StandardCTAComponent);
 Vue.component('FeatureComponent', FeatureComponent);
 Vue.component('HelpComponent', HelpComponent);
 Vue.component('FeedbackComponent', FeedbackComponent);
+Vue.component('VideoHeaderComponent', VideoHeaderComponent);
 
 //Forms
 Vue.component('FormContactComponent', FormContactComponent);
@@ -32,16 +34,16 @@ new Vue({
     router
 });
 
-//
-// $(window).scroll(function() {
-//     let scroll = $(window).scrollTop();
-//     let Nav = $('nav');
-//     if (scroll >= 1) {
-//         Nav.removeClass('inverted');
-//     } else if (scroll === 0) {
-//         Nav.addClass('inverted');
-//     }
-// });
+
+$(window).scroll(function() {
+    let scroll = $(window).scrollTop();
+    let Nav = $('nav');
+    if (scroll >= 1) {
+        Nav.addClass('scrolled');
+    } else if (scroll === 0) {
+        Nav.removeClass('scrolled');
+    }
+});
 
 let FullScreenNav = $('nav .full-screen-nav');
 //Menu opens when 'mobile-menu-button' is clicked
@@ -55,4 +57,17 @@ $('#menu-close-button').click(function() {
 
 $('.full-screen-nav .lg-button').click(function() {
     FullScreenNav.addClass('hidden');
+});
+
+
+$(document).ready(function(){
+    $(".slider-component.owl-carousel").owlCarousel({
+        loop: true,
+        items: 2,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        dots: false,
+        nav: false,
+        slideTransition: 'ease-in-out'
+    });
 });

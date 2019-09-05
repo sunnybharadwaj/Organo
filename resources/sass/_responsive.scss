@@ -15,11 +15,11 @@ nav {
   }
 
   section {
-    margin: 100px 0;
+    margin: 100px 0 !important;
   }
 
   .lg-button {
-    font-size: 41px !important;
+    font-size: 29px;
     text-align: left;
     .text, .text-content, p, .alt-body {
       text-align: left;
@@ -27,7 +27,11 @@ nav {
   }
 
   .container {
-    padding: 0 15px;
+    padding: 0 30px;
+  }
+
+  .hide-on-mobile {
+    display: none !important;
   }
 }
 

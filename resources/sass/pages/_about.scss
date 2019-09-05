@@ -31,7 +31,6 @@
     z-index: 0;
   }
 
-
   h3 {
     font-weight: normal;
   }
@@ -111,10 +110,55 @@
   }
 
   .cta-link {
+    margin: 0;
     text-decoration: underline;
     text-decoration-color: $highlight;
     &:hover {
       text-decoration-color: $link-blue;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #about-page {
+    .hero-bg {
+      height: 300px;
+    }
+    #story {
+      margin-bottom: -200px;
+      position: relative;
+      .content-block {
+        position: relative;
+        top: -200px;
+        max-width: 780px;
+        margin: 0 auto;
+      }
+    }
+    .pieces-together {
+      margin-bottom: 100px;
+      .piece {
+        border-right: none;
+        border-bottom: 4px solid $primary-color !important;
+        &:nth-of-type(4), &:nth-of-type(5),&:nth-of-type(6) {
+          padding-bottom: 30px;
+        }
+        &:nth-of-type(6) {
+          border-bottom: none !important;
+        }
+      }
+    }
+
+    .cta-v-group {
+      section {
+        margin: 40px 0 !important;
+        h2 {
+          text-align: left;
+        }
+      }
+      .cta-illustration {
+        min-height: auto;
+      }
+
     }
   }
 }

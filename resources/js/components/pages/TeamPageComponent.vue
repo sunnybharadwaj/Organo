@@ -16,7 +16,7 @@
         <section id="core-values">
             <div class="container mx-auto">
                 <div class="flex">
-                    <div class="w-7/12 px-4 py-4">
+                    <div class="w-full lg:w-7/12 px-4 py-4">
                         <div class="label">OUR CORE VALUES</div>
 
                         <div class="value">
@@ -51,18 +51,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-5/12 bg-gray-300"></div>
+                    <div class="w-5/12 bg-gray-300 hide-on-mobile"></div>
                 </div>
             </div>
         </section>
 
         <div id="team-list">
             <div class="container mx-auto">
-                <div class="flex team-item">
-                    <div class="w-4/12 image-wrapper">
+                <div class="flex flex-wrap team-item">
+                    <div class="w-full lg:w-4/12 image-wrapper">
                         <div class="image-container bg-blue-200"></div>
                     </div>
-                    <div class="w-8/12 text-content">
+                    <div class="w-full lg:w-8/12 text-content">
                         <h3>Nagesh Battula</h3>
                         <!--<p class="alt-body">Co-founder and CEO</p>-->
                         <p>
@@ -79,12 +79,53 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="flex team-item">
-                    <div class="w-4/12 image-wrapper">
+                <div class="flex flex-wrap team-item">
+                    <div class="w-full lg:w-4/12 image-wrapper">
                         <div class="image-container bg-blue-200"></div>
                     </div>
-                    <div class="w-8/12 text-content">
+                    <div class="w-full lg:w-8/12 text-content">
+                        <h3>Nagesh Battula</h3>
+                        <!--<p class="alt-body">Co-founder and CEO</p>-->
+                        <p>
+                            Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner
+                            and a self-taught leader. He has over 20 years of extensive experience in residential,
+                            commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to
+                            develop a project that would be sustainable and net-zero in its resource consumption.
+                        </p>
+
+                        <div class="links">
+                            <ul>
+                                <li class="link">LinkedIn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap team-item">
+                    <div class="w-full lg:w-4/12 image-wrapper">
+                        <div class="image-container bg-blue-200"></div>
+                    </div>
+                    <div class="w-full lg:w-8/12 text-content">
+                        <h3>Nagesh Battula</h3>
+                        <!--<p class="alt-body">Co-founder and CEO</p>-->
+                        <p>
+                            Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner
+                            and a self-taught leader. He has over 20 years of extensive experience in residential,
+                            commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to
+                            develop a project that would be sustainable and net-zero in its resource consumption.
+                        </p>
+
+                        <div class="links">
+                            <ul>
+                                <li class="link">LinkedIn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap team-item">
+                    <div class="w-full lg:w-4/12 image-wrapper">
+                        <div class="image-container bg-blue-200"></div>
+                    </div>
+                    <div class="w-full lg:w-8/12 text-content">
                         <h3>Nagesh Battula</h3>
                         <!--<p class="alt-body">Co-founder and CEO</p>-->
                         <p>

@@ -33,16 +33,30 @@
 
         &::before {
           content: ' ';
-          height: 30px;
-          width: 30px;
+          height: 10px;
+          width: 10px;
           z-index: -1000;
           background: $highlight;
           position: absolute;
-          left: -20px;
-          top: -10px;
+          //left: -20px;
+          //top: -10px;
+          left: -16px;
+          top: 8px;
         }
       }
       max-width: 600px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #sustainable-living-page .hero .text-content {
+    padding-right: 0;
+    max-width: auto;
+  }
+  #strands-listing {
+    .text-content {
+      padding: 0 15px;
     }
   }
 }

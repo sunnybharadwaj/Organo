@@ -1,31 +1,16 @@
 <template>
     <div id="naandi-page">
-        <section id="introduction" class="hero-bg m-0">
-            <div class="video-container">
-                <div class="overlay"></div>
-                <video autoplay loop muted>
-                    <source :src="'/static/videos/home2.mp4'" type="video/mp4">
-                </video>
-            </div>
-            <div class="content-block">
+        <VideoHeaderComponent>
+            <source slot="header-video" :src="'/static/videos/home2.mp4'" type="video/mp4">
+            <div slot="header-content">
                 <h1>Living space meets Life space</h1>
                 <div class="separator"></div>
-                <div class="mb-6"></div>
-                <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
-                    into the natural world, supportive of a healthy way of living.</p>
-                <div class="button-block">
-                    <div class="lg-button inline-block mr-8">
-                        <span class="text">Learn More</span>
-                    </div>
-                    <div class="lg-button inline-block">
-                        <span class="text">Watch Video</span>
-                    </div>
-                </div>
+                <h3 class="sub">When life is on a slow track, you’re on a highway to wellness.</h3>
+                <span class="lg-button"><span class="text">Watch Video</span></span>
             </div>
-        </section>
+        </VideoHeaderComponent>
 
         <section id="about-project" class="mt-0 bg-gray-100">
-            <SliderComponent></SliderComponent>
             <section class="about-naandi">
                 <div class="container mx-auto">
                     <div class="wrapper">
@@ -37,10 +22,10 @@
                         <p>Incorporating the latest in high-performance building science and home technology, every home
                             gathers
                             around a space that skillfully combines outdoor and indoor living. <span
-                                    class="more-link link">More</span></p>
+                                    class="more-link link" v-if="!more_content" @click="showMoreDetails">More</span></p>
 
 
-                        <div class="more hidden">
+                        <div v-if="more_content" class="more more-content">
                             <p>These fully air-conditioned signature spaces are embedded with what we call ‘rurban’
                                 nomenclature, which is a heady mix of urban refinement and rural ethnicity. Envisioned
                                 to
@@ -62,7 +47,7 @@
                                 home perfect for you and your family.</p>
                         </div>
 
-                        <div class="metrics flex">
+                        <div class="metrics flex flex-wrap">
                             <div class="metric flex">
                                 <span class="number">32</span>
                                 <h3 class="description highlight">Acres</h3>
@@ -83,6 +68,7 @@
                     </div>
 
                 </div>
+                <SliderComponent></SliderComponent>
             </section>
 
         </section>
@@ -100,8 +86,8 @@
                 </div>
 
 
-                <div class="flex feature-list">
-                    <div class="w-7/12 text-block">
+                <div class="flex flex-wrap feature-list">
+                    <div class="w-full lg:w-7/12 text-block">
                         <div class="feature">
                             <div class="icon h-10 w-10 bg-blue-200">
                             </div>
@@ -135,7 +121,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w-5/12 image-block">
+                    <div class="w-full lg:w-5/12 hide-on-mobile image-block">
                         <div class="image"></div>
                         <div class="v-buttons-group">
                             <a class="lg-button" href="#">Register for a Tour</a>
@@ -165,7 +151,7 @@
                 </div>
 
 
-                <div class="filter-buttons">
+                <div class="filter-buttons hide-on-mobile">
                     <div class="filter-button alt-body">Relax</div>
                     <div class="filter-button alt-body">Explore</div>
                     <div class="filter-button alt-body">Work</div>
@@ -176,7 +162,7 @@
 
                 <div class="amenity-list">
                     <div class="flex flex-wrap">
-                        <div class="amenity w-1/3">
+                        <div class="amenity w-full lg:w-1/3">
                             <div class="image"></div>
                             <div class="text-content">
                                 <p class="alt-body">Personal Gardening</p>
@@ -184,7 +170,7 @@
                                     dignissim congue, commodo in orci.</p>
                             </div>
                         </div>
-                        <div class="amenity w-1/3">
+                        <div class="amenity w-full lg:w-1/3">
                             <div class="image"></div>
                             <div class="text-content">
                                 <p class="alt-body">Personal Gardening</p>
@@ -192,24 +178,7 @@
                                     dignissim congue, commodo in orci.</p>
                             </div>
                         </div>
-                        <div class="amenity w-1/3">
-                            <div class="image"></div>
-                            <div class="text-content">
-                                <p class="alt-body">Personal Gardening</p>
-                                <p>Vestibules condimentum tincidunt tortor eget ultricies. Fusce mi sem, hendrerit ac
-                                    dignissim congue, commodo in orci.</p>
-                            </div>
-                        </div>
-
-                        <div class="amenity w-1/3">
-                            <div class="image"></div>
-                            <div class="text-content">
-                                <p class="alt-body">Personal Gardening</p>
-                                <p>Vestibules condimentum tincidunt tortor eget ultricies. Fusce mi sem, hendrerit ac
-                                    dignissim congue, commodo in orci.</p>
-                            </div>
-                        </div>
-                        <div class="amenity w-1/3">
+                        <div class="amenity w-full lg:w-1/3">
                             <div class="image"></div>
                             <div class="text-content">
                                 <p class="alt-body">Personal Gardening</p>
@@ -263,7 +232,16 @@
 
 <script>
     export default {
-        mounted() {
+        data() {
+            return {
+                more_content: false
+            }
+        },
+        methods: {
+            showMoreDetails: function() {
+                console.log("fired");
+                this.more_content = true;
+            }
         }
     }
 </script>

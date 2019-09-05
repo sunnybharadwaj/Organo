@@ -10,7 +10,7 @@
                         <img :src="'/static/images/navira.jpg'" alt="">
                         <div class="mb-12"></div>
                         <div class="text-content">
-                            <p class="alt-body mb-4">Organo is the brainchild of The Navira Team. Founded and named
+                            <p class="alt-body mb-4">Organo is the brainchild of the Navira Team. Founded and named
                                 after – Nagesh, Vijaya and Raj –
                                 directors of the FHD group, one of India’s leading design firms. Organo was started with
                                 a shared
@@ -63,35 +63,35 @@
 
 
                 <div class="pieces-together text-left">
-                    <img class="bg-graphic" :src="'/static/images/bringing_together_graphic.png'" alt="">
+                    <img class="bg-graphic hidden" :src="'/static/images/bringing_together_graphic.png'" alt="">
                     <div class="container mx-auto">
                         <div class="flex flex-wrap">
-                            <div class="piece w-1/3">
+                            <div class="piece w-full lg:w-1/3">
                                 <div class="heading alt-body mb-2">The dream</div>
                                 <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
                                     Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
                             </div>
-                            <div class="piece w-1/3">
+                            <div class="piece w-full lg:w-1/3">
                                 <div class="heading alt-body mb-2">A Collective Vision</div>
                                 <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
                                     Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
                             </div>
-                            <div class="piece w-1/3">
+                            <div class="piece w-full lg:w-1/3">
                                 <div class="heading alt-body mb-2">Design & Concept</div>
                                 <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
                                     Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
                             </div>
-                            <div class="piece w-1/3">
+                            <div class="piece w-full lg:w-1/3">
                                 <div class="heading alt-body mb-2">Construction & Development</div>
                                 <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
                                     Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
                             </div>
-                            <div class="piece w-1/3">
+                            <div class="piece w-full lg:w-1/3">
                                 <div class="heading alt-body mb-2">Building a community</div>
                                 <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
                                     Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
                             </div>
-                            <div class="piece w-1/3">
+                            <div class="piece w-full lg:w-1/3">
                                 <div class="heading alt-body mb-2">Enabling self-growth</div>
                                 <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
                                     Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
@@ -109,23 +109,23 @@
                 <div class="container mx-auto">
                     <div class="cta">
                         <section>
-                            <div class="flex">
-                                <div class="cta-illustration w-7/12 cta-link content-block text-left">
+                            <div class="flex flex-wrap">
+                                <div class="cta-illustration w-full lg:w-7/12 cta-link content-block text-left">
                                     <a href="/team">
                                         <h2 class="cta-text">The Team that made it happen.</h2>
                                     </a>
 
                                 </div>
-                                <div class="w-5/12 p-3 bg-blue-600"></div>
+                                <div class="sm:w-full lg:w-5/12 p-3 bg-blue-600 hide-on-mobile"></div>
                             </div>
                         </section>
 
                     </div>
                     <div class="cta">
                         <section>
-                            <div class="flex">
-                                <div class="cta-illustration w-5/12 p-3 bg-blue-600"></div>
-                                <div class="w-7/12 cta-link content-block text-right">
+                            <div class="flex flex-wrap">
+                                <div class="cta-illustration w-full lg:w-5/12 p-3 bg-blue-600 hide-on-mobile"></div>
+                                <div class="sm:w-full lg:w-7/12 cta-link content-block text-right">
                                     <a href="/eco-habitats">
                                         <h2 class="cta-text">Sustainable Eco-habitats that celebrate living.</h2>
                                     </a>

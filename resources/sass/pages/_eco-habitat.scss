@@ -1,5 +1,5 @@
 #eco-habitat-page {
-  .hero {
+  .hero-bg {
     .container {
       position: relative;
       height: 100vh;
@@ -11,9 +11,17 @@
       }
     }
     height: 100vh;
+    .content-block {
+      background: rgba(255, 255, 255, 0.71);
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      padding: 20px 30px;
+      max-width: 800px;
+    }
 
     .intro {
-      padding: 140px 0 0px;
+      padding: 0;
     }
     h1 {
       margin-bottom: 20px;
@@ -60,7 +68,9 @@
     }
   }
 
-
+  .strands-wrapper {
+    padding: 0 15px;
+  }
 
   .strands-desc {
     max-width: 1500px;
@@ -78,10 +88,42 @@
     .icon {
       max-height: 200px;
       max-width: 200px;
-      margin: 0 auto;
+      margin: 0 auto -30px;
+
     }
     .title {
       margin-bottom: 10px;
     }
+  }
+}
+
+@media (max-width: 640px) {
+  #eco-habitat-page {
+    .hero-bg .content-block {
+      width: 100%;
+      top:450px;
+      left: 0;
+      margin: 0;
+    }
+  }
+  #sapthapatha {
+    .intro {
+      text-align: left;
+      h2 {
+        font-size: 41px;
+      }
+    }
+  }
+
+  #eco-habitats-slider {
+    margin: 0 !important;
+  }
+
+  #naandi-section {
+    margin: 0 !important;
+  }
+
+  #eco-habitat-testimonials {
+    margin: 0 !important;
   }
 }

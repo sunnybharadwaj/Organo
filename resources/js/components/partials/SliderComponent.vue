@@ -1,8 +1,7 @@
 <template>
-    <div class="slider-component">
-        <div class="image-container">
-            <img :src="'/static/images/organo_feature/entrance_solar.jpg'" alt="">
-        </div>
+    <div class="slider-component owl-carousel">
+
+        <slot></slot>
     </div>
 </template>
 

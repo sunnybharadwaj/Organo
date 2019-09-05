@@ -2,8 +2,11 @@
     <div id="sustainable-living-page">
         <div class="hero">
             <div class="container mx-auto">
-                <div class="flex mt-12">
-                    <div class="w-7/12">
+                <div class="illustration-container w-5/12 bg-blue-200 mobile">
+
+                </div>
+                <div class="flex flex-wrap mt-12">
+                    <div class="w-full md:w-7/12">
                         <div class="text-content">
                             <h1>Sapthapatha</h1>
                             <h3>Seven strands of sustainable living</h3>
@@ -28,7 +31,7 @@
 
                     </div>
 
-                    <div class="illustration-container w-5/12 bg-blue-200">
+                    <div class="illustration-container w-5/12 bg-blue-200 hide-on-mobile">
 
                     </div>
 
@@ -41,8 +44,11 @@
         <section id="strands-listing">
             <div class="container mx-auto">
                 <div class="strand">
-                    <div class="flex">
-                        <div class="w-8/12">
+                    <div class="icon mobile">
+                        <img :src="'/static/sapthapatha/food.png'" alt="">
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-8/12">
                             <div class="text-content">
                                 <h2>Food</h2>
                                 <p class="alt-body">Food at Organo is safe to eat, locally produced, seasonal, free of
@@ -59,7 +65,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="w-4/12 icon-container">
+                        <div class="w-4/12 icon-container hide-on-mobile">
                             <div class="icon">
                                 <img :src="'/static/sapthapatha/food.png'" alt="">
                             </div>

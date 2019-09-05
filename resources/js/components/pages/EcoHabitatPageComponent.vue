@@ -1,26 +1,15 @@
 <template>
     <div id="eco-habitat-page">
-        <div class="hero bg-gray-100">
-            <div class="container mx-auto">
-                <div class="wrapper">
-                    <div class="intro">
-                        <h1>Organo way of living</h1>
-                        <h3 class="sub">When life is on a slow track, you’re on a highway to wellness.</h3>
-                        <span class="lg-button"><span class="text">Watch Video</span></span>
-                    </div>
-
-                    <div class="eco-habitat-features">
-                        <div class="flex">
-                            <div class="w-1/4 feature">Blend the virtues of rural life with the advantages of modern advancements in technology for urban settlements, getting the best of both worlds.</div>
-                            <div class="w-1/4 feature">Live in pristine, uncluttered, natural surroundings. Eat farm fresh organic food, breathe fresh-air and improve your overall health.</div>
-                            <div class="w-1/4 feature">Live between an ever evolving community that shares the responsibility of maintaining a sustainable living experience, together.</div>
-                            <div class="w-1/4 feature">Sustainability, biodiversity, harnessing natural resources and organic living are some of our driving principles that generate this experience.</div>
-                        </div>
-                    </div>
-                </div>
+        <VideoHeaderComponent>
+            <source slot="header-video" :src="'/static/videos/home2.mp4'" type="video/mp4">
+            <div slot="header-content">
+                    <h1>Organo way of living</h1>
+                    <div class="separator"></div>
+                    <h3 class="sub">When life is on a slow track, you’re on a highway to wellness.</h3>
+                    <span class="lg-button"><span class="text">Watch Video</span></span>
             </div>
+        </VideoHeaderComponent>
 
-        </div>
         <section id="sapthapatha">
             <div class="container mx-auto">
                 <div class="intro">
@@ -33,29 +22,29 @@
 
 
             <div class="strands-wrapper">
-                <div class="flex strands-desc">
-                    <div class="w-1/4 strand">
+                <div class="flex flex-wrap strands-desc">
+                    <div class="w-full lg:w-1/4 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/food.png'" alt="">
                         </div>
                         <div class="title"><h3>Food</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-1/4 strand">
+                    <div class="w-full lg:w-1/4 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/water.png'" alt="">
                         </div>
                         <div class="title"><h3>Water</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-1/4 strand">
+                    <div class="w-full lg:w-1/4 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/air.png'" alt="">
                         </div>
                         <div class="title"><h3>Air</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-1/4 strand">
+                    <div class="w-full lg:w-1/4 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/earth.png'" alt="">
                         </div>
@@ -63,22 +52,22 @@
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
                 </div>
-                <div class="flex strands-desc">
-                    <div class="w-1/3 strand">
+                <div class="flex flex-wrap strands-desc">
+                    <div class="w-full lg:w-1/3 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/energy.png'" alt="">
                         </div>
                         <div class="title"><h3>Energy</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-1/3 strand">
+                    <div class="w-full lg:w-1/3 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/shelter.png'" alt="">
                         </div>
                         <div class="title"><h3>Shelter</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-1/3 strand">
+                    <div class="w-full lg:w-1/3 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/people.png'" alt="">
                         </div>
@@ -88,18 +77,21 @@
                 </div>
             </div>
 
-            <div class="lg-button"><h2 class="">Learn more about Sustainable Living</h2></div>
+            <div class="container">
+                <div class="lg-button"><h2 class="">Learn more about Sustainable Living</h2></div>
+            </div>
+
         </section>
 
-        <section class="m-0">
+        <section id="eco-habitats-slider" class="m-0 important bg-gray-200">
             <SliderComponent></SliderComponent>
         </section>
 
         <section id="naandi-section">
             <div class="section-wrapper">
                 <div class="container mx-auto">
-                    <div class="flex">
-                        <div class="flex-wrapper w-7/12 content-block">
+                    <div class="flex flex-wrap">
+                        <div class="flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 content-block">
                             <h2>A way of life for the passionate and conscientious.</h2>
                             <p>Privacy of your own villa, the lifestyle of a plush natural resort, the security of a
                                 gated community, the advantage of like-minded people and above all, the unmatched joy of
@@ -108,22 +100,27 @@
                                 experience Nature to its fullest. Experience the manifestation of our first step towards
                                 building self-sustainable eco-habitats.</p>
                             <div class="mb-8"></div>
-                            <div class="lg-button inline-block  mr-8"><span class="text">Explore Naandi</span></div>
-                            <div class="lg-button inline-block "><span class="text">Watch Video</span></div>
-                        </div>
-                        <div class="flex-wrapper w-5/12 ">
-                            <div class="slider-container">
-
-                                    <img :src="'/static/images/entertainment_center.jpg'" alt="">
-
+                            <div class="cta-links">
+                                <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div>
+                                <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
                             </div>
+
+                        </div>
+                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12">
+                            <div class="slider-container hide-on-mobile">
+                                <img :src="'/static/images/entertainment_center.jpg'" alt="">
+                            </div>
+
                         </div>
                     </div>
+                </div>
+                <div class="mobile">
+                    <img :src="'/static/images/entertainment_center.jpg'" alt="">
                 </div>
             </div>
         </section>
 
-        <section>
+        <section id="eco-habitat-testimonials">
             <TestimonialsComponent></TestimonialsComponent>
         </section>
 

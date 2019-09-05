@@ -1,35 +1,28 @@
 <template>
     <div id="home-page">
-        <section id="introduction" class="hero-bg m-0">
-            <div class="video-container">
-                <div class="overlay"></div>
-                <video autoplay loop muted>
-                    <source :src="'/static/videos/home2.mp4'" type="video/mp4">
-                </video>
-            </div>
-            <div class="content-block">
-                <div class="text-content">
-                    <h1>Co-creating eco-habitats that celebrate living</h1>
-                    <div class="separator"></div>
-                    <div class="mb-6"></div>
-                    <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
-                        into the natural world, supportive of a healthy way of living.</p>
-                    <div class="button-block">
-                        <div class="lg-button inline-block mr-8">
-                            <span class="text">Learn More</span>
-                        </div>
-                        <div class="lg-button inline-block">
-                            <span class="text">Watch Video</span>
-                        </div>
+
+        <VideoHeaderComponent>
+            <source slot="header-video" :src="'/static/videos/home2.mp4'" type="video/mp4">
+            <div slot="header-content">
+                <h1>Co-creating eco-habitats that celebrate living</h1>
+                <div class="separator"></div>
+                <div class="mb-6"></div>
+                <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
+                    into the natural world, supportive of a healthy way of living.</p>
+                <div class="button-block">
+                    <div class="lg-button inline-block mr-8">
+                        <span class="text">Learn More</span>
+                    </div>
+                    <div class="lg-button inline-block">
+                        <span class="text">Watch Video</span>
                     </div>
                 </div>
-
             </div>
-        </section>
+        </VideoHeaderComponent>
+
 
         <section id="purpose">
-            <div class="p-12"></div>
-            <div class="illustration  ">
+            <div class="illustration px-6 ">
                 <img class="mx-auto" :src="'/static/sapthapatha/sapthapatha_wide.png'" alt="">
             </div>
             <div class="mb-12"></div>
@@ -91,8 +84,11 @@
                                 experience Nature to its fullest. Experience the manifestation of our first step towards
                                 building self-sustainable eco-habitats.</p>
                             <div class="mb-8"></div>
-                            <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div>
-                            <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
+                            <div class="cta-links">
+                                <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div>
+                                <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
+                            </div>
+
                         </div>
                         <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12">
                             <div class="slider-container">
@@ -108,15 +104,28 @@
             </div>
         </section>
 
-        <section class="m-0">
-            <SliderComponent></SliderComponent>
+        <section id="home-slider" class="bg-gray-200">
+            <SliderComponent>
+                <div class="img-container">
+                    <img :src="'/static/images/organo_feature/entrance_solar.jpg'" alt="">
+                </div>
+                <div class="img-container">
+                    <img :src="'/static/images/navira.jpg'" alt="">
+                </div>
+                <div class="img-container">
+                    <img :src="'/static/images/school_styled.jpg'" alt="">
+                </div>
+                <div class="img-container">
+                    <img :src="'/static/images/organo_feature/entrance_solar.jpg'" alt="">
+                </div>
+            </SliderComponent>
         </section>
 
-        <section>
+        <section id="home-testimonials" class="">
             <TestimonialsComponent></TestimonialsComponent>
         </section>
 
-        <section class="mb-0">
+        <section id="home-school" class="">
             <SchoolCTAComponent></SchoolCTAComponent>
         </section>
     </div>

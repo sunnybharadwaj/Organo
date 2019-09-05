@@ -1,26 +1,39 @@
 <template>
     <div id="school-page">
-        <div class="hero bg-gray-100">
-            <div class="container mx-auto">
-                <div class="wrapper">
-                    <div class="intro">
-                        <h1>Organo way of living</h1>
-                        <h3 class="sub">When life is on a slow track, you’re on a highway to wellness.</h3>
-                        <span class="link"><span class="text">Watch Video</span></span>
+        <VideoHeaderComponent>
+            <source slot="header-video" :src="'/static/videos/school.mp4'" type="video/mp4">
+            <div slot="header-content">
+                <h1>Co-creating eco-habitats that celebrate living</h1>
+                <div class="separator"></div>
+                <div class="mb-6"></div>
+                <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
+                    into the natural world, supportive of a healthy way of living.</p>
+                <div class="button-block">
+                    <div class="lg-button inline-block mr-8">
+                        <span class="text">Learn More</span>
                     </div>
+                    <div class="lg-button inline-block">
+                        <span class="text">Watch Video</span>
+                    </div>
+                </div>
+            </div>
+        </VideoHeaderComponent>
 
-                    <div class="eco-habitat-features">
-                        <div class="flex">
-                            <div class="w-1/4 feature">Blend the virtues of rural life with the advantages of modern advancements in technology for urban settlements, getting the best of both worlds.</div>
-                            <div class="w-1/4 feature">Live in pristine, uncluttered, natural surroundings. Eat farm fresh organic food, breathe fresh-air and improve your overall health.</div>
-                            <div class="w-1/4 feature">Live between an ever evolving community that shares the responsibility of maintaining a sustainable living experience, together.</div>
-                            <div class="w-1/4 feature">Sustainability, biodiversity, harnessing natural resources and organic living are some of our driving principles that generate this experience.</div>
-                        </div>
+        <div id="child-experience">
+            Children get to experience
+
+            <div class="experience-listing">
+                <div class="experience">
+                    <img src="" alt="">
+                    <div class="text-content">
+                        <h3>Experience a practical learning of Nature </h3>
+                        <p>With direct examples of application of various sustainable practices, children get to see
+                            first-hand, the results and impending perils of modernization and lay the foundational
+                            understanding towards the culture of sustainable living. </p>
                     </div>
                 </div>
             </div>
         </div>
-
         <section class="m-0">
             <SliderComponent></SliderComponent>
         </section>

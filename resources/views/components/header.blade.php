@@ -1,6 +1,6 @@
 <header class="">
 
-    <nav class="flex">
+    <nav class="">
         <div class="brand">
                 <router-link to="/" exact>
                     <div class="flex logo-container">
@@ -15,7 +15,7 @@
             <div id="mobile-menu-button" class="lg-button mobile-menu-button">Menu</div>
             <div class="full-screen-nav hidden" >
                 <img id="menu-close-button" :src="'/static/icons/close.svg'" alt="">
-                <div class="text-center flex flex-col">
+                <div class="text-center flex flex-col link-list">
                     <router-link to="/" class="lg-button" exact><span class="text">Home</span></router-link>
                     <router-link to="/company" class="lg-button"><span class="text">Company</span></router-link>
                     <router-link to="/team" class="lg-button"><span class="text">Team</span></router-link>
