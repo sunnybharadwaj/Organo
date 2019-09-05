@@ -10,6 +10,12 @@ nav {
 
 /* Small (sm) */
 @media (max-width: 640px) {
+
+  #video-header {
+    video {
+      width: 100%;
+    }
+  }
   .mobile {
     display: block;
   }

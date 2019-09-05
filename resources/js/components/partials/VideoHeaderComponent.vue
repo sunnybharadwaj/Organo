@@ -3,11 +3,10 @@
         <section id="introduction" class="hero-bg m-0">
             <div class="video-container">
                 <div class="overlay"></div>
-                <video autoplay loop muted>
-                    <slot name="header-video">
+                <slot name="header-video">
 
-                    </slot>
-                </video>
+                </slot>
+
             </div>
             <div class="content-block">
                 <div class="text-content">

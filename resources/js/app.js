@@ -9,6 +9,7 @@ import FeatureComponent from './components/partials/FeatureComponent';
 import HelpComponent from './components/partials/HelpComponent';
 import FeedbackComponent from './components/partials/FeedbackComponent';
 import VideoHeaderComponent from './components/partials/VideoHeaderComponent';
+import VideoComponent from './components/VideoComponent';
 
 import FormContactComponent from './components/forms/FormContactComponent';
 
@@ -22,6 +23,7 @@ Vue.component('FeatureComponent', FeatureComponent);
 Vue.component('HelpComponent', HelpComponent);
 Vue.component('FeedbackComponent', FeedbackComponent);
 Vue.component('VideoHeaderComponent', VideoHeaderComponent);
+Vue.component('VideoComponent', VideoComponent);
 
 //Forms
 Vue.component('FormContactComponent', FormContactComponent);

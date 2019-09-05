@@ -1,6 +1,12 @@
 
 #video-header {
   .hero-bg {
+    overflow: hidden;
+    position: relative;
+    @media(max-width: 640px) {
+      min-height: 100vh;
+    }
+
     .video-container {
       .overlay {
         position: absolute;
@@ -9,19 +15,8 @@
     }
 
     video {
-      height: 100vh;
       z-index:-1;
-
-
-      @media (min-aspect-ratio: 16/9) {
-          width:100% !important;
-          height: auto !important;
-      }
-
-      @media (max-aspect-ratio: 16/9) {
-          width: auto !important;
-          height: 100% !important;
-      }
+      width: 100%;
     }
     .content-block {
       background: rgba(255, 255, 255, 0.71);
@@ -33,8 +28,8 @@
 
       @media(max-width: 640px) {
         width: 100%;
-        top:450px;
         left: 0;
+        bottom: 0;
         margin: 0;
       }
     }

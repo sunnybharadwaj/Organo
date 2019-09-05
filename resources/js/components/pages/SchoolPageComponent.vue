@@ -1,7 +1,41 @@
 <template>
     <div id="school-page">
         <VideoHeaderComponent>
-            <source slot="header-video" :src="'/static/videos/school.mp4'" type="video/mp4">
+<div slot="header-video">
+    <div class="mobile">
+        <VideoComponent v-if="screenName == 'mobile'">
+            <video autoplay loop muted>
+                <source  :src="'/static/videos/mobile/school_mobile.mp4'" type="video/mp4">
+            </video>
+        </VideoComponent>
+    </div>
+
+    <div class="tablet">
+        <VideoComponent v-if="screenName == 'tablet'">
+            <video autoplay loop muted>
+                <source  :src="'/static/videos/tablet/school_tablet.mp4'" type="video/mp4">
+            </video>
+        </VideoComponent>
+    </div>
+
+    <div class="sd">
+        <VideoComponent v-if="screenName == 'sd'">
+            <video autoplay loop muted>
+                <source  :src="'/static/videos/sd/school_sd.mp4'" type="video/mp4">
+            </video>
+        </VideoComponent>
+    </div>
+
+    <div class="hd">
+        <VideoComponent v-if="screenName == 'hd'">
+            <video autoplay loop muted>
+                <source  :src="'/static/videos/hd/school_hd.mp4'" type="video/mp4">
+            </video>
+        </VideoComponent>
+    </div>
+
+</div>
+
             <div slot="header-content">
                 <h1>Co-creating eco-habitats that celebrate living</h1>
                 <div class="separator"></div>
@@ -55,13 +89,34 @@
 
         <section class="m-0">
             <FeatureComponent></FeatureComponent>
-        </section>
-    </div>
+</section>
+</div>
 </template>
 
 <script>
     export default {
         mounted() {
+
+        },
+        data() {
+            return {
+                screenWidth: screen.width
+            }
+        },
+        computed: {
+            screenName: function() {
+                if(this.screenWidth <= 640) {
+                    return "mobile";
+                } else if(this.screenWidth <= 768) {
+                    return "tablet";
+                } else if (this.screenWidth <=1024) {
+                    return "sd";
+                } else if (this.screenWidth >= 1280) {
+                    return "hd";
+                }
+            }
         }
     }
 </script>
+
+]

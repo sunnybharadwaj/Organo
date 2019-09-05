@@ -19,39 +19,39 @@
     </div>
 
     <div id="footer-links">
-        <div class="flex footer-nav">
-            <div class="w-1/2 footer-nav-links">
-                <div class="flex">
-                    <div class="w-3/12">
-                        <a href="/" class="footer-nav-link">Home</a>
-                        <a href="/company" class="footer-nav-link">Company</a>
-                        <a href="/team" class="footer-nav-link">Team</a>
+        <div class="flex flex-wrap footer-nav">
+            <div class="w-full md:w-1/2 footer-nav-links">
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-3/12">
+                        <router-link to="/" class="footer-nav-link">Home</router-link>
+                        <router-link to="/company" class="footer-nav-link">Company</router-link>
+                        <router-link to="/team" class="footer-nav-link">Team</router-link>
                     </div>
-                    <div class="w-5/12">
-                        <a href="/eco-habitats" class="footer-nav-link">Eco-habitats</a>
-                        <a href="/naandi" class="footer-nav-link">Naandi</a>
-                        <a href="/sustainable-living" class="footer-nav-link">Sustainable Living</a>
+                    <div class="w-full md:w-5/12">
+                        <router-link to="/eco-habitats" class="footer-nav-link">Eco-habitats</router-link>
+                        <router-link to="/naandi" class="footer-nav-link">Naandi</router-link>
+                        <router-link to="/sustainable-living" class="footer-nav-link">Sustainable Living</router-link>
                     </div>
-                    <div class="w-4/12">
-                        <a href="/gallery" class="footer-nav-link">Gallery</a>
-                        <a href="/school" class="footer-nav-link">Organo@School</a>
-                        <a href="/contact" class="footer-nav-link">Contact Us</a>
+                    <div class="w-full md:w-4/12">
+                        <router-link to="/gallery" class="footer-nav-link">Gallery</router-link>
+                        <router-link to="/school" class="footer-nav-link">Organo@School</router-link>
+                        <router-link to="/contact" class="footer-nav-link">Contact Us</router-link>
                     </div>
                 </div>
             </div>
-            <div class="w-1/2 footer-contact">
+            <div class="w-full md:w-1/2 footer-contact">
                 <div class="email">
                     <h3>help@organo.com</h3>
                 </div>
-                <div class="phone flex">
-                    <h3><span></span>81067 56010</h3>
-                    <h3><span></span>79933 55227</h3>
+                <div class="phone flex flex-wrap">
+                    <h3 class="w-full md:w-1/2"><span class="text relative"><span></span>81067 56010</span></h3>
+                    <h3 class="w-full md:w-1/2"><span class="text relative"><span></span>79933 55227</span></h3>
                 </div>
             </div>
         </div>
         <div class="foot">
             <div class="logo text-center">
-                <img :src="'/static/organo_logo_inverted.png'" alt="">
+                <img :src="'/static/organo_logo.png'" alt="">
             </div>
             <div class="text-center foot-links">
                 <a href="/terms" class="foot-link">Terms</a>
