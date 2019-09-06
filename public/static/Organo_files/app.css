@@ -12104,11 +12104,11 @@ textarea {
   margin-right: 30px;
 }
 
-#naandi-section .content-block p {
+.naandi-section .content-block p {
   max-width: 600px;
 }
 
-#naandi-section .slider-container {
+.naandi-section .slider-container {
   position: absolute;
   height: 100%;
   width: 41.66%;
@@ -12118,7 +12118,7 @@ textarea {
   overflow: hidden;
 }
 
-#naandi-section .slider-container img {
+.naandi-section .slider-container img {
   width: 100%;
   height: auto;
 }
@@ -12131,11 +12131,11 @@ textarea {
     margin: 0;
   }
 
-  #home-page #naandi-section .flex-wrapper:nth-of-type(2) {
+  #home-page,#eco-habitat-page .naandi-section .flex-wrapper:nth-of-type(2) {
     padding: 0 !important;
   }
 
-  #home-page #naandi-section .media-block .slider-container {
+  #home-page,#eco-habitat-page .naandi-section .media-block .slider-container {
     display: none;
   }
 }

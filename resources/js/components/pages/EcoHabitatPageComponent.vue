@@ -1,6 +1,65 @@
 <template>
     <div id="eco-habitat-page">
         <VideoHeaderComponent>
+            <div slot="header-video">
+                <div class="mobile">
+                    <VideoComponent v-if="screenName == 'mobile'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/mobile/naandi_mobile.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="tablet">
+                    <VideoComponent v-if="screenName == 'tablet'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/tablet/naandi_tablet.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="sd">
+                    <VideoComponent v-if="screenName == 'sd'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/sd/naandi_sd.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="hd">
+                    <VideoComponent v-if="screenName == 'hd'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/hd/naandi_hd.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+                <div class="wide">
+                    <VideoComponent v-if="screenName == 'wide'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/naandi.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+            </div>
+
+            <div slot="header-content">
+                <h1>Co-creating eco-habitats that celebrate living</h1>
+                <div class="separator"></div>
+                <div class="mb-6"></div>
+                <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
+                    into the natural world, supportive of a healthy way of living.</p>
+                <div class="button-block">
+                    <div class="lg-button inline-block mr-8">
+                        <span class="text">Learn More</span>
+                    </div>
+                    <div class="lg-button inline-block">
+                        <span class="text">Watch Video</span>
+                    </div>
+                </div>
+            </div>
+        </VideoHeaderComponent>
+
+        <VideoHeaderComponent>
             <source slot="header-video" :src="'/static/videos/home2.mp4'" type="video/mp4">
             <div slot="header-content">
                     <h1>Organo way of living</h1>
@@ -23,28 +82,28 @@
 
             <div class="strands-wrapper">
                 <div class="flex flex-wrap strands-desc">
-                    <div class="w-full lg:w-1/4 strand">
+                    <div class="w-full md:w-1/2 lg:w-1/4 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/food.png'" alt="">
                         </div>
                         <div class="title"><h3>Food</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-full lg:w-1/4 strand">
+                    <div class="w-full md:w-1/2 lg:w-1/4 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/water.png'" alt="">
                         </div>
                         <div class="title"><h3>Water</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-full lg:w-1/4 strand">
+                    <div class="w-full md:w-1/2 lg:w-1/4 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/air.png'" alt="">
                         </div>
                         <div class="title"><h3>Air</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-full lg:w-1/4 strand">
+                    <div class="w-full md:w-1/2 lg:w-1/4 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/earth.png'" alt="">
                         </div>
@@ -53,14 +112,14 @@
                     </div>
                 </div>
                 <div class="flex flex-wrap strands-desc">
-                    <div class="w-full lg:w-1/3 strand">
+                    <div class="w-full md:w-1/2 lg:w-1/3 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/energy.png'" alt="">
                         </div>
                         <div class="title"><h3>Energy</h3></div>
                         <div class="description">You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier.</div>
                     </div>
-                    <div class="w-full lg:w-1/3 strand">
+                    <div class="w-full md:w-1/2 lg:w-1/3 strand">
                         <div class="icon">
                             <img :src="'/static/sapthapatha/shelter.png'" alt="">
                         </div>
@@ -77,7 +136,7 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container mx-auto">
                 <div class="lg-button"><h2 class="">Learn more about Sustainable Living</h2></div>
             </div>
 
@@ -89,6 +148,12 @@
 
         <section id="naandi-section">
             <div class="section-wrapper">
+                <div class="mobile tablet sd">
+                    <img class="w-full mobile tablet" :src="'/static/images/entertainment_center.jpg'" alt="">
+                    <img class="w-full sd" :src="'/static/images/entertainment_center.jpg'" alt="">
+                    <div class="mb-12"></div>
+                </div>
+
                 <div class="container mx-auto">
                     <div class="flex flex-wrap">
                         <div class="flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 content-block">
@@ -106,17 +171,15 @@
                             </div>
 
                         </div>
-                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12">
-                            <div class="slider-container hide-on-mobile">
-                                <img :src="'/static/images/entertainment_center.jpg'" alt="">
+                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12 tablet-hidden sd-hidden mobile-hidden">
+                            <div class="slider-container">
+                                <!--<img :src="'/static/images/entertainment_center.jpg'" alt="">-->
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="mobile">
-                    <img :src="'/static/images/entertainment_center.jpg'" alt="">
-                </div>
+
             </div>
         </section>
 
@@ -133,7 +196,27 @@
 <script>
     export default {
         mounted() {
-            console.log("works?")
+            console.log("screenName");
+        },
+        data() {
+            return {
+                screenWidth: screen.width
+            }
+        },
+        computed: {
+            screenName: function () {
+                if (this.screenWidth <= 640) {
+                    return "mobile";
+                } else if (this.screenWidth <= 768) {
+                    return "tablet";
+                } else if (this.screenWidth <= 1024) {
+                    return "sd";
+                } else if (this.screenWidth <= 1280) {
+                    return "hd";
+                } else if (this.screenWidth >= 1280) {
+                    return "wide";
+                }
+            }
         }
     }
 </script>

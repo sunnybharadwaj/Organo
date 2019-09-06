@@ -1,12 +1,61 @@
 <template>
     <div id="naandi-page">
         <VideoHeaderComponent>
-            <source slot="header-video" :src="'/static/videos/home2.mp4'" type="video/mp4">
+            <div slot="header-video">
+                <div class="mobile">
+                    <VideoComponent v-if="screenName == 'mobile'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/mobile/naandi_mobile.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="tablet">
+                    <VideoComponent v-if="screenName == 'tablet'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/tablet/naandi_tablet.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="sd">
+                    <VideoComponent v-if="screenName == 'sd'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/sd/naandi_sd.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="hd">
+                    <VideoComponent v-if="screenName == 'hd'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/hd/naandi_hd.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+                <div class="wide">
+                    <VideoComponent v-if="screenName == 'wide'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/naandi.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+            </div>
+
             <div slot="header-content">
-                <h1>Living space meets Life space</h1>
+                <h1>Co-creating eco-habitats that celebrate living</h1>
                 <div class="separator"></div>
-                <h3 class="sub">When life is on a slow track, you’re on a highway to wellness.</h3>
-                <span class="lg-button"><span class="text">Watch Video</span></span>
+                <div class="mb-6"></div>
+                <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
+                    into the natural world, supportive of a healthy way of living.</p>
+                <div class="button-block">
+                    <div class="lg-button inline-block mr-8">
+                        <span class="text">Learn More</span>
+                    </div>
+                    <div class="lg-button inline-block">
+                        <span class="text">Watch Video</span>
+                    </div>
+                </div>
             </div>
         </VideoHeaderComponent>
 
@@ -162,7 +211,7 @@
 
                 <div class="amenity-list">
                     <div class="flex flex-wrap">
-                        <div class="amenity w-full lg:w-1/3">
+                        <div class="amenity w-full md:w-1/2 lg:w-1/3">
                             <div class="image"></div>
                             <div class="text-content">
                                 <p class="alt-body">Personal Gardening</p>
@@ -170,7 +219,7 @@
                                     dignissim congue, commodo in orci.</p>
                             </div>
                         </div>
-                        <div class="amenity w-full lg:w-1/3">
+                        <div class="amenity w-full md:w-1/2 lg:w-1/3">
                             <div class="image"></div>
                             <div class="text-content">
                                 <p class="alt-body">Personal Gardening</p>
@@ -178,7 +227,7 @@
                                     dignissim congue, commodo in orci.</p>
                             </div>
                         </div>
-                        <div class="amenity w-full lg:w-1/3">
+                        <div class="amenity w-full md:w-1/2 lg:w-1/3">
                             <div class="image"></div>
                             <div class="text-content">
                                 <p class="alt-body">Personal Gardening</p>
@@ -232,9 +281,28 @@
 
 <script>
     export default {
+        mounted() {
+            console.log("screenName");
+        },
         data() {
             return {
+                screenWidth: screen.width,
                 more_content: false
+            }
+        },
+        computed: {
+            screenName: function () {
+                if (this.screenWidth <= 640) {
+                    return "mobile";
+                } else if (this.screenWidth <= 768) {
+                    return "tablet";
+                } else if (this.screenWidth <= 1024) {
+                    return "sd";
+                } else if (this.screenWidth <= 1280) {
+                    return "hd";
+                } else if (this.screenWidth >= 1280) {
+                    return "wide";
+                }
             }
         },
         methods: {
@@ -244,4 +312,5 @@
             }
         }
     }
+
 </script>

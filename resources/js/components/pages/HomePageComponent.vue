@@ -2,7 +2,47 @@
     <div id="home-page">
 
         <VideoHeaderComponent>
-            <source slot="header-video" :src="'/static/videos/home2.mp4'" type="video/mp4">
+            <div slot="header-video">
+                <div class="mobile">
+                    <VideoComponent v-if="screenName == 'mobile'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/mobile/home_mobile.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="tablet">
+                    <VideoComponent v-if="screenName == 'tablet'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/tablet/home_tablet.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="sd">
+                    <VideoComponent v-if="screenName == 'sd'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/sd/home_sd.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+
+                <div class="hd">
+                    <VideoComponent v-if="screenName == 'hd'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+                <div class="wide">
+                    <VideoComponent v-if="screenName == 'wide'">
+                        <video autoplay loop muted>
+                            <source :src="'/static/videos/home.mp4'" type="video/mp4">
+                        </video>
+                    </VideoComponent>
+                </div>
+            </div>
+
             <div slot="header-content">
                 <h1>Co-creating eco-habitats that celebrate living</h1>
                 <div class="separator"></div>
@@ -24,6 +64,7 @@
         <section id="purpose">
             <div class="illustration px-6 ">
                 <img class="mx-auto" :src="'/static/sapthapatha/sapthapatha_wide.png'" alt="">
+
             </div>
             <div class="mb-12"></div>
 
@@ -32,7 +73,7 @@
 
 
             <div class="flex flex-wrap feature-points">
-                <div class="w-full sm:w-full md: w-2/4 lg:w-1/4 content-block">
+                <div class="w-full sm:w-full md:w-2/4 lg:w-1/4 content-block">
                     <div class="icon-placeholder"></div>
                     <div class="alt-body">Rurban way of living</div>
                     <p class="sm-body">The benefits of urbanization and the feel of a rural environment brings together
@@ -40,21 +81,21 @@
                         could take part in organic farming and other collective activities, while maintaining their
                         private space.</p>
                 </div>
-                <div class="w-full sm:w-full md: w-2/4 lg:w-1/4 content-block">
+                <div class="w-full sm:w-full md:w-2/4 lg:w-1/4 content-block">
                     <div class="icon-placeholder"></div>
                     <div class="alt-body">Sustainability on all fronts</div>
                     <p class="sm-body">Sustainability, biodiversity, harnessing natural resources and organic living are
                         at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of sustainable living’
                         help us individually focus on sustainable development in each of the distinct areas.</p>
                 </div>
-                <div class="w-full sm:w-full md: w-2/4 lg:w-1/4 content-block">
+                <div class="w-full sm:w-full md:w-2/4 lg:w-1/4 content-block">
                     <div class="icon-placeholder"></div>
                     <div class="alt-body">A conscious community</div>
                     <p class="sm-body">We focus on building communities that grows to be conscious, conscientious and
                         evolutionary; one that not only takes but gives back. We strive to create the right balance
                         between private and personal life for the people in our community.</p>
                 </div>
-                <div class="w-full sm:w-full md: w-2/4 lg:w-1/4 content-block">
+                <div class="w-full sm:w-full md:w-2/4 lg:w-1/4 content-block">
                     <div class="icon-placeholder"></div>
                     <div class="alt-body">Triple-bottom-line focus</div>
                     <p class="sm-body">Our core philosophy of Samvriddhi (prosperity for all) helps us create replicable
@@ -73,6 +114,12 @@
 
         <section id="naandi-section">
             <div class="section-wrapper">
+                <div class="mobile tablet sd">
+                    <img class="w-full mobile tablet" :src="'/static/images/entertainment_center.jpg'" alt="">
+                    <img class="w-full sd" :src="'/static/images/entertainment_center.jpg'" alt="">
+                    <div class="mb-12"></div>
+                </div>
+
                 <div class="container mx-auto">
                     <div class="flex flex-wrap">
                         <div class="flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 content-block">
@@ -90,17 +137,15 @@
                             </div>
 
                         </div>
-                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12">
+                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12 tablet-hidden sd-hidden mobile-hidden">
                             <div class="slider-container">
-                                <img :src="'/static/images/entertainment_center.jpg'" alt="">
+                                <!--<img :src="'/static/images/entertainment_center.jpg'" alt="">-->
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="mobile">
-                    <img :src="'/static/images/entertainment_center.jpg'" alt="">
-                </div>
+
             </div>
         </section>
 
@@ -135,7 +180,27 @@
 <script>
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log("screenName");
+        },
+        data() {
+            return {
+                screenWidth: screen.width
+            }
+        },
+        computed: {
+            screenName: function () {
+                if (this.screenWidth <= 640) {
+                    return "mobile";
+                } else if (this.screenWidth <= 768) {
+                    return "tablet";
+                } else if (this.screenWidth <= 1024) {
+                    return "sd";
+                } else if (this.screenWidth <= 1280) {
+                    return "hd";
+                } else if (this.screenWidth >= 1280) {
+                    return "wide";
+                }
+            }
         }
     }
 </script>

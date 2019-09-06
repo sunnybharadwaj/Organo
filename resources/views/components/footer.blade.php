@@ -20,26 +20,26 @@
 
     <div id="footer-links">
         <div class="flex flex-wrap footer-nav">
-            <div class="w-full md:w-1/2 footer-nav-links">
+            <div class="w-full lg:w-1/2 footer-nav-links">
                 <div class="flex flex-wrap">
-                    <div class="w-full md:w-3/12">
+                    <div class="w-full md:w-full lg:w-3/12">
                         <router-link to="/" class="footer-nav-link">Home</router-link>
                         <router-link to="/company" class="footer-nav-link">Company</router-link>
                         <router-link to="/team" class="footer-nav-link">Team</router-link>
                     </div>
-                    <div class="w-full md:w-5/12">
+                    <div class="w-full md:w-full lg:w-5/12">
                         <router-link to="/eco-habitats" class="footer-nav-link">Eco-habitats</router-link>
                         <router-link to="/naandi" class="footer-nav-link">Naandi</router-link>
                         <router-link to="/sustainable-living" class="footer-nav-link">Sustainable Living</router-link>
                     </div>
-                    <div class="w-full md:w-4/12">
+                    <div class="w-full md:w-full lg:w-4/12">
                         <router-link to="/gallery" class="footer-nav-link">Gallery</router-link>
                         <router-link to="/school" class="footer-nav-link">Organo@School</router-link>
                         <router-link to="/contact" class="footer-nav-link">Contact Us</router-link>
                     </div>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 footer-contact">
+            <div class="w-full lg:w-1/2 footer-contact">
                 <div class="email">
                     <h3>help@organo.com</h3>
                 </div>

@@ -3,7 +3,7 @@
         <div class="container mx-auto">
             <div class="flex flex-wrap testimonial">
                 <div class="w-full lg:w-5/12 image-wrapper ">
-                    <div class="image-container mobile">
+                    <div class="image-container ">
 
                     </div>
                 </div>
