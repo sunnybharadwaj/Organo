@@ -1,6 +1,9 @@
 #contact-page {
   .map-block {
-    padding-right: 60px;
+    @media (min-width: 1024px) {
+      padding-right: 60px;
+    }
+
     h2 {
       margin-bottom: 30px;
     }
@@ -63,10 +66,25 @@
       }
     }
   }
+
+  .location {
+    .address {
+      padding-right: 10px;
+      .text-content {
+
+        font-size: 15px !important;
+      }
+
+    }
+  }
 }
 
 #contact-page-form {
-  padding: 100px;
+  padding: 100px 0;
+  @media (min-width: 1024px) {
+    padding: 100px;
+  }
+
   background: $light-grey;
   p.alt-body {
     max-width: 900px;

@@ -1,10 +1,10 @@
 <template>
-    <div>
+
         <div class="image-content-component">
             <div class="section-wrapper">
                 <slot name="image"></slot>
                 <div class="container mx-auto">
-                    <div class="flex flex-wrap">
+                    <div class="flex flex-wrap content-wrapper">
                         <div class="flex-wrapper w-full sm:w-full md:w-full xl:w-7/12 ">
                             <div class="content-block">
                                 <slot name="content"></slot>
@@ -20,7 +20,7 @@
 
             </div>
         </div>
-    </div>
+
 </template>
 
 <script>

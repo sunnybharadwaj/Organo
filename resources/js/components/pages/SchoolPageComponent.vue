@@ -58,49 +58,50 @@
             </div>
         </VideoHeaderComponent>
 
-        <ImageContentComponent>
-            <div slot="image" class="wide-image"></div>
-            <div slot="content">
-                <h3>Experience a practical learning of Nature and where we stand today.</h3>
-                <p class="alt-body">With direct examples of application of various sustainable practices, children get to see
-                    first-hand, the results and impending perils of modernization and lay the foundational
-                    understanding towards the culture of conservation and sustainable living. </p>
-                <div class="mb-8"></div>
-            </div>
-        </ImageContentComponent>
-
-        <ImageContentComponent>
-            <div slot="image" class="wide-image"></div>
-            <div slot="content">
-                <h3>Experience the holistic aspects of rural living</h3>
-                <p class="alt-body">Watch and interact with animals up close in our extensive animal husbandry, learn about bee-keeping, interact with cows and calfs at Goshala.</p>
-                <div class="mb-8"></div>
-            </div>
-        </ImageContentComponent>
-        <ImageContentComponent>
-            <div slot="image" class="wide-image"></div>
-            <div slot="content">
-                <h3>Explore local Flora and Fauna</h3>
-                <p class="alt-body">Understand and practically observe the growth of farm produce, and explore all the bio-diversity that naturally exist in the surrounding area.</p>
-                <div class="mb-8"></div>
-            </div>
-        </ImageContentComponent>
-        <ImageContentComponent>
-            <div slot="image" class="wide-image"></div>
-            <div slot="content">
-                <h3>Participate in enriching and fun activities</h3>
-                <p class="alt-body">Children try their hand at organic farming, pottery, picking vegetables, exploring the landscape, have fun and learn deeper with the Organo’s Augmented Reality App and many more.</p>
-                <div class="mb-8"></div>
-            </div>
-        </ImageContentComponent>
-        <ImageContentComponent>
-            <div slot="image" class="wide-image"></div>
-            <div slot="content">
-                <h3>Express learnings creatively through Art and Craft</h3>
-                <p class="alt-body">At the end of the day, children get to combine everything they have learnt into producing art and craft on the concepts covered.</p>
-                <div class="mb-8"></div>
-            </div>
-        </ImageContentComponent>
+        <div class="image-content-list">
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h3>Experience a practical learning of Nature and where we stand today.</h3>
+                    <p class="alt-body">With direct examples of application of various sustainable practices, children get to see
+                        first-hand, the results and impending perils of modernization and lay the foundational
+                        understanding towards the culture of conservation and sustainable living. </p>
+                    <div class="mb-8"></div>
+                </div>
+            </ImageContentComponent>
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h3>Experience the holistic aspects of rural living</h3>
+                    <p class="alt-body">Watch and interact with animals up close in our extensive animal husbandry, learn about bee-keeping, interact with cows and calfs at Goshala.</p>
+                    <div class="mb-8"></div>
+                </div>
+            </ImageContentComponent>
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h3>Explore local Flora and Fauna</h3>
+                    <p class="alt-body">Understand and practically observe the growth of farm produce, and explore all the bio-diversity that naturally exist in the surrounding area.</p>
+                    <div class="mb-8"></div>
+                </div>
+            </ImageContentComponent>
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h3>Participate in enriching and fun activities</h3>
+                    <p class="alt-body">Children try their hand at organic farming, pottery, picking vegetables, exploring the landscape, have fun and learn deeper with the Organo’s Augmented Reality App and many more.</p>
+                    <div class="mb-8"></div>
+                </div>
+            </ImageContentComponent>
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h3>Express learnings creatively through Art and Craft</h3>
+                    <p class="alt-body">At the end of the day, children get to combine everything they have learnt into producing art and craft on the concepts covered.</p>
+                    <div class="mb-8"></div>
+                </div>
+            </ImageContentComponent>
+        </div>
 
         <!--<section class="m-0">-->
             <!--<SliderComponent></SliderComponent>-->
@@ -125,7 +126,13 @@
 
 
         <section class="m-0">
-            <FeatureComponent></FeatureComponent>
+            <FeatureComponent>
+                <slot>
+                    <h1 class="max-w-4xl">What is an 'Eco-habitat'?</h1>
+                    <div class="mb-4"></div>
+                    <div class="lg-button">Find out more</div>
+                </slot>
+            </FeatureComponent>
         </section>
     </div>
 </template>

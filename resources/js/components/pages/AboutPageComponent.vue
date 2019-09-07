@@ -137,7 +137,17 @@
                 </div>
             </div>
         <div class="pb-24"></div>
-        <FeatureComponent></FeatureComponent>
+        <div class="eco-habitat-cta-component">
+            <FeatureComponent>
+                <slot>
+                    <h1 class="max-w-4xl">What is an 'Eco-habitat'?</h1>
+                    <div class="mb-4"></div>
+                    <div class="lg-button">Find out more</div>
+                </slot>
+            </FeatureComponent>
+        </div>
+
+        <div class="pb-24"></div>
     </div>
 </template>
 

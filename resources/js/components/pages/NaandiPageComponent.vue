@@ -43,7 +43,7 @@
             </div>
 
             <div slot="header-content">
-                <h1>Co-creating eco-habitats that celebrate living</h1>
+                <h1>Urban refinement,<br/> Rural ethnicity</h1>
                 <div class="separator"></div>
                 <div class="mb-6"></div>
                 <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
@@ -59,144 +59,166 @@
             </div>
         </VideoHeaderComponent>
 
-        <section id="about-project" class="mt-0 bg-gray-100">
-            <section class="about-naandi">
-                <div class="container mx-auto">
-                    <div class="wrapper">
-                        <h3>Organo’s Naandi is a plush living commune of urban villas built to offer all the
-                            contemporary
-                            living
-                            conveniences while seamlessly integrated with nature.</h3>
-                        <div class="separator"></div>
-                        <p>Incorporating the latest in high-performance building science and home technology, every home
-                            gathers
-                            around a space that skillfully combines outdoor and indoor living. <span
-                                    class="more-link link" v-if="!more_content" @click="showMoreDetails">More</span></p>
+        <!--<section id="about-project" class="hidden mt-0 bg-gray-100">-->
+        <!--<section class="about-naandi">-->
+        <!--<div class="container mx-auto">-->
+        <!--<div class="wrapper">-->
+        <!--<h3>Organo’s Naandi is a plush living commune of urban villas built to offer all the-->
+        <!--contemporary-->
+        <!--living-->
+        <!--conveniences while seamlessly integrated with nature.</h3>-->
+        <!--<div class="separator"></div>-->
+        <!--<p>Incorporating the latest in high-performance building science and home technology, every home-->
+        <!--gathers-->
+        <!--around a space that skillfully combines outdoor and indoor living. <span-->
+        <!--class="more-link link" v-if="!more_content" @click="showMoreDetails">More</span></p>-->
 
 
-                        <div v-if="more_content" class="more more-content">
-                            <p>These fully air-conditioned signature spaces are embedded with what we call ‘rurban’
-                                nomenclature, which is a heady mix of urban refinement and rural ethnicity. Envisioned
-                                to
-                                invite
-                                families to live fully and generously, these homes have an ingenious arrangement of
-                                interior
-                                space and a unique combination of openness and privacy that makes a relaxed way of life
-                                possible.</p>
-                            <p>Dramatic sliding glass doors open up to enable the home’s interiors to embrace the
-                                natural
-                                world
-                                surrounding it. Abundant windows, full-wall glass panels let in plenty of natural light
-                                and
-                                add
-                                to the feeling of openness and spaciousness. A spacious floor plan, high ceilings, large
-                                bedrooms, luxurious bathrooms, ample storage, servant quarters and other options.. all
-                                make
-                                the
-                                home perfect for you and your family.</p>
-                        </div>
+        <!--<div v-if="more_content" class="more more-content">-->
+        <!--<p>These fully air-conditioned signature spaces are embedded with what we call ‘rurban’-->
+        <!--nomenclature, which is a heady mix of urban refinement and rural ethnicity. Envisioned-->
+        <!--to-->
+        <!--invite-->
+        <!--families to live fully and generously, these homes have an ingenious arrangement of-->
+        <!--interior-->
+        <!--space and a unique combination of openness and privacy that makes a relaxed way of life-->
+        <!--possible.</p>-->
+        <!--<p>Dramatic sliding glass doors open up to enable the home’s interiors to embrace the-->
+        <!--natural-->
+        <!--world-->
+        <!--surrounding it. Abundant windows, full-wall glass panels let in plenty of natural light-->
+        <!--and-->
+        <!--add-->
+        <!--to the feeling of openness and spaciousness. A spacious floor plan, high ceilings, large-->
+        <!--bedrooms, luxurious bathrooms, ample storage, servant quarters and other options.. all-->
+        <!--make-->
+        <!--the-->
+        <!--home perfect for you and your family.</p>-->
+        <!--</div>-->
 
-                        <div class="metrics flex flex-wrap">
-                            <div class="metric flex">
-                                <span class="number">32</span>
-                                <h3 class="description highlight">Acres</h3>
-                            </div>
-                            <div class="metric flex">
-                                <span class="number">32</span>
-                                <h3 class="description">Villas</h3>
-                            </div>
-                            <div class="metric flex">
-                                <span class="number">123</span>
-                                <h3 class="description">Community</h3>
-                            </div>
-                            <div class="metric flex">
-                                <span class="number">32</span>
-                                <h3 class="description">Acres</h3>
-                            </div>
-                        </div>
-                    </div>
+        <!--<div class="metrics flex flex-wrap">-->
+        <!--<div class="metric flex">-->
+        <!--<span class="number">32</span>-->
+        <!--<h3 class="description highlight">Acres</h3>-->
+        <!--</div>-->
+        <!--<div class="metric flex">-->
+        <!--<span class="number">32</span>-->
+        <!--<h3 class="description">Villas</h3>-->
+        <!--</div>-->
+        <!--<div class="metric flex">-->
+        <!--<span class="number">123</span>-->
+        <!--<h3 class="description">Community</h3>-->
+        <!--</div>-->
+        <!--<div class="metric flex">-->
+        <!--<span class="number">32</span>-->
+        <!--<h3 class="description">Acres</h3>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
 
-                </div>
-                <SliderComponent></SliderComponent>
-            </section>
+        <!--</div>-->
+        <!--<SliderComponent></SliderComponent>-->
+        <!--</section>-->
 
+        <!--</section>-->
+
+        <section>
+            <div class="container mx-auto">
+                <h1 class="mb-4">Environment as a living being</h1>
+                <h3 class="font-normal max-w-6xl">In this age of rapid modernization and urban chaos, we crave to escape
+                    into nature whenever possible to unwind, relax and rejuvenate. Naandi is the manifestation of our
+                    efforts towards creating an <span class="font-bold">eco-habitat</span> on net-zero and triple bottom
+                    line principles, offering a sustainable living space without affecting the environment in it or
+                    around it. </h3>
+            </div>
         </section>
 
-        <section id="naandi-features">
-            <div class="container mx-auto">
-                <div class="intro-text">
-                    <h2>Environment as a living being.</h2>
-                    <p class="alt-body">Balance is only possible when we understand how interconnected our lives are
-                        with nature and the
-                        environment around us. We have tried to re-discover the connection that’s lost to us due to time
-                        and
-                        other factors of the modern age; and present to you our vision of living an integrated life with
-                        nature itself. Like we once did.</p>
+        <div class="image-content-list">
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h2 class="mb-4"><span class="font-normal">the</span> Vision</h2>
+                    <p class="alt-body">Through our work towards this ideal, we have found seven areas that need our
+                        attention - Food, Water, Air, Earth, Energy, Shelter and People. Our efforts in each of these
+                        areas work independently and inter-dependently with each other to create a living, breathing
+                        environment suitable for all that live in it.</p>
                 </div>
+            </ImageContentComponent>
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h2 class="mb-4"><span class="font-normal">the</span> Experience</h2>
+                    <p class="alt-body">Our goal was to capturing the essence of rural living and combining it with the
+                        ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered
+                        to you within a breath-taking atmosphere, healthy organic food and an engaging community
+                        conducive to growth, relaxation and an overall improvement of health.</p>
+                    <div class="mb-8"></div>
+                </div>
+            </ImageContentComponent>
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h2 class="mb-4"><span class="font-normal">the</span> Space</h2>
+                    <p class="alt-body">The 33 Acres of land located outskirts of the city of Hyderabad, has home units
+                        and other necessary structures built around an organic farm. Along with all the amenities
+                        expected of a modern villa community, 2/3rd of its space is used for
+                        collective farming - where residents join farmers to farm produce. 1/3rd of the space is
+                        designated for personal farming, where residents can farm independently in their backyard.</p>
+                    <div class="mb-8"></div>
+                </div>
+            </ImageContentComponent>
+            <ImageContentComponent>
+                <div slot="image" class="wide-image"></div>
+                <div slot="content">
+                    <h2 class="mb-4"><span class="font-normal">the</span> Community</h2>
+                    <p class="alt-body">
+                        Our intent is to promote a soul of collective living where our members actively participate in
+                        events, socialize in designated places and a well designed exploratory path, share their time,
+                        knowledge and expertise for active social enhancement and the cultural progress of the
+                        community. Naandians live together and work collectively for the sustenance of their home.
+                    </p>
+                    <div class="mb-8"></div>
+                </div>
+            </ImageContentComponent>
+        </div>
 
-
-                <div class="flex flex-wrap feature-list">
-                    <div class="w-full lg:w-7/12 text-block">
-                        <div class="feature">
-                            <div class="icon h-10 w-10 bg-blue-200">
-                            </div>
-                            <p class="alt-body">
-                                Rurban way of living that combines the advantages of an urban settlement with the
-                                goodness of rural living.
-                            </p>
-                        </div>
-                        <div class="feature">
-                            <div class="icon h-10 w-10 bg-blue-200">
-                            </div>
-                            <p class="alt-body">
-                                An ever evolving community that shares the responsibility of maintaining a sustainable
-                                living experience, collectively.
-                            </p>
-                        </div>
-                        <div class="feature">
-                            <div class="icon h-10 w-10 bg-blue-200">
-                            </div>
-                            <p class="alt-body">
-                                Modern technology, Superior design, advanced construction using sustainable materials
-                                free from hazardous material.
-                            </p>
-                        </div>
-                        <div class="feature">
-                            <div class="icon h-10 w-10 bg-blue-200">
-                            </div>
-                            <p class="alt-body">
-                                Sustainability and triple-bottom line focus on all fronts while aligning and
-                                collaborating holistically with all stakeholders.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="w-full lg:w-5/12 hide-on-mobile image-block">
-                        <div class="image"></div>
-                        <div class="v-buttons-group">
-                            <a class="lg-button" href="#">Register for a Tour</a>
-                            <a class="lg-button" href="#">Request floor plans</a>
-                            <a class="lg-button" href="#">Contact us</a>
-                        </div>
-                    </div>
+        <section>
+            <div class="container mx-auto content-section">
+                <h2 class="mb-8">Our Home</h2>
+                <div class="max-w-4xl">
+                    <h3 class="font-normal">
+                        We have Incorporated the latest in high-performance building science and home technology. Every
+                        home skillfully combines the outdoor and indoor space to create an experience of being
+                        integrated with the environment around it.
+                    </h3>
+                    <div class="mb-6"></div>
+                    <h3 class="font-normal">
+                        With open halls, large windows, sliding doors facing the farm, terrace, patios and deep
+                        balconies, whether its where you live or visit to get away, Naandi’s the perfect place to relax,
+                        let go and take a dip in nature.
+                    </h3>
+                    <div class="mb-8"></div>
+                </div>
+            </div>
+            <div class="home-images">
+                <div class="flex flex-wrap">
+                    <div class="w-full lg:w-1/2 image-container"></div>
+                    <div class="w-full lg:w-1/2 image-container"></div>
+                    <div class="w-full lg:w-1/2 image-container"></div>
+                    <div class="w-full lg:w-1/2 image-container"></div>
                 </div>
             </div>
         </section>
+
 
         <section>
             <SliderComponent></SliderComponent>
         </section>
 
-        <section id="amenities">
+        <section id="amenities" class="content-section">
             <div class="container mx-auto">
                 <div class="intro-text">
                     <h2>Amenities &amp; Attractions</h2>
-
-                    <p class="alt-body">Venues were designed to foster interfamilial relationships amongst our many
-                        neighbors and to
-                        encourage inter-generational learning and bonding across all age groups within the Naandian
-                        family.
-                        Many of the venues are focused on personal and group well being, growth and skill
-                        development.</p>
                 </div>
 
 
@@ -306,7 +328,7 @@
             }
         },
         methods: {
-            showMoreDetails: function() {
+            showMoreDetails: function () {
                 console.log("fired");
                 this.more_content = true;
             }

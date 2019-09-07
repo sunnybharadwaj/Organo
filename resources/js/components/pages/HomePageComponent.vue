@@ -112,41 +112,25 @@
             </div>
         </section>
 
-        <section id="naandi-section">
-            <div class="section-wrapper">
+        <ImageContentComponent>
+            <div slot="image" class="wide-image"></div>
+            <div slot="content">
 
-                <img class="w-full wide-image" :src="'/static/images/entertainment_center.jpg'" alt="">
-
-                <div class="container mx-auto">
-                    <div class="flex flex-wrap">
-                        <div class="flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 ">
-                            <div class="content-block">
-                                <div class="pt-12 lg:pt-6"></div>
-                                <h2>A way of life for the passionate and conscientious.</h2>
-                                <p>Privacy of your own villa, the lifestyle of a plush natural resort, the security of a
-                                    gated community, the advantage of like-minded people and above all, the unmatched joy of
-                                    healthy and sustainable living. Organo’s Naandi works splendidly as your primary
-                                    residence as well as a weekend farm-house; All while having the opportunity to
-                                    experience Nature to its fullest. Experience the manifestation of our first step towards
-                                    building self-sustainable eco-habitats.</p>
-                                <div class="mb-8"></div>
-                                <div class="cta-links">
-                                    <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div>
-                                    <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12">
-                            <div class="slider-container">
-                                <!--<img :src="'/static/images/entertainment_center.jpg'" alt="">-->
-                            </div>
-
-                        </div>
-                    </div>
+                <h2 class="mb-4">A way of life for the passionate and conscious.</h2>
+                <p>Privacy of your own villa, the lifestyle of a plush natural resort, the security of a
+                    gated community, the advantage of like-minded people and above all, the unmatched joy of
+                    healthy and sustainable living. Organo’s Naandi works splendidly as your primary
+                    residence as well as a weekend farm-house; All while having the opportunity to
+                    experience Nature to its fullest. Experience the manifestation of our first step towards
+                    building self-sustainable eco-habitats.</p>
+                <div class="mb-8"></div>
+                <div class="cta-links">
+                    <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div>
+                    <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
                 </div>
-
             </div>
-        </section>
+        </ImageContentComponent>
+
 
         <section id="home-slider" class="bg-gray-200">
             <SliderComponent>
@@ -169,8 +153,16 @@
             <TestimonialsComponent></TestimonialsComponent>
         </section>
 
-        <section id="home-school" class="">
-            <SchoolCTAComponent></SchoolCTAComponent>
+        <section id="home-school" class="school-cta-component">
+            <FeatureComponent>
+                <slot>
+                    <h1 class="mb-4">Organo@School</h1>
+                    <h2 class="max-w-4xl">A life changing and enriching experience for the global citizens of
+                        tomorrow.</h2>
+                    <div class="mb-4"></div>
+                    <div class="lg-button">Find out more</div>
+                </slot>
+            </FeatureComponent>
         </section>
     </div>
 

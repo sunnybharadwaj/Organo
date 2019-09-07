@@ -1,5 +1,5 @@
 <template>
-    <div class="testimonial-component">
+    <div class="testimonial-component hidden">
         <div class="container mx-auto">
             <div class="flex flex-wrap testimonial">
                 <div class="w-full lg:w-5/12 image-wrapper ">

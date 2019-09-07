@@ -11964,16 +11964,63 @@ p {
   }
 }
 
+@media (min-width: 1280px) {
+  .image-content-list .image-content-component {
+    margin-bottom: 80px;
+  }
+
+  .image-content-list .image-content-component:nth-child(even) .content-wrapper {
+    flex-direction: row-reverse;
+  }
+
+  .image-content-list .image-content-component:nth-child(even) .content-wrapper .content-block {
+    margin-right: 0;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .image-content-list .image-content-component:nth-child(even) .content-wrapper .slider-container {
+    right: auto;
+    left: 0;
+  }
+}
+
+.school-cta-component .feature-component .image-background {
+  background-image: url("/static/images/school_styled.jpg") !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+.eco-habitat-cta-component .feature-component .image-background {
+  background-image: url("/static/images/eco_cta.jpg") !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
 .feature-component {
   position: relative;
   overflow: hidden;
 }
 
-.feature-component img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+.feature-component .image-background {
+  background-image: url("/static/images/entertainment_center.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
 }
 
 .feature-component .image-container {
@@ -12214,7 +12261,6 @@ nav .full-screen-nav .lg-button {
 
 #footer-links .footer-contact .phone h3 {
   opacity: 0.9;
-  margin-right: 60px;
   position: relative;
 }
 
@@ -12496,10 +12542,6 @@ textarea {
 @media (max-width: 640px) {
   #home-slider, #home-testimonials {
     margin: 0 !important;
-  }
-
-  #home-school {
-    margin-top: 60px;
   }
 
   #home-page .hero-bg .content-block {
@@ -12908,54 +12950,45 @@ textarea {
   }
 }
 
-#eco-habitat-page .hero-bg {
-  height: 100vh;
+#eco-habitat-page h1 {
+  margin-bottom: 10px;
 }
 
-#eco-habitat-page .hero-bg .container {
-  position: relative;
-  height: 100vh;
+#eco-habitat-page .pronunciation {
+  opacity: 0.7;
+  margin-bottom: 10px;
 }
 
-#eco-habitat-page .hero-bg .container .wrapper {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 60px;
+#eco-habitat-page .image-content-list .image-content-component:nth-child(1) .slider-container {
+  background: url("/static/images/ecohabitat/1.jpg") center no-repeat;
 }
 
-#eco-habitat-page .hero-bg .content-block {
-  background: rgba(255, 255, 255, 0.71);
-  position: absolute;
-  bottom: 40px;
-  left: 40px;
-  padding: 20px 30px;
-  max-width: 800px;
+#eco-habitat-page .image-content-list .image-content-component:nth-child(1) .wide-image {
+  background-image: url("/static/images/ecohabitat/1.jpg");
 }
 
-#eco-habitat-page .hero-bg .intro {
-  padding: 0;
+#eco-habitat-page .image-content-list .image-content-component:nth-child(2) .slider-container {
+  background: url("/static/images/ecohabitat/2.jpg") center no-repeat;
 }
 
-#eco-habitat-page .hero-bg h1 {
-  margin-bottom: 20px;
+#eco-habitat-page .image-content-list .image-content-component:nth-child(2) .wide-image {
+  background-image: url("/static/images/ecohabitat/2.jpg");
 }
 
-#eco-habitat-page .hero-bg h3 {
-  margin-bottom: 30px;
+#eco-habitat-page .image-content-list .image-content-component:nth-child(3) .slider-container {
+  background: url("/static/images/ecohabitat/3.jpg") center no-repeat;
 }
 
-#eco-habitat-page .hero-bg .sub {
-  max-width: 480px;
-  font-weight: normal;
+#eco-habitat-page .image-content-list .image-content-component:nth-child(3) .wide-image {
+  background-image: url("/static/images/ecohabitat/3.jpg");
 }
 
-#eco-habitat-page .eco-habitat-features {
-  padding: 40px 0;
+#eco-habitat-page .image-content-list .image-content-component:nth-child(4) .slider-container {
+  background: url("/static/images/ecohabitat/4.jpeg") center no-repeat;
 }
 
-#eco-habitat-page .eco-habitat-features .feature {
-  padding-right: 2.5%;
+#eco-habitat-page .image-content-list .image-content-component:nth-child(4) .wide-image {
+  background-image: url("/static/images/ecohabitat/4.jpeg");
 }
 
 #sapthapatha .lg-button {
@@ -13015,6 +13048,10 @@ textarea {
 }
 
 @media (max-width: 640px) {
+  .sustainable-strand h3 {
+    font-size: 20px !important;
+  }
+
   #eco-habitat-page .hero-bg .content-block {
     width: 100%;
     top: 450px;
@@ -13041,6 +13078,49 @@ textarea {
   #eco-habitat-testimonials {
     margin: 0 !important;
   }
+}
+
+@media (max-width: 1240px) {
+  .sustainable-strand h3 {
+    font-size: 27px;
+  }
+}
+
+#naandi-page .home-images {
+  padding: 40px 0px 0;
+}
+
+@media (min-width: 1280px) {
+  #naandi-page .home-images {
+    padding: 80px 20px 0;
+  }
+}
+
+#naandi-page .home-images .flex .image-container {
+  min-height: 400px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+#naandi-page .home-images .flex .image-container:nth-child(1) {
+  background-image: url("/static/images/naandi/home/1.jpg");
+}
+
+#naandi-page .home-images .flex .image-container:nth-child(2) {
+  background-image: url("/static/images/naandi/home/2.jpg");
+}
+
+#naandi-page .home-images .flex .image-container:nth-child(3) {
+  background-image: url("/static/images/naandi/home/3.jpg");
+}
+
+#naandi-page .home-images .flex .image-container:nth-child(4) {
+  background-image: url("/static/images/naandi/home/4.jpg");
 }
 
 #naandi-page #about-project .about-naandi {
@@ -13087,54 +13167,44 @@ textarea {
   margin: 0;
 }
 
-#naandi-page #naandi-features .intro-text {
-  max-width: 1000px;
-  margin-bottom: 60px;
+#naandi-page .image-content-list .image-content-component:nth-child(1) .slider-container {
+  background: url("/static/images/naandi/1.jpg") center no-repeat;
 }
 
-#naandi-page #naandi-features .intro-text h2 {
-  margin-bottom: 20px;
+#naandi-page .image-content-list .image-content-component:nth-child(1) .wide-image {
+  background-image: url("/static/images/naandi/1.jpg");
 }
 
-#naandi-page #naandi-features .intro-text p {
-  font-weight: normal;
+#naandi-page .image-content-list .image-content-component:nth-child(2) .slider-container {
+  background: url("/static/images/naandi/2.jpg") center no-repeat;
 }
 
-#naandi-page #naandi-features .feature-list {
-  padding-bottom: 60px;
+#naandi-page .image-content-list .image-content-component:nth-child(2) .wide-image {
+  background-image: url("/static/images/naandi/2.jpg");
 }
 
-#naandi-page #naandi-features .feature-list .text-block .feature {
-  margin-bottom: 40px;
+#naandi-page .image-content-list .image-content-component:nth-child(3) .slider-container {
+  background: url("/static/images/naandi/3.jpg") center no-repeat;
 }
 
-#naandi-page #naandi-features .feature-list .text-block .feature .icon {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 15px;
+#naandi-page .image-content-list .image-content-component:nth-child(3) .wide-image {
+  background-image: url("/static/images/naandi/3.jpg");
 }
 
-#naandi-page #naandi-features .feature-list .text-block .feature p {
-  max-width: 550px;
+#naandi-page .image-content-list .image-content-component:nth-child(4) .slider-container {
+  background: url("/static/images/naandi/4.jpg") center no-repeat;
 }
 
-#naandi-page #naandi-features .feature-list .image-block .image {
-  height: 69%;
-  background: gray;
-  margin-bottom: 80px;
+#naandi-page .image-content-list .image-content-component:nth-child(4) .wide-image {
+  background-image: url("/static/images/naandi/4.jpg");
 }
 
 #naandi-page #amenities .intro-text {
   max-width: 1000px;
-  margin-bottom: 60px;
 }
 
 #naandi-page #amenities .intro-text h2 {
   margin-bottom: 20px;
-}
-
-#naandi-page #amenities .intro-text p {
-  font-weight: normal;
 }
 
 #naandi-page #amenities .filter-buttons {
@@ -13213,6 +13283,12 @@ textarea {
   }
 }
 
+@media (min-width: 1240px) {
+  .content-section h2 {
+    font-size: 61px;
+  }
+}
+
 #school-page .video-header-component h1 {
   font-size: 47px !important;
 }
@@ -13261,10 +13337,6 @@ textarea {
 
   #school-page p.alt-body {
     font-size: 23px;
-  }
-
-  #school-page .image-content-component {
-    margin-bottom: 40px;
   }
 }
 
@@ -13328,8 +13400,10 @@ textarea {
   }
 }
 
-#contact-page .map-block {
-  padding-right: 60px;
+@media (min-width: 1024px) {
+  #contact-page .map-block {
+    padding-right: 60px;
+  }
 }
 
 #contact-page .map-block h2 {
@@ -13385,9 +13459,23 @@ textarea {
   text-align: center;
 }
 
+#contact-page .location .address {
+  padding-right: 10px;
+}
+
+#contact-page .location .address .text-content {
+  font-size: 15px !important;
+}
+
 #contact-page-form {
-  padding: 100px;
+  padding: 100px 0;
   background: rgba(243, 240, 240, 0.62);
+}
+
+@media (min-width: 1024px) {
+  #contact-page-form {
+    padding: 100px;
+  }
 }
 
 #contact-page-form p.alt-body {

@@ -1,5 +1,5 @@
 <template>
-    <div class="slider-component owl-carousel">
+    <div class="slider-component owl-carousel hidden">
 
         <slot></slot>
     </div>

@@ -1,46 +1,68 @@
 #eco-habitat-page {
-  .hero-bg {
-    .container {
-      position: relative;
-      height: 100vh;
-      .wrapper {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 60px;
-      }
-    }
-    height: 100vh;
-    .content-block {
-      background: rgba(255, 255, 255, 0.71);
-      position: absolute;
-      bottom: 40px;
-      left: 40px;
-      padding: 20px 30px;
-      max-width: 800px;
-    }
 
-    .intro {
-      padding: 0;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    h3 {
-      margin-bottom: 30px;
-    }
-    .sub {
-      max-width: 480px;
-      font-weight: normal;
-    }
+  h1 {
+    margin-bottom: 10px;
   }
 
-  .eco-habitat-features {
-    padding: 40px 0;
+  .pronunciation {
+    opacity: 0.7;
+    margin-bottom: 10px;
+  }
 
-    .feature {
-      padding-right: 2.5%;
+  .image-content-list {
+    .image-content-component:nth-child(1) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/ecohabitat/1.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/ecohabitat/1.jpg');
+      }
     }
+    .image-content-component:nth-child(2) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/ecohabitat/2.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/ecohabitat/2.jpg');
+      }
+    }
+    .image-content-component:nth-child(3) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/ecohabitat/3.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/ecohabitat/3.jpg');
+      }
+    }
+    .image-content-component:nth-child(4) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/ecohabitat/4.jpeg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/ecohabitat/4.jpeg');
+      }
+    }
+
   }
 }
 
@@ -49,13 +71,13 @@
     max-width: 800px;
     margin: 80px auto;
     text-align: center;
-    line-height:1.5;
+    line-height: 1.5;
   }
 
   .intro {
     max-width: 850px;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 
     h2 {
       margin-bottom: 10px;
@@ -99,11 +121,18 @@
   }
 }
 
+
+
 @media (max-width: 640px) {
+  .sustainable-strand {
+    h3 {
+      font-size: 20px !important;
+    }
+  }
   #eco-habitat-page {
     .hero-bg .content-block {
       width: 100%;
-      top:450px;
+      top: 450px;
       left: 0;
       margin: 0;
     }
@@ -127,5 +156,15 @@
 
   #eco-habitat-testimonials {
     margin: 0 !important;
+  }
+
+
+}
+
+@media (max-width: 1240px) {
+  .sustainable-strand {
+    h3 {
+      font-size: 27px;
+    }
   }
 }

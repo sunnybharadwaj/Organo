@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="school-cta ">
+        <div class="school-cta hidden">
             <div class="bg-container">
                 <img :src="'/static/images/school_styled.jpg'" alt="">
             </div>
@@ -14,7 +14,6 @@
                     <div class="lg-button text-center"><span class="text">Learn More</span></div>
                 </div>
             </div>
-
         </div>
     </div>
 </template>

@@ -1,5 +1,34 @@
 #naandi-page {
 
+  .home-images {
+    padding: 40px 0px 0;
+    @media (min-width: 1280px) {
+      padding: 80px 20px 0;
+    }
+
+    .flex .image-container {
+      min-height: 400px;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-origin: padding-box;
+      background-clip: border-box;
+      background-color: #ccc;
+      &:nth-child(1) {
+        background-image: url('/static/images/naandi/home/1.jpg');
+      }
+      &:nth-child(2) {
+        background-image: url('/static/images/naandi/home/2.jpg');
+      }
+      &:nth-child(3) {
+        background-image: url('/static/images/naandi/home/3.jpg');
+      }
+      &:nth-child(4) {
+        background-image: url('/static/images/naandi/home/4.jpg');
+      }
+    }
+  }
   #about-project {
     .about-naandi {
       margin: 0;
@@ -41,53 +70,73 @@
     }
   }
 
-  #naandi-features {
-    .intro-text {
-      max-width: 1000px;
-      margin-bottom: 60px;
-      h2 {
-        margin-bottom: 20px;
+
+
+  .image-content-list {
+    .image-content-component:nth-child(1) {
+      .feature-component {
+        .image-background {
+
+        }
       }
-      p {
-        font-weight: normal;
+      .slider-container {
+        background: url('/static/images/naandi/1.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/naandi/1.jpg');
+      }
+    }
+    .image-content-component:nth-child(2) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/naandi/2.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/naandi/2.jpg');
+      }
+    }
+    .image-content-component:nth-child(3) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/naandi/3.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/naandi/3.jpg');
+      }
+    }
+    .image-content-component:nth-child(4) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/naandi/4.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/naandi/4.jpg');
       }
     }
 
-    .feature-list {
-      padding-bottom: 60px;
-      .text-block {
-        .feature {
-          margin-bottom: 40px;
-          .icon {
-            width: 60px;
-            height: 60px;
-            margin-bottom: 15px;
-          }
-          p {
-            max-width: 550px;
-          }
-        }
-      }
 
-      .image-block {
-        .image {
-          height: 69%;
-          background: gray;
-          margin-bottom: 80px;
-        }
-      }
-    }
   }
+
+
 
   #amenities {
     .intro-text {
       max-width: 1000px;
-      margin-bottom: 60px;
+
       h2 {
         margin-bottom: 20px;
-      }
-      p {
-        font-weight: normal;
       }
     }
 
@@ -165,5 +214,14 @@
 @media (max-width: 640px){
   section#amenities {
     margin-bottom: 0 !important;
+  }
+
+}
+
+@media(min-width: 1240px) {
+  .content-section {
+    h2 {
+      font-size: 61px;
+    }
   }
 }
