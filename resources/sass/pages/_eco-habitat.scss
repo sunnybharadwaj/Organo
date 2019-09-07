@@ -66,6 +66,20 @@
   }
 }
 
+#sustainability {
+  @media (max-width: 640px) {
+    .sustainable-strand {
+      .py-12 {
+        padding-top: 0;
+      }
+      img {
+        max-width:200px !important;
+      }
+    }
+
+  }
+}
+
 #sapthapatha {
   .lg-button {
     max-width: 800px;

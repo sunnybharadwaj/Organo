@@ -13006,6 +13006,16 @@ textarea {
   background-image: url("/static/images/ecohabitat/4.jpeg");
 }
 
+@media (max-width: 640px) {
+  #sustainability .sustainable-strand .py-12 {
+    padding-top: 0;
+  }
+
+  #sustainability .sustainable-strand img {
+    max-width: 200px !important;
+  }
+}
+
 #sapthapatha .lg-button {
   max-width: 800px;
   margin: 80px auto;

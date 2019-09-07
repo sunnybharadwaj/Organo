@@ -22824,7 +22824,7 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c("section", { attrs: { id: "sustainabiliy" } }, [
+      _c("section", { attrs: { id: "sustainability" } }, [
         _c("div", { staticClass: "container mx-auto" }, [
           _vm._m(1),
           _vm._v(" "),
@@ -22834,7 +22834,7 @@ var render = function() {
             _c("div", { staticClass: "flex flex-wrap" }, [
               _vm._m(2),
               _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
+              _c("div", { staticClass: "w-full md:w-2/12" }, [
                 _c("img", {
                   attrs: { src: "/static/sapthapatha/food.png", alt: "" }
                 })
@@ -22846,7 +22846,7 @@ var render = function() {
             _c("div", { staticClass: "flex flex-wrap" }, [
               _vm._m(3),
               _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
+              _c("div", { staticClass: "w-full md:w-2/12" }, [
                 _c("img", {
                   attrs: { src: "/static/sapthapatha/water.png", alt: "" }
                 })
@@ -22858,7 +22858,7 @@ var render = function() {
             _c("div", { staticClass: "flex flex-wrap" }, [
               _vm._m(4),
               _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
+              _c("div", { staticClass: "w-full md:w-2/12" }, [
                 _c("img", {
                   attrs: { src: "/static/sapthapatha/air.png", alt: "" }
                 })
@@ -22870,7 +22870,7 @@ var render = function() {
             _c("div", { staticClass: "flex flex-wrap" }, [
               _vm._m(5),
               _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
+              _c("div", { staticClass: "w-full md:w-2/12" }, [
                 _c("img", {
                   attrs: { src: "/static/sapthapatha/earth.png", alt: "" }
                 })
@@ -22882,7 +22882,7 @@ var render = function() {
             _c("div", { staticClass: "flex flex-wrap" }, [
               _vm._m(6),
               _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
+              _c("div", { staticClass: "w-full md:w-2/12" }, [
                 _c("img", {
                   attrs: { src: "/static/sapthapatha/energy.png", alt: "" }
                 })
@@ -22894,7 +22894,7 @@ var render = function() {
             _c("div", { staticClass: "flex flex-wrap" }, [
               _vm._m(7),
               _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
+              _c("div", { staticClass: "w-full md:w-2/12" }, [
                 _c("img", {
                   attrs: { src: "/static/sapthapatha/shelter.png", alt: "" }
                 })
@@ -22906,7 +22906,7 @@ var render = function() {
             _c("div", { staticClass: "flex flex-wrap" }, [
               _vm._m(8),
               _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
+              _c("div", { staticClass: "w-full md:w-2/12" }, [
                 _c("img", {
                   attrs: { src: "/static/sapthapatha/people.png", alt: "" }
                 })
@@ -23170,7 +23170,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
+    return _c("div", { staticClass: "w-full md:w-10/12" }, [
       _c("div", { staticClass: "max-w-4xl" }, [
         _c("div", { staticClass: "py-12" }, [
           _c("h3", { staticClass: "font-normal" }, [
@@ -23188,7 +23188,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
+    return _c("div", { staticClass: "w-full md:w-10/12" }, [
       _c("div", { staticClass: "max-w-4xl" }, [
         _c("div", { staticClass: "py-12" }, [
           _c("h3", { staticClass: "font-normal" }, [
@@ -23206,7 +23206,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
+    return _c("div", { staticClass: "w-full md:w-10/12" }, [
       _c("div", { staticClass: "max-w-4xl" }, [
         _c("div", { staticClass: "py-12" }, [
           _c("h3", { staticClass: "font-normal" }, [
@@ -23222,7 +23222,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
+    return _c("div", { staticClass: "w-full md:w-10/12" }, [
       _c("div", { staticClass: "max-w-4xl" }, [
         _c("div", { staticClass: "py-12" }, [
           _c("h3", { staticClass: "font-normal" }, [
@@ -23240,7 +23240,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
+    return _c("div", { staticClass: "w-full md:w-10/12" }, [
       _c("div", { staticClass: "max-w-4xl" }, [
         _c("div", { staticClass: "py-12" }, [
           _c("h3", { staticClass: "font-normal" }, [
@@ -23258,7 +23258,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
+    return _c("div", { staticClass: "w-full md:w-10/12" }, [
       _c("div", { staticClass: "max-w-4xl" }, [
         _c("div", { staticClass: "py-12" }, [
           _c("h3", { staticClass: "font-normal" }, [
@@ -23276,7 +23276,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
+    return _c("div", { staticClass: "w-full md:w-10/12" }, [
       _c("div", { staticClass: "max-w-4xl" }, [
         _c("div", { staticClass: "py-12" }, [
           _c("h3", { staticClass: "font-normal" }, [

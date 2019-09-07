@@ -118,7 +118,7 @@
 
 
 
-        <section id="sustainabiliy">
+        <section id="sustainability">
             <div class="container mx-auto">
                 <div class="max-w-5xl">
                     <h2 class="max-w-4xl mb-8">
@@ -135,7 +135,7 @@
                 <div class="mb-6"></div>
                 <div class="sustainable-strand">
                     <div class="flex flex-wrap">
-                        <div class="w-10/12">
+                        <div class="w-full md:w-10/12">
                             <div class="max-w-4xl">
                                 <div class="py-12">
                                     <h3 class="font-normal">Creating healthy source of nutrition through <span class="font-bold">food</span> / produce grown using organic
@@ -143,56 +143,56 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="w-2/12">
+                        <div class="w-full md:w-2/12">
                             <img :src="'/static/sapthapatha/food.png'" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="sustainable-strand">
                     <div class="flex flex-wrap">
-                        <div class="w-10/12">
+                        <div class="w-full md:w-10/12">
                             <div class="max-w-4xl">
                                 <div class="py-12">
                                     <h3 class="font-normal">Employ advanced scientific procedures of conservation and treatment of <span class="font-bold">water</span> and regularly monitor overall consumption vs production.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-2/12">
+                        <div class="w-full md:w-2/12">
                             <img :src="'/static/sapthapatha/water.png'" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="sustainable-strand">
                     <div class="flex flex-wrap">
-                        <div class="w-10/12">
+                        <div class="w-full md:w-10/12">
                             <div class="max-w-4xl">
                                 <div class="py-12">
                                     <h3 class="font-normal">An endless supply of fresh air wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-2/12">
+                        <div class="w-full md:w-2/12">
                             <img :src="'/static/sapthapatha/air.png'" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="sustainable-strand">
                     <div class="flex flex-wrap">
-                        <div class="w-10/12">
+                        <div class="w-full md:w-10/12">
                             <div class="max-w-4xl">
                                 <div class="py-12">
                                     <h3 class="font-normal">Protect the <span class="font-bold">Earth</span> by preserving soil health by using organic methods and fertilizers, employ necessary waste management and recycling processes.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-2/12">
+                        <div class="w-full md:w-2/12">
                             <img :src="'/static/sapthapatha/earth.png'" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="sustainable-strand">
                     <div class="flex flex-wrap">
-                        <div class="w-10/12">
+                        <div class="w-full md:w-10/12">
                             <div class="max-w-4xl">
                                 <div class="py-12">
                                     <h3 class="font-normal">
@@ -201,35 +201,35 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="w-2/12">
+                        <div class="w-full md:w-2/12">
                             <img :src="'/static/sapthapatha/energy.png'" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="sustainable-strand">
                     <div class="flex flex-wrap">
-                        <div class="w-10/12">
+                        <div class="w-full md:w-10/12">
                             <div class="max-w-4xl">
                                 <div class="py-12">
                                     <h3 class="font-normal">Create <span class="font-bold">Shelter</span> within nature while maintaining bio-diversity. Open yet personal living spaces and wide communal spaces incorporating comforts of this day and age.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-2/12">
+                        <div class="w-full md:w-2/12">
                             <img :src="'/static/sapthapatha/shelter.png'" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="sustainable-strand">
                     <div class="flex flex-wrap">
-                        <div class="w-10/12">
+                        <div class="w-full md:w-10/12">
                             <div class="max-w-4xl">
                                 <div class="py-12">
                                     <h3 class="font-normal">Encourage a community of <span class="font-bold">People</span> who live together responsibly, share their time, knowledge and expertise towards co-creating and sustaining the environment around them.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-2/12">
+                        <div class="w-full md:w-2/12">
                             <img :src="'/static/sapthapatha/people.png'" alt="">
                         </div>
                     </div>
