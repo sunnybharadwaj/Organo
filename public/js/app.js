@@ -2635,6 +2635,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("screenName");
@@ -22846,7 +22860,7 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "w-2/12" }, [
                 _c("img", {
-                  attrs: { src: "/static/sapthapatha/earth.png", alt: "" }
+                  attrs: { src: "/static/sapthapatha/air.png", alt: "" }
                 })
               ])
             ])
@@ -22858,7 +22872,7 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "w-2/12" }, [
                 _c("img", {
-                  attrs: { src: "/static/sapthapatha/energy.png", alt: "" }
+                  attrs: { src: "/static/sapthapatha/earth.png", alt: "" }
                 })
               ])
             ])
@@ -22870,7 +22884,7 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "w-2/12" }, [
                 _c("img", {
-                  attrs: { src: "/static/sapthapatha/shelter.png", alt: "" }
+                  attrs: { src: "/static/sapthapatha/energy.png", alt: "" }
                 })
               ])
             ])
@@ -22879,6 +22893,18 @@ var render = function() {
           _c("div", { staticClass: "sustainable-strand" }, [
             _c("div", { staticClass: "flex flex-wrap" }, [
               _vm._m(7),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-2/12" }, [
+                _c("img", {
+                  attrs: { src: "/static/sapthapatha/shelter.png", alt: "" }
+                })
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "sustainable-strand" }, [
+            _c("div", { staticClass: "flex flex-wrap" }, [
+              _vm._m(8),
               _vm._v(" "),
               _c("div", { staticClass: "w-2/12" }, [
                 _c("img", {
@@ -22891,7 +22917,7 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("section", { staticClass: "hidden", attrs: { id: "sapthapatha" } }, [
-        _vm._m(8),
+        _vm._m(9),
         _vm._v(" "),
         _c("div", { staticClass: "strands-wrapper" }, [
           _c("div", { staticClass: "flex flex-wrap strands-desc" }, [
@@ -22899,22 +22925,6 @@ var render = function() {
               _c("div", { staticClass: "icon" }, [
                 _c("img", {
                   attrs: { src: "/static/sapthapatha/food.png", alt: "" }
-                })
-              ]),
-              _vm._v(" "),
-              _vm._m(9),
-              _vm._v(" "),
-              _c("div", { staticClass: "description" }, [
-                _vm._v(
-                  "You are what you eat. Spreading the joy of natural growing and organic\n                        farming practices makes Organo Naandi healthier.\n                    "
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "w-full md:w-1/2 lg:w-1/4 strand" }, [
-              _c("div", { staticClass: "icon" }, [
-                _c("img", {
-                  attrs: { src: "/static/sapthapatha/water.png", alt: "" }
                 })
               ]),
               _vm._v(" "),
@@ -22930,7 +22940,7 @@ var render = function() {
             _c("div", { staticClass: "w-full md:w-1/2 lg:w-1/4 strand" }, [
               _c("div", { staticClass: "icon" }, [
                 _c("img", {
-                  attrs: { src: "/static/sapthapatha/air.png", alt: "" }
+                  attrs: { src: "/static/sapthapatha/water.png", alt: "" }
                 })
               ]),
               _vm._v(" "),
@@ -22946,11 +22956,27 @@ var render = function() {
             _c("div", { staticClass: "w-full md:w-1/2 lg:w-1/4 strand" }, [
               _c("div", { staticClass: "icon" }, [
                 _c("img", {
-                  attrs: { src: "/static/sapthapatha/earth.png", alt: "" }
+                  attrs: { src: "/static/sapthapatha/air.png", alt: "" }
                 })
               ]),
               _vm._v(" "),
               _vm._m(12),
+              _vm._v(" "),
+              _c("div", { staticClass: "description" }, [
+                _vm._v(
+                  "You are what you eat. Spreading the joy of natural growing and organic\n                        farming practices makes Organo Naandi healthier.\n                    "
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "w-full md:w-1/2 lg:w-1/4 strand" }, [
+              _c("div", { staticClass: "icon" }, [
+                _c("img", {
+                  attrs: { src: "/static/sapthapatha/earth.png", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _vm._m(13),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -22968,7 +22994,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(13),
+              _vm._m(14),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -22984,7 +23010,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(14),
+              _vm._m(15),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -23000,7 +23026,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(15),
+              _vm._m(16),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -23011,7 +23037,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _vm._m(16)
+        _vm._m(17)
       ]),
       _vm._v(" "),
       _c(
@@ -23073,7 +23099,7 @@ var render = function() {
                           )
                         ]),
                         _vm._v(" "),
-                        _vm._m(17)
+                        _vm._m(18)
                       ],
                       1
                     )
@@ -23081,7 +23107,7 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(18)
+              _vm._m(19)
             ])
           ])
         ])
@@ -23108,7 +23134,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container mx-auto" }, [
         _c("h2", { staticClass: "font-normal" }, [
           _vm._v(
-            "\n                At Organo, we create eco-habitats at the intersection between rural and urban experiences, offering\n                a way to live a life integrated with nature, to help build sustainable communities that care.\n            "
+            "\n                At Organo, we create eco-habitats at the intersection of rural and urban experiences, offering\n                a way to live a life integrated with nature, to help build sustainable communities that care.\n            "
           )
         ])
       ])
@@ -23171,6 +23197,22 @@ var staticRenderFns = [
             ),
             _c("span", { staticClass: "font-bold" }, [_vm._v("water")]),
             _vm._v(" and regularly monitor overall consumption vs production.")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-10/12" }, [
+      _c("div", { staticClass: "max-w-4xl" }, [
+        _c("div", { staticClass: "py-12" }, [
+          _c("h3", { staticClass: "font-normal" }, [
+            _vm._v(
+              "An endless supply of fresh air wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System."
+            )
           ])
         ])
       ])

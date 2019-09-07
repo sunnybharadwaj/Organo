@@ -64,7 +64,7 @@
         <section>
             <div class="container mx-auto">
                 <h2 class="font-normal">
-                    At Organo, we create eco-habitats at the intersection between rural and urban experiences, offering
+                    At Organo, we create eco-habitats at the intersection of rural and urban experiences, offering
                     a way to live a life integrated with nature, to help build sustainable communities that care.
                 </h2>
             </div>
@@ -159,6 +159,20 @@
                         </div>
                         <div class="w-2/12">
                             <img :src="'/static/sapthapatha/water.png'" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="sustainable-strand">
+                    <div class="flex flex-wrap">
+                        <div class="w-10/12">
+                            <div class="max-w-4xl">
+                                <div class="py-12">
+                                    <h3 class="font-normal">An endless supply of fresh air wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-2/12">
+                            <img :src="'/static/sapthapatha/air.png'" alt="">
                         </div>
                     </div>
                 </div>
