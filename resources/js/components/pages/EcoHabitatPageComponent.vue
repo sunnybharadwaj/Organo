@@ -339,8 +339,7 @@
                                     building self-sustainable eco-habitats.</p>
                                 <div class="mb-8"></div>
                                 <div class="cta-links">
-                                    <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span>
-                                    </div>
+                                    <router-link to="/naandi"><div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div></router-link>
                                     <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
                                 </div>
                             </div>

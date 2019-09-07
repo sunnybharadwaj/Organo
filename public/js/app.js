@@ -2635,7 +2635,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("screenName");
@@ -2875,9 +2874,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("screenName");
@@ -2915,8 +2911,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
 //
 //
 //
@@ -22141,7 +22135,11 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "mb-4" }),
               _vm._v(" "),
-              _c("div", { staticClass: "lg-button" }, [_vm._v("Find out more")])
+              _c("router-link", { attrs: { to: "/eco-habitats" } }, [
+                _c("div", { staticClass: "lg-button" }, [
+                  _vm._v("Find out more")
+                ])
+              ])
             ])
           ],
           2
@@ -22284,7 +22282,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "cta-v-group" }, [
+    return _c("div", { staticClass: "cta-v-group hidden" }, [
       _c("div", { staticClass: "container mx-auto" }, [
         _c("div", { staticClass: "cta" }, [
           _c("section", [
@@ -23033,7 +23031,59 @@ var render = function() {
             attrs: { src: "/static/images/entertainment_center.jpg", alt: "" }
           }),
           _vm._v(" "),
-          _vm._m(17)
+          _c("div", { staticClass: "container mx-auto" }, [
+            _c("div", { staticClass: "flex flex-wrap" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 "
+                },
+                [
+                  _c("div", { staticClass: "content-block" }, [
+                    _c("div", { staticClass: "pt-12 lg:pt-6" }),
+                    _vm._v(" "),
+                    _c("h2", [
+                      _vm._v(
+                        "A way of life for the passionate and conscientious."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Privacy of your own villa, the lifestyle of a plush natural resort, the security of a\n                                gated community, the advantage of like-minded people and above all, the unmatched\n                                joy of\n                                healthy and sustainable living. Organo’s Naandi works splendidly as your primary\n                                residence as well as a weekend farm-house; All while having the opportunity to\n                                experience Nature to its fullest. Experience the manifestation of our first step\n                                towards\n                                building self-sustainable eco-habitats."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mb-8" }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "cta-links" },
+                      [
+                        _c("router-link", { attrs: { to: "/naandi" } }, [
+                          _c(
+                            "div",
+                            { staticClass: "lg-button inline-block mr-8" },
+                            [
+                              _c("span", { staticClass: "text" }, [
+                                _vm._v("Explore Naandi")
+                              ])
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _vm._m(17)
+                      ],
+                      1
+                    )
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _vm._m(18)
+            ])
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -23272,52 +23322,22 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container mx-auto" }, [
-      _c("div", { staticClass: "flex flex-wrap" }, [
-        _c(
-          "div",
-          { staticClass: "flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 " },
-          [
-            _c("div", { staticClass: "content-block" }, [
-              _c("div", { staticClass: "pt-12 lg:pt-6" }),
-              _vm._v(" "),
-              _c("h2", [
-                _vm._v("A way of life for the passionate and conscientious.")
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Privacy of your own villa, the lifestyle of a plush natural resort, the security of a\n                                gated community, the advantage of like-minded people and above all, the unmatched\n                                joy of\n                                healthy and sustainable living. Organo’s Naandi works splendidly as your primary\n                                residence as well as a weekend farm-house; All while having the opportunity to\n                                experience Nature to its fullest. Experience the manifestation of our first step\n                                towards\n                                building self-sustainable eco-habitats."
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "mb-8" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "cta-links" }, [
-                _c("div", { staticClass: "lg-button inline-block mr-8" }, [
-                  _c("span", { staticClass: "text" }, [
-                    _vm._v("Explore Naandi")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "lg-button inline-block" }, [
-                  _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-                ])
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12"
-          },
-          [_c("div", { staticClass: "slider-container" })]
-        )
-      ])
+    return _c("div", { staticClass: "lg-button inline-block" }, [
+      _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12"
+      },
+      [_c("div", { staticClass: "slider-container" })]
+    )
   }
 ]
 render._withStripped = true
@@ -23565,10 +23585,6 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "button-block" }, [
-              _c("div", { staticClass: "lg-button inline-block mr-8" }, [
-                _c("span", { staticClass: "text" }, [_vm._v("Learn More")])
-              ]),
-              _vm._v(" "),
               _c("div", { staticClass: "lg-button inline-block" }, [
                 _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
               ])
@@ -23618,15 +23634,24 @@ var render = function() {
           _vm._v(" "),
           _c("div", { staticClass: "mb-8" }),
           _vm._v(" "),
-          _c("div", { staticClass: "cta-links" }, [
-            _c("div", { staticClass: "lg-button inline-block mr-8" }, [
-              _c("span", { staticClass: "text" }, [_vm._v("Explore Naandi")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "lg-button inline-block" }, [
-              _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-            ])
-          ])
+          _c(
+            "div",
+            { staticClass: "cta-links" },
+            [
+              _c("router-link", { attrs: { to: "/naandi" } }, [
+                _c("div", { staticClass: "lg-button inline-block mr-8" }, [
+                  _c("span", { staticClass: "text" }, [
+                    _vm._v("Explore Naandi")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "lg-button inline-block" }, [
+                _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
+              ])
+            ],
+            1
+          )
         ])
       ]),
       _vm._v(" "),
@@ -23694,8 +23719,10 @@ var render = function() {
                 _vm._v(" "),
                 _c("div", { staticClass: "mb-4" }),
                 _vm._v(" "),
-                _c("div", { staticClass: "lg-button" }, [
-                  _vm._v("Find out more")
+                _c("router-link", { attrs: { to: "/organo-at-school" } }, [
+                  _c("div", { staticClass: "lg-button" }, [
+                    _vm._v("Find out more")
+                  ])
                 ])
               ])
             ],
@@ -23994,10 +24021,6 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "button-block" }, [
-              _c("div", { staticClass: "lg-button inline-block mr-8" }, [
-                _c("span", { staticClass: "text" }, [_vm._v("Learn More")])
-              ]),
-              _vm._v(" "),
               _c("div", { staticClass: "lg-button inline-block" }, [
                 _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
               ])

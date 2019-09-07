@@ -1,4 +1,73 @@
 #school-page {
+
+  .image-content-list {
+    .image-content-component:nth-child(1) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/school/1.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/school/1.jpg');
+      }
+    }
+    .image-content-component:nth-child(2) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/school/2.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/school/2.jpg');
+      }
+    }
+    .image-content-component:nth-child(3) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/school/3.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/school/3.jpg');
+      }
+    }
+    .image-content-component:nth-child(4) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/school/4.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/school/4.jpg');
+      }
+    }
+    .image-content-component:nth-child(5) {
+      .feature-component {
+        .image-background {
+
+        }
+      }
+      .slider-container {
+        background: url('/static/images/school/5.jpg') center no-repeat;
+      }
+      .wide-image {
+        background-image: url('/static/images/school/5.jpg');
+      }
+    }
+
+  }
   .video-header-component {
 
     h1 {

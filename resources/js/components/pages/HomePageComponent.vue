@@ -50,9 +50,6 @@
                 <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
                     into the natural world, supportive of a healthy way of living.</p>
                 <div class="button-block">
-                    <div class="lg-button inline-block mr-8">
-                        <span class="text">Learn More</span>
-                    </div>
                     <div class="lg-button inline-block">
                         <span class="text">Watch Video</span>
                     </div>
@@ -125,7 +122,7 @@
                     building self-sustainable eco-habitats.</p>
                 <div class="mb-8"></div>
                 <div class="cta-links">
-                    <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div>
+                    <router-link to="/naandi"><div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div></router-link>
                     <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
                 </div>
             </div>
@@ -160,7 +157,7 @@
                     <h2 class="max-w-4xl">A life changing and enriching experience for the global citizens of
                         tomorrow.</h2>
                     <div class="mb-4"></div>
-                    <div class="lg-button">Find out more</div>
+                    <router-link to="/organo-at-school"><div class="lg-button">Find out more</div></router-link>
                 </slot>
             </FeatureComponent>
         </section>

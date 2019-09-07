@@ -49,9 +49,7 @@
                 <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
                     into the natural world, supportive of a healthy way of living.</p>
                 <div class="button-block">
-                    <div class="lg-button inline-block mr-8">
-                        <span class="text">Learn More</span>
-                    </div>
+
                     <div class="lg-button inline-block">
                         <span class="text">Watch Video</span>
                     </div>

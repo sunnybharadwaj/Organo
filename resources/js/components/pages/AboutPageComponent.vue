@@ -105,7 +105,7 @@
         </section>
 
 
-            <div class="cta-v-group">
+            <div class="cta-v-group hidden">
                 <div class="container mx-auto">
                     <div class="cta">
                         <section>
@@ -142,7 +142,7 @@
                 <slot>
                     <h1 class="max-w-4xl">What is an 'Eco-habitat'?</h1>
                     <div class="mb-4"></div>
-                    <div class="lg-button">Find out more</div>
+                    <router-link to="/eco-habitats"><div class="lg-button">Find out more</div></router-link>
                 </slot>
             </FeatureComponent>
         </div>
