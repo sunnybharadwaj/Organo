@@ -43,14 +43,13 @@
             </div>
 
             <div slot="header-content">
-                <h1>Co-creating eco-habitats that celebrate living</h1>
+                <h1>An enriching experience for the global citizens of tomorrow.</h1>
                 <div class="separator"></div>
                 <div class="mb-6"></div>
-                <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
-                    into the natural world, supportive of a healthy way of living.</p>
+                <p class="hl-body">Organo@school is a day long event that schools and colleges can bring their students to experience nature first-hand. Children learn, explore and creatively express their learnings in our comprehensivly designed program.</p>
                 <div class="button-block">
                     <div class="lg-button inline-block mr-8">
-                        <span class="text">Learn More</span>
+                        <span class="text">Visit Organo</span>
                     </div>
                     <div class="lg-button inline-block">
                         <span class="text">Watch Video</span>
@@ -59,39 +58,71 @@
             </div>
         </VideoHeaderComponent>
 
-        <div id="child-experience">
-            Children get to experience
+        <ImageContentComponent>
+            <div slot="image" class="wide-image"></div>
+            <div slot="content">
+                <h3>Experience a practical learning of Nature and where we stand today.</h3>
+                <p class="alt-body">With direct examples of application of various sustainable practices, children get to see
+                    first-hand, the results and impending perils of modernization and lay the foundational
+                    understanding towards the culture of conservation and sustainable living. </p>
+                <div class="mb-8"></div>
+            </div>
+        </ImageContentComponent>
 
-            <div class="experience-listing">
-                <div class="experience">
-                    <img src="" alt="">
-                    <div class="text-content">
-                        <h3>Experience a practical learning of Nature </h3>
-                        <p>With direct examples of application of various sustainable practices, children get to see
-                            first-hand, the results and impending perils of modernization and lay the foundational
-                            understanding towards the culture of sustainable living. </p>
-                    </div>
-                </div>
+        <ImageContentComponent>
+            <div slot="image" class="wide-image"></div>
+            <div slot="content">
+                <h3>Experience the holistic aspects of rural living</h3>
+                <p class="alt-body">Watch and interact with animals up close in our extensive animal husbandry, learn about bee-keeping, interact with cows and calfs at Goshala.</p>
+                <div class="mb-8"></div>
+            </div>
+        </ImageContentComponent>
+        <ImageContentComponent>
+            <div slot="image" class="wide-image"></div>
+            <div slot="content">
+                <h3>Explore local Flora and Fauna</h3>
+                <p class="alt-body">Understand and practically observe the growth of farm produce, and explore all the bio-diversity that naturally exist in the surrounding area.</p>
+                <div class="mb-8"></div>
+            </div>
+        </ImageContentComponent>
+        <ImageContentComponent>
+            <div slot="image" class="wide-image"></div>
+            <div slot="content">
+                <h3>Participate in enriching and fun activities</h3>
+                <p class="alt-body">Children try their hand at organic farming, pottery, picking vegetables, exploring the landscape, have fun and learn deeper with the Organo’s Augmented Reality App and many more.</p>
+                <div class="mb-8"></div>
+            </div>
+        </ImageContentComponent>
+        <ImageContentComponent>
+            <div slot="image" class="wide-image"></div>
+            <div slot="content">
+                <h3>Express learnings creatively through Art and Craft</h3>
+                <p class="alt-body">At the end of the day, children get to combine everything they have learnt into producing art and craft on the concepts covered.</p>
+                <div class="mb-8"></div>
+            </div>
+        </ImageContentComponent>
+
+        <!--<section class="m-0">-->
+            <!--<SliderComponent></SliderComponent>-->
+        <!--</section>-->
+
+        <div>
+            <!--<h3 class=" alt-body text-center">Schools we've worked with</h3>-->
+            <div class="logos-container">
+                <img class="mx-auto" :src="'/static/school/schools_logos_sd.png'" alt="">
+            </div>
+            <div class="text-center max-w-2xl mx-auto">
+                <h3>If you want to bring your students to an Organo Community</h3>
+                <div class="mb-4"></div>
+                <div class="lg-button">Contact Us</div>
             </div>
         </div>
-        <section class="m-0">
-            <SliderComponent></SliderComponent>
-        </section>
 
         <section>
             <TestimonialsComponent></TestimonialsComponent>
         </section>
 
-        <section>
-            <p class="alt-body text-center">Schools we've worked with</p>
-            <div class="logos-container">
-                <div class="wide-placeholder"></div>
-                <div class="text-center">
-                    <h3>If you want to bring your students to an Organo Community</h3>
-                    <div class="lg-button">Contact Us</div>
-                </div>
-            </div>
-        </section>
+
 
         <section class="m-0">
             <FeatureComponent></FeatureComponent>

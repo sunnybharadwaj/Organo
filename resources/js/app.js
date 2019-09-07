@@ -10,6 +10,7 @@ import HelpComponent from './components/partials/HelpComponent';
 import FeedbackComponent from './components/partials/FeedbackComponent';
 import VideoHeaderComponent from './components/partials/VideoHeaderComponent';
 import VideoComponent from './components/VideoComponent';
+import ImageContentComponent from './components/ImageContentComponent';
 
 import FormContactComponent from './components/forms/FormContactComponent';
 
@@ -24,6 +25,7 @@ Vue.component('HelpComponent', HelpComponent);
 Vue.component('FeedbackComponent', FeedbackComponent);
 Vue.component('VideoHeaderComponent', VideoHeaderComponent);
 Vue.component('VideoComponent', VideoComponent);
+Vue.component('ImageContentComponent', ImageContentComponent);
 
 //Forms
 Vue.component('FormContactComponent', FormContactComponent);
@@ -34,6 +36,19 @@ new Vue({
     //     NavComponent
     // },
     router
+});
+
+
+$(document).ready(function(){
+    $(".slider-component.owl-carousel").owlCarousel({
+        loop: true,
+        items: 2,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        dots: false,
+        nav: false,
+        slideTransition: 'ease-in-out'
+    });
 });
 
 
@@ -62,14 +77,3 @@ $('.full-screen-nav .lg-button').click(function() {
 });
 
 
-$(document).ready(function(){
-    $(".slider-component.owl-carousel").owlCarousel({
-        loop: true,
-        items: 2,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        dots: false,
-        nav: false,
-        slideTransition: 'ease-in-out'
-    });
-});

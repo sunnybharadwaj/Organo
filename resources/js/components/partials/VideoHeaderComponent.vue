@@ -1,5 +1,5 @@
 <template>
-    <div id="video-header">
+    <div id="video-header" class="video-header-component">
         <section id="introduction" class="hero-bg m-0">
             <div class="video-container">
                 <div class="overlay"></div>

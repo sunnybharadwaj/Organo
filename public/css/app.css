@@ -11867,6 +11867,103 @@ p {
   margin-top: 15px;
 }
 
+#naandi-section .wide-image {
+  display: block;
+}
+
+#naandi-section .media-block {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+  #naandi-section .wide-image {
+    display: none;
+  }
+
+  #naandi-section .media-block {
+    display: block;
+  }
+}
+
+.image-content-component h3 {
+  margin-bottom: 10px;
+}
+
+.image-content-component .section-wrapper {
+  position: relative;
+}
+
+.image-content-component .flex-wrapper {
+  padding: 60px 0 40px !important;
+}
+
+.image-content-component p {
+  font-weight: normal;
+}
+
+.image-content-component .content-block {
+  padding: 10px;
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+.image-content-component .wide-image {
+  display: block;
+}
+
+.image-content-component .media-block {
+  display: none;
+}
+
+.image-content-component .slider-container {
+  position: absolute;
+  height: 100%;
+  width: 41.66%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: url("/static/images/entertainment_center.jpg") center no-repeat;
+}
+
+.image-content-component .wide-image {
+  height: 400px;
+  width: 100%;
+  background-image: url("/static/images/entertainment_center.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+@media (max-width: 1280px) {
+  .image-content-component .flex-wrapper {
+    padding: 20px;
+  }
+
+  .image-content-component .content-block {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .image-content-component .wide-image {
+    display: none;
+  }
+
+  .image-content-component .content-block {
+    max-width: 650px;
+  }
+
+  .image-content-component .media-block {
+    display: block;
+    height: 400px;
+  }
+}
+
 .feature-component {
   position: relative;
   overflow: hidden;
@@ -12363,29 +12460,29 @@ textarea {
   margin-bottom: 30px;
 }
 
-#home-page #naandi-section h2 {
+#naandi-section h2 {
   margin-bottom: 30px;
 }
 
-#home-page #naandi-section .section-wrapper {
+#naandi-section .section-wrapper {
   position: relative;
 }
 
-#home-page #naandi-section .flex-wrapper {
+#naandi-section .flex-wrapper {
   padding: 60px 0 40px !important;
 }
 
-#home-page #naandi-section .content-block {
+#naandi-section .content-block {
   padding: 10px;
   margin-left: 0;
   margin-right: 30px;
 }
 
-#home-page #naandi-section .content-block p {
+#naandi-section .content-block p {
   max-width: 600px;
 }
 
-#home-page #naandi-section .slider-container {
+#naandi-section .slider-container {
   position: absolute;
   height: 100%;
   width: 41.66%;
@@ -12426,24 +12523,24 @@ textarea {
     margin-bottom: 0;
   }
 
-  #home-page #naandi-section {
+  #naandi-section {
     margin-bottom: 0 !important;
   }
 
-  #home-page #naandi-section .flex-wrapper:nth-of-type(1) {
+  #naandi-section .flex-wrapper:nth-of-type(1) {
     padding: 0 !important;
     margin-bottom: 30px;
   }
 
-  #home-page #naandi-section .flex-wrapper:nth-of-type(2) {
+  #naandi-section .flex-wrapper:nth-of-type(2) {
     padding: 0 !important;
   }
 
-  #home-page #naandi-section .media-block .slider-container {
+  #naandi-section .media-block .slider-container {
     display: none;
   }
 
-  #home-page #naandi-section .cta-links .lg-button {
+  #naandi-section .cta-links .lg-button {
     margin-bottom: 30px;
   }
 }
@@ -13116,6 +13213,14 @@ textarea {
   }
 }
 
+#school-page .video-header-component h1 {
+  font-size: 47px !important;
+}
+
+#school-page .video-header-component p.hl-body {
+  margin-bottom: 20px;
+}
+
 #school-page .hero {
   height: 100vh;
 }
@@ -13147,6 +13252,20 @@ textarea {
 #school-page .hero .sub {
   max-width: 480px;
   font-weight: normal;
+}
+
+@media (min-width: 1280px) {
+  #school-page .video-header-component {
+    margin-bottom: 160px;
+  }
+
+  #school-page p.alt-body {
+    font-size: 23px;
+  }
+
+  #school-page .image-content-component {
+    margin-bottom: 40px;
+  }
 }
 
 #sustainable-living-page .hero {

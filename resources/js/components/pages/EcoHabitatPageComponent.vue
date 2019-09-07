@@ -148,30 +148,29 @@
 
         <section id="naandi-section">
             <div class="section-wrapper">
-                <div class="mobile tablet sd">
-                    <img class="w-full mobile tablet" :src="'/static/images/entertainment_center.jpg'" alt="">
-                    <img class="w-full sd" :src="'/static/images/entertainment_center.jpg'" alt="">
-                    <div class="mb-12"></div>
-                </div>
+
+                <img class="w-full wide-image" :src="'/static/images/entertainment_center.jpg'" alt="">
 
                 <div class="container mx-auto">
                     <div class="flex flex-wrap">
-                        <div class="flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 content-block">
-                            <h2>A way of life for the passionate and conscientious.</h2>
-                            <p>Privacy of your own villa, the lifestyle of a plush natural resort, the security of a
-                                gated community, the advantage of like-minded people and above all, the unmatched joy of
-                                healthy and sustainable living. Organo’s Naandi works splendidly as your primary
-                                residence as well as a weekend farm-house; All while having the opportunity to
-                                experience Nature to its fullest. Experience the manifestation of our first step towards
-                                building self-sustainable eco-habitats.</p>
-                            <div class="mb-8"></div>
-                            <div class="cta-links">
-                                <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div>
-                                <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
+                        <div class="flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 ">
+                            <div class="content-block">
+                                <div class="pt-12 lg:pt-6"></div>
+                                <h2>A way of life for the passionate and conscientious.</h2>
+                                <p>Privacy of your own villa, the lifestyle of a plush natural resort, the security of a
+                                    gated community, the advantage of like-minded people and above all, the unmatched joy of
+                                    healthy and sustainable living. Organo’s Naandi works splendidly as your primary
+                                    residence as well as a weekend farm-house; All while having the opportunity to
+                                    experience Nature to its fullest. Experience the manifestation of our first step towards
+                                    building self-sustainable eco-habitats.</p>
+                                <div class="mb-8"></div>
+                                <div class="cta-links">
+                                    <div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div>
+                                    <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
+                                </div>
                             </div>
-
                         </div>
-                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12 tablet-hidden sd-hidden mobile-hidden">
+                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12">
                             <div class="slider-container">
                                 <!--<img :src="'/static/images/entertainment_center.jpg'" alt="">-->
                             </div>

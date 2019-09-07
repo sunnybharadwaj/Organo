@@ -1,4 +1,13 @@
 #school-page {
+  .video-header-component {
+
+    h1 {
+      font-size:47px !important;
+    }
+    p.hl-body {
+      margin-bottom: 20px;
+    }
+  }
   .hero {
     .container {
       position: relative;
@@ -24,6 +33,18 @@
     .sub {
       max-width: 480px;
       font-weight: normal;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .video-header-component {
+      margin-bottom: 160px;
+    }
+    p.alt-body{
+      font-size: 23px;
+    }
+    .image-content-component {
+      margin-bottom: 40px;
     }
   }
 }

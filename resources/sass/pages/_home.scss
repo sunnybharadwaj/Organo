@@ -1,32 +1,32 @@
-#home-page{
+#home-page {
 
-
-
-#purpose {
-  h3 {
-    text-align: center;
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 0 30px;
-  }
-
-  .feature-points {
-    padding: 30px 0;
-    max-width: 90%;
-    margin: 0 auto;
-
-    .content-block {
-      margin: 0;
+  #purpose {
+    h3 {
+      text-align: center;
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 30px;
     }
 
-    .alt-body {
-      margin-bottom: 10px;
+    .feature-points {
+      padding: 30px 0;
+      max-width: 90%;
+      margin: 0 auto;
+
+      .content-block {
+        margin: 0;
+      }
+
+      .alt-body {
+        margin-bottom: 10px;
+      }
+    }
+
+    .lg-button {
+      margin-bottom: 30px;
     }
   }
 
-  .lg-button {
-    margin-bottom: 30px;
-  }
 }
 
 #naandi-section {
@@ -50,7 +50,6 @@
     }
   }
 
-
   .slider-container {
     position: absolute;
     height: 100%;
@@ -59,11 +58,10 @@
     top: 0;
     bottom: 0;
     overflow: hidden;
-
-    background: url('/static/images/entertainment_center.jpg') center  no-repeat;
+    background: url('/static/images/entertainment_center.jpg') center no-repeat;
   }
 }
-}
+
 //Responsive
 @media (max-width: 640px) {
 
@@ -75,11 +73,10 @@
     margin-top: 60px;
   }
 
-
   #home-page {
     .hero-bg .content-block {
       width: 100%;
-      top:450px;
+      top: 450px;
       left: 0;
       margin: 0;
     }
@@ -100,30 +97,31 @@
       }
     }
 
-    #naandi-section {
-      margin-bottom: 0 !important;
-      .flex-wrapper:nth-of-type(1) {
-        padding: 0 !important;
-        margin-bottom: 30px;
-      }
+  }
+  #naandi-section {
+    margin-bottom: 0 !important;
+    .flex-wrapper:nth-of-type(1) {
+      padding: 0 !important;
+      margin-bottom: 30px;
+    }
 
-      .flex-wrapper:nth-of-type(2) {
-        padding: 0 !important;
+    .flex-wrapper:nth-of-type(2) {
+      padding: 0 !important;
+    }
+    .media-block {
+      .slider-container {
+        display: none;
       }
-      .media-block {
-        .slider-container {
-          display: none;
-        }
-      }
-      .cta-links {
-        .lg-button {
-          margin-bottom: 30px;
-        }
+    }
+    .cta-links {
+      .lg-button {
+        margin-bottom: 30px;
       }
     }
   }
 }
-@media (min-width:640px) and (max-width: 1024px) {
+
+@media (min-width: 640px) and (max-width: 1024px) {
   #purpose {
     h3 {
       text-align: left !important;
@@ -143,11 +141,13 @@
   }
 
 }
+
 @media (max-width: 1600px) {
   .normal {
     display: block !important;
   }
 }
+
 @media (min-width: 1600px) {
   .full-hd {
     display: block !important;
