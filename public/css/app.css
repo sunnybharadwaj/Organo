@@ -13532,6 +13532,12 @@ textarea {
   padding-right: 10px;
 }
 
+@media (max-width: 1024px) {
+  #contact-page .location .address {
+    padding-top: 40px;
+  }
+}
+
 #contact-page .location .address .text-content {
   font-size: 15px !important;
 }

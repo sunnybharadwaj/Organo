@@ -70,6 +70,10 @@
   .location {
     .address {
       padding-right: 10px;
+      @media (max-width: 1024px) {
+        padding-top: 40px;
+      }
+
       .text-content {
 
         font-size: 15px !important;
