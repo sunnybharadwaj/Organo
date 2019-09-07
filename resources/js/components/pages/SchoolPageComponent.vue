@@ -107,7 +107,7 @@
             <!--<SliderComponent></SliderComponent>-->
         <!--</section>-->
 
-        <div>
+        <div class="schools">
             <!--<h3 class=" alt-body text-center">Schools we've worked with</h3>-->
             <div class="logos-container">
                 <img class="mx-auto" :src="'/static/school/schools_logos_sd.png'" alt="">
@@ -115,7 +115,7 @@
             <div class="text-center max-w-2xl mx-auto">
                 <h3>If you want to bring your students to an Organo Community</h3>
                 <div class="mb-4"></div>
-                <div class="lg-button">Contact Us</div>
+                <div class="lg-button text-center">Contact Us</div>
             </div>
         </div>
 
@@ -130,7 +130,7 @@
                 <slot>
                     <h1 class="max-w-4xl">What is an 'Eco-habitat'?</h1>
                     <div class="mb-4"></div>
-                    <div class="lg-button">Find out more</div>
+                    <router-link to="/eco-habitats"><div class="lg-button">Find out more</div></router-link>
                 </slot>
             </FeatureComponent>
         </section>

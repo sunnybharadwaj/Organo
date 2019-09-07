@@ -24738,7 +24738,7 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c("div", [
+      _c("div", { staticClass: "schools" }, [
         _c("div", { staticClass: "logos-container" }, [
           _c("img", {
             staticClass: "mx-auto",
@@ -24765,8 +24765,10 @@ var render = function() {
                 _vm._v(" "),
                 _c("div", { staticClass: "mb-4" }),
                 _vm._v(" "),
-                _c("div", { staticClass: "lg-button" }, [
-                  _vm._v("Find out more")
+                _c("router-link", { attrs: { to: "/eco-habitats" } }, [
+                  _c("div", { staticClass: "lg-button" }, [
+                    _vm._v("Find out more")
+                  ])
                 ])
               ])
             ],
@@ -24791,7 +24793,9 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "mb-4" }),
       _vm._v(" "),
-      _c("div", { staticClass: "lg-button" }, [_vm._v("Contact Us")])
+      _c("div", { staticClass: "lg-button text-center" }, [
+        _vm._v("Contact Us")
+      ])
     ])
   }
 ]

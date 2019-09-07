@@ -13344,6 +13344,10 @@ textarea {
   background-image: url("/static/images/school/5.jpg");
 }
 
+#school-page .schools .lg-button {
+  text-align: center;
+}
+
 #school-page .video-header-component h1 {
   font-size: 47px !important;
 }
