@@ -43,10 +43,10 @@
                 </div>
             </div>
 
-            <div slot="header-content">
+            <div class="header-content" slot="header-content">
                 <h1>Co-creating eco-habitats that celebrate living</h1>
                 <div class="separator"></div>
-                <div class="mb-6"></div>
+                <div class="sm:hidden mb-6"></div>
                 <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
                     into the natural world, supportive of a healthy way of living.</p>
                 <div class="button-block">

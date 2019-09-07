@@ -2636,34 +2636,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("screenName");
@@ -22916,36 +22888,12 @@ var render = function() {
                 })
               ])
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "sustainable-strand" }, [
-            _c("div", { staticClass: "flex flex-wrap" }, [
-              _vm._m(8),
-              _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
-                _c("img", {
-                  attrs: { src: "/static/sapthapatha/water.png", alt: "" }
-                })
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "sustainable-strand" }, [
-            _c("div", { staticClass: "flex flex-wrap" }, [
-              _vm._m(9),
-              _vm._v(" "),
-              _c("div", { staticClass: "w-2/12" }, [
-                _c("img", {
-                  attrs: { src: "/static/sapthapatha/water.png", alt: "" }
-                })
-              ])
-            ])
           ])
         ])
       ]),
       _vm._v(" "),
       _c("section", { staticClass: "hidden", attrs: { id: "sapthapatha" } }, [
-        _vm._m(10),
+        _vm._m(8),
         _vm._v(" "),
         _c("div", { staticClass: "strands-wrapper" }, [
           _c("div", { staticClass: "flex flex-wrap strands-desc" }, [
@@ -22956,7 +22904,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(11),
+              _vm._m(9),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -22972,7 +22920,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(12),
+              _vm._m(10),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -22988,7 +22936,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(13),
+              _vm._m(11),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -23004,7 +22952,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(14),
+              _vm._m(12),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -23022,7 +22970,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(15),
+              _vm._m(13),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -23038,7 +22986,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(16),
+              _vm._m(14),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -23054,7 +23002,7 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _vm._m(17),
+              _vm._m(15),
               _vm._v(" "),
               _c("div", { staticClass: "description" }, [
                 _vm._v(
@@ -23065,7 +23013,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _vm._m(18)
+        _vm._m(16)
       ]),
       _vm._v(" "),
       _c(
@@ -23085,7 +23033,7 @@ var render = function() {
             attrs: { src: "/static/images/entertainment_center.jpg", alt: "" }
           }),
           _vm._v(" "),
-          _vm._m(19)
+          _vm._m(17)
         ])
       ]),
       _vm._v(" "),
@@ -23245,42 +23193,6 @@ var staticRenderFns = [
             _vm._v(
               " who live together responsibly, share their time, knowledge and expertise towards co-creating and sustaining the environment around them."
             )
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
-      _c("div", { staticClass: "max-w-4xl" }, [
-        _c("div", { staticClass: "py-12" }, [
-          _c("h3", { staticClass: "font-normal" }, [
-            _vm._v(
-              "Employ advanced scientific procedures of conservation and treatment of "
-            ),
-            _c("span", { staticClass: "font-bold" }, [_vm._v("water")]),
-            _vm._v(" and regularly monitor overall consumption vs production.")
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-10/12" }, [
-      _c("div", { staticClass: "max-w-4xl" }, [
-        _c("div", { staticClass: "py-12" }, [
-          _c("h3", { staticClass: "font-normal" }, [
-            _vm._v(
-              "Employ advanced scientific procedures of conservation and treatment of "
-            ),
-            _c("span", { staticClass: "font-bold" }, [_vm._v("water")]),
-            _vm._v(" and regularly monitor overall consumption vs production.")
           ])
         ])
       ])
@@ -23632,7 +23544,11 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          { attrs: { slot: "header-content" }, slot: "header-content" },
+          {
+            staticClass: "header-content",
+            attrs: { slot: "header-content" },
+            slot: "header-content"
+          },
           [
             _c("h1", [
               _vm._v("Co-creating eco-habitats that celebrate living")
@@ -23640,7 +23556,7 @@ var render = function() {
             _vm._v(" "),
             _c("div", { staticClass: "separator" }),
             _vm._v(" "),
-            _c("div", { staticClass: "mb-6" }),
+            _c("div", { staticClass: "sm:hidden mb-6" }),
             _vm._v(" "),
             _c("p", { staticClass: "hl-body" }, [
               _vm._v(

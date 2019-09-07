@@ -220,34 +220,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="sustainable-strand">
-                    <div class="flex flex-wrap">
-                        <div class="w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">Employ advanced scientific procedures of conservation and treatment of <span class="font-bold">water</span> and regularly monitor overall consumption vs production.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-2/12">
-                            <img :src="'/static/sapthapatha/water.png'" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sustainable-strand">
-                    <div class="flex flex-wrap">
-                        <div class="w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">Employ advanced scientific procedures of conservation and treatment of <span class="font-bold">water</span> and regularly monitor overall consumption vs production.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-2/12">
-                            <img :src="'/static/sapthapatha/water.png'" alt="">
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 

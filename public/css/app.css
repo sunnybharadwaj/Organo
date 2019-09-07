@@ -11606,6 +11606,21 @@ p {
   #video-header .hero-bg {
     min-height: 100vh;
   }
+
+  #video-header .hero-bg .content-block {
+    top: auto !important;
+    bottom: 0 !important;
+  }
+
+  #video-header .hero-bg .content-block h1 {
+    font-size: 29px !important;
+  }
+
+  #video-header .hero-bg .content-block p.hl-body {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.4;
+  }
 }
 
 #video-header .hero-bg .video-container .overlay {
