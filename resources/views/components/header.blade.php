@@ -24,6 +24,7 @@
                     {{--<router-link to="/sustainable-living" class="lg-button"><span class="text">Sustainable Living</span></router-link>--}}
                     <router-link to="/organo-at-school" class="lg-button"><span class="text">Organo@School</span></router-link>
                     {{--<router-link to="/gallery" class="lg-button"><span class="text">Gallery</span></router-link>--}}
+                    <router-link to="/contact"><h3 class="lg-button">Contact</h3></router-link>
                 </div>
             </div>
         </div>
