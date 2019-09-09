@@ -67,6 +67,9 @@
 }
 
 #sustainability {
+  .sustainable-strand {
+    margin-bottom: -30px;
+  }
   @media (max-width: 640px) {
     .sustainable-strand {
       .py-12 {
@@ -139,6 +142,7 @@
 
 @media (max-width: 640px) {
   .sustainable-strand {
+
     h3 {
       font-size: 20px !important;
     }

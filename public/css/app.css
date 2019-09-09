@@ -13022,6 +13022,10 @@ textarea {
   background-image: url("/static/images/ecohabitat/4.jpeg");
 }
 
+#sustainability .sustainable-strand {
+  margin-bottom: -30px;
+}
+
 @media (max-width: 640px) {
   #sustainability .sustainable-strand .py-12 {
     padding-top: 0;

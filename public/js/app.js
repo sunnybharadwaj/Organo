@@ -2709,7 +2709,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("screenName");
@@ -23107,7 +23106,7 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "alt-body" }, [
                 _vm._v(
-                  "There’s no doubt we take the first chance we get, to get away from our routine and\n                    fly away to a calmer place. For many, the sight of a rural setting brings about feelings of\n                    uninterrupted harmony. We wanted to capture that, while still offering you the opportunity for a\n                    comfortable lifestyle with all possible amenities expected from a modern living community."
+                  "For many, the sight of a rural setting brings about feelings of\n                    uninterrupted harmony. We wanted to capture that, while still offering you the opportunity for a\n                    comfortable lifestyle with all possible amenities expected from a modern living community. "
                 )
               ]),
               _vm._v(" "),
@@ -23504,8 +23503,10 @@ var staticRenderFns = [
       _c("div", { staticClass: "max-w-4xl" }, [
         _c("div", { staticClass: "py-12" }, [
           _c("h3", { staticClass: "font-normal" }, [
+            _vm._v("An endless supply of fresh "),
+            _c("span", { staticClass: "font-bold" }, [_vm._v("Air")]),
             _vm._v(
-              "An endless supply of fresh air wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System."
+              " wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System."
             )
           ])
         ])

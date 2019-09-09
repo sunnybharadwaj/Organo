@@ -107,10 +107,9 @@
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
                     <h3>Merging Urban and Rural experiences</h3>
-                    <p class="alt-body">There’s no doubt we take the first chance we get, to get away from our routine and
-                        fly away to a calmer place. For many, the sight of a rural setting brings about feelings of
+                    <p class="alt-body">For many, the sight of a rural setting brings about feelings of
                         uninterrupted harmony. We wanted to capture that, while still offering you the opportunity for a
-                        comfortable lifestyle with all possible amenities expected from a modern living community.</p>
+                        comfortable lifestyle with all possible amenities expected from a modern living community. </p>
                     <div class="mb-8"></div>
                 </div>
             </ImageContentComponent>
@@ -167,7 +166,7 @@
                         <div class="w-full md:w-10/12">
                             <div class="max-w-4xl">
                                 <div class="py-12">
-                                    <h3 class="font-normal">An endless supply of fresh air wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System.</h3>
+                                    <h3 class="font-normal">An endless supply of fresh <span class="font-bold">Air</span> wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System.</h3>
                                 </div>
                             </div>
                         </div>
