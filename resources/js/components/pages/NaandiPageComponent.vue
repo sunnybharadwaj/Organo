@@ -18,7 +18,7 @@
                     </VideoComponent>
                 </div>
 
-                <div class="sd">
+                <div class="">
                     <VideoComponent v-if="screenName == 'sd'">
                         <video autoplay loop muted>
                             <source :src="'/static/videos/sd/naandi_sd.mp4'" type="video/mp4">
@@ -200,18 +200,19 @@
             </div>
             <div class="home-images">
                 <div class="flex flex-wrap">
-                    <div class="w-full lg:w-1/2 image-container"></div>
-                    <div class="w-full lg:w-1/2 image-container"></div>
-                    <div class="w-full lg:w-1/2 image-container"></div>
-                    <div class="w-full lg:w-1/2 image-container"></div>
+                    <div class="slider-component owl-carousel">
+                        <div class="w-100 w-full lg:w-1/2 image-container one"></div>
+                        <div class="w-100 w-full lg:w-1/2 image-container two"></div>
+                        <div class="w-100 w-full lg:w-1/2 image-container three"></div>
+                        <div class="w-100 w-full lg:w-1/2 image-container four"></div>
+                    </div>
+
+
                 </div>
             </div>
         </section>
 
 
-        <section>
-            <SliderComponent></SliderComponent>
-        </section>
 
         <section id="amenities" class="content-section">
             <div class="container mx-auto">
@@ -231,28 +232,14 @@
 
                 <div class="amenity-list">
                     <div class="flex flex-wrap">
-                        <div class="amenity w-full md:w-1/2 lg:w-1/3">
-                            <div class="image"></div>
-                            <div class="text-content">
-                                <p class="alt-body">Personal Gardening</p>
-                                <p>Vestibules condimentum tincidunt tortor eget ultricies. Fusce mi sem, hendrerit ac
-                                    dignissim congue, commodo in orci.</p>
+
+                        <div v-for="activity in activities" class="amenity w-full md:w-1/2 lg:w-1/3">
+                            <div class="image overflow-y-hidden">
+                                <img :src="activity.imageUrl" alt="">
                             </div>
-                        </div>
-                        <div class="amenity w-full md:w-1/2 lg:w-1/3">
-                            <div class="image"></div>
                             <div class="text-content">
-                                <p class="alt-body">Personal Gardening</p>
-                                <p>Vestibules condimentum tincidunt tortor eget ultricies. Fusce mi sem, hendrerit ac
-                                    dignissim congue, commodo in orci.</p>
-                            </div>
-                        </div>
-                        <div class="amenity w-full md:w-1/2 lg:w-1/3">
-                            <div class="image"></div>
-                            <div class="text-content">
-                                <p class="alt-body">Personal Gardening</p>
-                                <p>Vestibules condimentum tincidunt tortor eget ultricies. Fusce mi sem, hendrerit ac
-                                    dignissim congue, commodo in orci.</p>
+                                <p class="alt-body">{{activity.title}}</p>
+
                             </div>
                         </div>
                     </div>
@@ -302,12 +289,105 @@
 <script>
     export default {
         mounted() {
-            console.log("screenName");
+            $(".slider-component.owl-carousel").owlCarousel({
+                loop: true,
+                items: 1,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                dots: false,
+                nav: false,
+                slideTransition: 'ease-in-out'
+            });
+
+            var rellax = new Rellax('.rellax');
         },
         data() {
             return {
                 screenWidth: screen.width,
-                more_content: false
+                more_content: false,
+                activities: [
+                    {
+                        title: 'Take a stroll around Naandi, with 33 acres of Nature to explore.',
+                        imageUrl: '/static/images/activities/explorenaandi.jpg'
+                    },
+                    {
+                        title: 'Take time off at the Herbal Garden.',
+                        imageUrl: '/static/images/activities/herbalgarden.jpg'
+                    },
+                    {
+                        title: 'Lend a hand in farming fresh organic produce in our collective farm.',
+                        imageUrl: '/static/images/activities/collectivefarming.jpg'
+                    },
+                    {
+                        title: 'Set up your own Personal Farm in your backyard.',
+                        imageUrl: '/static/images/activities/personalfarming.jpg'
+                    },
+                    {
+                        title: 'Visit our Animal Husbandry station.',
+                        imageUrl: '/static/images/activities/animalhusbandry.jpg'
+                    },
+                    {
+                        title: 'Learn about the importance of bees by visiting our Apiary.',
+                        imageUrl: '/static/images/activities/apiary.jpg'
+                    },
+                    {
+                        title: 'Visit Goshala and interact with Cows and Calfs.',
+                        imageUrl: '/static/images/activities/goshala.jpg'
+                    },
+                    {
+                        title: 'Attend informative events specially curated and hosted by the Organo team.',
+                        imageUrl: '/static/images/activities/workshops.jpg'
+                    },
+                    {
+                        title: 'Work a sweat at the Gym',
+                        imageUrl: '/static/images/activities/gym.jpg'
+                    },
+                    {
+                        title: 'Work on your pottery skills.',
+                        imageUrl: '/static/images/activities/pottery.jpg'
+                    },
+                    {
+                        title: 'Grab a healthy, fresh, organic bite at our restaurant.',
+                        imageUrl: '/static/images/activities/restaurant.png'
+                    },
+                    {
+                        title: 'Relax at our Spa.',
+                        imageUrl: '/static/images/activities/spa.png'
+                    },
+                    {
+                        title: 'Hang out on your open terrace. Sit back, enjoy the view.',
+                        imageUrl: '/static/images/activities/terrace.png'
+                    },
+                    {
+                        title: 'Go for a refreshing swim in our natural bio-pool.',
+                        imageUrl: '/static/images/activities/biopool.jpg'
+                    },
+                    {
+                        title: 'Socialize with other Naandians, or grab a book from the shelf at the Clubhouse.',
+                        imageUrl: '/static/images/activities/clubhouse.jpg'
+                    },
+                    {
+                        title: 'Invite your friends or family into our guest room to experience Naandi',
+                        imageUrl: '/static/images/activities/guestroom.jpg'
+                    },
+                    {
+                        title: 'Feel the space and catch a breath of fresh air at the Pond.',
+                        imageUrl: '/static/images/activities/pond.jpg'
+                    },
+                    {
+                        title: 'Join Naandians to celebrate key cultural and social events.',
+                        imageUrl: '/static/images/activities/communitycelebrations.jpg'
+                    },
+                    {
+                        title: 'Host or attend a social gathering.',
+                        imageUrl: '/static/images/activities/communityevents.jpg'
+                    },
+                    {
+                        title: 'Play board games at the Clubhouse',
+                        imageUrl: '/static/images/activities/boardgames.jpg'
+                    },
+
+                ]
             }
         },
         computed: {

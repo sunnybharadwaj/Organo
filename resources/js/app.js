@@ -43,15 +43,7 @@ new Vue({
 
 
 $(document).ready(function(){
-    $(".slider-component.owl-carousel").owlCarousel({
-        loop: true,
-        items: 2,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        dots: false,
-        nav: false,
-        slideTransition: 'ease-in-out'
-    });
+
 });
 
 

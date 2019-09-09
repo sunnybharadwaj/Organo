@@ -1,8 +1,10 @@
 <template>
     <div id="team-page">
         <div class="bg-gray-100">
-            <section class="hero m-0 py-32">
+            <section class="hero m-0 py-32 relative">
                 <!--<img class="bg-img" :src="'static/images/bg_styled.jpg'" alt="">-->
+                <img :src="'/static/images/team_left.png'" class="illustration-left" alt="">
+                <img :src="'/static/images/team_right.png'" class="illustration-right" alt="">
                 <div class="label text-center mb-4">ABOUT</div>
                 <div class="container text-center mx-auto">
                     <h1 class="">Our Team</h1>
@@ -10,7 +12,10 @@
                     <h3 class="font-normal max-w-5xl mx-auto">We are a group of Architects, Designers and
                         Visionaries with a wide range of subject-matter expertise, focusing our efforts towards designing, building and developing sustainable
                         eco-habitats.</h3>
+
+
                 </div>
+
             </section>
         </div>
         <section id="core-values">
@@ -20,38 +25,38 @@
                         <div class="label">OUR CORE VALUES</div>
 
                         <div class="value">
-                            <div class="heading"><h3>Simplicity</h3></div>
-                            <div class="description">We eliminate the unnecessary without losing intent and finding the
+                            <div class="heading"><h3><span class="hl">S</span>implicity</h3></div>
+                            <div class="description alt-body font-normal">We eliminate the unnecessary without losing intent and finding the
                                 best solution for a problem in the simplest way possible.
                             </div>
                         </div>
                         <div class="value">
-                            <div class="heading"><h3>Collaboration</h3></div>
-                            <div class="description">Fearlessly collaborate and benefit from a wide range of skill to
+                            <div class="heading"><h3><span class="hl">C</span>ollaboration</h3></div>
+                            <div class="description alt-body font-normal">Fearlessly collaborate and benefit from a wide range of skill to
                                 generate synergies between the team.
                             </div>
                         </div>
                         <div class="value">
-                            <div class="heading"><h3>Ownership</h3></div>
-                            <div class="description">We take responsibility and full ownership of our efforts and
+                            <div class="heading"><h3><span class="hl">O</span>wnership</h3></div>
+                            <div class="description alt-body font-normal">We take responsibility and full ownership of our efforts and
                                 outcomes to make sure we deliver value, every time.
                             </div>
                         </div>
                         <div class="value">
-                            <div class="heading"><h3>Perseverance</h3></div>
-                            <div class="description">We get out of our comfort zone and endlessly learn to adapt in an
+                            <div class="heading"><h3><span class="hl">P</span>erseverance</h3></div>
+                            <div class="description alt-body font-normal">We get out of our comfort zone and endlessly learn to adapt in an
                                 ever-changing environment. We persevere to deliver the promised experience, no matter
                                 what it takes.
                             </div>
                         </div>
                         <div class="value">
-                            <div class="heading"><h3>Empathy</h3></div>
-                            <div class="description">We don’t judge. We try to understand by observing your needs and
+                            <div class="heading"><h3><span class="hl">E</span>mpathy</h3></div>
+                            <div class="description alt-body font-normal">We don’t judge. We try to understand by observing your needs and
                                 listening without prejudice.
                             </div>
                         </div>
                     </div>
-                    <div class="w-5/12 bg-gray-300 hide-on-mobile"></div>
+                    <div class="w-full lg:w-5/12 image-container"></div>
                 </div>
             </div>
         </section>
@@ -85,24 +90,24 @@
             </div>
         </div>
 
-        <section id="awards" class="bg-gray-200">
+        <section id="awards" class="bg-gray-200 hidden">
             <div class="container mx-auto">
 
-                <div class="image-container bg-gray-400"></div>
+                <div class="image-container"></div>
                 <div class="label text-center">AWARDS</div>
                 <div class="mb-4"></div>
-                <h3 class="text-center">Morbi aliquam sem ut euismod egestas. Ut vestibulum nibh lectus, et fringilla
-                    nisi congue et. Ut id ante sed urna finibus vehicula.</h3>
+                <h3 class="text-center"></h3>
                 <div class="mb-12"></div>
                 <div id="award-list" class="text-center">
+                    <div class="award">
+                        <h3>India Green Building Council certified Naandi as to have successfully achieved the Green Building Standards under IGBC Home Platinum</h3>
+                    </div>
                     <p class="alt-body">Rethinking the Future - Sustainability Awards - 2014</p>
                     <p class="alt-body">Architecture Podium - International Architecture Awards - 2015</p>
                     <p class="alt-body">NDTV - Design & Architecture Awards - 2015</p>
                 </div>
             </div>
         </section>
-
-        <StandardCTAComponent></StandardCTAComponent>
 
     </div>
 

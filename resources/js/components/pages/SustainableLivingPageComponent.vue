@@ -2,11 +2,8 @@
     <div id="sustainable-living-page">
         <div class="hero">
             <div class="container mx-auto">
-                <div class="illustration-container w-5/12 bg-blue-200 mobile">
-
-                </div>
                 <div class="flex flex-wrap mt-12">
-                    <div class="w-full md:w-7/12">
+                    <div class="w-full lg:w-7/12">
                         <div class="text-content">
                             <h1>Sapthapatha</h1>
                             <h3>Seven strands of sustainable living</h3>
@@ -31,8 +28,8 @@
 
                     </div>
 
-                    <div class="illustration-container w-5/12 bg-blue-200 hide-on-mobile">
-
+                    <div class="illustration-container w-full lg:w-5/12 ">
+                        <img :src="'/static/images/sustainability_hero.png'" class="mx-auto" alt="">
                     </div>
 
                 </div>
@@ -139,7 +136,9 @@
                         <div class="w-8/12">
                             <div class="text-content">
                                 <h2>Energy</h2>
-                                <p class="alt-body">All energy production is through renewable sources - Solar and Bio-gas.</p>
+                                <p class="alt-body">All energy production is through renewable sources - Solar and Bio-gas. Organo creates sustainable eco-habitats on 'net-zero' principles.</p>
+                                <p class="alt-body">Every villa generates its own power. Consumption and usage is continuously monitored.</p>
+                                <p class="alt-body">Power generators are installed to supply backup power to the community when required.</p>
 
                             </div>
                         </div>
@@ -156,7 +155,10 @@
                         <div class="w-8/12">
                             <div class="text-content">
                                 <h2>Shelter</h2>
-                                <p class="alt-body">All energy production is through renewable sources - Solar and Bio-gas.</p>
+                                <p class="alt-body">We've tried to achieve a harmonious experience between inside the villa and outside of it. Facing the farm, the open layout of the interiors allow for maximum natural air-flow.</p>
+                                <p class="alt-body">The layout of the community is designed to give you a chance to have your privacy as well as socialize whenever you can. </p>
+                                <p class="alt-body">Though our communities are in the outskirts of the urban settlement, there is no stone left unturned in giving you all experiences that the modern lifestyle demands. A nature bio-swimming-pool, state of the art Clubhouse, Gym, Sports areas are seamlessly integrated into the surrounding landscape without affecting it in any way.</p>
+
                             </div>
                         </div>
                         <div class="w-4/12 icon-container">
@@ -176,8 +178,8 @@
                             </div>
                         </div>
                         <div class="w-4/12 icon-container">
-                            <div class="icon">
-                                <img :src="'/static/sapthapatha/people.png'" alt="">
+                            <div class="icon ">
+                                <img :src="'/static/sapthapatha/people.png'"  alt="">
                             </div>
                         </div>
                     </div>
@@ -185,13 +187,16 @@
             </div>
         </section>
 
-        <section>
-            <StandardCTAComponent></StandardCTAComponent>
-        </section>
+        <div class="eco-habitat-cta-component">
+            <FeatureComponent>
+                <slot>
+                    <h1 class="max-w-4xl">What is an 'Eco-habitat'?</h1>
+                    <div class="mb-4"></div>
+                    <router-link to="/eco-habitats"><div class="lg-button">Find out more</div></router-link>
+                </slot>
+            </FeatureComponent>
+        </div>
 
-        <section class="mb-0">
-            <SchoolCTAComponent></SchoolCTAComponent>
-        </section>
     </div>
 </template>
 

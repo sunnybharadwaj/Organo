@@ -6,8 +6,9 @@
       padding: 80px 20px 0;
     }
 
-    .flex .image-container {
-      min-height: 400px;
+    .flex .slider-component .image-container {
+      width: 100%;
+      min-height: 600px;
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -15,16 +16,17 @@
       background-origin: padding-box;
       background-clip: border-box;
       background-color: #ccc;
-      &:nth-child(1) {
+
+      &.one {
         background-image: url('/static/images/naandi/home/1.jpg');
       }
-      &:nth-child(2) {
+      &.two {
         background-image: url('/static/images/naandi/home/2.jpg');
       }
-      &:nth-child(3) {
+      &.three {
         background-image: url('/static/images/naandi/home/3.jpg');
       }
-      &:nth-child(4) {
+      &.four {
         background-image: url('/static/images/naandi/home/4.jpg');
       }
     }

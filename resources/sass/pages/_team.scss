@@ -5,6 +5,21 @@
   position: relative;
   z-index: 0;
 
+  .illustration-left {
+    position: absolute;
+    bottom:0;
+    left: -80px;
+    opacity:0.7;
+  }
+
+  .illustration-right {
+    width:40%;
+    position: absolute;
+    bottom:0;
+    right: -40px;
+    display: none;
+  }
+
   img {
     position: absolute;
     width: 100%;
@@ -15,6 +30,9 @@
   p {
     font-weight: normal;
   }
+  h1 {
+    color: white !important;
+  }
 
   h1,p, .label {
     font-weight: bold;
@@ -24,20 +42,35 @@
 }
 
 #core-values {
+  .image-container {
+    background-image: url('/static/images/team_feature.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: #ccc;
+  }
   .label {
     margin-bottom: 20px;
   }
 
   .value {
-    margin-bottom: 30px;
+    .hl {
+      font-size:1.4em;
+    }
+    margin-bottom: 20px;
     max-width: 500px;
-
+.description {
+  font-weight: normal !important;
+}
     &:last-of-type {
       margin-bottom: 0;
     }
 
     h3 {
-      margin-bottom: 5px;
+      margin-bottom: 0px;
     }
   }
 }
@@ -91,6 +124,14 @@
     margin: 0 auto -150px;
     position: relative;
     top: -200px;
+    background-image: url('/static/images/awards.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: #ccc;
   }
 
   #award-list {
@@ -104,6 +145,7 @@
 
   #core-values {
     margin-bottom: 60px !important;
+
   }
 
   #team-list {

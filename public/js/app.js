@@ -3364,27 +3364,84 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
-    console.log("screenName");
+    $(".slider-component.owl-carousel").owlCarousel({
+      loop: true,
+      items: 1,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      dots: false,
+      nav: false,
+      slideTransition: 'ease-in-out'
+    });
+    var rellax = new Rellax('.rellax');
   },
   data: function data() {
     return {
       screenWidth: screen.width,
-      more_content: false
+      more_content: false,
+      activities: [{
+        title: 'Take a stroll around Naandi, with 33 acres of Nature to explore.',
+        imageUrl: '/static/images/activities/explorenaandi.jpg'
+      }, {
+        title: 'Take time off at the Herbal Garden.',
+        imageUrl: '/static/images/activities/herbalgarden.jpg'
+      }, {
+        title: 'Lend a hand in farming fresh organic produce in our collective farm.',
+        imageUrl: '/static/images/activities/collectivefarming.jpg'
+      }, {
+        title: 'Set up your own Personal Farm in your backyard.',
+        imageUrl: '/static/images/activities/personalfarming.jpg'
+      }, {
+        title: 'Visit our Animal Husbandry station.',
+        imageUrl: '/static/images/activities/animalhusbandry.jpg'
+      }, {
+        title: 'Learn about the importance of bees by visiting our Apiary.',
+        imageUrl: '/static/images/activities/apiary.jpg'
+      }, {
+        title: 'Visit Goshala and interact with Cows and Calfs.',
+        imageUrl: '/static/images/activities/goshala.jpg'
+      }, {
+        title: 'Attend informative events specially curated and hosted by the Organo team.',
+        imageUrl: '/static/images/activities/workshops.jpg'
+      }, {
+        title: 'Work a sweat at the Gym',
+        imageUrl: '/static/images/activities/gym.jpg'
+      }, {
+        title: 'Work on your pottery skills.',
+        imageUrl: '/static/images/activities/pottery.jpg'
+      }, {
+        title: 'Grab a healthy, fresh, organic bite at our restaurant.',
+        imageUrl: '/static/images/activities/restaurant.png'
+      }, {
+        title: 'Relax at our Spa.',
+        imageUrl: '/static/images/activities/spa.png'
+      }, {
+        title: 'Hang out on your open terrace. Sit back, enjoy the view.',
+        imageUrl: '/static/images/activities/terrace.png'
+      }, {
+        title: 'Go for a refreshing swim in our natural bio-pool.',
+        imageUrl: '/static/images/activities/biopool.jpg'
+      }, {
+        title: 'Socialize with other Naandians, or grab a book from the shelf at the Clubhouse.',
+        imageUrl: '/static/images/activities/clubhouse.jpg'
+      }, {
+        title: 'Invite your friends or family into our guest room to experience Naandi',
+        imageUrl: '/static/images/activities/guestroom.jpg'
+      }, {
+        title: 'Feel the space and catch a breath of fresh air at the Pond.',
+        imageUrl: '/static/images/activities/pond.jpg'
+      }, {
+        title: 'Join Naandians to celebrate key cultural and social events.',
+        imageUrl: '/static/images/activities/communitycelebrations.jpg'
+      }, {
+        title: 'Host or attend a social gathering.',
+        imageUrl: '/static/images/activities/communityevents.jpg'
+      }, {
+        title: 'Play board games at the Clubhouse',
+        imageUrl: '/static/images/activities/boardgames.jpg'
+      }]
     };
   },
   computed: {
@@ -3901,6 +3958,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -3916,6 +3978,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
 //
 //
 //
@@ -24321,7 +24388,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "sd" },
+            {},
             [
               _vm.screenName == "sd"
                 ? _c("VideoComponent", [
@@ -24531,9 +24598,44 @@ var render = function() {
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
-      _c("section", [_c("SliderComponent")], 1),
-      _vm._v(" "),
-      _vm._m(2),
+      _c(
+        "section",
+        { staticClass: "content-section", attrs: { id: "amenities" } },
+        [
+          _c("div", { staticClass: "container mx-auto" }, [
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _c("div", { staticClass: "amenity-list" }, [
+              _c(
+                "div",
+                { staticClass: "flex flex-wrap" },
+                _vm._l(_vm.activities, function(activity) {
+                  return _c(
+                    "div",
+                    { staticClass: "amenity w-full md:w-1/2 lg:w-1/3" },
+                    [
+                      _c("div", { staticClass: "image overflow-y-hidden" }, [
+                        _c("img", {
+                          attrs: { src: activity.imageUrl, alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-content" }, [
+                        _c("p", { staticClass: "alt-body" }, [
+                          _vm._v(_vm._s(activity.title))
+                        ])
+                      ])
+                    ]
+                  )
+                }),
+                0
+              )
+            ])
+          ])
+        ]
+      ),
       _vm._v(" "),
       _c("section", [_c("TestimonialsComponent")], 1),
       _vm._v(" "),
@@ -24542,7 +24644,7 @@ var render = function() {
       _c("section", { attrs: { id: "share-section" } }, [
         _c("div", { staticClass: "container mx-auto" }, [
           _c("div", { staticClass: "flex flex-col content-center" }, [
-            _vm._m(3),
+            _vm._m(4),
             _vm._v(" "),
             _c("div", { staticClass: "social-icons" }, [
               _c("div", { staticClass: "flex" }, [
@@ -24634,13 +24736,23 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "home-images" }, [
         _c("div", { staticClass: "flex flex-wrap" }, [
-          _c("div", { staticClass: "w-full lg:w-1/2 image-container" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-1/2 image-container" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-1/2 image-container" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-1/2 image-container" })
+          _c("div", { staticClass: "slider-component owl-carousel" }, [
+            _c("div", {
+              staticClass: "w-100 w-full lg:w-1/2 image-container one"
+            }),
+            _vm._v(" "),
+            _c("div", {
+              staticClass: "w-100 w-full lg:w-1/2 image-container two"
+            }),
+            _vm._v(" "),
+            _c("div", {
+              staticClass: "w-100 w-full lg:w-1/2 image-container three"
+            }),
+            _vm._v(" "),
+            _c("div", {
+              staticClass: "w-100 w-full lg:w-1/2 image-container four"
+            })
+          ])
         ])
       ])
     ])
@@ -24649,95 +24761,27 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "content-section", attrs: { id: "amenities" } },
-      [
-        _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "intro-text" }, [
-            _c("h2", [_vm._v("Amenities & Attractions")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "filter-buttons hide-on-mobile" }, [
-            _c("div", { staticClass: "filter-button alt-body" }, [
-              _vm._v("Relax")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "filter-button alt-body" }, [
-              _vm._v("Explore")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "filter-button alt-body" }, [
-              _vm._v("Work")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "filter-button alt-body" }, [
-              _vm._v("Play")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "filter-button alt-body" }, [
-              _vm._v("Live")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "filter-button alt-body" }, [
-              _vm._v("All")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "amenity-list" }, [
-            _c("div", { staticClass: "flex flex-wrap" }, [
-              _c("div", { staticClass: "amenity w-full md:w-1/2 lg:w-1/3" }, [
-                _c("div", { staticClass: "image" }),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-content" }, [
-                  _c("p", { staticClass: "alt-body" }, [
-                    _vm._v("Personal Gardening")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Vestibules condimentum tincidunt tortor eget ultricies. Fusce mi sem, hendrerit ac\n                                dignissim congue, commodo in orci."
-                    )
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "amenity w-full md:w-1/2 lg:w-1/3" }, [
-                _c("div", { staticClass: "image" }),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-content" }, [
-                  _c("p", { staticClass: "alt-body" }, [
-                    _vm._v("Personal Gardening")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Vestibules condimentum tincidunt tortor eget ultricies. Fusce mi sem, hendrerit ac\n                                dignissim congue, commodo in orci."
-                    )
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "amenity w-full md:w-1/2 lg:w-1/3" }, [
-                _c("div", { staticClass: "image" }),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-content" }, [
-                  _c("p", { staticClass: "alt-body" }, [
-                    _vm._v("Personal Gardening")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Vestibules condimentum tincidunt tortor eget ultricies. Fusce mi sem, hendrerit ac\n                                dignissim congue, commodo in orci."
-                    )
-                  ])
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]
-    )
+    return _c("div", { staticClass: "intro-text" }, [
+      _c("h2", [_vm._v("Amenities & Attractions")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "filter-buttons hide-on-mobile" }, [
+      _c("div", { staticClass: "filter-button alt-body" }, [_vm._v("Relax")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "filter-button alt-body" }, [_vm._v("Explore")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "filter-button alt-body" }, [_vm._v("Work")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "filter-button alt-body" }, [_vm._v("Play")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "filter-button alt-body" }, [_vm._v("Live")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "filter-button alt-body" }, [_vm._v("All")])
+    ])
   },
   function() {
     var _vm = this
@@ -25308,7 +25352,27 @@ var render = function() {
     "div",
     { attrs: { id: "sustainable-living-page" } },
     [
-      _vm._m(0),
+      _c("div", { staticClass: "hero" }, [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "flex flex-wrap mt-12" }, [
+            _vm._m(0),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "illustration-container w-full lg:w-5/12 " },
+              [
+                _c("img", {
+                  staticClass: "mx-auto",
+                  attrs: {
+                    src: "/static/images/sustainability_hero.png",
+                    alt: ""
+                  }
+                })
+              ]
+            )
+          ])
+        ])
+      ]),
       _vm._v(" "),
       _c("SliderComponent"),
       _vm._v(" "),
@@ -25413,7 +25477,7 @@ var render = function() {
               _vm._m(7),
               _vm._v(" "),
               _c("div", { staticClass: "w-4/12 icon-container" }, [
-                _c("div", { staticClass: "icon" }, [
+                _c("div", { staticClass: "icon " }, [
                   _c("img", {
                     attrs: { src: "/static/sapthapatha/people.png", alt: "" }
                   })
@@ -25424,9 +25488,32 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _c("section", [_c("StandardCTAComponent")], 1),
-      _vm._v(" "),
-      _c("section", { staticClass: "mb-0" }, [_c("SchoolCTAComponent")], 1)
+      _c(
+        "div",
+        { staticClass: "eco-habitat-cta-component" },
+        [
+          _c(
+            "FeatureComponent",
+            [
+              _vm._t("default", [
+                _c("h1", { staticClass: "max-w-4xl" }, [
+                  _vm._v("What is an 'Eco-habitat'?")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-4" }),
+                _vm._v(" "),
+                _c("router-link", { attrs: { to: "/eco-habitats" } }, [
+                  _c("div", { staticClass: "lg-button" }, [
+                    _vm._v("Find out more")
+                  ])
+                ])
+              ])
+            ],
+            2
+          )
+        ],
+        1
+      )
     ],
     1
   )
@@ -25436,39 +25523,24 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "hero" }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", {
-          staticClass: "illustration-container w-5/12 bg-blue-200 mobile"
-        }),
+    return _c("div", { staticClass: "w-full lg:w-7/12" }, [
+      _c("div", { staticClass: "text-content" }, [
+        _c("h1", [_vm._v("Sapthapatha")]),
         _vm._v(" "),
-        _c("div", { staticClass: "flex flex-wrap mt-12" }, [
-          _c("div", { staticClass: "w-full md:w-7/12" }, [
-            _c("div", { staticClass: "text-content" }, [
-              _c("h1", [_vm._v("Sapthapatha")]),
-              _vm._v(" "),
-              _c("h3", [_vm._v("Seven strands of sustainable living")]),
-              _vm._v(" "),
-              _c("div", { staticClass: "separator" }),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Everything we need for our survival and well-being depends, either directly or\n                            indirectly, on\n                            our\n                            natural environment. To pursue sustainability, it is necessary to create and maintain\n                            conditions\n                            under which the people and nature can co-exist in productive harmony to support present\n                            and\n                            future\n                            generations."
-                )
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "In order to reduce environmental footprint, energy footprint and community’s footprint,\n                            we\n                            have\n                            identified seven different areas where progress is achieved. These seven strands\n                            maintain a\n                            dynamic\n                            balance and harmonize to nature’s grand symphony."
-                )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", {
-            staticClass:
-              "illustration-container w-5/12 bg-blue-200 hide-on-mobile"
-          })
+        _c("h3", [_vm._v("Seven strands of sustainable living")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "separator" }),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "Everything we need for our survival and well-being depends, either directly or\n                            indirectly, on\n                            our\n                            natural environment. To pursue sustainability, it is necessary to create and maintain\n                            conditions\n                            under which the people and nature can co-exist in productive harmony to support present\n                            and\n                            future\n                            generations."
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "In order to reduce environmental footprint, energy footprint and community’s footprint,\n                            we\n                            have\n                            identified seven different areas where progress is achieved. These seven strands\n                            maintain a\n                            dynamic\n                            balance and harmonize to nature’s grand symphony."
+          )
         ])
       ])
     ])
@@ -25570,7 +25642,19 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "All energy production is through renewable sources - Solar and Bio-gas."
+            "All energy production is through renewable sources - Solar and Bio-gas. Organo creates sustainable eco-habitats on 'net-zero' principles."
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "Every villa generates its own power. Consumption and usage is continuously monitored."
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "Power generators are installed to supply backup power to the community when required."
           )
         ])
       ])
@@ -25586,7 +25670,19 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "All energy production is through renewable sources - Solar and Bio-gas."
+            "We've tried to achieve a harmonious experience between inside the villa and outside of it. Facing the farm, the open layout of the interiors allow for maximum natural air-flow."
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "The layout of the community is designed to give you a chance to have your privacy as well as socialize whenever you can. "
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body" }, [
+          _vm._v(
+            "Though our communities are in the outskirts of the urban settlement, there is no stone left unturned in giving you all experiences that the modern lifestyle demands. A nature bio-swimming-pool, state of the art Clubhouse, Gym, Sports areas are seamlessly integrated into the surrounding landscape without affecting it in any way."
           )
         ])
       ])
@@ -25630,73 +25726,76 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { attrs: { id: "team-page" } },
-    [
-      _vm._m(0),
-      _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
-      _c("div", { attrs: { id: "team-list" } }, [
-        _c("div", { staticClass: "container mx-auto" }, [
-          _c(
-            "div",
-            _vm._l(_vm.team_list, function(item) {
-              return _c("div", { staticClass: "flex flex-wrap team-item" }, [
-                _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
-                  _c("div", { staticClass: "image-container bg-blue-200" }, [
-                    _c("img", { attrs: { src: item.image_url, alt: "" } })
-                  ])
+  return _c("div", { attrs: { id: "team-page" } }, [
+    _c("div", { staticClass: "bg-gray-100" }, [
+      _c("section", { staticClass: "hero m-0 py-32 relative" }, [
+        _c("img", {
+          staticClass: "illustration-left",
+          attrs: { src: "/static/images/team_left.png", alt: "" }
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "illustration-right",
+          attrs: { src: "/static/images/team_right.png", alt: "" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "label text-center mb-4" }, [_vm._v("ABOUT")]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _c("div", { attrs: { id: "team-list" } }, [
+      _c("div", { staticClass: "container mx-auto" }, [
+        _c(
+          "div",
+          _vm._l(_vm.team_list, function(item) {
+            return _c("div", { staticClass: "flex flex-wrap team-item" }, [
+              _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
+                _c("div", { staticClass: "image-container bg-blue-200" }, [
+                  _c("img", { attrs: { src: item.image_url, alt: "" } })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
+                _c("h3", [_vm._v(_vm._s(item.name))]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n                            " +
+                      _vm._s(item.description) +
+                      "\n                        "
+                  )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
-                  _c("h3", [_vm._v(_vm._s(item.name))]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "\n                            " +
-                        _vm._s(item.description) +
-                        "\n                        "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _vm._m(2, true)
-                ])
+                _vm._m(2, true)
               ])
-            }),
-            0
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _vm._m(3),
-      _vm._v(" "),
-      _c("StandardCTAComponent")
-    ],
-    1
-  )
+            ])
+          }),
+          0
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(3)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "bg-gray-100" }, [
-      _c("section", { staticClass: "hero m-0 py-32" }, [
-        _c("div", { staticClass: "label text-center mb-4" }, [_vm._v("ABOUT")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "container text-center mx-auto" }, [
-          _c("h1", {}, [_vm._v("Our Team")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-3" }),
-          _vm._v(" "),
-          _c("h3", { staticClass: "font-normal max-w-5xl mx-auto" }, [
-            _vm._v(
-              "We are a group of Architects, Designers and\n                    Visionaries with a wide range of subject-matter expertise, focusing our efforts towards designing, building and developing sustainable\n                    eco-habitats."
-            )
-          ])
-        ])
+    return _c("div", { staticClass: "container text-center mx-auto" }, [
+      _c("h1", {}, [_vm._v("Our Team")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-3" }),
+      _vm._v(" "),
+      _c("h3", { staticClass: "font-normal max-w-5xl mx-auto" }, [
+        _vm._v(
+          "We are a group of Architects, Designers and\n                    Visionaries with a wide range of subject-matter expertise, focusing our efforts towards designing, building and developing sustainable\n                    eco-habitats."
+        )
       ])
     ])
   },
@@ -25712,10 +25811,13 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "value" }, [
               _c("div", { staticClass: "heading" }, [
-                _c("h3", [_vm._v("Simplicity")])
+                _c("h3", [
+                  _c("span", { staticClass: "hl" }, [_vm._v("S")]),
+                  _vm._v("implicity")
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "description" }, [
+              _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
                   "We eliminate the unnecessary without losing intent and finding the\n                            best solution for a problem in the simplest way possible.\n                        "
                 )
@@ -25724,10 +25826,13 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "value" }, [
               _c("div", { staticClass: "heading" }, [
-                _c("h3", [_vm._v("Collaboration")])
+                _c("h3", [
+                  _c("span", { staticClass: "hl" }, [_vm._v("C")]),
+                  _vm._v("ollaboration")
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "description" }, [
+              _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
                   "Fearlessly collaborate and benefit from a wide range of skill to\n                            generate synergies between the team.\n                        "
                 )
@@ -25736,10 +25841,13 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "value" }, [
               _c("div", { staticClass: "heading" }, [
-                _c("h3", [_vm._v("Ownership")])
+                _c("h3", [
+                  _c("span", { staticClass: "hl" }, [_vm._v("O")]),
+                  _vm._v("wnership")
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "description" }, [
+              _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
                   "We take responsibility and full ownership of our efforts and\n                            outcomes to make sure we deliver value, every time.\n                        "
                 )
@@ -25748,10 +25856,13 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "value" }, [
               _c("div", { staticClass: "heading" }, [
-                _c("h3", [_vm._v("Perseverance")])
+                _c("h3", [
+                  _c("span", { staticClass: "hl" }, [_vm._v("P")]),
+                  _vm._v("erseverance")
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "description" }, [
+              _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
                   "We get out of our comfort zone and endlessly learn to adapt in an\n                            ever-changing environment. We persevere to deliver the promised experience, no matter\n                            what it takes.\n                        "
                 )
@@ -25760,10 +25871,13 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "value" }, [
               _c("div", { staticClass: "heading" }, [
-                _c("h3", [_vm._v("Empathy")])
+                _c("h3", [
+                  _c("span", { staticClass: "hl" }, [_vm._v("E")]),
+                  _vm._v("mpathy")
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "description" }, [
+              _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
                   "We don’t judge. We try to understand by observing your needs and\n                            listening without prejudice.\n                        "
                 )
@@ -25771,7 +25885,7 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "w-5/12 bg-gray-300 hide-on-mobile" })
+          _c("div", { staticClass: "w-full lg:w-5/12 image-container" })
         ])
       ])
     ])
@@ -25790,20 +25904,16 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "section",
-      { staticClass: "bg-gray-200", attrs: { id: "awards" } },
+      { staticClass: "bg-gray-200 hidden", attrs: { id: "awards" } },
       [
         _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "image-container bg-gray-400" }),
+          _c("div", { staticClass: "image-container" }),
           _vm._v(" "),
           _c("div", { staticClass: "label text-center" }, [_vm._v("AWARDS")]),
           _vm._v(" "),
           _c("div", { staticClass: "mb-4" }),
           _vm._v(" "),
-          _c("h3", { staticClass: "text-center" }, [
-            _vm._v(
-              "Morbi aliquam sem ut euismod egestas. Ut vestibulum nibh lectus, et fringilla\n                nisi congue et. Ut id ante sed urna finibus vehicula."
-            )
-          ]),
+          _c("h3", { staticClass: "text-center" }),
           _vm._v(" "),
           _c("div", { staticClass: "mb-12" }),
           _vm._v(" "),
@@ -25811,6 +25921,14 @@ var staticRenderFns = [
             "div",
             { staticClass: "text-center", attrs: { id: "award-list" } },
             [
+              _c("div", { staticClass: "award" }, [
+                _c("h3", [
+                  _vm._v(
+                    "India Green Building Council certified Naandi as to have successfully achieved the Green Building Standards under IGBC Home Platinum"
+                  )
+                ])
+              ]),
+              _vm._v(" "),
               _c("p", { staticClass: "alt-body" }, [
                 _vm._v("Rethinking the Future - Sustainability Awards - 2014")
               ]),
@@ -41431,17 +41549,7 @@ new Vue({
   // },
   router: _routes__WEBPACK_IMPORTED_MODULE_1__["default"]
 });
-$(document).ready(function () {
-  $(".slider-component.owl-carousel").owlCarousel({
-    loop: true,
-    items: 2,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    dots: false,
-    nav: false,
-    slideTransition: 'ease-in-out'
-  });
-});
+$(document).ready(function () {});
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
   var Nav = $('nav');

@@ -4,6 +4,16 @@
     .text-content {
       padding-right: 40px;
       max-width: 600px;
+
+
+    }
+    @media (max-width: 1024px) {
+      .text-content {
+        max-width: 90%;
+        margin-bottom: 40px;
+      }
+      padding-bottom: 40px;
+
     }
   }
 }

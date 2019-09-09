@@ -55,7 +55,7 @@
                         <span class="text" @click="modalShowing = true">Watch Video</span>
                     </div>
                     <CardModalComponent :showing="modalShowing" @close="modalShowing = false">
-                        <iframe class="mx-auto" src="https://www.youtube.com/embed/07dX5_pa2tE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="mx-auto"  src="https://www.youtube.com/embed/07dX5_pa2tE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </CardModalComponent>
                 </div>
 
