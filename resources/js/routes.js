@@ -12,7 +12,7 @@ import PressPage from './components/pages/PressPageComponent'
 import ContactPage from './components/pages/ContactPageComponent'
 import StyleGuide from './components/pages/StyleGuideComponent'
 import NotFound from './components/pages/NotFoundComponent'
-
+import GalleryAlbumComponent from './components/pages/GalleryAlbumComponent';
 
 let routes = [
     {
@@ -46,6 +46,11 @@ let routes = [
     {
         path: '/press',
         component: PressPage
+    },
+    {
+        path: '/gallery/album/:album',
+        component: GalleryAlbumComponent,
+        props: true
     },
     {
         path: '/gallery',

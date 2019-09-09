@@ -19,8 +19,9 @@
                     </VideoComponent>
                 </div>
 
-                <div class="sd">
+                <div class="">
                     <VideoComponent v-if="screenName == 'sd'">
+
                         <video autoplay loop muted>
                             <source :src="'/static/videos/sd/home_sd.mp4'" type="video/mp4">
                         </video>
@@ -51,9 +52,13 @@
                     into the natural world, supportive of a healthy way of living.</p>
                 <div class="button-block">
                     <div class="lg-button inline-block">
-                        <span class="text">Watch Video</span>
+                        <span class="text" @click="modalShowing = true">Watch Video</span>
                     </div>
+                    <CardModalComponent :showing="modalShowing" @close="modalShowing = false">
+                        <iframe class="mx-auto" src="https://www.youtube.com/embed/07dX5_pa2tE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </CardModalComponent>
                 </div>
+
             </div>
         </VideoHeaderComponent>
 
@@ -154,7 +159,7 @@
             <FeatureComponent>
                 <slot>
                     <h1 class="mb-4">Organo@School</h1>
-                    <h2 class="max-w-4xl">A life changing and enriching experience for the global citizens of
+                    <h2 class="max-w-4xl">A life changing and enriching program for the global citizens of
                         tomorrow.</h2>
                     <div class="mb-4"></div>
                     <router-link to="/organo-at-school"><div class="lg-button">Find out more</div></router-link>
@@ -168,11 +173,17 @@
 <script>
     export default {
         mounted() {
-            console.log("screenName");
+          console.log(this.screenName)
         },
         data() {
             return {
-                screenWidth: screen.width
+                screenWidth: screen.width,
+                modalShowing: false,
+            }
+        },
+        methods: {
+            close() {
+                this.modalShowing = false;
             }
         },
         computed: {

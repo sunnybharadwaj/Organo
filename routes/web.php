@@ -13,9 +13,9 @@
 
 Route::get('/{catchall?}', function () {
     return view('welcome');
-});
+})->where('catchall', '[\/\w\.-]*');
 
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');

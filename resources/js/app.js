@@ -10,6 +10,7 @@ import HelpComponent from './components/partials/HelpComponent';
 import FeedbackComponent from './components/partials/FeedbackComponent';
 import VideoHeaderComponent from './components/partials/VideoHeaderComponent';
 import VideoComponent from './components/VideoComponent';
+import CardModalComponent from './components/CardModalComponent';
 import ImageContentComponent from './components/ImageContentComponent';
 
 import FormContactComponent from './components/forms/FormContactComponent';
@@ -25,7 +26,9 @@ Vue.component('HelpComponent', HelpComponent);
 Vue.component('FeedbackComponent', FeedbackComponent);
 Vue.component('VideoHeaderComponent', VideoHeaderComponent);
 Vue.component('VideoComponent', VideoComponent);
+Vue.component('CardModalComponent', CardModalComponent);
 Vue.component('ImageContentComponent', ImageContentComponent);
+
 
 //Forms
 Vue.component('FormContactComponent', FormContactComponent);

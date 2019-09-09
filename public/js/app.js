@@ -1851,6 +1851,58 @@ module.exports = function isBuffer (obj) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CardModalComponent.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CardModalComponent.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {},
+  props: {
+    showing: {
+      required: true,
+      type: Boolean
+    }
+  },
+  methods: {
+    close: function close() {
+      this.$emit('close');
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ImageContentComponent.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ImageContentComponent.vue?vue&type=script&lang=js& ***!
@@ -2162,6 +2214,15 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2677,6 +2738,44 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['album'],
+  mounted: function mounted() {},
+  data: function data() {
+    return {};
+  },
+  computed: {
+    imageUrl: function imageUrl() {
+      return '/static/gallery/' + this.album + '/';
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/GalleryPageComponent.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/GalleryPageComponent.vue?vue&type=script&lang=js& ***!
@@ -2686,6 +2785,47 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2888,14 +3028,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
-    console.log("screenName");
+    console.log(this.screenName);
   },
   data: function data() {
     return {
-      screenWidth: screen.width
+      screenWidth: screen.width,
+      modalShowing: false
     };
+  },
+  methods: {
+    close: function close() {
+      this.modalShowing = false;
+    }
   },
   computed: {
     screenName: function screenName() {
@@ -3876,68 +4027,98 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+var team_list = [{
+  name: 'Nagesh Battula',
+  description: 'Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner and a self-taught leader. He has over 20 years of extensive experience in residential, commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to develop a project that would be sustainable and net-zero in its resource consumption.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/nageshbattula.jpg'
+}, {
+  name: 'Vijaya Durga',
+  description: 'With over 20 years of experience in the field of interior designing and the head of the Interior design team at FHD, Vijaya has an eye for detail and a sensitivity towards color, fixtures and finishes, that let her impeccable decisions on the spot. She shares the vigor to develop Organo as a highly productive yet aesthetically pleasing farming community.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/vijayadurga.jpg'
+}, {
+  name: 'Rajendra Kumar',
+  description: 'Raj as we call him is not a definition person, which helped him design the marketing for India’s first sustainable collective farming in the most non-traditional ways. Raj is the quarterback for our Marketing and Sales team driving it passion and vigor. Raj’s vision the project is far out and very fast for everyone to catch up.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/rajendrakumar.jpg'
+}, {
+  name: 'Dr. Vinod Vemula',
+  description: 'Dr. Vemula heads the Farmer outreach program at Organo. Has more than 27 years of experience in agriculture, forestry, natural resources development & management projects, on farm research & extension. His grassroots level work directly with farmers to middle support s and his extensive international experience gives him the bird\'s eye view to help convert neighboring villages and farmers to turn into Organic with the focus on sustainability.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/drvinodvemula.jpg'
+}, {
+  name: 'Dhamothara N',
+  description: 'Dhamu, Director of Operations and head of the Architectural division for FHD has helped get critical design solutions right, without compromising on logistical efficiencies. Dhamu has over 11 years of experience in the field of architecture with several Master planning and large-scale projects to his credit.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/dhamotharan.jpg'
+}, {
+  name: 'Mathan Ramaiah',
+  description: 'Mathan graduated from the Columbia University, New York. He has over 12 years of experience working in Indian and International firms, leading several award-winning Masterplans with special emphasis on passive and active sustainable strategies. He is passionately involved in the masterplan and public space design of Organo.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/mathanramaiah.jpg'
+}, {
+  name: 'Niharika',
+  description: 'An IGBC Accredited Professional LEED Green Associate, Niharika handles the Project Management for Organo. Using her Civil Engineering education and her 10 years of experience in Construction to her advantage, she handles Technical Support, Sustainability and Customer Relations effectively.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/niharika.jpg'
+}, {
+  name: 'Harinath Rao',
+  description: 'Associate Director, Organo brings in decades of rich functional construction and real estate expertise. As a structural engineer turned businessman, he combines the best of both worlds in melding business expertise with thorough understanding of the technicalities of the business and is focused on creating seamless buyer journeys. He brings in his multi-faceted expertise to add deep value with the accent on delivering superior customer experience.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/harinathrao.jpg'
+}, {
+  name: 'Meena Murugappan',
+  description: 'With over 17 years of international & local experience across multiple industries, I am currently the Director of Development Strategy. I am passionate about developing real estate products that are first-to-market. Education: B.Arch from SAP & MS in Real Estate Development from MIT, Boston.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/meenamurugappan.jpg'
+}, {
+  name: 'Dr. Dharmendar Reddy',
+  description: 'A Management Professional with 17 +years experience in Micro-finance, Agriculture credit, Collections and more. Dr. Dharmendar Reddy is an expertise is in Rural Strategy, establishing new business operations and in establishing new distribution channels. Education: MBA from Kakatiya University, Warangal.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/drdharmendarreddy.jpg'
+}, {
+  name: 'Rakesh Koti',
+  description: 'Rakesh Koti heads sustainability at Organo and has a keen interest in developing net-zero environments. He gra BE from IIT, Karagpur & MS in Energy Systems from University of Illinois in Urbana Champaign.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/rakeshkoti.jpg'
+}, {
+  name: 'Dr. Syamasundar Reddy',
+  description: 'Dr. Reddy specializes in Agriculture Cycles, Crop Production, Plant Protection and Agricultural Marketing related Agro-advisories.',
+  links: {
+    linkedIn: ''
+  },
+  image_url: '/static/team/drsyamasundarreddy.jpg'
+}];
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {}
+  mounted: function mounted() {},
+  data: function data() {
+    return {
+      team_list: team_list
+    };
+  }
 });
 
 /***/ }),
@@ -21836,6 +22017,57 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CardModalComponent.vue?vue&type=template&id=0e16ecaa&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CardModalComponent.vue?vue&type=template&id=0e16ecaa& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm.showing
+    ? _c("div", { staticClass: "card-modal" }, [
+        _c("div", { staticClass: "modal-bg" }, [
+          _c("div", { staticClass: "background" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-wrapper" }, [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _vm._t("default"),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "lg-button text-center mt-4",
+                    attrs: { "aria-label": "close" },
+                    on: { click: _vm.close }
+                  },
+                  [_vm._v("\n                    Close\n                ")]
+                )
+              ],
+              2
+            )
+          ])
+        ])
+      ])
+    : _vm._e()
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ImageContentComponent.vue?vue&type=template&id=9ebb01b8&":
 /*!************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ImageContentComponent.vue?vue&type=template&id=9ebb01b8& ***!
@@ -22377,50 +22609,18 @@ var render = function() {
   return _c("div", { attrs: { id: "contact-page" } }, [
     _c("section", { staticClass: "header" }, [
       _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "flex flex-wrap" }, [
+        _c("div", { staticClass: "flex flex-wrap " }, [
           _c("div", { staticClass: "w-full lg:w-7/12 map-block mb-8" }, [
-            _c("h2", [_vm._v("Contact Us")]),
+            _c("h2", { staticClass: "wide-page-title" }, [
+              _vm._v("Contact Us")
+            ]),
             _vm._v(" "),
-            _c("div", { staticClass: "map" }, [
+            _c("div", { staticClass: "map bg-gray-700" }, [
               _c("img", { attrs: { src: "/static/graphicmap.jpg", alt: "" } })
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-5/12 contact-details" }, [
-            _c("h2", { staticClass: "phone-1 contact-item" }, [
-              _c("div", { staticClass: "icon" }, [
-                _c("img", {
-                  attrs: { src: "/static/icons/phone.png", alt: "" }
-                })
-              ]),
-              _vm._v(" "),
-              _vm._m(0)
-            ]),
-            _vm._v(" "),
-            _c("h2", { staticClass: "phone-2 contact-item" }, [
-              _c("div", { staticClass: "icon" }, [
-                _c("img", {
-                  attrs: { src: "/static/icons/phone.png", alt: "" }
-                })
-              ]),
-              _vm._v(" "),
-              _vm._m(1)
-            ]),
-            _vm._v(" "),
-            _c("h3", { staticClass: "mail contact-item" }, [
-              _c("div", { staticClass: "icon" }, [
-                _c("img", { attrs: { src: "/static/icons/mail.png", alt: "" } })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "text" }, [
-                _vm._v(
-                  "\n                            help@organo.com\n                        "
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _vm._m(2)
-          ])
+          _vm._m(0)
         ])
       ])
     ]),
@@ -22429,7 +22629,7 @@ var render = function() {
     _vm._v(" "),
     _c("section", { staticClass: "m-0", attrs: { id: "contact-page-form" } }, [
       _c("div", { staticClass: "container mx-auto" }, [
-        _vm._m(3),
+        _vm._m(1),
         _vm._v(" "),
         _c("p", { staticClass: "opacity-50 font-bold" }, [
           _vm._v("Please fill all below fields")
@@ -22445,84 +22645,111 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text" }, [
-      _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
-      _vm._v("79933 55227\n                        ")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text" }, [
-      _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
-      _vm._v("81067 56010")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "location contact-item" }, [
-      _c("div", { staticClass: "text alt-body" }, [
-        _c("div", { staticClass: "flex flex-wrap" }, [
-          _c("div", { staticClass: "address w-full lg:w-1/2" }, [
-            _c("p", { staticClass: "label" }, [_vm._v("Organo")]),
+    return _c("div", { staticClass: "w-full lg:w-5/12 contact-details" }, [
+      _c("h1", { staticClass: "mobile-page-title mb-12" }, [
+        _vm._v("Contact Us")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "flex flex-wrap sm:flex-initial md:flex-row-reverse lg:flex-initial"
+        },
+        [
+          _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
+            _c("h2", { staticClass: "phone-1 contact-item" }, [
+              _c("div", { staticClass: "text" }, [
+                _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
+                _vm._v("79933 55227\n                                ")
+              ])
+            ]),
             _vm._v(" "),
-            _c("div", { staticClass: "text-content" }, [
-              _vm._v("\n                                        #148 & 149, "),
-              _c("br"),
-              _vm._v(
-                "\n                                        Aziz Nagar Panchayat, "
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                                        Through Yenkapalli Village, "
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                                        Moinabad, RR District,"
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                                        Hyderabad – 500 075, "
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                                        Telangana State, India.\n                                    "
-              )
+            _c("h2", { staticClass: "phone-2 contact-item" }, [
+              _c("div", { staticClass: "text" }, [
+                _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
+                _vm._v("81067 56010")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("h3", { staticClass: "mail contact-item" }, [
+              _c("div", { staticClass: "text" }, [
+                _vm._v(
+                  "\n                                    help@organo.com\n                                "
+                )
+              ])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "address w-full lg:w-1/2" }, [
-            _c("p", { staticClass: "label" }, [_vm._v("Naandi")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "text-content" }, [
-              _vm._v("\n                                        #148 & 149, "),
-              _c("br"),
-              _vm._v(
-                "\n                                        Aziz Nagar Panchayat, "
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                                        Through Yenkapalli Village, "
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                                        Moinabad, RR District,"
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                                        Hyderabad – 500 075, "
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                                        Telangana State, India.\n                                    "
-              )
+          _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
+            _c("div", { staticClass: "location contact-item" }, [
+              _c("div", { staticClass: "text alt-body" }, [
+                _c("div", { staticClass: "flex flex-wrap" }, [
+                  _c("div", { staticClass: "address w-full lg:w-1/2" }, [
+                    _c("p", { staticClass: "label" }, [_vm._v("Organo")]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "text-content" }, [
+                      _vm._v(
+                        "\n                                                #148 & 149, "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Aziz Nagar Panchayat, "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Through Yenkapalli Village, "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Moinabad, RR District,"
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Hyderabad – 500 075, "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Telangana State, India.\n                                            "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "address w-full lg:w-1/2" }, [
+                    _c("p", { staticClass: "label" }, [_vm._v("Naandi")]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "text-content" }, [
+                      _vm._v(
+                        "\n                                                #148 & 149, "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Aziz Nagar Panchayat, "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Through Yenkapalli Village, "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Moinabad, RR District,"
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Hyderabad – 500 075, "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                                                Telangana State, India.\n                                            "
+                      )
+                    ])
+                  ])
+                ])
+              ])
             ])
           ])
-        ])
-      ])
+        ]
+      )
     ])
   },
   function() {
@@ -23388,6 +23615,47 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=template&id=7c4b659a&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=template&id=7c4b659a& ***!
+  \******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { attrs: { id: "album-page" } }, [
+    _c("section", [
+      _c(
+        "div",
+        { staticClass: "container mx-auto" },
+        _vm._l(15, function(index) {
+          return _c("div", { staticClass: "image-item" }, [
+            _c("div", { staticClass: "image-container" }, [
+              _c("img", {
+                attrs: { src: _vm.imageUrl + index + ".jpg", alt: "" }
+              })
+            ])
+          ])
+        }),
+        0
+      )
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/GalleryPageComponent.vue?vue&type=template&id=3756dcdc&":
 /*!*****************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/GalleryPageComponent.vue?vue&type=template&id=3756dcdc& ***!
@@ -23403,44 +23671,95 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h1", [_vm._v("Gallery Page")]),
-      _vm._v(" "),
-      _c("ul", [
-        _c("li"),
+  return _c("div", { attrs: { id: "gallery-page" } }, [
+    _c("section", [
+      _c("div", { staticClass: "container mx-auto" }, [
+        _c("h1", [_vm._v("Gallery")]),
         _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li"),
-        _vm._v(" "),
-        _c("li")
+        _c(
+          "div",
+          { staticClass: "masonry" },
+          [
+            _c(
+              "router-link",
+              { staticClass: "album", attrs: { to: "/gallery/album/naandi" } },
+              [
+                _c("span", { staticClass: "item" }, [
+                  _c("div", { staticClass: "img-wrapper" }, [
+                    _c("span", { staticClass: "overlay" }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "w-full",
+                      attrs: {
+                        src: "/static/images/naandi/home/4.jpg",
+                        alt: ""
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", { staticClass: "album-name" }, [
+                    _vm._v("Organo Naandi")
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c("a", { staticClass: "album", attrs: { href: "" } }, [
+              _c("span", { staticClass: "item" }, [
+                _c("div", { staticClass: "img-wrapper" }, [
+                  _c("span", { staticClass: "overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "w-full",
+                    attrs: { src: "/static/images/naandi/home/4.jpg", alt: "" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("h2", { staticClass: "album-name" }, [
+                  _vm._v("Naandi Interiors")
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("a", { staticClass: "album", attrs: { href: "" } }, [
+              _c("span", { staticClass: "item" }, [
+                _c("div", { staticClass: "img-wrapper" }, [
+                  _c("span", { staticClass: "overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "w-full",
+                    attrs: { src: "/static/images/naandi/home/4.jpg", alt: "" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("h2", { staticClass: "album-name" }, [_vm._v("@School")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("a", { staticClass: "album", attrs: { href: "" } }, [
+              _c("span", { staticClass: "item" }, [
+                _c("div", { staticClass: "img-wrapper" }, [
+                  _c("span", { staticClass: "overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "w-full",
+                    attrs: { src: "/static/images/naandi/home/4.jpg", alt: "" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("h2", { staticClass: "album-name" }, [
+                  _vm._v("Sustainable Living")
+                ])
+              ])
+            ])
+          ],
+          1
+        )
       ])
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -23524,7 +23843,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "sd" },
+            {},
             [
               _vm.screenName == "sd"
                 ? _c("VideoComponent", [
@@ -23626,11 +23945,51 @@ var render = function() {
               )
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "button-block" }, [
-              _c("div", { staticClass: "lg-button inline-block" }, [
-                _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-              ])
-            ])
+            _c(
+              "div",
+              { staticClass: "button-block" },
+              [
+                _c("div", { staticClass: "lg-button inline-block" }, [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "text",
+                      on: {
+                        click: function($event) {
+                          _vm.modalShowing = true
+                        }
+                      }
+                    },
+                    [_vm._v("Watch Video")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c(
+                  "CardModalComponent",
+                  {
+                    attrs: { showing: _vm.modalShowing },
+                    on: {
+                      close: function($event) {
+                        _vm.modalShowing = false
+                      }
+                    }
+                  },
+                  [
+                    _c("iframe", {
+                      staticClass: "mx-auto",
+                      attrs: {
+                        src: "https://www.youtube.com/embed/07dX5_pa2tE?rel=0",
+                        frameborder: "0",
+                        allow:
+                          "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                        allowfullscreen: ""
+                      }
+                    })
+                  ]
+                )
+              ],
+              1
+            )
           ]
         )
       ]),
@@ -23755,7 +24114,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("h2", { staticClass: "max-w-4xl" }, [
                   _vm._v(
-                    "A life changing and enriching experience for the global citizens of\n                    tomorrow."
+                    "A life changing and enriching program for the global citizens of\n                    tomorrow."
                   )
                 ]),
                 _vm._v(" "),
@@ -25275,24 +25634,41 @@ var render = function() {
     "div",
     { attrs: { id: "team-page" } },
     [
-      _c("div", { staticClass: "bg-gray-100" }, [
-        _c("section", { staticClass: "hero m-0 py-32" }, [
-          _c("img", {
-            staticClass: "bg-img",
-            attrs: { src: "static/images/bg_styled.jpg", alt: "" }
-          }),
-          _vm._v(" "),
-          _c("div", { staticClass: "label text-center mb-4" }, [
-            _vm._v("ABOUT")
-          ]),
-          _vm._v(" "),
-          _vm._m(0)
-        ])
-      ]),
+      _vm._m(0),
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
-      _vm._m(2),
+      _c("div", { attrs: { id: "team-list" } }, [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c(
+            "div",
+            _vm._l(_vm.team_list, function(item) {
+              return _c("div", { staticClass: "flex flex-wrap team-item" }, [
+                _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
+                  _c("div", { staticClass: "image-container bg-blue-200" }, [
+                    _c("img", { attrs: { src: item.image_url, alt: "" } })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
+                  _c("h3", [_vm._v(_vm._s(item.name))]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                            " +
+                        _vm._s(item.description) +
+                        "\n                        "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(2, true)
+                ])
+              ])
+            }),
+            0
+          )
+        ])
+      ]),
       _vm._v(" "),
       _vm._m(3),
       _vm._v(" "),
@@ -25306,15 +25682,21 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container text-center mx-auto" }, [
-      _c("h1", {}, [_vm._v("Our Team")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "mb-3" }),
-      _vm._v(" "),
-      _c("p", { staticClass: "alt-body max-w-4xl mx-auto" }, [
-        _vm._v(
-          "We are a group of Architects, Designers and\n                    Visionaries with a wide range of subject-matter expertise, focused towards creating sustainable\n                    eco-habitats."
-        )
+    return _c("div", { staticClass: "bg-gray-100" }, [
+      _c("section", { staticClass: "hero m-0 py-32" }, [
+        _c("div", { staticClass: "label text-center mb-4" }, [_vm._v("ABOUT")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "container text-center mx-auto" }, [
+          _c("h1", {}, [_vm._v("Our Team")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }),
+          _vm._v(" "),
+          _c("h3", { staticClass: "font-normal max-w-5xl mx-auto" }, [
+            _vm._v(
+              "We are a group of Architects, Designers and\n                    Visionaries with a wide range of subject-matter expertise, focusing our efforts towards designing, building and developing sustainable\n                    eco-habitats."
+            )
+          ])
+        ])
       ])
     ])
   },
@@ -25398,96 +25780,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "team-list" } }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "flex flex-wrap team-item" }, [
-          _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
-            _c("div", { staticClass: "image-container bg-blue-200" })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
-            _c("h3", [_vm._v("Nagesh Battula")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                        Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner\n                        and a self-taught leader. He has over 20 years of extensive experience in residential,\n                        commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to\n                        develop a project that would be sustainable and net-zero in its resource consumption.\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "links" }, [
-              _c("ul", [
-                _c("li", { staticClass: "link" }, [_vm._v("LinkedIn")])
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "flex flex-wrap team-item" }, [
-          _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
-            _c("div", { staticClass: "image-container bg-blue-200" })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
-            _c("h3", [_vm._v("Nagesh Battula")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                        Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner\n                        and a self-taught leader. He has over 20 years of extensive experience in residential,\n                        commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to\n                        develop a project that would be sustainable and net-zero in its resource consumption.\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "links" }, [
-              _c("ul", [
-                _c("li", { staticClass: "link" }, [_vm._v("LinkedIn")])
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "flex flex-wrap team-item" }, [
-          _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
-            _c("div", { staticClass: "image-container bg-blue-200" })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
-            _c("h3", [_vm._v("Nagesh Battula")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                        Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner\n                        and a self-taught leader. He has over 20 years of extensive experience in residential,\n                        commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to\n                        develop a project that would be sustainable and net-zero in its resource consumption.\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "links" }, [
-              _c("ul", [
-                _c("li", { staticClass: "link" }, [_vm._v("LinkedIn")])
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "flex flex-wrap team-item" }, [
-          _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
-            _c("div", { staticClass: "image-container bg-blue-200" })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
-            _c("h3", [_vm._v("Nagesh Battula")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                        Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner\n                        and a self-taught leader. He has over 20 years of extensive experience in residential,\n                        commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to\n                        develop a project that would be sustainable and net-zero in its resource consumption.\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "links" }, [
-              _c("ul", [
-                _c("li", { staticClass: "link" }, [_vm._v("LinkedIn")])
-              ])
-            ])
-          ])
-        ])
-      ])
+    return _c("div", { staticClass: "links" }, [
+      _c("ul", [_c("li", { staticClass: "link" }, [_vm._v("LinkedIn")])])
     ])
   },
   function() {
@@ -41099,8 +41393,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_partials_FeedbackComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/partials/FeedbackComponent */ "./resources/js/components/partials/FeedbackComponent.vue");
 /* harmony import */ var _components_partials_VideoHeaderComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/partials/VideoHeaderComponent */ "./resources/js/components/partials/VideoHeaderComponent.vue");
 /* harmony import */ var _components_VideoComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/VideoComponent */ "./resources/js/components/VideoComponent.vue");
-/* harmony import */ var _components_ImageContentComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/ImageContentComponent */ "./resources/js/components/ImageContentComponent.vue");
-/* harmony import */ var _components_forms_FormContactComponent__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/forms/FormContactComponent */ "./resources/js/components/forms/FormContactComponent.vue");
+/* harmony import */ var _components_CardModalComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/CardModalComponent */ "./resources/js/components/CardModalComponent.vue");
+/* harmony import */ var _components_ImageContentComponent__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/ImageContentComponent */ "./resources/js/components/ImageContentComponent.vue");
+/* harmony import */ var _components_forms_FormContactComponent__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/forms/FormContactComponent */ "./resources/js/components/forms/FormContactComponent.vue");
+
 
 
 
@@ -41124,9 +41420,10 @@ Vue.component('HelpComponent', _components_partials_HelpComponent__WEBPACK_IMPOR
 Vue.component('FeedbackComponent', _components_partials_FeedbackComponent__WEBPACK_IMPORTED_MODULE_8__["default"]);
 Vue.component('VideoHeaderComponent', _components_partials_VideoHeaderComponent__WEBPACK_IMPORTED_MODULE_9__["default"]);
 Vue.component('VideoComponent', _components_VideoComponent__WEBPACK_IMPORTED_MODULE_10__["default"]);
-Vue.component('ImageContentComponent', _components_ImageContentComponent__WEBPACK_IMPORTED_MODULE_11__["default"]); //Forms
+Vue.component('CardModalComponent', _components_CardModalComponent__WEBPACK_IMPORTED_MODULE_11__["default"]);
+Vue.component('ImageContentComponent', _components_ImageContentComponent__WEBPACK_IMPORTED_MODULE_12__["default"]); //Forms
 
-Vue.component('FormContactComponent', _components_forms_FormContactComponent__WEBPACK_IMPORTED_MODULE_12__["default"]);
+Vue.component('FormContactComponent', _components_forms_FormContactComponent__WEBPACK_IMPORTED_MODULE_13__["default"]);
 new Vue({
   el: '#app',
   // components: {
@@ -41211,6 +41508,75 @@ if (token) {
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/CardModalComponent.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/CardModalComponent.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CardModalComponent_vue_vue_type_template_id_0e16ecaa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CardModalComponent.vue?vue&type=template&id=0e16ecaa& */ "./resources/js/components/CardModalComponent.vue?vue&type=template&id=0e16ecaa&");
+/* harmony import */ var _CardModalComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CardModalComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/CardModalComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CardModalComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CardModalComponent_vue_vue_type_template_id_0e16ecaa___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CardModalComponent_vue_vue_type_template_id_0e16ecaa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/CardModalComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/CardModalComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/CardModalComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CardModalComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./CardModalComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CardModalComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CardModalComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/CardModalComponent.vue?vue&type=template&id=0e16ecaa&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/CardModalComponent.vue?vue&type=template&id=0e16ecaa& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardModalComponent_vue_vue_type_template_id_0e16ecaa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./CardModalComponent.vue?vue&type=template&id=0e16ecaa& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CardModalComponent.vue?vue&type=template&id=0e16ecaa&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardModalComponent_vue_vue_type_template_id_0e16ecaa___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardModalComponent_vue_vue_type_template_id_0e16ecaa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
@@ -41623,6 +41989,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EcoHabitatPageComponent_vue_vue_type_template_id_537cf4d2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EcoHabitatPageComponent_vue_vue_type_template_id_537cf4d2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/GalleryAlbumComponent.vue":
+/*!*****************************************************************!*\
+  !*** ./resources/js/components/pages/GalleryAlbumComponent.vue ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _GalleryAlbumComponent_vue_vue_type_template_id_7c4b659a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GalleryAlbumComponent.vue?vue&type=template&id=7c4b659a& */ "./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=template&id=7c4b659a&");
+/* harmony import */ var _GalleryAlbumComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GalleryAlbumComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _GalleryAlbumComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _GalleryAlbumComponent_vue_vue_type_template_id_7c4b659a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _GalleryAlbumComponent_vue_vue_type_template_id_7c4b659a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/pages/GalleryAlbumComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GalleryAlbumComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./GalleryAlbumComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GalleryAlbumComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=template&id=7c4b659a&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=template&id=7c4b659a& ***!
+  \************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GalleryAlbumComponent_vue_vue_type_template_id_7c4b659a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./GalleryAlbumComponent.vue?vue&type=template&id=7c4b659a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/GalleryAlbumComponent.vue?vue&type=template&id=7c4b659a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GalleryAlbumComponent_vue_vue_type_template_id_7c4b659a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GalleryAlbumComponent_vue_vue_type_template_id_7c4b659a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -42823,6 +43258,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_pages_ContactPageComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/pages/ContactPageComponent */ "./resources/js/components/pages/ContactPageComponent.vue");
 /* harmony import */ var _components_pages_StyleGuideComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/pages/StyleGuideComponent */ "./resources/js/components/pages/StyleGuideComponent.vue");
 /* harmony import */ var _components_pages_NotFoundComponent__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/pages/NotFoundComponent */ "./resources/js/components/pages/NotFoundComponent.vue");
+/* harmony import */ var _components_pages_GalleryAlbumComponent__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pages/GalleryAlbumComponent */ "./resources/js/components/pages/GalleryAlbumComponent.vue");
+
 
 
 
@@ -42860,6 +43297,10 @@ var routes = [{
 }, {
   path: '/press',
   component: _components_pages_PressPageComponent__WEBPACK_IMPORTED_MODULE_9__["default"]
+}, {
+  path: '/gallery/album/:album',
+  component: _components_pages_GalleryAlbumComponent__WEBPACK_IMPORTED_MODULE_13__["default"],
+  props: true
 }, {
   path: '/gallery',
   component: _components_pages_GalleryPageComponent__WEBPACK_IMPORTED_MODULE_8__["default"]

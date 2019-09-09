@@ -12084,6 +12084,71 @@ p {
   }
 }
 
+.card-modal iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-modal .modal-wrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 4000;
+  top: 160px;
+}
+
+.card-modal .modal-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.card-modal .modal-bg .background {
+  pointer-events: none;
+  background: rgba(243, 240, 240, 0.76);
+  height: 100vh;
+  padding: 160px 0;
+}
+
+.card-modal .modal-bg .card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .card-modal iframe {
+    width: 560px !important;
+    height: 315px;
+  }
+}
+
+@media (max-width: 640px) {
+  .card-modal .modal-bg .card {
+    max-width: 100%;
+    height: 1;
+  }
+
+  .card-modal iframe {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 400px;
+  }
+
+  .card-modal .html5-video-player .video-click-tracking, .card-modal .html5-video-player .video-stream {
+    height: auto !important;
+  }
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -12234,91 +12299,58 @@ nav .full-screen-nav .lg-button {
   padding: 20px 0;
 }
 
-#footer-links {
-  padding-top: 60px;
-  background: linear-gradient(to bottom, white, #ffde39);
+.footer-background {
+  margin: 0 10px;
+  background: #2e2f2c;
+  min-height: 350px;
 }
 
-#footer-links .footer-nav-links {
-  border-right: 2px solid rgba(247, 242, 248, 0.16);
-  padding: 20px 60px 20px 0;
-}
-
-#footer-links .footer-nav-links .flex {
-  width: 70%;
-  float: right;
-}
-
-#footer-links .footer-nav-links a.footer-nav-link {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: black;
+.footer-background h2 {
+  color: white;
   opacity: 0.8;
+  padding: 42px;
 }
 
-#footer-links .footer-nav-links a.footer-nav-link:hover {
-  opacity: 1;
-}
-
-#footer-links .footer-contact {
-  padding: 13px 0 13px 80px;
-}
-
-#footer-links .footer-contact .email {
-  margin-bottom: 18px;
-}
-
-#footer-links .footer-contact .email h3 {
-  color: black;
-  opacity: 0.9;
-}
-
-#footer-links .footer-contact .phone h3 {
-  opacity: 0.9;
-  position: relative;
-}
-
-#footer-links .footer-contact .phone h3 .text {
-  color: black;
-  opacity: 0.9;
-}
-
-#footer-links .footer-contact .phone h3 ::before {
-  content: "+91";
+.footer-strip {
+  background: #5D3331;
   position: absolute;
-  color: white;
-  left: -33px;
-  top: -2px;
-  font-size: 20px;
-  opacity: 0.6;
+  width: 100%;
+  bottom: 15px;
 }
 
-#footer-links .foot {
-  padding: 20px 0;
+.footer-strip .site-map {
+  padding: 40px 0;
 }
 
-#footer-links .foot .logo {
-  height: 72px;
-  width: 162px;
-  margin: 0 auto;
+.footer-strip .signature {
+  padding: 40px 0;
 }
 
-#footer-links .foot .logo img {
-  margin: 10px auto 0;
-  padding: 10px 0;
+.footer-strip .signature .logo {
+  text-align: right !important;
 }
 
-#footer-links .foot .foot-link {
-  font-size: 13px;
+.footer-strip .signature .logo img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-strip .signature .footer-nav-link {
+  margin-right: 20px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.footer-strip .signature .footer-nav-link:last-of-type {
+  margin-right: 0;
+}
+
+.footer-strip .footer-nav-link {
+  display: inline-block;
   font-weight: bold;
-  padding: 10px 20px;
   color: white;
-  opacity: 0.9;
-}
-
-#footer-links .foot .foot-link:hover {
-  opacity: 1;
+  opacity: 0.7;
+  padding: 5px 0px;
 }
 
 @media (max-width: 640px) {
@@ -12341,39 +12373,6 @@ nav .full-screen-nav .lg-button {
   footer .updates-cta {
     padding: 60px 0;
   }
-
-  footer #footer-links .flex {
-    width: auto !important;
-  }
-
-  footer #footer-links .footer-nav-links {
-    border: none;
-    padding: 20px 30px;
-  }
-
-  footer #footer-links .footer-nav-links .flex {
-    float: none !important;
-  }
-
-  footer #footer-links .footer-nav-link {
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-  }
-
-  footer #footer-links .footer-contact {
-    padding: 20px 30px;
-  }
-
-  footer #footer-links .footer-contact h3 {
-    font-size: 32px;
-    text-align: center;
-    margin: 20px 0 10px !important;
-  }
-
-  footer #footer-links .footer-contact h3 .text {
-    color: white;
-  }
 }
 
 @media (min-width: 640px) and (max-width: 768px) {
@@ -12395,42 +12394,6 @@ nav .full-screen-nav .lg-button {
 
   footer .updates-cta {
     padding: 60px 0;
-  }
-
-  footer #footer-links .flex {
-    max-width: 800px;
-    margin: 0 auto;
-    width: auto !important;
-    float: none !important;
-  }
-
-  footer #footer-links .footer-nav-links {
-    border: none;
-    padding: 20px 30px;
-  }
-
-  footer #footer-links .footer-nav-links .flex {
-    float: none !important;
-  }
-
-  footer #footer-links .footer-nav-link {
-    font-size: 32px;
-    padding: 30px 0;
-    text-align: center;
-  }
-
-  footer #footer-links .footer-contact {
-    padding: 20px 30px;
-  }
-
-  footer #footer-links .footer-contact h3 {
-    font-size: 32px;
-    text-align: center;
-    margin: 20px 0 10px !important;
-  }
-
-  footer #footer-links .footer-contact h3 .text {
-    color: white;
   }
 }
 
@@ -12825,6 +12788,7 @@ textarea {
 }
 
 #team-page .hero {
+  background: #90B979;
   padding-top: 200px;
   overflow: hidden;
   position: relative;
@@ -12845,7 +12809,6 @@ textarea {
 
 #team-page .hero h1, #team-page .hero p, #team-page .hero .label {
   font-weight: bold;
-  color: white !important;
   opacity: 0.95;
 }
 
@@ -13469,6 +13432,16 @@ textarea {
   }
 }
 
+@media (max-width: 1024px) {
+  #contact-page .mobile-page-title {
+    display: block !important;
+  }
+}
+
+#contact-page .mobile-page-title {
+  display: none;
+}
+
 @media (min-width: 1024px) {
   #contact-page .map-block {
     padding-right: 60px;
@@ -13476,7 +13449,7 @@ textarea {
 }
 
 #contact-page .map-block h2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 #contact-page .map-block .map {
@@ -13503,6 +13476,16 @@ textarea {
 
 #contact-page .contact-details .contact-item.mail .icon {
   padding: 15px;
+}
+
+#contact-page .contact-details .contact-item.phone-1 {
+  padding-top: 0px;
+}
+
+@media (min-width: 1024px) {
+  #contact-page .contact-details .contact-item.phone-1 {
+    padding-top: 80px;
+  }
 }
 
 #contact-page .contact-details .contact-item.phone-1 .text, #contact-page .contact-details .contact-item.phone-2 .text {
@@ -13533,7 +13516,7 @@ textarea {
 }
 
 @media (max-width: 1024px) {
-  #contact-page .location .address {
+  #contact-page .location .address:nth-child(2) {
     padding-top: 40px;
   }
 }
@@ -13559,6 +13542,112 @@ textarea {
 
 #contact-page-form .form {
   max-width: 500px;
+}
+
+@media (max-width: 1024px) {
+  .wide-page-title {
+    display: none !important;
+  }
+
+  .contact-details .contact-item .text {
+    padding-left: 0 !important;
+  }
+
+  #contact-page .contact-details .contact-item.phone-1 .text .pre, #contact-page .contact-details .contact-item.phone-2 .text .pre {
+    left: -35px;
+  }
+
+  #contact-page .map-block .map {
+    height: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-details {
+    padding-left: 20px;
+  }
+
+  #contact-page .map-block .map {
+    height: 100%;
+  }
+}
+
+#gallery-page {
+  padding: 160px 0;
+  background: rgba(243, 240, 240, 0.62);
+}
+
+#gallery-page section {
+  margin: 0 auto !important;
+}
+
+#gallery-page h1 {
+  margin-bottom: 40px;
+}
+
+#gallery-page .album {
+  display: block;
+  margin-bottom: 30px;
+}
+
+#gallery-page .album .img-wrapper {
+  position: relative;
+}
+
+#gallery-page .album img {
+  margin-bottom: 10px;
+}
+
+#gallery-page .album .overlay {
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2000;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#gallery-page .album:hover h2 {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ffde39;
+          text-decoration-color: #ffde39;
+}
+
+#gallery-page .album:hover .overlay {
+  display: block;
+  opacity: 0.1;
+}
+
+#album-page {
+  background: rgba(243, 240, 240, 0.62);
+  padding: 100px 0;
+}
+
+#album-page section {
+  margin: 0 auto !important;
+}
+
+#album-page .image-container {
+  margin-bottom: 30px;
+}
+
+.masonry {
+  -moz-column-count: 1;
+       column-count: 1;
+  -moz-column-gap: 0.9em;
+       column-gap: 0.9em;
+}
+
+@media (min-width: 768px) {
+  .masonry {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 0.9em;
+         column-gap: 0.9em;
+  }
 }
 
 nav .sd {
