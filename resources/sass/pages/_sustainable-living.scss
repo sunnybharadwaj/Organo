@@ -1,6 +1,9 @@
 #sustainable-living-page {
   .hero {
     padding: 150px 0;
+    @media (min-width: 1024px) {
+      padding-bottom: 0;
+    }
     .text-content {
       padding-right: 40px;
       max-width: 600px;

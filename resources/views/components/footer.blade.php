@@ -1,21 +1,24 @@
 <footer>
     <div class="updates-cta">
-        <div class="container mx-auto py-32">
-            <div class="text-content">
-                <h2 class="mb-6">There's more to come!</h2>
-                <p class="alt-body">Sign up for our Newsletter and be the first to know about Upcoming projects, Latest
-                    news, Editorial content, Community updates and other announcements.</p>
+        <div class="container mx-auto ">
+            <div class="py-32">
+                <div class="text-content">
+                    <h2 class="mb-6">There's more to come!</h2>
+                    <p class="alt-body">Sign up for our Newsletter and be the first to know about Upcoming projects, Latest
+                        news, Editorial content, Community updates and other announcements.</p>
 
-                <div class="form-wrapper">
-                    <form action="">
-                        <input type="text" placeholder="Enter your E-mail address">
-                        <button>
-                            <div class="lg-button"><div class="text">Sign up for Updates</div></div>
-                        </button>
-                    </form>
+                    <div class="form-wrapper">
+                        <form action="">
+                            <input type="text" placeholder="Enter your E-mail address">
+                            <button>
+                                <div class="lg-button"><div class="text">Sign up for Updates</div></div>
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
     <div id="footer-links">
@@ -31,7 +34,10 @@
 
     <div class="footer-background">
         <div class="text-center">
-            <div class="lg-button"><h2>Contact Us</h2></div>
+            <router-link to="/contact">
+                <div class="lg-button"><h2>Contact Us</h2></div>
+            </router-link>
+
         </div>
     </div>
 

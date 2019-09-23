@@ -68,33 +68,39 @@
                         <div class="flex flex-wrap">
                             <div class="piece w-full md:w-1/2 lg:w-1/3">
                                 <div class="heading alt-body mb-2">The dream</div>
-                                <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
-                                    Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
+                                <p class="description">It all started with observing the necessity, requirements, issues
+                                    affecting our own personal modern lives and then fully visualizing what can be done
+                                    about it.</p>
                             </div>
                             <div class="piece w-full md:w-1/2 lg:w-1/3">
                                 <div class="heading alt-body mb-2">A Collective Vision</div>
-                                <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
-                                    Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
+                                <p class="description">We then brought together subject-matter experts to open up all
+                                    the dimensions and possibilities of the project. These led us to freely research and
+                                    explore the new ideas that we were closely watching.</p>
                             </div>
                             <div class="piece w-full md:w-1/2 lg:w-1/3">
                                 <div class="heading alt-body mb-2">Design & Concept</div>
-                                <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
-                                    Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
+                                <p class="description">Net-zero, Sustainable on seven areas that create a natural cycle,
+                                    Minimal design, Farm centric, etc.. All these concepts were generated through the
+                                    process of our research into exploring our ideas.</p>
                             </div>
                             <div class="piece w-full md:w-1/2 lg:w-1/3">
                                 <div class="heading alt-body mb-2">Construction & Development</div>
-                                <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
-                                    Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
+                                <p class="description">From charts to raw materials, we have quickly transformed our
+                                    ideas into executable plans and begun constructing and developing, while also
+                                    testing various ideas that may work towards the same goals.</p>
                             </div>
                             <div class="piece w-full md:w-1/2 lg:w-1/3">
                                 <div class="heading alt-body mb-2">Building a community</div>
-                                <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
-                                    Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
+                                <p class="description">Bringing the right people to join the community is very
+                                    important. It is important for members to share a common understanding of the
+                                    principles practiced so they can be an active part of growth of the community.</p>
                             </div>
                             <div class="piece w-full md:w-1/2 lg:w-1/3">
                                 <div class="heading alt-body mb-2">Enabling self-growth</div>
-                                <p class="description">Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.
-                                    Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a.</p>
+                                <p class="description">Once everything is in place, we then set up processes, measures
+                                    to enable and ensure a natural growth and sustenance of the entire community's
+                                    environment and its surroundings.</p>
                             </div>
                         </div>
                     </div>
@@ -105,49 +111,39 @@
         </section>
 
 
-            <div class="cta-v-group hidden">
-                <div class="container mx-auto">
-                    <div class="cta">
-                        <section>
-                            <div class="flex flex-wrap">
-                                <div class="w-full lg:w-7/12 cta-link content-block text-left">
-                                    <a href="/team">
-                                        <h2 class="cta-text">The Team that made it happen.</h2>
-                                    </a>
+        <div class="cta-v-group mb-24">
+            <div class="container mx-auto">
+                <div class="cta">
+                    <section>
+                        <router-link to="/team" class="cta-link text-center ">
+                            <h2 class="cta-text mx-auto">The Team that made it happen.</h2>
+                        </router-link>
+                        <!--<div class="flex flex-wrap">-->
+                            <!--<div class="w-full lg:w-7/12 cta-link content-block text-left">-->
 
-                                </div>
-                                <div class="cta-illustration  sm:w-full lg:w-5/12 p-3 bg-blue-600 hide-on-mobile tablet-hidden"></div>
-                            </div>
-                        </section>
 
-                    </div>
-                    <div class="cta">
-                        <section>
-                            <div class="flex flex-wrap">
-                                <div class="cta-illustration w-full lg:w-5/12 p-3 bg-blue-600 hide-on-mobile tablet-hidden"></div>
-                                <div class="sm:w-full lg:w-7/12 cta-link content-block text-right">
-                                    <a href="/eco-habitats">
-                                        <h2 class="cta-text">Sustainable Eco-habitats that celebrate living.</h2>
-                                    </a>
-                                </div>
-                            </div>
-                        </section>
+                            <!--</div>-->
+                            <!--<div class="cta-illustration  sm:w-full lg:w-5/12 p-3 bg-blue-600 hide-on-mobile tablet-hidden"></div>-->
+                        <!--</div>-->
+                    </section>
 
-                    </div>
                 </div>
             </div>
-        <div class="pb-24"></div>
+        </div>
+
         <div class="eco-habitat-cta-component">
             <FeatureComponent>
                 <slot>
                     <h1 class="max-w-4xl">What is an 'Eco-habitat'?</h1>
                     <div class="mb-4"></div>
-                    <router-link to="/eco-habitats"><div class="lg-button">Find out more</div></router-link>
+                    <router-link to="/eco-habitats">
+                        <div class="lg-button">Find out more</div>
+                    </router-link>
                 </slot>
             </FeatureComponent>
         </div>
 
-        <div class="pb-24"></div>
+
     </div>
 </template>
 

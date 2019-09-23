@@ -12213,7 +12213,7 @@ nav .more a {
 
 nav .nav-link {
   padding: 15px 12px;
-  margin-right: 10px;
+  margin-right: 15px;
   font-weight: bold;
   font-size: 16px;
   transition: 0.2s all ease-in-out;
@@ -12360,6 +12360,12 @@ nav .full-screen-nav .lg-button {
   padding: 5px 0px;
 }
 
+@media (min-width: 640px) and (max-width: 1024px) {
+  footer .footer-container {
+    min-height: 710px;
+  }
+}
+
 @media (max-width: 640px) {
   nav .full-screen-nav {
     overflow-y: scroll;
@@ -12379,6 +12385,14 @@ nav .full-screen-nav .lg-button {
 
   footer .updates-cta {
     padding: 60px 0;
+  }
+
+  footer .footer-container {
+    min-height: 800px;
+  }
+
+  footer .footer-nav-link {
+    margin-bottom: 10px;
   }
 }
 
@@ -12638,7 +12652,7 @@ textarea {
 .pieces-together {
   position: relative;
   z-index: 0;
-  margin-bottom: 260px;
+  margin-bottom: 160px;
 }
 
 .pieces-together .flex {
@@ -12655,7 +12669,7 @@ textarea {
 }
 
 .pieces-together .piece {
-  padding: 20px;
+  padding: 30px 20px;
   border-right: 4px solid #5D3331;
 }
 
@@ -12670,7 +12684,7 @@ textarea {
 
 .pieces-together .piece:nth-of-type(4), .pieces-together .piece:nth-of-type(5), .pieces-together .piece:nth-of-type(6) {
   padding-top: 30px;
-  padding-bottom: 0;
+  padding-bottom: 30px;
 }
 
 .pieces-together .piece:nth-of-type(3), .pieces-together .piece:nth-of-type(6) {
@@ -13434,6 +13448,12 @@ textarea {
   padding: 150px 0;
 }
 
+@media (min-width: 1024px) {
+  #sustainable-living-page .hero {
+    padding-bottom: 0;
+  }
+}
+
 #sustainable-living-page .hero .text-content {
   padding-right: 40px;
   max-width: 600px;
@@ -13501,6 +13521,22 @@ textarea {
   }
 }
 
+#contact-page .map .wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+#contact-page .map .wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 1024px) {
   #contact-page .mobile-page-title {
     display: block !important;
@@ -13522,7 +13558,6 @@ textarea {
 }
 
 #contact-page .map-block .map {
-  height: 80%;
   overflow: hidden;
 }
 
@@ -13657,6 +13692,7 @@ textarea {
 #gallery-page .album {
   display: block;
   margin-bottom: 30px;
+  padding-right: 10px;
 }
 
 #gallery-page .album .img-wrapper {

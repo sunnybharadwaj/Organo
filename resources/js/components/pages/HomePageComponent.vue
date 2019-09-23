@@ -38,7 +38,7 @@
                 <div class="wide">
                     <VideoComponent v-if="screenName == 'wide'">
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/home.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
@@ -155,11 +155,11 @@
             <TestimonialsComponent></TestimonialsComponent>
         </section>
 
-        <section id="home-school" class="school-cta-component">
+        <section id="home-school" class="school-cta-component mb-0">
             <FeatureComponent>
                 <slot>
                     <h1 class="mb-4">Organo@School</h1>
-                    <h2 class="max-w-4xl">A life changing and enriching program for the global citizens of
+                    <h2 class="max-w-4xl">A life changing full day event for the global citizens of
                         tomorrow.</h2>
                     <div class="mb-4"></div>
                     <router-link to="/organo-at-school"><div class="lg-button">Find out more</div></router-link>

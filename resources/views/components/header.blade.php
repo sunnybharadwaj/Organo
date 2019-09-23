@@ -33,12 +33,12 @@
             <div class="left-block">
                 <router-link to="/company" class="nav-link"><span class="text">Company</span></router-link>
                 <router-link to="/eco-habitats" class="nav-link"><span class="text">Eco-Habitats</span></router-link>
-                <router-link to="/naandi" class="nav-link"><span class="text">Naandi</span></router-link>
                 <router-link to="/sustainable-living" class="nav-link"><span class="text">Sustainable Living</span></router-link>
                 <div class="more-wrapper">
                     <div class="">
                         <a href="#" class="nav-link">More</a>
                         <div class="more">
+                            <router-link to="/naandi" class="nav-link"><span class="text">Naandi</span></router-link>
                             <router-link to="/team" class="nav-link"><span class="text">Team</span></router-link>
                             <router-link to="/gallery" class="nav-link"><span class="text">Gallery</span></router-link>
                             <router-link to="/organo-at-school" class="nav-link"><span class="text">Organo@School</span></router-link>

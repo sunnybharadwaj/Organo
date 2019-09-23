@@ -2193,10 +2193,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("works?");
@@ -2214,6 +2210,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -2760,6 +2759,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['album'],
   mounted: function mounted() {},
@@ -2784,26 +2788,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -22429,9 +22413,30 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(3),
-    _vm._v(" "),
-    _c("div", { staticClass: "pb-24" }),
+    _c("div", { staticClass: "cta-v-group mb-24" }, [
+      _c("div", { staticClass: "container mx-auto" }, [
+        _c("div", { staticClass: "cta" }, [
+          _c(
+            "section",
+            [
+              _c(
+                "router-link",
+                {
+                  staticClass: "cta-link text-center ",
+                  attrs: { to: "/team" }
+                },
+                [
+                  _c("h2", { staticClass: "cta-text mx-auto" }, [
+                    _vm._v("The Team that made it happen.")
+                  ])
+                ]
+              )
+            ],
+            1
+          )
+        ])
+      ])
+    ]),
     _vm._v(" "),
     _c(
       "div",
@@ -22458,9 +22463,7 @@ var render = function() {
         )
       ],
       1
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "pb-24" })
+    )
   ])
 }
 var staticRenderFns = [
@@ -22523,7 +22526,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+              "It all started with observing the necessity, requirements, issues\n                                affecting our own personal modern lives and then fully visualizing what can be done\n                                about it."
             )
           ])
         ]),
@@ -22535,7 +22538,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+              "We then brought together subject-matter experts to open up all\n                                the dimensions and possibilities of the project. These led us to freely research and\n                                explore the new ideas that we were closely watching."
             )
           ])
         ]),
@@ -22547,7 +22550,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+              "Net-zero, Sustainable on seven areas that create a natural cycle,\n                                Minimal design, Farm centric, etc.. All these concepts were generated through the\n                                process of our research into exploring our ideas."
             )
           ])
         ]),
@@ -22559,7 +22562,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+              "From charts to raw materials, we have quickly transformed our\n                                ideas into executable plans and begun constructing and developing, while also\n                                testing various ideas that may work towards the same goals."
             )
           ])
         ]),
@@ -22571,7 +22574,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+              "Bringing the right people to join the community is very\n                                important. It is important for members to share a common understanding of the\n                                principles practiced so they can be an active part of growth of the community."
             )
           ])
         ]),
@@ -22583,68 +22586,8 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Fusce mi sem, hendrerit ac dignissim congue, commodo in orci.\n                                Nulla sollicitudin massa nunc, sit amet convallis neque rhoncus a."
+              "Once everything is in place, we then set up processes, measures\n                                to enable and ensure a natural growth and sustenance of the entire community's\n                                environment and its surroundings."
             )
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "cta-v-group hidden" }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "cta" }, [
-          _c("section", [
-            _c("div", { staticClass: "flex flex-wrap" }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "w-full lg:w-7/12 cta-link content-block text-left"
-                },
-                [
-                  _c("a", { attrs: { href: "/team" } }, [
-                    _c("h2", { staticClass: "cta-text" }, [
-                      _vm._v("The Team that made it happen.")
-                    ])
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c("div", {
-                staticClass:
-                  "cta-illustration  sm:w-full lg:w-5/12 p-3 bg-blue-600 hide-on-mobile tablet-hidden"
-              })
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "cta" }, [
-          _c("section", [
-            _c("div", { staticClass: "flex flex-wrap" }, [
-              _c("div", {
-                staticClass:
-                  "cta-illustration w-full lg:w-5/12 p-3 bg-blue-600 hide-on-mobile tablet-hidden"
-              }),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "sm:w-full lg:w-7/12 cta-link content-block text-right"
-                },
-                [
-                  _c("a", { attrs: { href: "/eco-habitats" } }, [
-                    _c("h2", { staticClass: "cta-text" }, [
-                      _vm._v("Sustainable Eco-habitats that celebrate living.")
-                    ])
-                  ])
-                ]
-              )
-            ])
           ])
         ])
       ])
@@ -22673,29 +22616,15 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "contact-page" } }, [
-    _c("section", { staticClass: "header" }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "flex flex-wrap " }, [
-          _c("div", { staticClass: "w-full lg:w-7/12 map-block mb-8" }, [
-            _c("h2", { staticClass: "wide-page-title" }, [
-              _vm._v("Contact Us")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "map bg-gray-700" }, [
-              _c("img", { attrs: { src: "/static/graphicmap.jpg", alt: "" } })
-            ])
-          ]),
-          _vm._v(" "),
-          _vm._m(0)
-        ])
-      ])
-    ]),
+    _vm._m(0),
     _vm._v(" "),
     _c("section", [_c("HelpComponent")], 1),
     _vm._v(" "),
     _c("section", { staticClass: "m-0", attrs: { id: "contact-page-form" } }, [
       _c("div", { staticClass: "container mx-auto" }, [
         _vm._m(1),
+        _vm._v(" "),
+        _vm._m(2),
         _vm._v(" "),
         _c("p", { staticClass: "opacity-50 font-bold" }, [
           _vm._v("Please fill all below fields")
@@ -22711,111 +22640,145 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-full lg:w-5/12 contact-details" }, [
-      _c("h1", { staticClass: "mobile-page-title mb-12" }, [
-        _vm._v("Contact Us")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "flex flex-wrap sm:flex-initial md:flex-row-reverse lg:flex-initial"
-        },
-        [
-          _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
-            _c("h2", { staticClass: "phone-1 contact-item" }, [
-              _c("div", { staticClass: "text" }, [
-                _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
-                _vm._v("79933 55227\n                                ")
-              ])
+    return _c("section", { staticClass: "header mb-0" }, [
+      _c("div", { staticClass: "container mx-auto" }, [
+        _c("div", { staticClass: "flex flex-wrap " }, [
+          _c("div", { staticClass: "w-full lg:w-7/12 map-block mb-8" }, [
+            _c("h2", { staticClass: "wide-page-title" }, [
+              _vm._v("Contact Us")
             ]),
             _vm._v(" "),
-            _c("h2", { staticClass: "phone-2 contact-item" }, [
-              _c("div", { staticClass: "text" }, [
-                _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
-                _vm._v("81067 56010")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("h3", { staticClass: "mail contact-item" }, [
-              _c("div", { staticClass: "text" }, [
-                _vm._v(
-                  "\n                                    help@organo.com\n                                "
-                )
+            _c("div", { staticClass: "map " }, [
+              _c("div", { staticClass: "wrapper" }, [
+                _c("iframe", {
+                  attrs: {
+                    src:
+                      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14354.647078960967!2d78.31631970556451!3d17.31334342552389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40307de067b30f32!2sOrgano%20Naandi!5e1!3m2!1sen!2sin!4v1568027673060!5m2!1sen!2sin"
+                  }
+                })
               ])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
-            _c("div", { staticClass: "location contact-item" }, [
-              _c("div", { staticClass: "text alt-body" }, [
-                _c("div", { staticClass: "flex flex-wrap" }, [
-                  _c("div", { staticClass: "address w-full lg:w-1/2" }, [
-                    _c("p", { staticClass: "label" }, [_vm._v("Organo")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-content" }, [
-                      _vm._v(
-                        "\n                                                #148 & 149, "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Aziz Nagar Panchayat, "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Through Yenkapalli Village, "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Moinabad, RR District,"
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Hyderabad – 500 075, "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Telangana State, India.\n                                            "
-                      )
+          _c("div", { staticClass: "w-full lg:w-5/12 contact-details" }, [
+            _c("h1", { staticClass: "mobile-page-title mb-12" }, [
+              _vm._v("Contact Us")
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "flex flex-wrap sm:flex-initial md:flex-row-reverse lg:flex-initial"
+              },
+              [
+                _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
+                  _c("h2", { staticClass: "phone-1 contact-item" }, [
+                    _c("div", { staticClass: "text" }, [
+                      _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
+                      _vm._v("79933 55227\n                                ")
                     ])
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "address w-full lg:w-1/2" }, [
-                    _c("p", { staticClass: "label" }, [_vm._v("Naandi")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-content" }, [
+                  _c("h2", { staticClass: "phone-2 contact-item" }, [
+                    _c("div", { staticClass: "text" }, [
+                      _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
+                      _vm._v("81067 56010")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("h3", { staticClass: "mail contact-item" }, [
+                    _c("div", { staticClass: "text" }, [
                       _vm._v(
-                        "\n                                                #148 & 149, "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Aziz Nagar Panchayat, "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Through Yenkapalli Village, "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Moinabad, RR District,"
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Hyderabad – 500 075, "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\n                                                Telangana State, India.\n                                            "
+                        "\n                                    help@organo.com\n                                "
                       )
                     ])
                   ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
+                  _c("div", { staticClass: "location contact-item" }, [
+                    _c("div", { staticClass: "text alt-body w-full" }, [
+                      _c("div", { staticClass: "flex flex-wrap" }, [
+                        _c("div", { staticClass: "address w-full lg:w-1/2" }, [
+                          _c("p", { staticClass: "label" }, [_vm._v("Organo")]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text-content" }, [
+                            _vm._v(
+                              "\n                                                #148 & 149, "
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                Aziz Nagar Panchayat, "
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                Through Yenkapalli Village, "
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                Moinabad, RR District,"
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                Hyderabad – 500 075, "
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                Telangana State, India.\n                                            "
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "address w-full lg:w-1/2" }, [
+                          _c("p", { staticClass: "label" }, [_vm._v("Naandi")]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text-content" }, [
+                            _vm._v(
+                              "\n                                                Plot No: 15, 8-3, "
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                684/3-15, Lane Number 3,  "
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                Sri Nagar Colony, "
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                LIC Colony,"
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                Hyderabad - 500073, "
+                            ),
+                            _c("br"),
+                            _vm._v(
+                              "\n                                                Telangana State, India "
+                            ),
+                            _c("br")
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
                 ])
-              ])
-            ])
+              ]
+            )
           ])
-        ]
-      )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h3", { staticClass: "mb-4" }, [
+      _vm._v("If we missed something, "),
+      _c("br"),
+      _vm._v(" please write us a quick message.")
     ])
   },
   function() {
@@ -22823,9 +22786,6 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "alt-body" }, [
-      _vm._v("If we missed something, please write us a quick message."),
-      _c("br"),
-      _vm._v(" "),
       _c("span", { staticClass: "font-normal" }, [
         _vm._v(
           "Be as specific as you can so we can serve you as soon as possible."
@@ -23703,7 +23663,7 @@ var render = function() {
       _c(
         "div",
         { staticClass: "container mx-auto" },
-        _vm._l(15, function(index) {
+        _vm._l(10, function(index) {
           return _c("div", { staticClass: "image-item" }, [
             _c("div", { staticClass: "image-container" }, [
               _c("img", {
@@ -23713,6 +23673,19 @@ var render = function() {
           ])
         }),
         0
+      )
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "text-center" }, [
+      _c(
+        "div",
+        { staticClass: "lg-button" },
+        [
+          _c("router-link", { attrs: { to: "/gallery" } }, [
+            _c("h2", [_vm._v("Back to Gallery")])
+          ])
+        ],
+        1
       )
     ])
   ])
@@ -23746,24 +23719,23 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "masonry" },
+          { staticClass: "flex flex-wrap" },
           [
             _c(
               "router-link",
-              { staticClass: "album", attrs: { to: "/gallery/album/naandi" } },
+              {
+                staticClass: "album w-1/2",
+                attrs: { to: "/gallery/album/naandi" }
+              },
               [
-                _c("span", { staticClass: "item" }, [
-                  _c("div", { staticClass: "img-wrapper" }, [
-                    _c("span", { staticClass: "overlay" }),
-                    _vm._v(" "),
-                    _c("img", {
-                      staticClass: "w-full",
-                      attrs: {
-                        src: "/static/images/naandi/home/4.jpg",
-                        alt: ""
-                      }
-                    })
-                  ]),
+                _c("div", { staticClass: "item" }, [
+                  _c("img", {
+                    staticClass: "w-full",
+                    attrs: {
+                      src: "/static/gallery/covers/naandi_cover.jpg",
+                      alt: ""
+                    }
+                  }),
                   _vm._v(" "),
                   _c("h2", { staticClass: "album-name" }, [
                     _vm._v("Organo Naandi")
@@ -23772,54 +23744,74 @@ var render = function() {
               ]
             ),
             _vm._v(" "),
-            _c("a", { staticClass: "album", attrs: { href: "" } }, [
-              _c("span", { staticClass: "item" }, [
-                _c("div", { staticClass: "img-wrapper" }, [
-                  _c("span", { staticClass: "overlay" }),
-                  _vm._v(" "),
+            _c(
+              "router-link",
+              {
+                staticClass: "album w-1/2",
+                attrs: { to: "/gallery/album/interiors" }
+              },
+              [
+                _c("div", { staticClass: "item" }, [
                   _c("img", {
                     staticClass: "w-full",
-                    attrs: { src: "/static/images/naandi/home/4.jpg", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("h2", { staticClass: "album-name" }, [
-                  _vm._v("Naandi Interiors")
+                    attrs: {
+                      src: "/static/gallery/covers/interiors_cover.jpg",
+                      alt: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("h2", { staticClass: "album-name" }, [
+                    _vm._v("Naandi Interiors")
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("a", { staticClass: "album", attrs: { href: "" } }, [
-              _c("span", { staticClass: "item" }, [
-                _c("div", { staticClass: "img-wrapper" }, [
-                  _c("span", { staticClass: "overlay" }),
-                  _vm._v(" "),
+            _c(
+              "router-link",
+              {
+                staticClass: "album w-1/2",
+                attrs: { to: "/gallery/album/activities" }
+              },
+              [
+                _c("div", { staticClass: "item" }, [
                   _c("img", {
                     staticClass: "w-full",
-                    attrs: { src: "/static/images/naandi/home/4.jpg", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("h2", { staticClass: "album-name" }, [_vm._v("@School")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "album", attrs: { href: "" } }, [
-              _c("span", { staticClass: "item" }, [
-                _c("div", { staticClass: "img-wrapper" }, [
-                  _c("span", { staticClass: "overlay" }),
+                    attrs: {
+                      src: "/static/gallery/covers/activities_cover.jpg",
+                      alt: ""
+                    }
+                  }),
                   _vm._v(" "),
-                  _c("img", {
-                    staticClass: "w-full",
-                    attrs: { src: "/static/images/naandi/home/4.jpg", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("h2", { staticClass: "album-name" }, [
-                  _vm._v("Sustainable Living")
+                  _c("h2", { staticClass: "album-name" }, [
+                    _vm._v("Activities at Naandi")
+                  ])
                 ])
-              ])
-            ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "router-link",
+              {
+                staticClass: "album w-1/2",
+                attrs: { to: "/gallery/album/school" }
+              },
+              [
+                _c("div", { staticClass: "item" }, [
+                  _c("img", {
+                    staticClass: "w-full",
+                    attrs: {
+                      src: "/static/gallery/covers/school_cover.jpg",
+                      alt: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("h2", { staticClass: "album-name" }, [
+                    _vm._v("@School Event")
+                  ])
+                ])
+              ]
+            )
           ],
           1
         )
@@ -23978,7 +23970,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/home.mp4",
+                            src: "/static/videos/hd/home_hd.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -24172,7 +24164,10 @@ var render = function() {
       _vm._v(" "),
       _c(
         "section",
-        { staticClass: "school-cta-component", attrs: { id: "home-school" } },
+        {
+          staticClass: "school-cta-component mb-0",
+          attrs: { id: "home-school" }
+        },
         [
           _c(
             "FeatureComponent",
@@ -24182,7 +24177,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("h2", { staticClass: "max-w-4xl" }, [
                   _vm._v(
-                    "A life changing and enriching program for the global citizens of\n                    tomorrow."
+                    "A life changing full day event for the global citizens of\n                    tomorrow."
                   )
                 ]),
                 _vm._v(" "),
@@ -43454,8 +43449,8 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/sunny/Desktop/Work/Organo/organo/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/sunny/Desktop/Work/Organo/organo/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
