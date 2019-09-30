@@ -3365,64 +3365,58 @@ __webpack_require__.r(__webpack_exports__);
       screenWidth: screen.width,
       more_content: false,
       activities: [{
-        title: 'Take a stroll around Naandi, with 33 acres of Nature to explore.',
+        title: 'Afforestation area',
         imageUrl: '/static/images/activities/explorenaandi.jpg'
       }, {
-        title: 'Take time off at the Herbal Garden.',
+        title: 'Herbal Garden',
         imageUrl: '/static/images/activities/herbalgarden.jpg'
       }, {
-        title: 'Lend a hand in farming fresh organic produce in our collective farm.',
+        title: 'Collective farming',
         imageUrl: '/static/images/activities/collectivefarming.jpg'
       }, {
-        title: 'Set up your own Personal Farm in your backyard.',
+        title: 'Personal farming',
         imageUrl: '/static/images/activities/personalfarming.jpg'
       }, {
-        title: 'Visit our Animal Husbandry station.',
+        title: 'Animal Husbandry',
         imageUrl: '/static/images/activities/animalhusbandry.jpg'
       }, {
-        title: 'Learn about the importance of bees by visiting our Apiary.',
-        imageUrl: '/static/images/activities/apiary.jpg'
-      }, {
-        title: 'Visit Goshala and interact with Cows and Calfs.',
+        title: 'Goshala',
         imageUrl: '/static/images/activities/goshala.jpg'
       }, {
-        title: 'Attend informative events specially curated and hosted by the Organo team.',
+        title: 'Workshops and Informational events',
         imageUrl: '/static/images/activities/workshops.jpg'
       }, {
-        title: 'Work a sweat at the Gym',
+        title: 'Gym',
         imageUrl: '/static/images/activities/gym.jpg'
       }, {
-        title: 'Work on your pottery skills.',
+        title: 'Pottery',
         imageUrl: '/static/images/activities/pottery.jpg'
       }, {
-        title: 'Grab a healthy, fresh, organic bite at our restaurant.',
+        title: 'Alfresco Dining',
         imageUrl: '/static/images/activities/restaurant.png'
       }, {
-        title: 'Relax at our Spa.',
+        title: 'Spa',
         imageUrl: '/static/images/activities/spa.png'
       }, {
-        title: 'Hang out on your open terrace. Sit back, enjoy the view.',
-        imageUrl: '/static/images/activities/terrace.png'
-      }, {
-        title: 'Go for a refreshing swim in our natural bio-pool.',
+        title: 'Bio-pool',
         imageUrl: '/static/images/activities/biopool.jpg'
       }, {
-        title: 'Socialize with other Naandians, or grab a book from the shelf at the Clubhouse.',
+        title: 'Clubhouse',
         imageUrl: '/static/images/activities/clubhouse.jpg'
       }, {
-        title: 'Invite your friends or family into our guest room to experience Naandi',
+        title: 'Guest Rooms',
         imageUrl: '/static/images/activities/guestroom.jpg'
       }, {
-        title: 'Feel the space and catch a breath of fresh air at the Pond.',
+        title: 'Pond',
         imageUrl: '/static/images/activities/pond.jpg'
       }, {
-        title: 'Join Naandians to celebrate key cultural and social events.',
+        title: 'Community Events',
         imageUrl: '/static/images/activities/communitycelebrations.jpg'
       }, {
-        title: 'Host or attend a social gathering.',
+        title: 'Social Events',
         imageUrl: '/static/images/activities/communityevents.jpg'
       }, {
-        title: 'Play board games at the Clubhouse',
+        title: 'Board Games',
         imageUrl: '/static/images/activities/boardgames.jpg'
       }]
     };
