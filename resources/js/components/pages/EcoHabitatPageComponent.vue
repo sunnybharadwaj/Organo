@@ -120,7 +120,7 @@
                 Rurban Eco-habitats
             </h2>
 
-            <div class="image-wrapper max-w-4xl mx-auto mb-24">
+            <div class="image-wrapper max-w-4xl mx-auto mb-24 p-4">
                 <img class="w-full" :src="'/static/illustrations/eco_3.png'" alt="">
             </div>
             <div class="image-content-list">

@@ -5,25 +5,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/AboutPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/AboutPageComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/videos/mobile/home_mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/videos/mobile/home_mobile.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/videos/sd/home_sd.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/videos/sd/home_sd.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/videos/tablet/home_tablet.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/videos/tablet/home_tablet.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/videos/tablet/naandi_tablet.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/videos/tablet/school_tablet.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ImageContentComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ImageContentComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/SchoolPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/SchoolPageComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/partials/TestimonialsComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/partials/TestimonialsComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/partials/VideoHeaderComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/partials/VideoHeaderComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_components.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_responsive.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/pages/_eco-habitat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_eco-habitat.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_naandi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_naandi.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_school.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_school.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/pages/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_team.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,50 +160,51 @@
     <session id="-1270387468">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
           <entry key="js" value="5" />
-          <entry key="php" value="4" />
+          <entry key="php" value="5" />
           <entry key="rnc" value="1" />
-          <entry key="scss" value="13" />
-          <entry key="vue" value="18" />
+          <entry key="scss" value="14" />
+          <entry key="vue" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="3" />
+          <entry key="Blade" value="4" />
           <entry key="CSS" value="1" />
           <entry key="JavaScript" value="5" />
           <entry key="PHP" value="1" />
           <entry key="RNG Compact" value="1" />
-          <entry key="SCSS" value="13" />
-          <entry key="Vue.js" value="18" />
+          <entry key="SCSS" value="14" />
+          <entry key="Vue.js" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="4" />
           <entry key="php" value="365" />
-          <entry key="scss" value="2274" />
-          <entry key="vue" value="7545" />
+          <entry key="scss" value="2623" />
+          <entry key="vue" value="7754" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Blade" value="365" />
           <entry key="JavaScript" value="4" />
-          <entry key="SCSS" value="2274" />
-          <entry key="Vue.js" value="7545" />
+          <entry key="SCSS" value="2623" />
+          <entry key="Vue.js" value="7754" />
         </counts>
       </usages-collector>
     </session>
@@ -215,26 +213,23 @@
     <favorites_list name="organo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.59584665">
+    <splitter split-orientation="horizontal" split-proportion="0.6192758">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="470">
-                  <caret line="137" column="62" selection-start-line="137" selection-start-column="62" selection-end-line="137" selection-end-column="62" />
+                <state relative-caret-position="368">
+                  <caret line="119" selection-start-line="119" selection-end-line="119" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/components/header.blade.php">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/ImageContentComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-                  <folding>
-                    <element signature="e#3658#3664#1#HTML" expanded="true" />
-                  </folding>
+                <state relative-caret-position="589">
+                  <caret line="19" selection-start-line="19" selection-end-line="19" />
                 </state>
               </provider>
             </entry>
@@ -242,8 +237,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/components/partials/TestimonialsComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="310">
-                  <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+                <state relative-caret-position="496">
+                  <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/partials/VideoHeaderComponent.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="93">
+                  <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
@@ -251,26 +255,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="838">
-                  <caret line="283" column="59" selection-start-line="283" selection-start-column="59" selection-end-line="283" selection-end-column="59" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/components/footer.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-9">
-                  <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/js/components/partials/tempComponent.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="93">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="291">
+                  <caret line="151" column="54" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -278,12 +264,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="294" column="18" selection-start-line="258" selection-start-column="8" selection-end-line="294" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#11902#11907#0" expanded="true" />
-                    <element signature="n#section#4;n#div#0;n#template#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="4185">
+                  <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/layouts/site.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -297,11 +288,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="107">
-                  <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
+                <state relative-caret-position="618">
+                  <caret line="85" column="28" selection-start-line="85" selection-start-column="32" selection-end-line="89" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -309,7 +300,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/components/pages/SchoolPageComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="499">
+                <state relative-caret-position="4216">
                   <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
                 </state>
               </provider>
@@ -322,22 +313,31 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/_components.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1549">
-                  <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
+                <state relative-caret-position="78">
+                  <caret line="229" column="3" selection-start-line="229" selection-start-column="3" selection-end-line="229" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/sass/pages/_team.scss">
+            <entry file="file://$PROJECT_DIR$/resources/sass/_responsive.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="155">
-                  <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+                <state relative-caret-position="558">
+                  <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/sass/pages/_team.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="572">
+                  <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/pages/_school.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="412">
@@ -349,8 +349,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/pages/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+                <state relative-caret-position="622">
+                  <caret line="30" column="33" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -367,8 +367,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/pages/_eco-habitat.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+                <state relative-caret-position="306">
+                  <caret line="102" selection-start-line="102" selection-end-line="102" />
                 </state>
               </provider>
             </entry>
@@ -406,11 +406,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>core-value</find>
-      <find>Enregy</find>
-      <find>eco-</find>
-      <find>about</find>
-      <find>social</find>
       <find>spa</find>
       <find>air</find>
       <find>sustain</find>
@@ -436,6 +431,11 @@
       <find>pieces</find>
       <find>Testim</find>
       <find>background</find>
+      <find>Testimoi</find>
+      <find>txt-</find>
+      <find>Samvr</find>
+      <find>testimon</find>
+      <find>Rurba</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -456,14 +456,11 @@
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/js/components/partials/StandardCTAComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/VideoComponent.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/partials/VideoHeaderComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/partials/FeatureComponent.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/ImageContentComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/partials/SchoolCTAComponent.vue" />
         <option value="$PROJECT_DIR$/resources/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/resources/js/data/team_list.js" />
         <option value="$PROJECT_DIR$/resources/sass/pages/_pages.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/_responsive.scss" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/js/routes.js" />
         <option value="$PROJECT_DIR$/resources/js/components/CardModalComponent.vue" />
@@ -483,21 +480,24 @@
         <option value="$PROJECT_DIR$/resources/views/components/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/partials/TestimonialsComponent.vue" />
         <option value="$PROJECT_DIR$/resources/sass/_navigation.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/_components.scss" />
         <option value="$PROJECT_DIR$/resources/views/components/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue" />
         <option value="$PROJECT_DIR$/resources/sass/pages/_naandi.scss" />
         <option value="$PROJECT_DIR$/resources/sass/_form.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/pages/_eco-habitat.scss" />
         <option value="$PROJECT_DIR$/resources/js/components/pages/AboutPageComponent.vue" />
         <option value="$PROJECT_DIR$/resources/sass/pages/_about.scss" />
-        <option value="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" />
-        <option value="$PROJECT_DIR$/resources/sass/pages/_team.scss" />
-        <option value="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" />
-        <option value="$PROJECT_DIR$/resources/sass/pages/_home.scss" />
         <option value="$PROJECT_DIR$/resources/js/components/pages/SchoolPageComponent.vue" />
         <option value="$PROJECT_DIR$/resources/sass/pages/_school.scss" />
+        <option value="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/partials/VideoHeaderComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/sass/pages/_home.scss" />
         <option value="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/sass/_responsive.scss" />
+        <option value="$PROJECT_DIR$/resources/js/components/ImageContentComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/sass/_components.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/pages/_eco-habitat.scss" />
+        <option value="$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/sass/pages/_team.scss" />
+        <option value="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" />
       </list>
     </option>
   </component>
@@ -605,9 +605,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="53" />
-    <option name="width" value="1680" />
-    <option name="height" value="841" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -617,6 +616,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -679,11 +679,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;school&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_school.scss&#10;team&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_team.scss&#10;About&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_about.scss&#10;naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;compone&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;footer-strip&#9;null&#9;null&#10;footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;testim&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/partials/TestimonialsComponent.vue&#10;about&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_about.scss&#10;compo&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_naandi.scss&#10;Naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;ecoh&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_eco-habitat.scss&#10;form&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_form.scss&#10;header&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/header.blade.php&#10;navigat&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_navigation.scss&#10;navig&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_navigation.scss&#10;naandi page&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;typ&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_typography.scss&#10;site&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/layouts/site.blade.php&#10;.scrolled&#9;null&#9;null&#10;naa&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;app.js&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/app.js&#10;NotFound&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NotFoundComponent.vue&#10;Styleguide&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/StyleGuideComponent.vue&#10;web.&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/routes/web.php&#10;webpack&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/webpack.mix.js&#10;routes&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/routes.js&#10;galler&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_gallery.scss&#10;susta&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_sustainable-living.scss&#10;contact&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/ContactPageComponent.vue&#10;conta&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/ContactPageComponent.vue&#10;Contact&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/ContactPageComponent.vue&#10;Footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;gall&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_gallery.scss&#10;Ga&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/GalleryAlbumComponent.vue&#10;routes.&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/routes.js&#10;gallery&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/GalleryPageComponent.vue&#10;eco&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/sass/pages/_eco-habitat.scss&#10;app.&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/app.js&#10;Sust&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/components/pages/SustainableLivingPageComponent.vue&#10;Home&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/components/pages/HomePageComponent.vue&#10;ECo&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;Eco-hab&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/sass/pages/_eco-habitat.scss&#10;sust&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/sass/pages/_sustainable-living.scss&#10;Susta&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/components/pages/SustainableLivingPageComponent.vue&#10;component&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/sass/_components.scss&#10;naan&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/sass/pages/_naandi.scss&#10;app.j&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/app.js" />
+    <property name="SearchEverywhereHistoryKey" value="team&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/TeamPageComponent.vue&#10;eco&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_eco-habitat.scss&#10;Testim&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/partials/TestimonialsComponent.vue&#10;imag&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/ImageContentComponent.vue&#10;responsive&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_responsive.scss&#10;videoH&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/partials/VideoHeaderComponent.vue&#10;hom&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;site&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/layouts/site.blade.php&#10;naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;Comp&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;school&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_school.scss&#10;About&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_about.scss&#10;compone&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;footer-strip&#9;null&#9;null&#10;footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;testim&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/partials/TestimonialsComponent.vue&#10;about&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_about.scss&#10;compo&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_naandi.scss&#10;Naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;ecoh&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_eco-habitat.scss&#10;form&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_form.scss&#10;header&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/header.blade.php&#10;navigat&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_navigation.scss&#10;navig&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_navigation.scss&#10;naandi page&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;typ&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_typography.scss&#10;.scrolled&#9;null&#9;null&#10;naa&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;app.js&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/app.js&#10;NotFound&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NotFoundComponent.vue&#10;Styleguide&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/StyleGuideComponent.vue&#10;web.&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/routes/web.php&#10;webpack&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/webpack.mix.js&#10;routes&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/routes.js&#10;galler&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_gallery.scss&#10;susta&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_sustainable-living.scss&#10;contact&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/ContactPageComponent.vue&#10;conta&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/ContactPageComponent.vue&#10;Contact&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/ContactPageComponent.vue&#10;Footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;gall&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_gallery.scss&#10;Ga&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/GalleryAlbumComponent.vue&#10;routes.&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/routes.js&#10;gallery&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/GalleryPageComponent.vue&#10;app.&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/app.js&#10;Sust&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/components/pages/SustainableLivingPageComponent.vue&#10;Home&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/components/pages/HomePageComponent.vue&#10;ECo&#9;FILE&#9;file:///Users/sunny/Desktop/Work/Organo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -752,18 +751,19 @@
       <workItem from="1569864725727" duration="329000" />
       <workItem from="1570004732440" duration="1511000" />
       <workItem from="1570047949800" duration="4097000" />
-      <workItem from="1570117799144" duration="15900000" />
+      <workItem from="1570117799144" duration="16556000" />
+      <workItem from="1570181768105" duration="3320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190765000" />
+    <option name="totallyTimeSpent" value="194741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975025" visible="true" weight="0.15814696" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975025" weight="0.1826411" />
       <window_info id="Structure" order="1" sideWeight="0.5004995" side_tool="true" weight="0.14802982" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5024975" side_tool="true" weight="0.14835165" />
@@ -778,7 +778,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.44325897" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45578232" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -797,20 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/partials/VideoHeaderComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/ImageContentComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -943,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/site.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -971,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/pages/_sustainable-living.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -996,9 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1240">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,13 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/partials/tempComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1025,53 +987,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="527">
           <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="e#3658#3664#1#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
+        <state relative-caret-position="93">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/partials/TestimonialsComponent.vue">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/partials/tempComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="283" column="59" selection-start-line="283" selection-start-column="59" selection-end-line="283" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_naandi.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_eco-habitat.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        <state relative-caret-position="93">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1082,10 +1013,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_components.scss">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/SchoolPageComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1549">
-          <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
+        <state relative-caret-position="4216">
+          <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1103,35 +1034,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue">
+    <entry file="file://$PROJECT_DIR$/resources/sass/_form.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
+        <state relative-caret-position="930">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue">
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_naandi.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="294" column="18" selection-start-line="258" selection-start-column="8" selection-end-line="294" selection-end-column="18" />
-          <folding>
-            <element signature="e#11902#11907#0" expanded="true" />
-            <element signature="n#section#4;n#div#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_team.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="186">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1142,17 +1055,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/SchoolPageComponent.vue">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+        <state relative-caret-position="4185">
+          <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/site.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/partials/VideoHeaderComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="137" column="62" selection-start-line="137" selection-start-column="62" selection-end-line="137" selection-end-column="62" />
+        <state relative-caret-position="368">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ImageContentComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="229" column="3" selection-start-line="229" selection-start-column="3" selection-end-line="229" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/partials/TestimonialsComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_eco-habitat.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="151" column="54" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_team.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="85" column="28" selection-start-line="85" selection-start-column="32" selection-end-line="89" selection-end-column="38" />
         </state>
       </provider>
     </entry>

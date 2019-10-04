@@ -20,7 +20,7 @@
         </div>
         <section id="core-values">
             <div class="container mx-auto">
-                <div class="flex">
+                <div class="flex flex-wrap">
                     <div class="w-full lg:w-7/12 px-4 py-4">
                         <div class="label">OUR CORE VALUES</div>
 
@@ -56,7 +56,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full lg:w-5/12 image-container"></div>
+                    <div class="w-full lg:w-5/12 ">
+                        <div class="image-container hd-only min-h-full">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -79,11 +83,11 @@
                                 {{item.description}}
                             </p>
 
-                            <div class="links">
-                                <ul>
-                                    <li class="link">LinkedIn</li>
-                                </ul>
-                            </div>
+                            <!--<div class="links">-->
+                                <!--<ul>-->
+                                    <!--<li class="link">LinkedIn</li>-->
+                                <!--</ul>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>

@@ -31,7 +31,7 @@
                 <div class="hd">
                     <VideoComponent v-if="screenName == 'hd'">
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/home_hd.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
@@ -68,7 +68,7 @@
         <section id="rurbanism">
             <div class="container mx-auto">
                 <div class="illustration lg-only">
-                    <div class=" ">
+                    <div class="hd-only">
                         <img class="mx-auto w-full" :src="'/static/illustrations/organo_g.png'" alt="">
                     </div>
                     <!--<img :src="'/static/illustrations/all_efforts.png'" alt="">-->
@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="point mb-10">
-                        <h3 class="mb-2">Our core philosophy is ‘Samvriddhi’ or ‘Prosperity for all’.</h3>
+                        <h3 class="mb-2">Our core philosophy is ‘Samavriddhi’ or ‘Prosperity for all’.</h3>
                         <p class="alt-body">We are responsible for all the stakeholders and environmental concerns
                             equally. It helps us create community development models on triple-bottom-line success
                             (Social, environmental and economic ares) and net-zero thinking. This also led us to create
@@ -155,7 +155,7 @@
                         </div>
                         <div class="w-full lg:w-7/12 text-content">
                             <div class="quote">
-                                <h2 class="mb-6">Testimonial:</h2>
+                                <h2 class="mb-6">Words from a Naandian</h2>
                                 <p class="alt-body">
                                     "I had to take a detour from my hectic life and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we consumed poison.
                                 </p>
@@ -166,7 +166,7 @@
 
                                 <div class="mb-8"></div>
                                 <div class="quote-by">
-                                    <div class="name hl-body">Madhusudan Reddy</div>
+                                    <div class="name hl-body">M Madhusudan Reddy</div>
                                     <div class="about">Naandian</div>
                                 </div>
                             </div>

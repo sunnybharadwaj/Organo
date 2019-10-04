@@ -119,7 +119,7 @@
 
                             <div class="metrics">
                                 <div class="metric">
-                                    <h2 class="number">33 <span class="sub">Acres</span></h2>
+                                    <h2 class="number">36.5 <span class="sub">Acres</span></h2>
                                     <h3 class="description highlight"><span class="font-normal">Total Area</span></h3>
                                 </div>
                                 <div class="metric">
@@ -128,7 +128,11 @@
                                 </div>
                                 <div class="metric">
                                     <h2 class="number">10 <span class="sub">Acres</span></h2>
-                                    <h3 class="description"><span class="font-normal">Forest Land</span></h3>
+                                    <h3 class="description"><span class="font-normal">Afforested Land</span></h3>
+                                </div>
+                                <div class="metric">
+                                    <h2 class="number">73</h2>
+                                    <h3 class="description"><span class="font-normal">Farm Units</span></h3>
                                 </div>
                             </div>
                         </div>

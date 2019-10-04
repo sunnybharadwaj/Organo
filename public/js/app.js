@@ -3399,6 +3399,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     $(".slider-component.owl-carousel").owlCarousel({
@@ -4161,6 +4165,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 var team_list = [{
   name: 'Nagesh Battula',
   description: 'Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner and a self-taught leader. He has over 20 years of extensive experience in residential, commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to develop a project that would be sustainable and net-zero in its resource consumption.',
@@ -4540,6 +4548,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -22235,7 +22244,7 @@ var render = function() {
               [
                 _c(
                   "div",
-                  { staticClass: "content-block" },
+                  { staticClass: "content-block sm:w-full sm:m-0" },
                   [_vm._t("content")],
                   2
                 )
@@ -23125,12 +23134,16 @@ var render = function() {
           _vm._v("\n            Rurban Eco-habitats\n        ")
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "image-wrapper max-w-4xl mx-auto mb-24" }, [
-          _c("img", {
-            staticClass: "w-full",
-            attrs: { src: "/static/illustrations/eco_3.png", alt: "" }
-          })
-        ]),
+        _c(
+          "div",
+          { staticClass: "image-wrapper max-w-4xl mx-auto mb-24 p-4" },
+          [
+            _c("img", {
+              staticClass: "w-full",
+              attrs: { src: "/static/illustrations/eco_3.png", alt: "" }
+            })
+          ]
+        ),
         _vm._v(" "),
         _c(
           "div",
@@ -23910,7 +23923,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/hd/home_hd.mp4",
+                            src: "/static/videos/home_hd.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -24024,7 +24037,7 @@ var render = function() {
       _c("section", { attrs: { id: "rurbanism" } }, [
         _c("div", { staticClass: "container mx-auto" }, [
           _c("div", { staticClass: "illustration lg-only" }, [
-            _c("div", { staticClass: " " }, [
+            _c("div", { staticClass: "hd-only" }, [
               _c("img", {
                 staticClass: "mx-auto w-full",
                 attrs: { src: "/static/illustrations/organo_g.png", alt: "" }
@@ -24164,7 +24177,9 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "point mb-10" }, [
         _c("h3", { staticClass: "mb-2" }, [
-          _vm._v("Our core philosophy is ‘Samvriddhi’ or ‘Prosperity for all’.")
+          _vm._v(
+            "Our core philosophy is ‘Samavriddhi’ or ‘Prosperity for all’."
+          )
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
@@ -24189,7 +24204,9 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "w-full lg:w-7/12 text-content" }, [
               _c("div", { staticClass: "quote" }, [
-                _c("h2", { staticClass: "mb-6" }, [_vm._v("Testimonial:")]),
+                _c("h2", { staticClass: "mb-6" }, [
+                  _vm._v("Words from a Naandian")
+                ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
@@ -24207,7 +24224,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "quote-by" }, [
                   _c("div", { staticClass: "name hl-body" }, [
-                    _vm._v("Madhusudan Reddy")
+                    _vm._v("M Madhusudan Reddy")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "about" }, [_vm._v("Naandian")])
@@ -24765,7 +24782,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "metrics" }, [
       _c("div", { staticClass: "metric" }, [
         _c("h2", { staticClass: "number" }, [
-          _vm._v("33 "),
+          _vm._v("36.5 "),
           _c("span", { staticClass: "sub" }, [_vm._v("Acres")])
         ]),
         _vm._v(" "),
@@ -24794,7 +24811,17 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("h3", { staticClass: "description" }, [
-          _c("span", { staticClass: "font-normal" }, [_vm._v("Forest Land")])
+          _c("span", { staticClass: "font-normal" }, [
+            _vm._v("Afforested Land")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "metric" }, [
+        _c("h2", { staticClass: "number" }, [_vm._v("73")]),
+        _vm._v(" "),
+        _c("h3", { staticClass: "description" }, [
+          _c("span", { staticClass: "font-normal" }, [_vm._v("Farm Units")])
         ])
       ])
     ])
@@ -25930,9 +25957,7 @@ var render = function() {
                       _vm._s(item.description) +
                       "\n                        "
                   )
-                ]),
-                _vm._v(" "),
-                _vm._m(2, true)
+                ])
               ])
             ])
           }),
@@ -25941,7 +25966,7 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(3)
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
@@ -25977,7 +26002,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { attrs: { id: "core-values" } }, [
       _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "flex" }, [
+        _c("div", { staticClass: "flex flex-wrap" }, [
           _c("div", { staticClass: "w-full lg:w-7/12 px-4 py-4" }, [
             _c("div", { staticClass: "label" }, [_vm._v("OUR CORE VALUES")]),
             _vm._v(" "),
@@ -26057,17 +26082,11 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-5/12 image-container" })
+          _c("div", { staticClass: "w-full lg:w-5/12 " }, [
+            _c("div", { staticClass: "image-container hd-only min-h-full" })
+          ])
         ])
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "links" }, [
-      _c("ul", [_c("li", { staticClass: "link" }, [_vm._v("LinkedIn")])])
     ])
   },
   function() {
@@ -26647,23 +26666,23 @@ var render = function() {
         [
           _c(
             "div",
-            { staticClass: "video-container" },
+            { staticClass: "video-container relative" },
             [
               _c("div", { staticClass: "overlay" }),
               _vm._v(" "),
-              _vm._t("header-video")
+              _vm._t("header-video"),
+              _vm._v(" "),
+              _c("div", { staticClass: "content-block" }, [
+                _c(
+                  "div",
+                  { staticClass: "text-content" },
+                  [_vm._t("header-content")],
+                  2
+                )
+              ])
             ],
             2
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "content-block" }, [
-            _c(
-              "div",
-              { staticClass: "text-content" },
-              [_vm._t("header-content")],
-              2
-            )
-          ])
+          )
         ]
       )
     ]

@@ -8,6 +8,12 @@ nav {
   }
 }
 
+.hd-only {
+  @media (max-width: 1024px) {
+    display: none !important;
+  }
+}
+
 /* Small (sm) */
 @media (max-width: 640px) {
   .tablet, .sd {

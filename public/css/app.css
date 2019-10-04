@@ -11597,6 +11597,10 @@ p {
 
 /* Large (lg) */
 
+#video-header #introduction {
+  margin-bottom: -140px !important;
+}
+
 #video-header .hero-bg {
   overflow: hidden;
   position: relative;
@@ -11760,6 +11764,12 @@ p {
           text-decoration-color: #ffde39;
 }
 
+@media (max-width: 640px) {
+  .txt-btn {
+    font-size: 23px;
+  }
+}
+
 .txt-btn.md {
   font-size: 33px;
 }
@@ -11843,9 +11853,19 @@ p {
 
 @media (max-width: 640px) {
   .testimonial-component .testimonial {
+    margin-top: 60px;
     padding: 0;
     position: relative;
     min-height: 1000px;
+  }
+
+  .testimonial-component .testimonial .image-wrapper {
+    height: 100%;
+  }
+
+  .testimonial-component .image-container {
+    width: 100%;
+    min-height: 250px;
   }
 }
 
@@ -12554,6 +12574,12 @@ textarea {
   font-weight: normal;
 }
 
+@media (max-width: 640px) {
+  #home-page #rurbanism .point p {
+    font-size: 16px !important;
+  }
+}
+
 #home-page #recurring-events .event-name {
   margin-bottom: 1rem;
 }
@@ -12954,15 +12980,13 @@ textarea {
 }
 
 #team-page .hero {
-  background: #90B979;
   overflow: hidden;
   position: relative;
   z-index: 0;
-  padding-top: 60px;
 }
 
 #team-page .hero .hero-bg {
-  padding: 160px;
+  padding: 160px 20px;
   background-image: url("/static/illustrations/frame_bg.png");
   background-position: center center;
   background-size: cover;
@@ -13212,7 +13236,14 @@ textarea {
 
 #problem-solution img.illustration {
   position: relative;
-  left: 100px;
+  padding: 20px;
+}
+
+@media (min-width: 1024px) {
+  #problem-solution img.illustration {
+    left: 100px;
+    padding: 0px;
+  }
 }
 
 #sapthapatha-detail .one-strand {
@@ -13995,6 +14026,12 @@ nav .sd {
 
 nav .mobile {
   display: block;
+}
+
+@media (max-width: 1024px) {
+  .hd-only {
+    display: none !important;
+  }
 }
 
 /* Small (sm) */
