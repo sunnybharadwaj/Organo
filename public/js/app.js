@@ -2638,6 +2638,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("screenName");
@@ -23126,13 +23129,7 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("section", [
-        _c("h3", { staticClass: "text-center mb-2 opacity-75" }, [
-          _vm._v("\n            The Result\n        ")
-        ]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "text-center mb-12" }, [
-          _vm._v("\n            Rurban Eco-habitats\n        ")
-        ]),
+        _vm._m(3),
         _vm._v(" "),
         _c(
           "div",
@@ -23243,7 +23240,7 @@ var render = function() {
       _vm._v(" "),
       _c("section", { attrs: { id: "sustainability" } }, [
         _c("div", { staticClass: "container mx-auto" }, [
-          _vm._m(3),
+          _vm._m(4),
           _vm._v(" "),
           _c("div", { staticClass: "mb-6" }),
           _vm._v(" "),
@@ -23260,7 +23257,7 @@ var render = function() {
                     })
                   ]),
                   _vm._v(" "),
-                  _vm._m(4)
+                  _vm._m(5)
                 ]
               ),
               _vm._v(" "),
@@ -23275,7 +23272,7 @@ var render = function() {
                     })
                   ]),
                   _vm._v(" "),
-                  _vm._m(5)
+                  _vm._m(6)
                 ]
               ),
               _vm._v(" "),
@@ -23290,7 +23287,7 @@ var render = function() {
                     })
                   ]),
                   _vm._v(" "),
-                  _vm._m(6)
+                  _vm._m(7)
                 ]
               ),
               _vm._v(" "),
@@ -23305,7 +23302,7 @@ var render = function() {
                     })
                   ]),
                   _vm._v(" "),
-                  _vm._m(7)
+                  _vm._m(8)
                 ]
               ),
               _vm._v(" "),
@@ -23320,7 +23317,7 @@ var render = function() {
                     })
                   ]),
                   _vm._v(" "),
-                  _vm._m(8)
+                  _vm._m(9)
                 ]
               ),
               _vm._v(" "),
@@ -23335,7 +23332,7 @@ var render = function() {
                     })
                   ]),
                   _vm._v(" "),
-                  _vm._m(9)
+                  _vm._m(10)
                 ]
               ),
               _vm._v(" "),
@@ -23350,7 +23347,7 @@ var render = function() {
                     })
                   ]),
                   _vm._v(" "),
-                  _vm._m(10)
+                  _vm._m(11)
                 ]
               )
             ])
@@ -23368,7 +23365,7 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _vm._m(11)
+      _vm._m(12)
     ],
     1
   )
@@ -23394,7 +23391,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "w-full lg:w-1/2" }, [
       _c("div", { staticClass: "content" }, [
-        _c("h2", [_vm._v("What went wrong?")]),
+        _c("h2", [_vm._v("Why counter urbanization?")]),
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _c("span", { staticClass: "font-normal" }, [
@@ -23437,6 +23434,22 @@ var staticRenderFns = [
             )
           ])
         ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "px-8" }, [
+      _c("h3", { staticClass: "text-center mb-2 opacity-75" }, [
+        _vm._v("\n                Rurban Eco-habitats\n            ")
+      ]),
+      _vm._v(" "),
+      _c("h2", { staticClass: "text-center mb-12" }, [
+        _vm._v(
+          "\n                Fair share of prosperity for all\n            "
+        )
       ])
     ])
   },
@@ -23719,29 +23732,6 @@ var render = function() {
                   _vm._v(" "),
                   _c("h2", { staticClass: "album-name" }, [
                     _vm._v("Organo Naandi")
-                  ])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "router-link",
-              {
-                staticClass: "album w-1/2",
-                attrs: { to: "/gallery/album/interiors" }
-              },
-              [
-                _c("div", { staticClass: "item" }, [
-                  _c("img", {
-                    staticClass: "w-full",
-                    attrs: {
-                      src: "/static/gallery/covers/interiors_cover.jpg",
-                      alt: ""
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("h2", { staticClass: "album-name" }, [
-                    _vm._v("Naandi Interiors")
                   ])
                 ])
               ]

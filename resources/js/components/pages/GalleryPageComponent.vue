@@ -11,12 +11,12 @@
                             <h2 class="album-name">Organo Naandi</h2>
                         </div>
                     </router-link>
-                    <router-link to="/gallery/album/interiors" class="album w-1/2" >
-                        <div class="item">
-                            <img :src="'/static/gallery/covers/interiors_cover.jpg'" class="w-full" alt="">
-                            <h2 class="album-name">Naandi Interiors</h2>
-                        </div>
-                    </router-link>
+                    <!--<router-link to="/gallery/album/interiors" class="album w-1/2" >-->
+                        <!--<div class="item">-->
+                            <!--<img :src="'/static/gallery/covers/interiors_cover.jpg'" class="w-full" alt="">-->
+                            <!--<h2 class="album-name">Naandi Interiors</h2>-->
+                        <!--</div>-->
+                    <!--</router-link>-->
                     <router-link to="/gallery/album/activities" class="album w-1/2" >
                         <div class="item">
                             <img :src="'/static/gallery/covers/activities_cover.jpg'" class="w-full" alt="">

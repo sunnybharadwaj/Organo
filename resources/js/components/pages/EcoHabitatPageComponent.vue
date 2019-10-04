@@ -77,10 +77,10 @@
                     <div class="flex flex-wrap">
                         <div class="w-full lg:w-1/2">
                             <div class="content">
-                                <h2>What went wrong?</h2>
+                                <h2>Why counter urbanization?</h2>
                                 <p class="alt-body"><span class="font-normal">
                     The advent of rapid urbanization has led us to live in between polluted environments, genetically modified produce and other downsides of densely populated areas, leading to an excessively stressful life.
-                </span></p class="alt-body">
+                </span></p>
                                 <p class="alt-body"><span class="font-normal">We often find ourselves in this modern balancing act between living this way and finding ways to escape, relax and re-connect with nature.</span></p class="alt-body">
                             </div>
                         </div>
@@ -112,13 +112,16 @@
         </section>
 
         <section>
-            <h3 class="text-center mb-2 opacity-75">
-                The Result
-            </h3>
+            <div class="px-8">
+                <h3 class="text-center mb-2 opacity-75">
+                    Rurban Eco-habitats
+                </h3>
 
-            <h2 class="text-center mb-12">
-                Rurban Eco-habitats
-            </h2>
+                <h2 class="text-center mb-12">
+                    Fair share of prosperity for all
+                </h2>
+            </div>
+
 
             <div class="image-wrapper max-w-4xl mx-auto mb-24 p-4">
                 <img class="w-full" :src="'/static/illustrations/eco_3.png'" alt="">
