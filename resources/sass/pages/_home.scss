@@ -1,5 +1,94 @@
 #home-page {
 
+  #home-testimonials {
+    .image-container {
+      height: 100%;
+      background-image: url('/static/images/testimonials/home_madhusudan.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-origin: padding-box;
+      background-clip: border-box;
+      background-color: #ccc;
+    }
+  }
+#rurbanism{
+  .container {
+    position:relative;
+  }
+
+  .illustration {
+    position: absolute;
+    transform: scale(0.4);
+    right: -300px;
+    bottom: 0;
+    z-index: -1000;
+  }
+  .point {
+    p {
+      font-weight: normal;
+    }
+  }
+}
+
+  #recurring-events {
+
+    .event-name {
+      margin-bottom:1rem;
+    }
+
+    .content {
+      height: 100%;
+      padding: 360px 50px 25px;
+      background: linear-gradient(to top, rgb(21, 10, 10), rgba(255, 255, 255, 0));
+      transition: all 0.3s ease-in-out !important;
+
+      &:hover {
+        cursor: pointer;
+        background: linear-gradient(to top, rgb(17, 5, 5), rgba(255, 255, 255, 0));
+        .event-name {
+          color: $highlight !important;
+        }
+      }
+
+      h3,p {
+        color: rgba(255, 255, 255, 0.9) !important;
+      }
+
+    }
+
+    .recurring-event:nth-child(1) {
+      background-image: url('/static/images/school_events.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-origin: padding-box;
+      background-clip: border-box;
+      background-color: #ccc;
+    }
+    .recurring-event:nth-child(2) {
+      background-image: url('/static/images/team_feature.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-origin: padding-box;
+      background-clip: border-box;
+      background-color: #ccc;
+    }
+    .recurring-event:nth-child(3) {
+      background-image: url('/static/images/activities/workshops.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-origin: padding-box;
+      background-clip: border-box;
+      background-color: #ccc;
+    }
+  }
 
 
   #purpose {
@@ -30,6 +119,15 @@
   }
 
 }
+
+#naandi-result {
+    .naandi-logo{
+      width:300px;
+      position: relative;
+      right:60px;
+      margin-bottom: 1rem;
+    }
+  }
 
 #naandi-section {
   h2 {

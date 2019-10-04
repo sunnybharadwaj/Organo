@@ -2,7 +2,9 @@
     <div id="about-page">
         <section class="m-0">
             <div id="story">
-                <div class="hero-bg"></div>
+                <div class="hero-bg">
+
+                </div>
 
                 <div class="container mx-auto">
                     <div class="content-block">
@@ -35,7 +37,7 @@
         </section>
 
 
-        <section id="bringing-it-togehter">
+        <section id="bringing-it-togehter" class="">
             <h2 class="text-center">Bringing it all together</h2>
             <div class="mb-8"></div>
             <div class="nagesh-quote relative z-0 text-center">
@@ -62,7 +64,7 @@
                 <div class="mb-12"></div>
 
 
-                <div class="pieces-together text-left">
+                <div class="pieces-together text-left mb-0">
                     <img class="bg-graphic hidden" :src="'/static/images/bringing_together_graphic.png'" alt="">
                     <div class="container mx-auto">
                         <div class="flex flex-wrap">
@@ -111,10 +113,14 @@
         </section>
 
 
-        <div class="cta-v-group mb-24">
+        <div class="cta-v-group">
             <div class="container mx-auto">
                 <div class="cta">
                     <section>
+                        <div class="max-w-5xl mx-auto mb-24">
+                            <img class="w-full" :src="'/static/illustrations/organo_team.png'" alt="">
+                        </div>
+
                         <router-link to="/team" class="cta-link text-center ">
                             <h2 class="cta-text mx-auto">The Team that made it happen.</h2>
                         </router-link>
@@ -142,7 +148,8 @@
                 </slot>
             </FeatureComponent>
         </div>
-
+<div class="p-2"></div>
+        <section></section>
 
     </div>
 </template>

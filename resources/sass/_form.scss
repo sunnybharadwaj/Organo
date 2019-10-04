@@ -26,6 +26,10 @@ input {
   width: 100%;
   display: block;
   font-size: 18px;
+
+  &.inverted {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 input.lg {

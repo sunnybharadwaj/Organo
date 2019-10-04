@@ -6,7 +6,6 @@
 }
 
 #story {
-
   margin-bottom: -400px;
   position: relative;
   .content-block {
@@ -16,7 +15,15 @@
     margin: 0 auto;
   }
   .hero-bg {
-    background: $highlight;
+
+    background-image: url('/static/illustrations/frame_bg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: #ccc;
   }
 
   .text-content p {

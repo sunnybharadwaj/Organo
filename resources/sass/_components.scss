@@ -149,6 +149,27 @@
   }
 }
 
+.txt-btn {
+  display: block;
+  font-size: 47px;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+  text-decoration: underline;
+  text-decoration-color: $highlight;
+
+  &.md {
+    font-size: 33px;
+  }
+  &.inline-block {
+    display: inline-block
+  }
+
+  &:hover {
+    text-decoration-color: $link-blue;
+    cursor: pointer;
+  }
+}
+
 //Large buttons
 .lg-button {
   display: block;
@@ -207,7 +228,6 @@
 .testimonial-component {
   .testimonial {
     min-height: 700px;
-    padding: 60px 0;
     .text-content {
       position: relative;
     }

@@ -1,5 +1,47 @@
 #naandi-page {
 
+  #naandi-testimonials {
+
+    .image-container {
+      height: 100%;
+      background-image: url('/static/images/testimonials/naandi_swetha.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-origin: padding-box;
+      background-clip: border-box;
+      background-color: #ccc;
+    }
+
+  }
+  #naandi-intro {
+    .naandi-logo{
+      width:300px;
+      position: relative;
+      right:60px;
+      margin-bottom: 1rem;
+    }
+
+    .metrics {
+      .metric {
+        margin-bottom: 1.5rem;
+        .sub {
+          font-size:23px;
+        }
+        h2 {
+          min-width: 140px;
+        }
+        h2, h3 {
+          display: inline-block;
+        }
+        h2 {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
   .home-images {
     padding: 40px 0px 0;
     @media (min-width: 1280px) {

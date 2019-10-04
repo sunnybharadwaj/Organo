@@ -1,17 +1,17 @@
 <template>
     <div id="team-page">
         <div class="bg-gray-100">
-            <section class="hero m-0 py-32 relative">
-                <!--<img class="bg-img" :src="'static/images/bg_styled.jpg'" alt="">-->
-                <img :src="'/static/images/team_left.png'" class="illustration-left" alt="">
-                <img :src="'/static/images/team_right.png'" class="illustration-right" alt="">
-                <div class="label text-center mb-4">ABOUT</div>
-                <div class="container text-center mx-auto">
-                    <h1 class="">Our Team</h1>
-                    <div class="mb-3"></div>
-                    <h3 class="font-normal max-w-5xl mx-auto">We are a group of Architects, Designers and
-                        Visionaries with a wide range of subject-matter expertise, focusing our efforts towards designing, building and developing sustainable
-                        eco-habitats.</h3>
+            <section class="hero m-0 relative">
+                <div class="hero-bg">
+                    <div class="label text-center mb-4">ABOUT</div>
+                    <div class="container text-center mx-auto">
+                        <h1 class="">Our Team</h1>
+                        <div class="mb-3"></div>
+                        <h3 class="font-normal max-w-5xl mx-auto">We are a group of Architects, Designers and
+                            Visionaries with a wide range of subject-matter expertise, focusing our efforts towards designing, building and developing sustainable
+                            eco-habitats.</h3>
+                </div>
+
 
 
                 </div>

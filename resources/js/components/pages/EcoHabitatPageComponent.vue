@@ -44,12 +44,13 @@
 
             <div slot="header-content">
                 <h1 class="mb-0">Eco-Habitat</h1>
-                <div class="pronunciation">[ <span class="font-bold">ek</span>-oh, <span class="font-bold">ee</span>-koh
+                <p class="pronunciation alt-body">[ <span class="font-bold">ek</span>-oh, <span class="font-bold">ee</span>-koh
                     - <span class="font-bold">hab</span>-i-tat ]
-                </div>
-                <p class="hl-body">An integrated eco-system as a living space, consciously created with sustainability
+                </p>
+                <h3>
+                    An integrated eco-system as a living space, consciously created with sustainability
                     principles at its center, designed for having the minimal impact without contaminating the
-                    environment in it or around it.</p>
+                    environment in it or around it.</h3>
                 <!--<div class="button-block">-->
                 <!--<div class="lg-button inline-block mr-8">-->
                 <!--<span class="text">Learn More</span>-->
@@ -69,51 +70,108 @@
                 </h2>
             </div>
         </section>
-        <div class="image-content-list">
-            <ImageContentComponent>
-                <div slot="image" class="wide-image"></div>
-                <div slot="content">
-                    <h3>Agriculture at the center</h3>
-                    <p class="alt-body">Health is one of the primary concerns of the modern urban individual, with produce
-                        shipping with high levels of toxins. Having recognized this, we build our communities with Organic
-                        Agriculture at its center. Eco-system first, inhabit later.</p>
-                    <div class="mb-8"></div>
+
+        <section id="problem-solution">
+            <div class="container mx-auto">
+                <div class="problem">
+                    <div class="flex flex-wrap">
+                        <div class="w-full lg:w-1/2">
+                            <div class="content">
+                                <h2>What went wrong?</h2>
+                                <p class="alt-body"><span class="font-normal">
+                    The advent of rapid urbanization has led us to live in between polluted environments, genetically modified produce and other downsides of densely populated areas, leading to an excessively stressful life.
+                </span></p class="alt-body">
+                                <p class="alt-body"><span class="font-normal">We often find ourselves in this modern balancing act between living this way and finding ways to escape, relax and re-connect with nature.</span></p class="alt-body">
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <div class="content">
+                                <img class="illustration" :src="'/static/illustrations/eco_1.png'" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </ImageContentComponent>
-            <ImageContentComponent>
-                <div slot="image" class="wide-image"></div>
-                <div slot="content">
-                    <h3>Flora and Fauna necessary to create the sustainable cycle</h3>
-                    <p class="alt-body">Building an eco-system requires us to have all the pieces necessary to create a
-                        consistent repeatable cycle. We had to expand our vision entirely towards learning and understanding
-                        what it takes to create a sustainable environments and create natural cycles of growth.</p>
-                    <div class="mb-8"></div>
+
+                <div class="solution">
+                    <div class="flex flex-wrap">
+                        <div class="w-full lg:w-1/2">
+                            <div class="content">
+                                <h2>What needed to be done.</h2>
+                                <p class="alt-body"><span class="font-normal">To counter the effects of urbanization, we needed to explore reverse-migration, going back to the roots from where it all started.</span></p>
+                                <p class="alt-body"><span class="font-normal">We needed to find new ways of living in balance with the ecosystem and all the various parts of it, with access to healthy organic food and fresh air to breath, allowing sustainable growth of a community without affecting the environment which they live in.</span></p>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <div class="content">
+                                <img class="illustration" :src="'/static/illustrations/eco_2.png'" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </ImageContentComponent>
-            <ImageContentComponent>
-                <div slot="image" class="wide-image"></div>
-                <div slot="content">
-                    <h3>Self growing communities that take care of themselves</h3>
-                    <p class="alt-body">Eco-habitats depend on its habitants for its conservation and sustainability. All
-                        our
-                        community members come together to create an environment of natural growth and sustenance. We
-                        offer you a way to be independently sustainable by yourself as well as join in with the rest of
-                        the community on collective efforts.
-                    </p>
-                    <div class="mb-8"></div>
-                </div>
-            </ImageContentComponent>
-            <ImageContentComponent>
-                <div slot="image" class="wide-image"></div>
-                <div slot="content">
-                    <h3>Merging Urban and Rural experiences</h3>
-                    <p class="alt-body">For many, the sight of a rural setting brings about feelings of
-                        uninterrupted harmony. We wanted to capture that, while still offering you the opportunity for a
-                        comfortable lifestyle with all possible amenities expected from a modern living community. </p>
-                    <div class="mb-8"></div>
-                </div>
-            </ImageContentComponent>
-        </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="text-center mb-2 opacity-75">
+                The Result
+            </h3>
+
+            <h2 class="text-center mb-12">
+                Rurban Eco-habitats
+            </h2>
+
+            <div class="image-wrapper max-w-4xl mx-auto mb-24">
+                <img class="w-full" :src="'/static/illustrations/eco_3.png'" alt="">
+            </div>
+            <div class="image-content-list">
+
+
+                <ImageContentComponent>
+                    <div slot="image" class="wide-image"></div>
+                    <div slot="content">
+                        <h3>Agriculture at the center</h3>
+                        <p class="alt-body">Health is one of the primary concerns of the modern urban individual, with produce
+                            shipping with high levels of toxins. Having recognized this, we build our communities with Organic
+                            Agriculture at its center. Eco-system first, inhabit later.</p>
+                        <div class="mb-8"></div>
+                    </div>
+                </ImageContentComponent>
+                <ImageContentComponent>
+                    <div slot="image" class="wide-image"></div>
+                    <div slot="content">
+                        <h3>Flora and Fauna necessary to create the sustainable cycle</h3>
+                        <p class="alt-body">Building an eco-system requires us to have all the pieces necessary to create a
+                            consistent repeatable cycle. We had to expand our vision entirely towards learning and understanding
+                            what it takes to create a sustainable environments and create natural cycles of growth.</p>
+                        <div class="mb-8"></div>
+                    </div>
+                </ImageContentComponent>
+                <ImageContentComponent>
+                    <div slot="image" class="wide-image"></div>
+                    <div slot="content">
+                        <h3>Self growing communities that take care of themselves</h3>
+                        <p class="alt-body">Eco-habitats depend on its habitants for its conservation and sustainability. All
+                            our
+                            community members come together to create an environment of natural growth and sustenance. We
+                            offer you a way to be independently sustainable by yourself as well as join in with the rest of
+                            the community on collective efforts.
+                        </p>
+                        <div class="mb-8"></div>
+                    </div>
+                </ImageContentComponent>
+                <ImageContentComponent>
+                    <div slot="image" class="wide-image"></div>
+                    <div slot="content">
+                        <h3>Merging Urban and Rural experiences</h3>
+                        <p class="alt-body">For many, the sight of a rural setting brings about feelings of
+                            uninterrupted harmony. We wanted to capture that, while still offering you the opportunity for a
+                            comfortable lifestyle with all possible amenities expected from a modern living community. </p>
+                        <div class="mb-8"></div>
+                    </div>
+                </ImageContentComponent>
+            </div>
+        </section>
+
 
 
 
@@ -121,7 +179,7 @@
             <div class="container mx-auto">
                 <div class="max-w-5xl">
                     <h2 class="max-w-4xl mb-8">
-                        Our primary objective was to create an on-going practice of sustainability
+                        Sapthapatha - Seven Strands of Sustainable living
                     </h2>
                     <h3 class="font-normal">
                         To pursue sustainability, we have created processes within seven layers or strands which
@@ -132,104 +190,58 @@
                     </h3>
                 </div>
                 <div class="mb-6"></div>
-                <div class="sustainable-strand">
+
+                <div id="sapthapatha-detail">
                     <div class="flex flex-wrap">
-                        <div class="w-full md:w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">Creating healthy source of nutrition through <span class="font-bold">food</span> / produce grown using organic
-                                        farming practices without the need for chemicals.</h3>
-                                </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 one-strand">
+                            <div class="h-40 w-40">
+                                <img class="w-full" :src="'/static/sapthapatha/food.png'" alt="">
                             </div>
+
+                            <p class="alt-body"><span class="font-normal">Creating healthy source of nutrition through <span class="font-bold">food</span> / produce grown using organic
+                                farming practices without the need for chemicals.</span></p>
                         </div>
-                        <div class="w-full md:w-2/12">
-                            <img :src="'/static/sapthapatha/food.png'" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sustainable-strand">
-                    <div class="flex flex-wrap">
-                        <div class="w-full md:w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">Employ advanced scientific procedures of conservation and treatment of <span class="font-bold">water</span> and regularly monitor overall consumption vs production.</h3>
-                                </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 one-strand">
+                            <div class="h-40 w-40">
+                                <img class="w-full" :src="'/static/sapthapatha/water.png'" alt="">
                             </div>
+
+                            <p class="alt-body"><span class="font-normal">Employ advanced scientific procedures of conservation and treatment of <span class="font-bold">water</span> and regularly monitor overall consumption vs production.</span></p>
                         </div>
-                        <div class="w-full md:w-2/12">
-                            <img :src="'/static/sapthapatha/water.png'" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sustainable-strand">
-                    <div class="flex flex-wrap">
-                        <div class="w-full md:w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">An endless supply of fresh <span class="font-bold">Air</span> wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System.</h3>
-                                </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 one-strand">
+                            <div class="h-40 w-40">
+                                <img class="w-full" :src="'/static/sapthapatha/air.png'" alt="">
                             </div>
+
+                            <p class="alt-body"><span class="font-normal">An endless supply of fresh <span class="font-bold">Air</span> wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System.</span></p>
                         </div>
-                        <div class="w-full md:w-2/12">
-                            <img :src="'/static/sapthapatha/air.png'" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sustainable-strand">
-                    <div class="flex flex-wrap">
-                        <div class="w-full md:w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">Protect the <span class="font-bold">Earth</span> by preserving soil health by using organic methods and fertilizers, employ necessary waste management and recycling processes.</h3>
-                                </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 one-strand">
+                            <div class="h-40 w-40">
+                                <img class="w-full" :src="'/static/sapthapatha/earth.png'" alt="">
                             </div>
+
+                            <p class="alt-body"><span class="font-normal">Protect the <span class="font-bold">Earth</span> by preserving soil health by using organic methods and fertilizers, employ necessary waste management and recycling processes.</span></p>
                         </div>
-                        <div class="w-full md:w-2/12">
-                            <img :src="'/static/sapthapatha/earth.png'" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sustainable-strand">
-                    <div class="flex flex-wrap">
-                        <div class="w-full md:w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">
-                                        Produce all <span class="font-bold">Energy</span> from within the space through renewable sources like solar energy and a bio-gas plant.
-                                    </h3>
-                                </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 one-strand">
+                            <div class="h-40 w-40">
+                                <img class="w-full" :src="'/static/sapthapatha/energy.png'" alt="">
                             </div>
+
+                            <p class="alt-body"><span class="font-normal">Produce all <span class="font-bold">Energy</span> from within the community area through renewable sources like solar energy and a bio-gas plant and employ procedures to reduce power consumption.</span></p>
                         </div>
-                        <div class="w-full md:w-2/12">
-                            <img :src="'/static/sapthapatha/energy.png'" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sustainable-strand">
-                    <div class="flex flex-wrap">
-                        <div class="w-full md:w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">Create <span class="font-bold">Shelter</span> within nature while maintaining bio-diversity. Open yet personal living spaces and wide communal spaces incorporating comforts of this day and age.</h3>
-                                </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 one-strand">
+                            <div class="h-40 w-40">
+                                <img class="w-full" :src="'/static/sapthapatha/shelter.png'" alt="">
                             </div>
+
+                            <p class="alt-body"><span class="font-normal">Create <span class="font-bold">Shelter</span> within nature while maintaining bio-diversity. Open yet personal living spaces and wide communal spaces incorporating comforts of this day and age.</span></p>
                         </div>
-                        <div class="w-full md:w-2/12">
-                            <img :src="'/static/sapthapatha/shelter.png'" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sustainable-strand">
-                    <div class="flex flex-wrap">
-                        <div class="w-full md:w-10/12">
-                            <div class="max-w-4xl">
-                                <div class="py-12">
-                                    <h3 class="font-normal">Encourage a community of <span class="font-bold">People</span> who live together responsibly, share their time, knowledge and expertise towards co-creating and sustaining the environment around them.</h3>
-                                </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 one-strand">
+                            <div class="h-40 w-40">
+                                <img class="w-full" :src="'/static/sapthapatha/people.png'" alt="">
                             </div>
-                        </div>
-                        <div class="w-full md:w-2/12">
-                            <img :src="'/static/sapthapatha/people.png'" alt="">
+
+                            <p class="alt-body"><span class="font-normal">Encourage a community of <span class="font-bold">People</span> who live together responsibly, share their time, knowledge and expertise towards co-creating and sustaining the environment around them.</span></p>
                         </div>
                     </div>
                 </div>
@@ -237,144 +249,55 @@
         </section>
 
 
-        <section id="sapthapatha" class="hidden">
-            <div class="container mx-auto">
-                <div class="intro">
-                    <h2>Sapthapatha</h2>
-                    <h3>7 strands of sustainability</h3>
-                    <p class="alt-body">Our primary endeavor is to protect air, water, land and ecological systems to
-                        safeguard individual health and foster a sustainable future. In order to reduce environmental,
-                        energy and community footprints, Organo has identified seven different aspects where progress
-                        towards sustainability can be achieved. </p>
-                </div>
-
-            </div>
-
-
-            <div class="strands-wrapper">
-                <div class="flex flex-wrap strands-desc">
-                    <div class="w-full md:w-1/2 lg:w-1/4 strand">
-                        <div class="icon">
-                            <img :src="'/static/sapthapatha/food.png'" alt="">
-                        </div>
-                        <div class="title"><h3>Food</h3></div>
-                        <div class="description">You are what you eat. Spreading the joy of natural growing and organic
-                            farming practices makes Organo Naandi healthier.
-                        </div>
-                    </div>
-                    <div class="w-full md:w-1/2 lg:w-1/4 strand">
-                        <div class="icon">
-                            <img :src="'/static/sapthapatha/water.png'" alt="">
-                        </div>
-                        <div class="title"><h3>Water</h3></div>
-                        <div class="description">You are what you eat. Spreading the joy of natural growing and organic
-                            farming practices makes Organo Naandi healthier.
-                        </div>
-                    </div>
-                    <div class="w-full md:w-1/2 lg:w-1/4 strand">
-                        <div class="icon">
-                            <img :src="'/static/sapthapatha/air.png'" alt="">
-                        </div>
-                        <div class="title"><h3>Air</h3></div>
-                        <div class="description">You are what you eat. Spreading the joy of natural growing and organic
-                            farming practices makes Organo Naandi healthier.
-                        </div>
-                    </div>
-                    <div class="w-full md:w-1/2 lg:w-1/4 strand">
-                        <div class="icon">
-                            <img :src="'/static/sapthapatha/earth.png'" alt="">
-                        </div>
-                        <div class="title"><h3>Earth</h3></div>
-                        <div class="description">You are what you eat. Spreading the joy of natural growing and organic
-                            farming practices makes Organo Naandi healthier.
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-wrap strands-desc">
-                    <div class="w-full md:w-1/2 lg:w-1/3 strand">
-                        <div class="icon">
-                            <img :src="'/static/sapthapatha/energy.png'" alt="">
-                        </div>
-                        <div class="title"><h3>Energy</h3></div>
-                        <div class="description">You are what you eat. Spreading the joy of natural growing and organic
-                            farming practices makes Organo Naandi healthier.
-                        </div>
-                    </div>
-                    <div class="w-full md:w-1/2 lg:w-1/3 strand">
-                        <div class="icon">
-                            <img :src="'/static/sapthapatha/shelter.png'" alt="">
-                        </div>
-                        <div class="title"><h3>Shelter</h3></div>
-                        <div class="description">You are what you eat. Spreading the joy of natural growing and organic
-                            farming practices makes Organo Naandi healthier.
-                        </div>
-                    </div>
-                    <div class="w-full lg:w-1/3 strand">
-                        <div class="icon">
-                            <img :src="'/static/sapthapatha/people.png'" alt="">
-                        </div>
-                        <div class="title"><h3>People</h3></div>
-                        <div class="description">You are what you eat. Spreading the joy of natural growing and organic
-                            farming practices makes Organo Naandi healthier.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container mx-auto">
-                <div class="lg-button"><h2 class="">Learn more about Sustainable Living</h2></div>
-            </div>
-
-        </section>
 
         <section id="eco-habitats-slider" class="m-0 important bg-gray-200">
             <SliderComponent></SliderComponent>
         </section>
 
-        <section id="naandi-section">
-            <div class="section-wrapper">
+        <!--Testimonials-->
 
-                <img class="w-full wide-image" :src="'/static/images/entertainment_center.jpg'" alt="">
-
-                <div class="container mx-auto">
-                    <div class="flex flex-wrap">
-                        <div class="flex-wrapper w-full sm:w-full md:w-full lg:w-7/12 ">
-                            <div class="content-block">
-                                <div class="pt-12 lg:pt-6"></div>
-                                <h2>A way of life for the passionate and conscientious.</h2>
-                                <p>Privacy of your own villa, the lifestyle of a plush natural resort, the security of a
-                                    gated community, the advantage of like-minded people and above all, the unmatched
-                                    joy of
-                                    healthy and sustainable living. Organo’s Naandi works splendidly as your primary
-                                    residence as well as a weekend farm-house; All while having the opportunity to
-                                    experience Nature to its fullest. Experience the manifestation of our first step
-                                    towards
-                                    building self-sustainable eco-habitats.</p>
-                                <div class="mb-8"></div>
-                                <div class="cta-links">
-                                    <router-link to="/naandi"><div class="lg-button inline-block mr-8"><span class="text">Explore Naandi</span></div></router-link>
-                                    <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex-wrapper media-block w-full sm:w-full md:w-full h-100 lg:w-5/12">
-                            <div class="slider-container">
-                                <!--<img :src="'/static/images/entertainment_center.jpg'" alt="">-->
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section id="eco-habitat-testimonials">
-            <TestimonialsComponent></TestimonialsComponent>
+            <section id="home-testimonials" class="">
+                <div class="testimonial-component">
+                    <div class="container mx-auto">
+                        <div class="flex flex-wrap testimonial">
+                            <div class="w-full lg:w-5/12 image-wrapper ">
+                                <div class="image-container ">
+
+                                </div>
+                            </div>
+                            <div class="w-full lg:w-7/12 text-content">
+                                <div class="quote">
+                                    <h2 class="mb-6">Testimonial:</h2>
+                                    <p class="alt-body">
+                                        "Using vedic farming, Organo Naandi grow 35 varieties of vegetables, 15 varieties of fruits and 95 varieties of medicinal plants at Naandi."
+                                    </p>
+                                    <p class="alt-body">
+                                        We use animal husbandry, rainwater harvesting and control surrounding use of chemicals, employ many other ways to maintain a sustainable cycle for farm-fresh produce.
+                                        "
+                                    </p>
+
+                                    <div class="mb-8"></div>
+                                    <div class="quote-by">
+                                        <div class="name hl-body">Lakshmi Battula</div>
+                                        <div class="about">Farm Supervisor</div>
+                                        <div class="about font-bold">Organo</div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </section>
         </section>
 
-        <section class="mb-0">
-            <SchoolCTAComponent></SchoolCTAComponent>
-        </section>
+
     </div>
 </template>
 

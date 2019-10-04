@@ -57,91 +57,105 @@
             </div>
         </VideoHeaderComponent>
 
-        <!--<section id="about-project" class="hidden mt-0 bg-gray-100">-->
-        <!--<section class="about-naandi">-->
-        <!--<div class="container mx-auto">-->
-        <!--<div class="wrapper">-->
-        <!--<h3>Organo’s Naandi is a plush living commune of urban villas built to offer all the-->
-        <!--contemporary-->
-        <!--living-->
-        <!--conveniences while seamlessly integrated with nature.</h3>-->
-        <!--<div class="separator"></div>-->
-        <!--<p>Incorporating the latest in high-performance building science and home technology, every home-->
-        <!--gathers-->
-        <!--around a space that skillfully combines outdoor and indoor living. <span-->
-        <!--class="more-link link" v-if="!more_content" @click="showMoreDetails">More</span></p>-->
+        <section id="about-project" class="hidden mt-0 bg-gray-100">
+            <section class="about-naandi">
+                <div class="container mx-auto">
+                    <div class="wrapper">
+                        <h3>Organo’s Naandi is a plush living commune of urban villas built to offer all the
+                            contemporary
+                            living
+                            conveniences while seamlessly integrated with nature.</h3>
+                        <div class="separator"></div>
+                        <p>Incorporating the latest in high-performance building science and home technology, every home
+                            gathers
+                            around a space that skillfully combines outdoor and indoor living. <span
+                                    class="more-link link" v-if="!more_content" @click="showMoreDetails">More</span></p>
 
 
-        <!--<div v-if="more_content" class="more more-content">-->
-        <!--<p>These fully air-conditioned signature spaces are embedded with what we call ‘rurban’-->
-        <!--nomenclature, which is a heady mix of urban refinement and rural ethnicity. Envisioned-->
-        <!--to-->
-        <!--invite-->
-        <!--families to live fully and generously, these homes have an ingenious arrangement of-->
-        <!--interior-->
-        <!--space and a unique combination of openness and privacy that makes a relaxed way of life-->
-        <!--possible.</p>-->
-        <!--<p>Dramatic sliding glass doors open up to enable the home’s interiors to embrace the-->
-        <!--natural-->
-        <!--world-->
-        <!--surrounding it. Abundant windows, full-wall glass panels let in plenty of natural light-->
-        <!--and-->
-        <!--add-->
-        <!--to the feeling of openness and spaciousness. A spacious floor plan, high ceilings, large-->
-        <!--bedrooms, luxurious bathrooms, ample storage, servant quarters and other options.. all-->
-        <!--make-->
-        <!--the-->
-        <!--home perfect for you and your family.</p>-->
-        <!--</div>-->
+                        <div v-if="more_content" class="more more-content">
+                            <p>These fully air-conditioned signature spaces are embedded with what we call ‘rurban’
+                                nomenclature, which is a heady mix of urban refinement and rural ethnicity. Envisioned
+                                to
+                                invite
+                                families to live fully and generously, these homes have an ingenious arrangement of
+                                interior
+                                space and a unique combination of openness and privacy that makes a relaxed way of life
+                                possible.</p>
+                            <p>Dramatic sliding glass doors open up to enable the home’s interiors to embrace the
+                                natural
+                                world
+                                surrounding it. Abundant windows, full-wall glass panels let in plenty of natural light
+                                and
+                                add
+                                to the feeling of openness and spaciousness. A spacious floor plan, high ceilings, large
+                                bedrooms, luxurious bathrooms, ample storage, servant quarters and other options.. all
+                                make
+                                the
+                                home perfect for you and your family.</p>
+                        </div>
 
-        <!--<div class="metrics flex flex-wrap">-->
-        <!--<div class="metric flex">-->
-        <!--<span class="number">32</span>-->
-        <!--<h3 class="description highlight">Acres</h3>-->
-        <!--</div>-->
-        <!--<div class="metric flex">-->
-        <!--<span class="number">32</span>-->
-        <!--<h3 class="description">Villas</h3>-->
-        <!--</div>-->
-        <!--<div class="metric flex">-->
-        <!--<span class="number">123</span>-->
-        <!--<h3 class="description">Community</h3>-->
-        <!--</div>-->
-        <!--<div class="metric flex">-->
-        <!--<span class="number">32</span>-->
-        <!--<h3 class="description">Acres</h3>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
 
-        <!--</div>-->
-        <!--<SliderComponent></SliderComponent>-->
-        <!--</section>-->
+                    </div>
 
-        <!--</section>-->
+                </div>
+                <SliderComponent></SliderComponent>
+            </section>
 
-        <section>
+        </section>
+
+
+        <section id="naandi-intro" class="mb-12">
             <div class="container mx-auto">
-                <h1 class="mb-4">Environment as a living being</h1>
-                <h3 class="font-normal max-w-6xl">In this age of rapid modernization and urban chaos, we crave to escape
-                    into nature whenever possible to unwind, relax and rejuvenate. Naandi is the manifestation of our
-                    efforts towards creating an <span class="font-bold">eco-habitat</span> on net-zero and triple bottom
-                    line principles, offering a sustainable living space without affecting the environment in it or
-                    around it. </h3>
+                <div class="flex flex-wrap">
+                    <div class="w-full lg:w-1/2">
+                        <div class="max-w-xl">
+                            <div class="naandi-logo">
+                                <img :src="'/static/logos/naandi_logo.png'" class="w-full" alt="">
+                            </div>
+                            <h2 class="mb-4">A way of life for the passionate and conscious.</h2>
+                            <p class="alt-body mb-12">Naandi<span class="font-normal"> is the manifestation of our
+                        efforts towards creating a <span class="font-bold">Rurban Eco-habitat</span> on net-zero and triple bottom
+                        line principles. Situated 17km from Hyderabad, we offer sustainable living space, a conscious community and opportunities to work with nature and experience a combination of urban refinement and rural ethnicity.</span></p>
+
+                            <div class="metrics">
+                                <div class="metric">
+                                    <h2 class="number">33 <span class="sub">Acres</span></h2>
+                                    <h3 class="description highlight"><span class="font-normal">Total Area</span></h3>
+                                </div>
+                                <div class="metric">
+                                    <h2 class="number">6.5 <span class="sub">Acres</span></h2>
+                                    <h3 class="description"><span class="font-normal">Agricultural Land</span></h3>
+                                </div>
+                                <div class="metric">
+                                    <h2 class="number">10 <span class="sub">Acres</span></h2>
+                                    <h3 class="description"><span class="font-normal">Forest Land</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="pb-32"></div>
+                        <img :src="'/static/illustrations/naandi_map.png'" class="w-full" alt="">
+                    </div>
+                </div>
+
+
+
+
             </div>
         </section>
 
         <div class="image-content-list">
-            <ImageContentComponent>
-                <div slot="image" class="wide-image"></div>
-                <div slot="content">
-                    <h2 class="mb-4"><span class="font-normal">the</span> Vision</h2>
-                    <p class="alt-body">Through our work towards this ideal, we have found seven areas that need our
-                        attention - Food, Water, Air, Earth, Energy, Shelter and People. Our efforts in each of these
-                        areas work independently and inter-dependently with each other to create a living, breathing
-                        environment suitable for all that live in it.</p>
-                </div>
-            </ImageContentComponent>
+            <!--<ImageContentComponent>-->
+                <!--<div slot="image" class="wide-image"></div>-->
+                <!--<div slot="content">-->
+                    <!--<h2 class="mb-4"><span class="font-normal">the</span> Vision</h2>-->
+                    <!--<p class="alt-body">Through our work towards this ideal, we have found seven areas that need our-->
+                        <!--attention - Food, Water, Air, Earth, Energy, Shelter and People. Our efforts in each of these-->
+                        <!--areas work independently and inter-dependently with each other to create a living, breathing-->
+                        <!--environment suitable for all that live in it.</p>-->
+                <!--</div>-->
+            <!--</ImageContentComponent>-->
             <ImageContentComponent>
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
@@ -182,7 +196,7 @@
 
         <section>
             <div class="container mx-auto content-section">
-                <h2 class="mb-8">Our Home</h2>
+                <h2 class="mb-8">Home</h2>
                 <div class="max-w-4xl">
                     <h3 class="font-normal">
                         We have Incorporated the latest in high-performance building science and home technology. Every
@@ -195,6 +209,10 @@
                         balconies, whether its where you live or visit to get away, Naandi’s the perfect place to relax,
                         let go and take a dip in nature.
                     </h3>
+                    <div class="mb-8"></div>
+                    <div class="txt-btn">Request floor-plans</div>
+                    <div class="mb-8"></div>
+                    <div class="txt-btn">Browse pictures at the Gallery</div>
                     <div class="mb-8"></div>
                 </div>
             </div>
@@ -213,22 +231,12 @@
         </section>
 
 
-
         <section id="amenities" class="content-section">
             <div class="container mx-auto">
                 <div class="intro-text">
                     <h2>Amenities &amp; Attractions</h2>
                 </div>
-
-
-                <div class="filter-buttons hide-on-mobile">
-                    <div class="filter-button alt-body">Relax</div>
-                    <div class="filter-button alt-body">Explore</div>
-                    <div class="filter-button alt-body">Work</div>
-                    <div class="filter-button alt-body">Play</div>
-                    <div class="filter-button alt-body">Live</div>
-                    <div class="filter-button alt-body">All</div>
-                </div>
+                <div class="mb-12"></div>
 
                 <div class="amenity-list">
                     <div class="flex flex-wrap">
@@ -248,8 +256,42 @@
         </section>
 
 
-        <section>
-            <TestimonialsComponent></TestimonialsComponent>
+        <section id="naandi-testimonials">
+
+                <div class="testimonial-component">
+                    <div class="container mx-auto">
+                        <div class="flex flex-wrap testimonial">
+                            <div class="w-full lg:w-5/12 image-wrapper ">
+                                <div class="image-container ">
+
+                                </div>
+                            </div>
+                            <div class="w-full lg:w-7/12 text-content">
+                                <div class="quote">
+                                    <h2 class="mb-6">Testimonial:</h2>
+                                    <p class="alt-body">
+                                        "Quiet, peaceful, pollution-free and it allows us to relax and calm down in a quiet place, away from the noise and disturbance of city living.
+                                    </p>
+                                    <p class="alt-body">
+                                        We love to spend our weekends away relaxing at Naandi with the kids. We enjoy a good night's sleep.
+                                        "
+                                    </p>
+
+                                    <div class="mb-8"></div>
+                                    <div class="quote-by">
+                                        <div class="name hl-body">Shwetha Reddy</div>
+                                        <div class="about">Naandian</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
         </section>
 
         <section class="m-0">
@@ -283,6 +325,8 @@
                 </div>
             </div>
         </section>
+        <div class="p-2"></div>
+        <section></section>
     </div>
 </template>
 
@@ -342,14 +386,14 @@
                         title: 'Pottery',
                         imageUrl: '/static/images/activities/pottery.jpg'
                     },
-                    {
-                        title: 'Alfresco Dining',
-                        imageUrl: '/static/images/activities/restaurant.png'
-                    },
-                    {
-                        title: 'Spa',
-                        imageUrl: '/static/images/activities/spa.png'
-                    },
+                    // {
+                    //     title: 'Alfresco Dining',
+                    //     imageUrl: '/static/images/activities/restaurant.png'
+                    // },
+                    // {
+                    //     title: 'Spa',
+                    //     imageUrl: '/static/images/activities/spa.png'
+                    // },
                     {
                         title: 'Bio-pool',
                         imageUrl: '/static/images/activities/biopool.jpg'

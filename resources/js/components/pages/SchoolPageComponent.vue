@@ -120,7 +120,43 @@
         </div>
 
         <section>
-            <TestimonialsComponent></TestimonialsComponent>
+            <section id="school-testimonials">
+
+                <div class="testimonial-component">
+                    <div class="container mx-auto">
+                        <div class="flex flex-wrap testimonial">
+                            <div class="w-full lg:w-5/12 image-wrapper ">
+                                <div class="image-container ">
+
+                                </div>
+                            </div>
+                            <div class="w-full lg:w-7/12 text-content">
+                                <div class="quote">
+                                    <p class="alt-body">
+                                        "We were looking out for such an experience for our students. Organo@School turned out to be an enriching and life changing experience not only for them, but for me as an educator as well.
+                                    </p>
+                                    <p class="alt-body">
+                                        It really helps us understand the larger picture and the necessity of sustainable living. Most importantly, my students are now more aware about their surroundings and will hopefully work towards conservation of nature and experience a deeper connection with it.
+                                        "
+                                    </p>
+
+                                    <div class="mb-8"></div>
+                                    <div class="quote-by">
+                                        <div class="name hl-body">Shivani</div>
+                                        <div class="about">Educator</div>
+                                        <div class="about font-bold">Oakridge School</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </section>
         </section>
 
 

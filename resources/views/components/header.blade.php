@@ -31,21 +31,44 @@
 
         <div class="sd">
             <div class="left-block">
-                <router-link to="/company" class="nav-link"><span class="text">Company</span></router-link>
-                <router-link to="/eco-habitats" class="nav-link"><span class="text">Eco-Habitats</span></router-link>
-                <router-link to="/sustainable-living" class="nav-link"><span class="text">Sustainable Living</span></router-link>
-                <div class="more-wrapper">
-                    <div class="">
-                        <a href="#" class="nav-link">More</a>
-                        <div class="more">
-                            <router-link to="/naandi" class="nav-link"><span class="text">Naandi</span></router-link>
-                            <router-link to="/team" class="nav-link"><span class="text">Team</span></router-link>
-                            <router-link to="/gallery" class="nav-link"><span class="text">Gallery</span></router-link>
-                            <router-link to="/organo-at-school" class="nav-link"><span class="text">Organo@School</span></router-link>
-                        </div>
-                    </div>
+                <div class="line-1">
+                    <span class="inline-block">
+                        <span class="block">
+                            <router-link class="nav-link" to="/company"><span class="text">Company</span></router-link>
+                        </span>
+                        <span class="block">
+                            <router-link class="nav-link" to="/team"><span class="text">Team</span></router-link>
+                        </span>
+                    </span>
 
+                    <span class="inline-block">
+                        <span class="block">
+                            <router-link class="nav-link" to="/eco-habitats"><span class="text">Eco-Habitats</span></router-link>
+                        </span>
+                        <span class="block">
+                            <router-link class="nav-link" to="/naandi"><span class="text">Naandi</span></router-link>
+                        </span>
+                    </span>
+
+                    <span class="inline-block">
+                        <span class="block">
+                            <a class="nav-link" href="#">Events</a>
+                        </span>
+                        <span class="block">
+                            <router-link class="nav-link" to="/organo-at-school"><span class="text">Organo@School</span></router-link>
+                        </span>
+                    </span>
+
+                    <span class="inline-block">
+                        <span class="block">
+                            <router-link class="nav-link" to="/gallery"><span class="text">Gallery</span></router-link>
+                        </span>
+                        <span class="block">
+                            <a class="nav-link" href="#">&nbsp;</a>
+                        </span>
+                    </span>
                 </div>
+
 
             </div>
             <div class="right-block text-right">

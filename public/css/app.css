@@ -11539,21 +11539,21 @@ p {
 }
 
 @media (min-width: 640px) and (max-width: 1024px) {
-  h1 {
+  h1, .h1 {
     font-size: 45px !important;
     font-weight: bold;
     letter-spacing: -0.045em;
     line-height: 1.2;
   }
 
-  h2 {
+  h2, .h2 {
     font-size: 32px;
     font-weight: bold;
     letter-spacing: -0.035em;
     line-height: 1.3;
   }
 
-  h3 {
+  h3, .h3 {
     font-size: 29px;
     font-weight: bold;
     letter-spacing: -0.025em;
@@ -11750,6 +11750,30 @@ p {
   border-bottom: 5px solid #ffde39;
 }
 
+.txt-btn {
+  display: block;
+  font-size: 47px;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ffde39;
+          text-decoration-color: #ffde39;
+}
+
+.txt-btn.md {
+  font-size: 33px;
+}
+
+.txt-btn.inline-block {
+  display: inline-block;
+}
+
+.txt-btn:hover {
+  -webkit-text-decoration-color: #4f9cd1;
+          text-decoration-color: #4f9cd1;
+  cursor: pointer;
+}
+
 .lg-button {
   display: block;
   margin-bottom: 10px;
@@ -11803,7 +11827,6 @@ p {
 
 .testimonial-component .testimonial {
   min-height: 700px;
-  padding: 60px 0;
 }
 
 .testimonial-component .testimonial .text-content {
@@ -12169,6 +12192,18 @@ nav {
   transition: 0.2s all ease-in-out;
 }
 
+nav .left-block .inline-block .block:nth-child(2) {
+  display: none;
+}
+
+nav:hover .nav-link {
+  padding: 10px 30px;
+}
+
+nav:hover .inline-block .block:nth-child(2) {
+  display: block;
+}
+
 nav.scrolled {
   background: #fdfdfd;
   box-shadow: 0 3px 6px rgba(255, 255, 255, 0.07), 0 3px 6px rgba(156, 156, 156, 0.11);
@@ -12212,7 +12247,8 @@ nav .more a {
 }
 
 nav .nav-link {
-  padding: 15px 12px;
+  display: inline-block;
+  padding: 10px 15px;
   margin-right: 15px;
   font-weight: bold;
   font-size: 16px;
@@ -12320,17 +12356,23 @@ nav .full-screen-nav .lg-button {
 .footer-strip {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 3px 6px rgba(0, 0, 0, 0.11);
   background: #5D3331;
-  position: absolute;
   width: 100%;
-  bottom: 15px;
+}
+
+.footer-strip .top-section {
+  padding: 80px 0 0;
+}
+
+.footer-strip .top-section .text, .footer-strip .top-section p, .footer-strip .top-section h2 {
+  color: rgba(255, 255, 255, 0.93);
 }
 
 .footer-strip .site-map {
-  padding: 40px 0;
+  padding: 40px 0 60px 0;
 }
 
 .footer-strip .signature {
-  padding: 40px 0;
+  padding: 40px 0 60px 0;
 }
 
 .footer-strip .signature .logo {
@@ -12448,6 +12490,10 @@ input {
   font-size: 18px;
 }
 
+input.inverted {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
 input.lg {
   padding: 16px 20px;
   display: block;
@@ -12480,6 +12526,91 @@ textarea {
   font-size: 18px;
 }
 
+#home-page #home-testimonials .image-container {
+  height: 100%;
+  background-image: url("/static/images/testimonials/home_madhusudan.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+#home-page #rurbanism .container {
+  position: relative;
+}
+
+#home-page #rurbanism .illustration {
+  position: absolute;
+  transform: scale(0.4);
+  right: -300px;
+  bottom: 0;
+  z-index: -1000;
+}
+
+#home-page #rurbanism .point p {
+  font-weight: normal;
+}
+
+#home-page #recurring-events .event-name {
+  margin-bottom: 1rem;
+}
+
+#home-page #recurring-events .content {
+  height: 100%;
+  padding: 360px 50px 25px;
+  background: linear-gradient(to top, #150a0a, rgba(255, 255, 255, 0));
+  transition: all 0.3s ease-in-out !important;
+}
+
+#home-page #recurring-events .content:hover {
+  cursor: pointer;
+  background: linear-gradient(to top, #110505, rgba(255, 255, 255, 0));
+}
+
+#home-page #recurring-events .content:hover .event-name {
+  color: #ffde39 !important;
+}
+
+#home-page #recurring-events .content h3, #home-page #recurring-events .content p {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+#home-page #recurring-events .recurring-event:nth-child(1) {
+  background-image: url("/static/images/school_events.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+#home-page #recurring-events .recurring-event:nth-child(2) {
+  background-image: url("/static/images/team_feature.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+#home-page #recurring-events .recurring-event:nth-child(3) {
+  background-image: url("/static/images/activities/workshops.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
 #home-page #purpose h3 {
   text-align: center;
   max-width: 900px;
@@ -12503,6 +12634,13 @@ textarea {
 
 #home-page #purpose .lg-button {
   margin-bottom: 30px;
+}
+
+#naandi-result .naandi-logo {
+  width: 300px;
+  position: relative;
+  right: 60px;
+  margin-bottom: 1rem;
 }
 
 #naandi-section h2 {
@@ -12633,7 +12771,14 @@ textarea {
 }
 
 #story .hero-bg {
-  background: #ffde39;
+  background-image: url("/static/illustrations/frame_bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
 }
 
 #story .text-content p {
@@ -12810,25 +12955,22 @@ textarea {
 
 #team-page .hero {
   background: #90B979;
-  padding-top: 200px;
   overflow: hidden;
   position: relative;
   z-index: 0;
+  padding-top: 60px;
 }
 
-#team-page .hero .illustration-left {
-  position: absolute;
-  bottom: 0;
-  left: -80px;
-  opacity: 0.7;
-}
-
-#team-page .hero .illustration-right {
-  width: 40%;
-  position: absolute;
-  bottom: 0;
-  right: -40px;
-  display: none;
+#team-page .hero .hero-bg {
+  padding: 160px;
+  background-image: url("/static/illustrations/frame_bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
 }
 
 #team-page .hero img {
@@ -12995,6 +13137,26 @@ textarea {
   }
 }
 
+#eco-habitat-page #video-header .hero-bg .content-block {
+  max-width: 1000px !important;
+}
+
+#eco-habitat-page #video-header .hero-bg .content-block h3 {
+  font-weight: normal !important;
+}
+
+#eco-habitat-page #eco-habitat-testimonials .image-container {
+  height: 100%;
+  background-image: url("/static/images/testimonials/eco_lakshmi.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
 #eco-habitat-page h1 {
   margin-bottom: 10px;
 }
@@ -13034,6 +13196,27 @@ textarea {
 
 #eco-habitat-page .image-content-list .image-content-component:nth-child(4) .wide-image {
   background-image: url("/static/images/ecohabitat/4.jpeg");
+}
+
+#problem-solution h2 {
+  margin-bottom: 2rem;
+}
+
+#problem-solution p {
+  margin-bottom: 1.2rem;
+}
+
+#problem-solution .problem {
+  margin-bottom: 10rem;
+}
+
+#problem-solution img.illustration {
+  position: relative;
+  left: 100px;
+}
+
+#sapthapatha-detail .one-strand {
+  padding-right: 20px;
 }
 
 #sustainability .sustainable-strand {
@@ -13143,6 +13326,45 @@ textarea {
   .sustainable-strand h3 {
     font-size: 27px;
   }
+}
+
+#naandi-page #naandi-testimonials .image-container {
+  height: 100%;
+  background-image: url("/static/images/testimonials/naandi_swetha.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+#naandi-page #naandi-intro .naandi-logo {
+  width: 300px;
+  position: relative;
+  right: 60px;
+  margin-bottom: 1rem;
+}
+
+#naandi-page #naandi-intro .metrics .metric {
+  margin-bottom: 1.5rem;
+}
+
+#naandi-page #naandi-intro .metrics .metric .sub {
+  font-size: 23px;
+}
+
+#naandi-page #naandi-intro .metrics .metric h2 {
+  min-width: 140px;
+}
+
+#naandi-page #naandi-intro .metrics .metric h2, #naandi-page #naandi-intro .metrics .metric h3 {
+  display: inline-block;
+}
+
+#naandi-page #naandi-intro .metrics .metric h2 {
+  margin-right: 1rem;
 }
 
 #naandi-page .home-images {
@@ -13387,6 +13609,18 @@ textarea {
 
 #school-page .image-content-list .image-content-component:nth-child(5) .wide-image {
   background-image: url("/static/images/school/5.jpg");
+}
+
+#school-page #school-testimonials .image-container {
+  height: 100%;
+  background-image: url("/static/images/testimonials/school_shivani.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
 }
 
 #school-page .schools .lg-button {

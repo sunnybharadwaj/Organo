@@ -1,8 +1,34 @@
 #eco-habitat-page {
 
+  #video-header .hero-bg .content-block {
+    max-width: 1000px !important;
+    h3 {
+      font-weight: normal !important;
+    }
+  }
+
+  #eco-habitat-testimonials {
+
+      .image-container {
+        height: 100%;
+        background-image: url('/static/images/testimonials/eco_lakshmi.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-origin: padding-box;
+        background-clip: border-box;
+        background-color: #ccc;
+      }
+
+  }
+
+
   h1 {
     margin-bottom: 10px;
   }
+
+
 
   .pronunciation {
     opacity: 0.7;
@@ -63,6 +89,31 @@
       }
     }
 
+  }
+}
+
+#problem-solution {
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin-bottom: 1.2rem;
+  }
+
+  .problem {
+    margin-bottom: 10rem;
+  }
+
+  img.illustration {
+    position: relative;
+    left:100px;
+  }
+}
+
+#sapthapatha-detail {
+  .one-strand {
+    padding-right: 20px;
   }
 }
 

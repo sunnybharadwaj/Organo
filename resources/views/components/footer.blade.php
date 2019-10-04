@@ -1,48 +1,43 @@
 <footer>
-    <div class="updates-cta">
-        <div class="container mx-auto ">
-            <div class="py-32">
-                <div class="text-content">
-                    <h2 class="mb-6">There's more to come!</h2>
-                    <p class="alt-body">Sign up for our Newsletter and be the first to know about Upcoming projects, Latest
-                        news, Editorial content, Community updates and other announcements.</p>
-
-                    <div class="form-wrapper">
-                        <form action="">
-                            <input type="text" placeholder="Enter your E-mail address">
-                            <button>
-                                <div class="lg-button"><div class="text">Sign up for Updates</div></div>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div id="footer-links">
-        <div class="footer-nav">
-            <div class="footer-nav-links">
-
-                </div>
+    <section class="text-center">
+        <div class="container mx-auto">
+            <h2 class="mb-3">We're hard at work!</h2>
+            <div class="max-w-4xl mx-auto">
+                <h3 class="mb-6"><span class="font-normal">With on-going research and development to push the limits even further, we cannot wait to share with you what we're working on. Stay tuned!</span></h3>
             </div>
 
+            <div class="txt-btn md">Keep me posted</div>
         </div>
 
+    </section>
 <div class="footer-container relative">
-
-    <div class="footer-background">
-        <div class="text-center">
-            <router-link to="/contact">
-                <div class="lg-button"><h2>Contact Us</h2></div>
-            </router-link>
-
-        </div>
-    </div>
 
     <div class="footer-strip">
         <div class="container mx-auto">
+            <div class="top-section">
+                <div class="flex flex-wrap">
+                    <div class="left-part w-full lg:w-1/2">
+                        <p class="alt-body">Sign up for our Newsletter and be the first to know about Upcoming projects, Latest
+                            news, Editorial content, Community updates and other announcements.</p>
+
+                        <div class="form-wrapper">
+                            <form action="">
+                                <input type="text"  placeholder="Enter your E-mail address" class="inverted">
+                                <button>
+                                    <div class="lg-button"><div class="text">Sign up for Updates</div></div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="right-part w-full lg:w-1/2">
+                        <div class="content text-right">
+                            <router-link to="/contact">
+                                <div class="lg-button"><h2>Contact Us</h2></div>
+                            </router-link>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="flex flex-wrap">
                 <div class="w-full lg:w-1/2">
                     <div class="site-map flex flex-wrap">
