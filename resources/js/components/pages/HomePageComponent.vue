@@ -108,8 +108,9 @@
                 </div>
 
 
-                <div class="txt-btn h2 mb-6">Learn more about the Company</div>
-                <div class="txt-btn h2">Our approach to building Eco-Habitats</div>
+                <router-link to="/company"><div class="txt-btn h2 mb-6">Learn more about the Company</div></router-link>
+                <router-link to="/eco-habitats"><div class="txt-btn h2">Our approach to building Eco-Habitats</div></router-link>>
+
             </div>
         </section>
 
@@ -222,7 +223,7 @@
                         <h2 class="mb-6">Experience Rurbanism first-hand and learn to practice sustainable living through one of
                             our recurring <span class="">events</span>.</h2>
 
-                        <div class="txt-btn md">Get updates</div>
+                        <!--<div class="txt-btn md">Get updates</div>-->
                     </div>
                 </section>
             </div>

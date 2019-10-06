@@ -2318,6 +2318,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("works?");
@@ -2778,6 +2779,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -22729,182 +22731,182 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "contact-page" } }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("section", [_c("HelpComponent")], 1),
-    _vm._v(" "),
-    _c("section", { staticClass: "m-0", attrs: { id: "contact-page-form" } }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _vm._m(1),
-        _vm._v(" "),
-        _vm._m(2),
-        _vm._v(" "),
-        _c("p", { staticClass: "opacity-50 font-bold" }, [
-          _vm._v("Please fill all below fields")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form" }, [_c("FormContactComponent")], 1)
-      ])
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "header mb-0" }, [
-      _c("div", { staticClass: "container mx-auto" }, [
-        _c("div", { staticClass: "flex flex-wrap " }, [
-          _c("div", { staticClass: "w-full lg:w-7/12 map-block mb-8" }, [
-            _c("h2", { staticClass: "wide-page-title" }, [
-              _vm._v("Contact Us")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "map " }, [
-              _c("div", { staticClass: "wrapper" }, [
-                _c("iframe", {
-                  attrs: {
-                    src:
-                      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14354.647078960967!2d78.31631970556451!3d17.31334342552389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40307de067b30f32!2sOrgano%20Naandi!5e1!3m2!1sen!2sin!4v1568027673060!5m2!1sen!2sin"
-                  }
-                })
+    return _c("div", { attrs: { id: "contact-page" } }, [
+      _c("section", { staticClass: "header mb-0" }, [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "flex flex-wrap " }, [
+            _c("div", { staticClass: "w-full lg:w-7/12 map-block mb-8" }, [
+              _c("h2", { staticClass: "wide-page-title" }, [
+                _vm._v("Contact Us")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "map " }, [
+                _c("div", { staticClass: "wrapper" }, [
+                  _c("iframe", {
+                    attrs: {
+                      src:
+                        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14354.647078960967!2d78.31631970556451!3d17.31334342552389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40307de067b30f32!2sOrgano%20Naandi!5e1!3m2!1sen!2sin!4v1568027673060!5m2!1sen!2sin"
+                    }
+                  })
+                ])
               ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-full lg:w-5/12 contact-details" }, [
-            _c("h1", { staticClass: "mobile-page-title mb-12" }, [
-              _vm._v("Contact Us")
             ]),
             _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "flex flex-wrap sm:flex-initial md:flex-row-reverse lg:flex-initial"
-              },
-              [
-                _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
-                  _c("h2", { staticClass: "phone-1 contact-item" }, [
-                    _c("div", { staticClass: "text" }, [
-                      _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
-                      _vm._v("79933 55227\n                                ")
+            _c("div", { staticClass: "w-full lg:w-5/12 contact-details" }, [
+              _c("h1", { staticClass: "mobile-page-title mb-12" }, [
+                _vm._v("Contact Us")
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "flex flex-wrap sm:flex-initial md:flex-row-reverse lg:flex-initial"
+                },
+                [
+                  _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
+                    _c("h2", { staticClass: "phone-1 contact-item" }, [
+                      _c("div", { staticClass: "text" }, [
+                        _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
+                        _vm._v("79933 55227\n                                ")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("h2", { staticClass: "phone-2 contact-item" }, [
+                      _c("div", { staticClass: "text" }, [
+                        _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
+                        _vm._v("81067 56010")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "mail contact-item" }, [
+                      _c("div", { staticClass: "text" }, [
+                        _vm._v(
+                          "\n                                    help@organo.com\n                                "
+                        )
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
-                  _c("h2", { staticClass: "phone-2 contact-item" }, [
-                    _c("div", { staticClass: "text" }, [
-                      _c("div", { staticClass: "pre" }, [_vm._v("+91")]),
-                      _vm._v("81067 56010")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("h3", { staticClass: "mail contact-item" }, [
-                    _c("div", { staticClass: "text" }, [
-                      _vm._v(
-                        "\n                                    help@organo.com\n                                "
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
-                  _c("div", { staticClass: "location contact-item" }, [
-                    _c("div", { staticClass: "text alt-body w-full" }, [
-                      _c("div", { staticClass: "flex flex-wrap" }, [
-                        _c("div", { staticClass: "address w-full lg:w-1/2" }, [
-                          _c("p", { staticClass: "label" }, [_vm._v("Organo")]),
+                  _c("div", { staticClass: "sm:w-full md:w-1/2 lg:w-full" }, [
+                    _c("div", { staticClass: "location contact-item" }, [
+                      _c("div", { staticClass: "text alt-body w-full" }, [
+                        _c("div", { staticClass: "flex flex-wrap" }, [
+                          _c(
+                            "div",
+                            { staticClass: "address w-full lg:w-1/2" },
+                            [
+                              _c("p", { staticClass: "label" }, [
+                                _vm._v("Office")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "text-content" }, [
+                                _vm._v(
+                                  "\n                                                Plot No: 15, 8-3, "
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                684/3-15, Lane Number 3,  "
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                Sri Nagar Colony, "
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                LIC Colony,"
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                Hyderabad - 500073, "
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                Telangana State, India "
+                                ),
+                                _c("br")
+                              ])
+                            ]
+                          ),
                           _vm._v(" "),
-                          _c("div", { staticClass: "text-content" }, [
-                            _vm._v(
-                              "\n                                                #148 & 149, "
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                Aziz Nagar Panchayat, "
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                Through Yenkapalli Village, "
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                Moinabad, RR District,"
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                Hyderabad – 500 075, "
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                Telangana State, India.\n                                            "
-                            )
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "address w-full lg:w-1/2" }, [
-                          _c("p", { staticClass: "label" }, [_vm._v("Naandi")]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "text-content" }, [
-                            _vm._v(
-                              "\n                                                Plot No: 15, 8-3, "
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                684/3-15, Lane Number 3,  "
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                Sri Nagar Colony, "
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                LIC Colony,"
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                Hyderabad - 500073, "
-                            ),
-                            _c("br"),
-                            _vm._v(
-                              "\n                                                Telangana State, India "
-                            ),
-                            _c("br")
-                          ])
+                          _c(
+                            "div",
+                            { staticClass: "address w-full lg:w-1/2" },
+                            [
+                              _c("p", { staticClass: "label" }, [
+                                _vm._v("Naandi")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "text-content" }, [
+                                _vm._v(
+                                  "\n                                                #148 & 149, "
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                Aziz Nagar Panchayat, "
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                Through Yenkapalli Village, "
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                Moinabad, RR District,"
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                Hyderabad – 500 075, "
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                                                Telangana State, India.\n                                            "
+                                )
+                              ])
+                            ]
+                          )
                         ])
                       ])
                     ])
                   ])
-                ])
-              ]
-            )
+                ]
+              )
+            ])
           ])
         ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("h3", { staticClass: "mb-4" }, [
-      _vm._v("If we missed something, "),
-      _c("br"),
-      _vm._v(" please write us a quick message.")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("p", { staticClass: "alt-body" }, [
-      _c("span", { staticClass: "font-normal" }, [
-        _vm._v(
-          "Be as specific as you can so we can serve you as soon as possible."
-        )
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "section",
+        { staticClass: "m-0 text-center", attrs: { id: "contact-page-form" } },
+        [
+          _c("div", { staticClass: "container mx-auto" }, [
+            _c("h2", { staticClass: "mb-4" }, [
+              _vm._v("If we missed something, "),
+              _c("br"),
+              _vm._v(" please write us a quick message.")
+            ]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "txt-btn md",
+                attrs: {
+                  href: "https://sunnybharadwaj563708.typeform.com/to/nzSQzy",
+                  target: "_blank"
+                }
+              },
+              [_vm._v("Click here")]
+            )
+          ])
+        ]
+      )
     ])
   }
 ]
@@ -24081,28 +24083,38 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("section", { attrs: { id: "rurbanism" } }, [
-        _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "illustration lg-only" }, [
-            _c("div", { staticClass: "hd-only" }, [
-              _c("img", {
-                staticClass: "mx-auto w-full",
-                attrs: { src: "/static/illustrations/organo_g.png", alt: "" }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _vm._m(0),
-          _vm._v(" "),
-          _vm._m(1),
-          _vm._v(" "),
-          _c("div", { staticClass: "txt-btn h2 mb-6" }, [
-            _vm._v("Learn more about the Company")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "txt-btn h2" }, [
-            _vm._v("Our approach to building Eco-Habitats")
-          ])
-        ])
+        _c(
+          "div",
+          { staticClass: "container mx-auto" },
+          [
+            _c("div", { staticClass: "illustration lg-only" }, [
+              _c("div", { staticClass: "hd-only" }, [
+                _c("img", {
+                  staticClass: "mx-auto w-full",
+                  attrs: { src: "/static/illustrations/organo_g.png", alt: "" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _vm._m(0),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/company" } }, [
+              _c("div", { staticClass: "txt-btn h2 mb-6" }, [
+                _vm._v("Learn more about the Company")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/eco-habitats" } }, [
+              _c("div", { staticClass: "txt-btn h2" }, [
+                _vm._v("Our approach to building Eco-Habitats")
+              ])
+            ]),
+            _vm._v(">\n\n        ")
+          ],
+          1
+        )
       ]),
       _vm._v(" "),
       _c(
@@ -24336,9 +24348,7 @@ var staticRenderFns = [
               ),
               _c("span", {}, [_vm._v("events")]),
               _vm._v(".")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "txt-btn md" }, [_vm._v("Get updates")])
+            ])
           ])
         ])
       ])
@@ -24905,7 +24915,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", [
       _c("div", { staticClass: "container mx-auto content-section" }, [
-        _c("h2", { staticClass: "mb-8" }, [_vm._v("Home")]),
+        _c("h2", { staticClass: "mb-8" }, [_vm._v("Naandi Home")]),
         _vm._v(" "),
         _c("div", { staticClass: "max-w-4xl" }, [
           _c("h3", { staticClass: "font-normal" }, [

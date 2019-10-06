@@ -203,7 +203,7 @@
 
         <section>
             <div class="container mx-auto content-section">
-                <h2 class="mb-8">Home</h2>
+                <h2 class="mb-8">Naandi Home</h2>
                 <div class="max-w-4xl">
                     <h3 class="font-normal">
                         We have Incorporated the latest in high-performance building science and home technology. Every
