@@ -15,25 +15,29 @@
     <div class="footer-strip">
         <div class="container mx-auto">
             <div class="top-section">
+                <div class="text-center">
+                    <router-link to="/contact">
+                        <div class="lg-button"><h2>Contact Us</h2></div>
+                    </router-link>
+                    <div class="mb-12"></div>
+                </div>
                 <div class="flex flex-wrap">
-                    <div class="left-part w-full lg:w-1/2">
-                        <p class="alt-body">Sign up for our Newsletter and be the first to know about Upcoming projects, Latest
-                            news, Editorial content, Community updates and other announcements.</p>
+                    {{--<div class="left-part w-full lg:w-1/2">--}}
+                        {{--<p class="alt-body">Sign up for our Newsletter and be the first to know about Upcoming projects, Latest--}}
+                            {{--news, Editorial content, Community updates and other announcements.</p>--}}
 
-                        <div class="form-wrapper">
-                            <form action="">
-                                <input type="text"  placeholder="Enter your E-mail address" class="inverted">
-                                <button>
-                                    <div class="lg-button"><div class="text">Sign up for Updates</div></div>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
+                        {{--<div class="form-wrapper">--}}
+                            {{--<form action="">--}}
+                                {{--<input type="text"  placeholder="Enter your E-mail address" class="inverted">--}}
+                                {{--<button>--}}
+                                    {{--<div class="lg-button"><div class="text">Sign up for Updates</div></div>--}}
+                                {{--</button>--}}
+                            {{--</form>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
                     <div class="right-part w-full lg:w-1/2">
                         <div class="content text-right">
-                            <router-link to="/contact">
-                                <div class="lg-button"><h2>Contact Us</h2></div>
-                            </router-link>
+
                         </div>
                     </div>
                 </div>
