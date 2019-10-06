@@ -11597,13 +11597,8 @@ p {
 
 /* Large (lg) */
 
-#video-header #introduction {
-  margin-bottom: -140px !important;
-}
-
 #video-header .hero-bg {
   overflow: hidden;
-  position: relative;
 }
 
 @media (max-width: 640px) {
@@ -11640,7 +11635,7 @@ p {
 #video-header .hero-bg .content-block {
   background: rgba(255, 255, 255, 0.71);
   position: absolute;
-  bottom: 40px;
+  bottom: 60px;
   left: 40px;
   padding: 20px 30px;
   max-width: 800px;
@@ -11859,10 +11854,6 @@ p {
     min-height: 1000px;
   }
 
-  .testimonial-component .testimonial .image-wrapper {
-    height: 100%;
-  }
-
   .testimonial-component .image-container {
     width: 100%;
     min-height: 250px;
@@ -11981,7 +11972,14 @@ p {
   top: 0;
   bottom: 0;
   overflow: hidden;
-  background: url("/static/images/entertainment_center.jpg") center no-repeat;
+  background-image: url("/static/images/entertainment_center.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
 }
 
 .image-content-component .wide-image {
@@ -13161,6 +13159,12 @@ textarea {
   }
 }
 
+@media (min-width: 640px) {
+  #eco-habitat-page #video-header .video-container {
+    position: static !important;
+  }
+}
+
 #eco-habitat-page #video-header .hero-bg .content-block {
   max-width: 1000px !important;
 }
@@ -14171,6 +14175,20 @@ section {
 .content-block {
   padding: 10px;
   margin: 0 20px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+#app {
+  overflow: hidden;
 }
 
 .link {

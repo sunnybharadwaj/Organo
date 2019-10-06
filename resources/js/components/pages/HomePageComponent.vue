@@ -31,14 +31,14 @@
                 <div class="hd">
                     <VideoComponent v-if="screenName == 'hd'">
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/home_hd.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
                 <div class="wide">
                     <VideoComponent v-if="screenName == 'wide'">
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/home.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
@@ -85,14 +85,14 @@
                             Living.</h3>
                         <p class="alt-body">The benefits of urbanization and the feel of a rural environment brings
                             together the best of both worlds. Organo offers an integrated alternate-living experience
-                            where residents could take part in organic farming and other collective activities, while
+                            where residents could take part in natural farming and other collective activities, while
                             maintaining their private space.</p>
                     </div>
 
                     <div class="point mb-10">
                         <h3 class="mb-2">Prosper in nature and live a healthy life while maintaining balance and
                             sustainability.</h3>
-                        <p class="alt-body">Sustainability, biodiversity, harnessing natural resources and organic
+                        <p class="alt-body">Sustainability, biodiversity, harnessing natural resources and natural
                             living are at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of
                             sustainable living’ help us individually focus on sustainable development in each of the
                             distinct areas.</p>
@@ -155,12 +155,12 @@
                         </div>
                         <div class="w-full lg:w-7/12 text-content">
                             <div class="quote">
-                                <h2 class="mb-6">Words from a Naandian</h2>
+                                <h2 class="mb-6">Words from a Naandian:</h2>
                                 <p class="alt-body">
                                     "I had to take a detour from my hectic life and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we consumed poison.
                                 </p>
                                 <p class="alt-body">
-                                    Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with  comfort as I know exactly how organically it was grown.
+                                    Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with  comfort as I know exactly how naturally it was grown.
                                     "
                                 </p>
 
@@ -198,7 +198,7 @@
                     <div class="content">
                         <h3 class="event-name">Be a Farmer</h3>
                         <p class="alt-body event-desc">Build bonds between friends, family or team members working
-                            together on an organic farm. Teams or any homogeneous group can contact us to schedule
+                            together on a natural farm. Teams or any homogeneous group can contact us to schedule
                             the event.</p>
 
                     </div>

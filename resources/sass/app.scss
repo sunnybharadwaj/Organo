@@ -22,6 +22,17 @@ section {
   padding: 10px;
   margin: 0 20px;
 }
+.container {
+  padding: 0 20px;
+  @media (max-width: 640px) {
+    padding: 0 30px;
+  }
+}
+
+
+#app {
+  overflow: hidden;
+}
 
 .link {
   font-weight: bold;

@@ -2641,6 +2641,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("screenName");
@@ -3070,6 +3071,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -22946,7 +22950,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/mobile/naandi_mobile.mp4",
+                            src: "/static/videos/mobile/home_mobile.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -22973,7 +22977,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/tablet/naandi_tablet.mp4",
+                            src: "/static/videos/tablet/home_tablet.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -22987,7 +22991,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "sd" },
+            {},
             [
               _vm.screenName == "sd"
                 ? _c("VideoComponent", [
@@ -23000,7 +23004,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/sd/naandi_sd.mp4",
+                            src: "/static/videos/sd/home_sd.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -23027,7 +23031,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/hd/naandi_hd.mp4",
+                            src: "/static/videos/hd/home_hd.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -23054,7 +23058,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/naandi.mp4",
+                            src: "/static/videos/home.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -23417,7 +23421,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "w-full lg:w-1/2" }, [
       _c("div", { staticClass: "content" }, [
-        _c("h2", [_vm._v("What needed to be done.")]),
+        _c("h2", [_vm._v("What needs to be done.")]),
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _c("span", { staticClass: "font-normal" }, [
@@ -23592,7 +23596,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "w-full lg:w-7/12 text-content" }, [
                 _c("div", { staticClass: "quote" }, [
-                  _c("h2", { staticClass: "mb-6" }, [_vm._v("Testimonial:")]),
+                  _c("h2", { staticClass: "mb-6" }, [
+                    _vm._v("Words from our team:")
+                  ]),
                   _vm._v(" "),
                   _c("p", { staticClass: "alt-body" }, [
                     _vm._v(
@@ -23913,7 +23919,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/home_hd.mp4",
+                            src: "/static/videos/hd/home_hd.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -23940,7 +23946,7 @@ var render = function() {
                       [
                         _c("source", {
                           attrs: {
-                            src: "/static/videos/hd/home_hd.mp4",
+                            src: "/static/videos/home.mp4",
                             type: "video/mp4"
                           }
                         })
@@ -24146,7 +24152,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "The benefits of urbanization and the feel of a rural environment brings\n                        together the best of both worlds. Organo offers an integrated alternate-living experience\n                        where residents could take part in organic farming and other collective activities, while\n                        maintaining their private space."
+            "The benefits of urbanization and the feel of a rural environment brings\n                        together the best of both worlds. Organo offers an integrated alternate-living experience\n                        where residents could take part in natural farming and other collective activities, while\n                        maintaining their private space."
           )
         ])
       ]),
@@ -24160,7 +24166,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "Sustainability, biodiversity, harnessing natural resources and organic\n                        living are at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of\n                        sustainable living’ help us individually focus on sustainable development in each of the\n                        distinct areas."
+            "Sustainability, biodiversity, harnessing natural resources and natural\n                        living are at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of\n                        sustainable living’ help us individually focus on sustainable development in each of the\n                        distinct areas."
           )
         ])
       ]),
@@ -24195,7 +24201,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "w-full lg:w-7/12 text-content" }, [
               _c("div", { staticClass: "quote" }, [
                 _c("h2", { staticClass: "mb-6" }, [
-                  _vm._v("Words from a Naandian")
+                  _vm._v("Words from a Naandian:")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
@@ -24206,7 +24212,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    '\n                                Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with  comfort as I know exactly how organically it was grown.\n                                "\n                            '
+                    '\n                                Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with  comfort as I know exactly how naturally it was grown.\n                                "\n                            '
                   )
                 ]),
                 _vm._v(" "),
@@ -24250,7 +24256,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "alt-body event-desc" }, [
               _vm._v(
-                "Build bonds between friends, family or team members working\n                        together on an organic farm. Teams or any homogeneous group can contact us to schedule\n                        the event."
+                "Build bonds between friends, family or team members working\n                        together on a natural farm. Teams or any homogeneous group can contact us to schedule\n                        the event."
               )
             ])
           ])
@@ -24316,140 +24322,142 @@ var render = function() {
     [
       _c("VideoHeaderComponent", [
         _c("div", { attrs: { slot: "header-video" }, slot: "header-video" }, [
-          _c(
-            "div",
-            { staticClass: "mobile" },
-            [
-              _vm.screenName == "mobile"
-                ? _c("VideoComponent", [
-                    _c(
-                      "video",
-                      {
-                        attrs: { autoplay: "", loop: "", muted: "" },
-                        domProps: { muted: true }
-                      },
-                      [
-                        _c("source", {
-                          attrs: {
-                            src: "/static/videos/mobile/naandi_mobile.mp4",
-                            type: "video/mp4"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                : _vm._e()
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "tablet" },
-            [
-              _vm.screenName == "tablet"
-                ? _c("VideoComponent", [
-                    _c(
-                      "video",
-                      {
-                        attrs: { autoplay: "", loop: "", muted: "" },
-                        domProps: { muted: true }
-                      },
-                      [
-                        _c("source", {
-                          attrs: {
-                            src: "/static/videos/tablet/naandi_tablet.mp4",
-                            type: "video/mp4"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                : _vm._e()
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {},
-            [
-              _vm.screenName == "sd"
-                ? _c("VideoComponent", [
-                    _c(
-                      "video",
-                      {
-                        attrs: { autoplay: "", loop: "", muted: "" },
-                        domProps: { muted: true }
-                      },
-                      [
-                        _c("source", {
-                          attrs: {
-                            src: "/static/videos/sd/naandi_sd.mp4",
-                            type: "video/mp4"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                : _vm._e()
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "hd" },
-            [
-              _vm.screenName == "hd"
-                ? _c("VideoComponent", [
-                    _c(
-                      "video",
-                      {
-                        attrs: { autoplay: "", loop: "", muted: "" },
-                        domProps: { muted: true }
-                      },
-                      [
-                        _c("source", {
-                          attrs: {
-                            src: "/static/videos/hd/naandi_hd.mp4",
-                            type: "video/mp4"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                : _vm._e()
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "wide" },
-            [
-              _vm.screenName == "wide"
-                ? _c("VideoComponent", [
-                    _c(
-                      "video",
-                      {
-                        attrs: { autoplay: "", loop: "", muted: "" },
-                        domProps: { muted: true }
-                      },
-                      [
-                        _c("source", {
-                          attrs: {
-                            src: "/static/videos/naandi.mp4",
-                            type: "video/mp4"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                : _vm._e()
-            ],
-            1
-          )
+          _c("div", { attrs: { slot: "header-video" }, slot: "header-video" }, [
+            _c(
+              "div",
+              { staticClass: "mobile" },
+              [
+                _vm.screenName == "mobile"
+                  ? _c("VideoComponent", [
+                      _c(
+                        "video",
+                        {
+                          attrs: { autoplay: "", loop: "", muted: "" },
+                          domProps: { muted: true }
+                        },
+                        [
+                          _c("source", {
+                            attrs: {
+                              src: "/static/videos/mobile/home_mobile.mp4",
+                              type: "video/mp4"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  : _vm._e()
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "tablet" },
+              [
+                _vm.screenName == "tablet"
+                  ? _c("VideoComponent", [
+                      _c(
+                        "video",
+                        {
+                          attrs: { autoplay: "", loop: "", muted: "" },
+                          domProps: { muted: true }
+                        },
+                        [
+                          _c("source", {
+                            attrs: {
+                              src: "/static/videos/tablet/home_tablet.mp4",
+                              type: "video/mp4"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  : _vm._e()
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {},
+              [
+                _vm.screenName == "sd"
+                  ? _c("VideoComponent", [
+                      _c(
+                        "video",
+                        {
+                          attrs: { autoplay: "", loop: "", muted: "" },
+                          domProps: { muted: true }
+                        },
+                        [
+                          _c("source", {
+                            attrs: {
+                              src: "/static/videos/sd/home_sd.mp4",
+                              type: "video/mp4"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  : _vm._e()
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "hd" },
+              [
+                _vm.screenName == "hd"
+                  ? _c("VideoComponent", [
+                      _c(
+                        "video",
+                        {
+                          attrs: { autoplay: "", loop: "", muted: "" },
+                          domProps: { muted: true }
+                        },
+                        [
+                          _c("source", {
+                            attrs: {
+                              src: "/static/videos/hd/home_hd.mp4",
+                              type: "video/mp4"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  : _vm._e()
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "wide" },
+              [
+                _vm.screenName == "wide"
+                  ? _c("VideoComponent", [
+                      _c(
+                        "video",
+                        {
+                          attrs: { autoplay: "", loop: "", muted: "" },
+                          domProps: { muted: true }
+                        },
+                        [
+                          _c("source", {
+                            attrs: {
+                              src: "/static/videos/home.mp4",
+                              type: "video/mp4"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  : _vm._e()
+              ],
+              1
+            )
+          ])
         ]),
         _vm._v(" "),
         _c(

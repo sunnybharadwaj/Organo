@@ -1,9 +1,17 @@
 #eco-habitat-page {
 
-  #video-header .hero-bg .content-block {
-    max-width: 1000px !important;
-    h3 {
-      font-weight: normal !important;
+  #video-header {
+    @media (min-width: 640px) {
+      .video-container {
+        position:static !important;
+      }
+    }
+
+    .hero-bg .content-block {
+      max-width: 1000px !important;
+      h3 {
+        font-weight: normal !important;
+      }
     }
   }
 

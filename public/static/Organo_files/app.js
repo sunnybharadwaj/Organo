@@ -21739,7 +21739,7 @@ var render = function() {
             _vm._v(" "),
             _c("div", { staticClass: "description" }, [
               _vm._v(
-                "You are what you eat. Spreading the joy of natural growing and organic farming practices makes Organo Naandi healthier."
+                "You are what you eat. Spreading the joy of natural growing and nar farming practices makes Organo Naandi healthier."
               )
             ])
           ]),

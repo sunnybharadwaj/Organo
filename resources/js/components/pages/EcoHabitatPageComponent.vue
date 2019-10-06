@@ -5,7 +5,7 @@
                 <div class="mobile">
                     <VideoComponent v-if="screenName == 'mobile'">
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/mobile/naandi_mobile.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/mobile/home_mobile.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
@@ -13,15 +13,16 @@
                 <div class="tablet">
                     <VideoComponent v-if="screenName == 'tablet'">
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/tablet/naandi_tablet.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/tablet/home_tablet.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
 
-                <div class="sd">
+                <div class="">
                     <VideoComponent v-if="screenName == 'sd'">
+
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/sd/naandi_sd.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/sd/home_sd.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
@@ -29,14 +30,14 @@
                 <div class="hd">
                     <VideoComponent v-if="screenName == 'hd'">
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/hd/naandi_hd.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
                 <div class="wide">
                     <VideoComponent v-if="screenName == 'wide'">
                         <video autoplay loop muted>
-                            <source :src="'/static/videos/naandi.mp4'" type="video/mp4">
+                            <source :src="'/static/videos/home.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
@@ -96,7 +97,7 @@
                     <div class="flex flex-wrap">
                         <div class="w-full lg:w-1/2">
                             <div class="content">
-                                <h2>What needed to be done.</h2>
+                                <h2>What needs to be done.</h2>
                                 <p class="alt-body"><span class="font-normal">To counter the effects of urbanization, we needed to explore reverse-migration, going back to the roots from where it all started.</span></p>
                                 <p class="alt-body"><span class="font-normal">We needed to find new ways of living in balance with the ecosystem and all the various parts of it, with access to healthy organic food and fresh air to breath, allowing sustainable growth of a community without affecting the environment which they live in.</span></p>
                             </div>
@@ -272,7 +273,7 @@
                             </div>
                             <div class="w-full lg:w-7/12 text-content">
                                 <div class="quote">
-                                    <h2 class="mb-6">Testimonial:</h2>
+                                    <h2 class="mb-6">Words from our team:</h2>
                                     <p class="alt-body">
                                         "Using vedic farming, Organo Naandi grow 35 varieties of vegetables, 15 varieties of fruits and 95 varieties of medicinal plants at Naandi."
                                     </p>
