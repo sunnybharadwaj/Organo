@@ -22789,7 +22789,7 @@ var staticRenderFns = [
                     _c("h3", { staticClass: "mail contact-item" }, [
                       _c("div", { staticClass: "text" }, [
                         _vm._v(
-                          "\n                                    help@organo.com\n                                "
+                          "\n                                    info@organo.co.in\n                                "
                         )
                       ])
                     ])

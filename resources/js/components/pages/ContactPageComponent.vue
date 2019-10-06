@@ -35,7 +35,7 @@
                                     <!--</div>-->
 
                                     <div class="text">
-                                        help@organo.com
+                                        info@organo.co.in
                                     </div>
                                 </h3>
                             </div>
