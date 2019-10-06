@@ -2,7 +2,7 @@
 #video-header {
   #introduction {
     @media (max-width: 640px) {
-      //margin-bottom: -140px !important;
+      margin-bottom: -120px !important;
     }
   }
   .hero-bg {
@@ -390,7 +390,12 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+
     background-attachment: fixed;
+
+    @media (max-width: 1024px) {
+      background-attachment: scroll;
+    }
     background-origin: padding-box;
     background-clip: border-box;
     background-color: #ccc;

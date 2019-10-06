@@ -11597,6 +11597,12 @@ p {
 
 /* Large (lg) */
 
+@media (max-width: 640px) {
+  #video-header #introduction {
+    margin-bottom: -120px !important;
+  }
+}
+
 #video-header .hero-bg {
   overflow: hidden;
 }
@@ -11993,6 +11999,12 @@ p {
   background-origin: padding-box;
   background-clip: border-box;
   background-color: #ccc;
+}
+
+@media (max-width: 1024px) {
+  .image-content-component .wide-image {
+    background-attachment: scroll;
+  }
 }
 
 @media (max-width: 1280px) {

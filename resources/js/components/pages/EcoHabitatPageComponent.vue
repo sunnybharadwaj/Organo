@@ -4,7 +4,7 @@
             <div slot="header-video">
                 <div class="mobile">
                     <VideoComponent v-if="screenName == 'mobile'">
-                        <video autoplay loop muted>
+                        <video autoplay loop muted playsinline>
                             <source :src="'/static/videos/mobile/home_mobile.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
@@ -12,7 +12,7 @@
 
                 <div class="tablet">
                     <VideoComponent v-if="screenName == 'tablet'">
-                        <video autoplay loop muted>
+                        <video autoplay loop muted playsinline>
                             <source :src="'/static/videos/tablet/home_tablet.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
@@ -21,7 +21,7 @@
                 <div class="">
                     <VideoComponent v-if="screenName == 'sd'">
 
-                        <video autoplay loop muted>
+                        <video autoplay loop muted playsinline>
                             <source :src="'/static/videos/sd/home_sd.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
@@ -29,14 +29,14 @@
 
                 <div class="hd">
                     <VideoComponent v-if="screenName == 'hd'">
-                        <video autoplay loop muted>
+                        <video autoplay loop muted playsinline>
                             <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>
                 </div>
                 <div class="wide">
                     <VideoComponent v-if="screenName == 'wide'">
-                        <video autoplay loop muted>
+                        <video autoplay loop muted playsinline>
                             <source :src="'/static/videos/home.mp4'" type="video/mp4">
                         </video>
                     </VideoComponent>

@@ -22944,7 +22944,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -22971,7 +22976,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -22998,7 +23008,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -23025,7 +23040,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -23052,7 +23072,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -23832,7 +23857,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -23859,7 +23889,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -23886,7 +23921,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -23913,7 +23953,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -23940,7 +23985,12 @@ var render = function() {
                     _c(
                       "video",
                       {
-                        attrs: { autoplay: "", loop: "", muted: "" },
+                        attrs: {
+                          autoplay: "",
+                          loop: "",
+                          muted: "",
+                          playsinline: ""
+                        },
                         domProps: { muted: true }
                       },
                       [
@@ -24332,7 +24382,12 @@ var render = function() {
                       _c(
                         "video",
                         {
-                          attrs: { autoplay: "", loop: "", muted: "" },
+                          attrs: {
+                            autoplay: "",
+                            loop: "",
+                            muted: "",
+                            playsinline: ""
+                          },
                           domProps: { muted: true }
                         },
                         [
@@ -24359,7 +24414,12 @@ var render = function() {
                       _c(
                         "video",
                         {
-                          attrs: { autoplay: "", loop: "", muted: "" },
+                          attrs: {
+                            autoplay: "",
+                            loop: "",
+                            muted: "",
+                            playsinline: ""
+                          },
                           domProps: { muted: true }
                         },
                         [
@@ -24386,7 +24446,12 @@ var render = function() {
                       _c(
                         "video",
                         {
-                          attrs: { autoplay: "", loop: "", muted: "" },
+                          attrs: {
+                            autoplay: "",
+                            loop: "",
+                            muted: "",
+                            playsinline: ""
+                          },
                           domProps: { muted: true }
                         },
                         [
@@ -24413,7 +24478,12 @@ var render = function() {
                       _c(
                         "video",
                         {
-                          attrs: { autoplay: "", loop: "", muted: "" },
+                          attrs: {
+                            autoplay: "",
+                            loop: "",
+                            muted: "",
+                            playsinline: ""
+                          },
                           domProps: { muted: true }
                         },
                         [
@@ -24440,7 +24510,12 @@ var render = function() {
                       _c(
                         "video",
                         {
-                          attrs: { autoplay: "", loop: "", muted: "" },
+                          attrs: {
+                            autoplay: "",
+                            loop: "",
+                            muted: "",
+                            playsinline: ""
+                          },
                           domProps: { muted: true }
                         },
                         [
