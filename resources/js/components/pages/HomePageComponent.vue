@@ -109,7 +109,7 @@
 
 
                 <router-link to="/company"><div class="txt-btn h2 mb-6">Learn more about the Company</div></router-link>
-                <router-link to="/eco-habitats"><div class="txt-btn h2">Our approach to building Eco-Habitats</div></router-link>>
+                <router-link to="/eco-habitats"><div class="txt-btn h2">Our approach to building Eco-Habitats</div></router-link>
 
             </div>
         </section>

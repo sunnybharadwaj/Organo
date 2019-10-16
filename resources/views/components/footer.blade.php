@@ -1,7 +1,7 @@
 <footer>
     <section class="text-center">
         <div class="container mx-auto">
-            <h2 class="mb-3">We're hard at work!</h2>
+            {{--<h2 class="mb-3">We're hard at work!</h2> --}}
             <div class="max-w-4xl mx-auto">
                 <h3 class="mb-6"><span class="font-normal">With on-going research and development to push the limits even further, we cannot wait to share with you what we're working on. Stay tuned!</span></h3>
             </div>
