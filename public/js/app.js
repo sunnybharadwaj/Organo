@@ -22789,7 +22789,7 @@ var staticRenderFns = [
                     _c("h3", { staticClass: "mail contact-item" }, [
                       _c("div", { staticClass: "text" }, [
                         _vm._v(
-                          "\n                                    info@organo.co.in\n                                "
+                          "\n                                    marketing@organo.co.in\n                                "
                         )
                       ])
                     ])
@@ -24110,8 +24110,7 @@ var render = function() {
               _c("div", { staticClass: "txt-btn h2" }, [
                 _vm._v("Our approach to building Eco-Habitats")
               ])
-            ]),
-            _vm._v(">\n\n        ")
+            ])
           ],
           1
         )
