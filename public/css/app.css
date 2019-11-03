@@ -12226,6 +12226,23 @@ nav .left-block .inline-block .block:nth-child(2) {
   display: none;
 }
 
+nav:hover {
+  padding-bottom: 80px;
+}
+
+nav:hover .navigation-links .link-group {
+  overflow: visible;
+}
+
+nav:hover .navigation-links .group-name {
+  color: #5D3331;
+  opacity: 0.8;
+}
+
+nav:hover .navigation-links .group-list {
+  height: 100%;
+}
+
 nav:hover .nav-link {
   padding: 10px 30px;
 }
@@ -12250,6 +12267,41 @@ nav .logo-container {
 
 nav .logo-container img {
   width: 100%;
+}
+
+nav .navigation-links {
+  padding-left: 20px;
+}
+
+nav .navigation-links .link-group {
+  display: inline-block;
+  margin-right: 40px;
+  overflow: hidden;
+}
+
+nav .navigation-links .group-name {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.02em !important;
+  margin-bottom: 6px;
+}
+
+nav .navigation-links .group-list {
+  height: 0 !important;
+  transition: 0.3s ease-in-out;
+}
+
+nav .navigation-links a.nav-anchor {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.02em !important;
+  display: block;
+  margin-bottom: 8px;
+}
+
+nav .navigation-links a.nav-anchor:hover .text {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #ffde39;
 }
 
 nav .more-wrapper {
@@ -13526,6 +13578,10 @@ textarea {
 
 #naandi-page .image-content-list .image-content-component:nth-child(4) .wide-image {
   background-image: url("/static/images/naandi/4.jpg");
+}
+
+#naandi-page #amenities img {
+  transform: scale(1.2);
 }
 
 #naandi-page #amenities .intro-text {

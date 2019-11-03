@@ -373,10 +373,7 @@
                         title: 'Personal farming',
                         imageUrl: '/static/images/activities/personalfarming.jpg'
                     },
-                    {
-                        title: 'Animal Husbandry',
-                        imageUrl: '/static/images/activities/animalhusbandry.jpg'
-                    },
+
                     {
                         title: 'Goshala',
                         imageUrl: '/static/images/activities/goshala.jpg'

@@ -1,6 +1,5 @@
 <template>
     <div id="home-page">
-
         <VideoHeaderComponent>
             <div slot="header-video">
                 <div class="mobile">
@@ -126,12 +125,11 @@
                         <img :src="'/static/logos/naandi_logo.png'" class="w-full" alt="">
                     </div>
 
-                    <h2 class="mb-4">Our first step towards building Rurban Eco-habitats.</h2>
+                    <h2 class="mb-4">Our first step towards building Rurban Eco-habitats</h2>
 
-                    <p>Privacy of your own villa, the lifestyle of a plush natural resort, the security of a
+                    <p><strong>Organo’s Naandi works splendidly as your primary residence as well as a weekend farm-house.</strong> With the privacy and lifestyle of a plush natural resort, the security of a
                         gated community, the advantage of like-minded people and above all, the unmatched joy of
-                        healthy and sustainable living. Organo’s Naandi works splendidly as your primary
-                        residence as well as a weekend farm-house. </p>
+                        healthy and sustainable living.  </p>
 
 
                     <div class="mb-8"></div>
@@ -181,7 +179,18 @@
             </div>
         </section>
 
+
         <section id="recurring-events">
+            <div class="container mx-auto text-center">
+
+                    <div class="max-w-4xl mx-auto mb-16">
+                        <h2 class="mb-6">Experience Rurbanism first-hand and learn to practice sustainable living through one of
+                            our recurring <span class="highlight">events</span>:</h2>
+
+                        <!--<div class="txt-btn md">Get updates</div>-->
+                    </div>
+
+            </div>
 
             <div class="flex flex-wrap mb-12">
                 <div class="w-full lg:w-1/3 recurring-event">
@@ -217,16 +226,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container mx-auto text-center">
-                <section>
-                    <div class="max-w-6xl mx-auto mb-12">
-                        <h2 class="mb-6">Experience Rurbanism first-hand and learn to practice sustainable living through one of
-                            our recurring <span class="">events</span>.</h2>
 
-                        <!--<div class="txt-btn md">Get updates</div>-->
-                    </div>
-                </section>
-            </div>
         </section>
 
 

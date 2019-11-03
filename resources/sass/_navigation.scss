@@ -19,12 +19,27 @@ nav {
   }
 
   &:hover {
+    padding-bottom: 80px;
+    .navigation-links {
+      .link-group {
+        overflow: visible;
+      }
+      .group-name {
+        color: $primary-color;
+        opacity: 0.8;
+      }
+      .group-list {
+        height: 100%;
+      }
+    }
     .nav-link {
        padding: 10px 30px;
      }
     .inline-block .block:nth-child(2) {
       display: block;
     }
+
+
   }
 
   &.scrolled {
@@ -43,6 +58,48 @@ nav {
       width: 100%;
     }
   }
+
+  //New navigation
+  .navigation-links {
+    padding-left: 20px;
+    .link-group {
+      display: inline-block;
+      margin-right: 40px;
+      overflow: hidden;
+    }
+
+    .group-name {
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: -0.02em !important;
+      margin-bottom: 6px;
+    }
+
+    .group-list {
+      height: 0 !important;
+      -webkit-transition: 0.3s ease-in-out;
+      -moz-transition: 0.3s ease-in-out;
+      -ms-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+    }
+    a.nav-anchor {
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: -0.02em !important;
+      display: block;
+      margin-bottom: 8px;
+
+      &:hover {
+        .text {
+          padding-bottom: 2px;
+          border-bottom: 2px solid $highlight;
+        }
+      }
+    }
+  }
+
+  //End new navigation
 
   .more-wrapper {
     display: inline-block;

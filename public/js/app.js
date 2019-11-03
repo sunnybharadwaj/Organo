@@ -3442,9 +3442,6 @@ __webpack_require__.r(__webpack_exports__);
         title: 'Personal farming',
         imageUrl: '/static/images/activities/personalfarming.jpg'
       }, {
-        title: 'Animal Husbandry',
-        imageUrl: '/static/images/activities/animalhusbandry.jpg'
-      }, {
         title: 'Goshala',
         imageUrl: '/static/images/activities/goshala.jpg'
       }, {
@@ -24136,12 +24133,17 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("h2", { staticClass: "mb-4" }, [
-                _vm._v("Our first step towards building Rurban Eco-habitats.")
+                _vm._v("Our first step towards building Rurban Eco-habitats")
               ]),
               _vm._v(" "),
               _c("p", [
+                _c("strong", [
+                  _vm._v(
+                    "Organo’s Naandi works splendidly as your primary residence as well as a weekend farm-house."
+                  )
+                ]),
                 _vm._v(
-                  "Privacy of your own villa, the lifestyle of a plush natural resort, the security of a\n                    gated community, the advantage of like-minded people and above all, the unmatched joy of\n                    healthy and sustainable living. Organo’s Naandi works splendidly as your primary\n                    residence as well as a weekend farm-house. "
+                  " With the privacy and lifestyle of a plush natural resort, the security of a\n                    gated community, the advantage of like-minded people and above all, the unmatched joy of\n                    healthy and sustainable living.  "
                 )
               ]),
               _vm._v(" "),
@@ -24298,6 +24300,18 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { attrs: { id: "recurring-events" } }, [
+      _c("div", { staticClass: "container mx-auto text-center" }, [
+        _c("div", { staticClass: "max-w-4xl mx-auto mb-16" }, [
+          _c("h2", { staticClass: "mb-6" }, [
+            _vm._v(
+              "Experience Rurbanism first-hand and learn to practice sustainable living through one of\n                        our recurring "
+            ),
+            _c("span", { staticClass: "highlight" }, [_vm._v("events")]),
+            _vm._v(":")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
       _c("div", { staticClass: "flex flex-wrap mb-12" }, [
         _c("div", { staticClass: "w-full lg:w-1/3 recurring-event" }, [
           _c("div", { staticClass: "content" }, [
@@ -24333,20 +24347,6 @@ var staticRenderFns = [
               _vm._v(
                 "\n                        Be informed about various aspects of sustainable living straight from experts in the\n                        field through one of our experiential workshops.\n                    "
               )
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "container mx-auto text-center" }, [
-        _c("section", [
-          _c("div", { staticClass: "max-w-6xl mx-auto mb-12" }, [
-            _c("h2", { staticClass: "mb-6" }, [
-              _vm._v(
-                "Experience Rurbanism first-hand and learn to practice sustainable living through one of\n                        our recurring "
-              ),
-              _c("span", {}, [_vm._v("events")]),
-              _vm._v(".")
             ])
           ])
         ])
@@ -26748,7 +26748,7 @@ var render = function() {
         [
           _c(
             "div",
-            { staticClass: "video-container relative" },
+            { staticClass: "video-container" },
             [
               _c("div", { staticClass: "overlay" }),
               _vm._v(" "),
@@ -43726,8 +43726,8 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
