@@ -18,7 +18,7 @@
                     </VideoComponent>
                 </div>
 
-                <div class="sd">
+                <div class="">
                     <VideoComponent v-if="screenName == 'sd'">
                         <video autoplay loop muted>
                             <source :src="'/static/videos/sd/school_sd.mp4'" type="video/mp4">
@@ -115,7 +115,7 @@
             <div class="text-center max-w-2xl mx-auto">
                 <h3>If you want to bring your students to an Organo Community</h3>
                 <div class="mb-4"></div>
-                <div class="lg-button text-center">Contact Us</div>
+                <router-link to="/contact" class="lg-button text-center">Contact Us</router-link>
             </div>
         </div>
 

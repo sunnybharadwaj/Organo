@@ -45,7 +45,8 @@
             <div class="flex flex-wrap">
                 <div class="w-full lg:w-1/2">
                     <div class="site-map flex flex-wrap">
-                        <div class="w-full md:w-full lg:w-4/12 flex flex-col">
+                        <div class="w
+                        -full md:w-full lg:w-4/12 flex flex-col">
                             <router-link to="/" class="footer-nav-link">Home</router-link>
                             <router-link to="/eco-habitats" class="footer-nav-link">Eco-habitats</router-link>
                             <router-link to="/naandi" class="footer-nav-link">Naandi</router-link>

@@ -3030,6 +3030,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log(this.screenName);
@@ -24167,11 +24170,7 @@ var render = function() {
                         ]
                       )
                     ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "lg-button inline-block" }, [
-                    _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-                  ])
+                  )
                 ],
                 1
               )
@@ -24183,7 +24182,36 @@ var render = function() {
       _vm._v(" "),
       _vm._m(2),
       _vm._v(" "),
-      _vm._m(3)
+      _c("section", { attrs: { id: "recurring-events" } }, [
+        _vm._m(3),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex flex-wrap mb-12" }, [
+          _c(
+            "div",
+            { staticClass: "w-full lg:w-1/3 recurring-event" },
+            [
+              _c("router-link", { attrs: { to: "/organo-at-school" } }, [
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", { staticClass: "event-name" }, [
+                    _vm._v("Organo@School")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "alt-body event-desc" }, [
+                    _vm._v(
+                      "\n                            A day long event that academic institutions can bring their students to experience\n                            nature, filled with fun activities and informational sessions on Sustainability."
+                    )
+                  ])
+                ])
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _vm._m(5)
+        ])
+      ])
     ],
     1
   )
@@ -24299,56 +24327,48 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "recurring-events" } }, [
-      _c("div", { staticClass: "container mx-auto text-center" }, [
-        _c("div", { staticClass: "max-w-4xl mx-auto mb-16" }, [
-          _c("h2", { staticClass: "mb-6" }, [
-            _vm._v(
-              "Experience Rurbanism first-hand and learn to practice sustainable living through one of\n                        our recurring "
-            ),
-            _c("span", { staticClass: "highlight" }, [_vm._v("events")]),
-            _vm._v(":")
-          ])
+    return _c("div", { staticClass: "container mx-auto text-center" }, [
+      _c("div", { staticClass: "max-w-4xl mx-auto mb-16" }, [
+        _c("h2", { staticClass: "mb-6" }, [
+          _vm._v(
+            "Experience Rurbanism first-hand and learn to practice sustainable living through one of\n                        our recurring "
+          ),
+          _c("span", { staticClass: "highlight" }, [_vm._v("events")]),
+          _vm._v(":")
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "flex flex-wrap mb-12" }, [
-        _c("div", { staticClass: "w-full lg:w-1/3 recurring-event" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("h3", { staticClass: "event-name" }, [_vm._v("Organo@School")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "alt-body event-desc" }, [
-              _vm._v(
-                "\n                        A day long event that academic institutions can bring their students to experience\n                        nature, filled with fun activities and informational sessions on Sustainability."
-              )
-            ])
-          ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-full lg:w-1/3 recurring-event" }, [
+      _c("div", { staticClass: "content" }, [
+        _c("h3", { staticClass: "event-name" }, [_vm._v("Be a Farmer")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "alt-body event-desc" }, [
+          _vm._v(
+            "Build bonds between friends, family or team members working\n                        together on a natural farm. Teams or any homogeneous group can contact us to schedule\n                        the event."
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-full lg:w-1/3 recurring-event" }, [
+      _c("div", { staticClass: "content" }, [
+        _c("h3", { staticClass: "event-name" }, [
+          _vm._v("Sustainability Workshops")
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-full lg:w-1/3 recurring-event" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("h3", { staticClass: "event-name" }, [_vm._v("Be a Farmer")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "alt-body event-desc" }, [
-              _vm._v(
-                "Build bonds between friends, family or team members working\n                        together on a natural farm. Teams or any homogeneous group can contact us to schedule\n                        the event."
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "w-full lg:w-1/3 recurring-event" }, [
-          _c("div", { staticClass: "content" }, [
-            _c("h3", { staticClass: "event-name" }, [
-              _vm._v("Sustainability Workshops")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "alt-body event-desc" }, [
-              _vm._v(
-                "\n                        Be informed about various aspects of sustainable living straight from experts in the\n                        field through one of our experiential workshops.\n                    "
-              )
-            ])
-          ])
+        _c("p", { staticClass: "alt-body event-desc" }, [
+          _vm._v(
+            "\n                        Be informed about various aspects of sustainable living straight from experts in the\n                        field through one of our experiential workshops.\n                    "
+          )
         ])
       ])
     ])
@@ -25194,7 +25214,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "sd" },
+            {},
             [
               _vm.screenName == "sd"
                 ? _c("VideoComponent", [
@@ -25430,10 +25450,32 @@ var render = function() {
           })
         ]),
         _vm._v(" "),
-        _vm._m(0)
+        _c(
+          "div",
+          { staticClass: "text-center max-w-2xl mx-auto" },
+          [
+            _c("h3", [
+              _vm._v(
+                "If you want to bring your students to an Organo Community"
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-4" }),
+            _vm._v(" "),
+            _c(
+              "router-link",
+              {
+                staticClass: "lg-button text-center",
+                attrs: { to: "/contact" }
+              },
+              [_vm._v("Contact Us")]
+            )
+          ],
+          1
+        )
       ]),
       _vm._v(" "),
-      _vm._m(1),
+      _vm._m(0),
       _vm._v(" "),
       _c(
         "section",
@@ -25466,22 +25508,6 @@ var render = function() {
   )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-center max-w-2xl mx-auto" }, [
-      _c("h3", [
-        _vm._v("If you want to bring your students to an Organo Community")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "mb-4" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "lg-button text-center" }, [
-        _vm._v("Contact Us")
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -43695,7 +43721,7 @@ var routes = [{
   path: '*',
   component: _components_pages_NotFoundComponent__WEBPACK_IMPORTED_MODULE_12__["default"]
 }];
-/* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
+var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   mode: 'history',
   routes: routes,
   scrollBehavior: function scrollBehavior(to, from, savedPosition) {
@@ -43704,7 +43730,8 @@ var routes = [{
       y: 0
     };
   }
-}));
+});
+/* harmony default export */ __webpack_exports__["default"] = (router);
 
 /***/ }),
 

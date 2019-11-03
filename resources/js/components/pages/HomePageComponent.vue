@@ -137,7 +137,7 @@
                         <router-link to="/naandi" class="mb-12">
                             <div class="lg-button inline-block mr-8 "><span class="text">Explore Naandi</span></div>
                         </router-link>
-                        <div class="lg-button inline-block"><span class="text">Watch Video</span></div>
+                        <!--<div class="lg-button inline-block"><span class="text">Watch Video</span></div>-->
                     </div>
                 </div>
             </ImageContentComponent>
@@ -194,15 +194,18 @@
 
             <div class="flex flex-wrap mb-12">
                 <div class="w-full lg:w-1/3 recurring-event">
-                    <div class="content">
+                    <router-link to="/organo-at-school">
+                        <div class="content">
 
-                        <h3 class="event-name">Organo@School</h3>
-                        <p class="alt-body event-desc">
-                            A day long event that academic institutions can bring their students to experience
-                            nature, filled with fun activities and informational sessions on Sustainability.</p>
+                            <h3 class="event-name">Organo@School</h3>
+                            <p class="alt-body event-desc">
+                                A day long event that academic institutions can bring their students to experience
+                                nature, filled with fun activities and informational sessions on Sustainability.</p>
 
 
-                    </div>
+                        </div>
+                    </router-link>
+
                 </div>
                 <div class="w-full lg:w-1/3 recurring-event">
                     <div class="content">

@@ -126,6 +126,13 @@
   }
 }
 
+@media (max-width: 1024px) {
+  #about-page {
+    .eco-habitat-cta-component .feature-component .image-background {
+      background-attachment: scroll !important;
+    }
+  }
+}
 @media (max-width: 768px) {
   #about-page {
     .hero-bg {
