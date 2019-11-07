@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c347dcbd-4a43-4b45-b38e-7bdb5bdee96a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/AboutPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/AboutPageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/SchoolPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/SchoolPageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -244,23 +234,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="91" />
+          <entry key="js" value="95" />
           <entry key="php" value="391" />
           <entry key="scss" value="867" />
           <entry key="txt" value="13" />
           <entry key="vue" value="175" />
-          <entry key="xml" value="69" />
+          <entry key="xml" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Blade" value="353" />
-          <entry key="JavaScript" value="91" />
+          <entry key="JavaScript" value="95" />
           <entry key="PHP" value="38" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="SCSS" value="867" />
           <entry key="Vue.js" value="175" />
-          <entry key="XML" value="69" />
+          <entry key="XML" value="87" />
         </counts>
       </usages-collector>
     </session>
@@ -275,8 +265,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="431">
-                  <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
+                <state relative-caret-position="149">
+                  <caret line="181" column="56" lean-forward="true" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="56" />
                 </state>
               </provider>
             </entry>
@@ -318,15 +308,6 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/js/routes.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1956">
-                  <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/layouts/site.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="221">
@@ -335,15 +316,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sitemap.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="558">
-                  <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-                  <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-                  <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-                  <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-                  <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+                <state relative-caret-position="706">
+                  <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -357,11 +334,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/components/footer.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="155">
-                  <caret line="5" column="228" lean-forward="true" selection-start-line="5" selection-start-column="228" selection-end-line="5" selection-end-column="228" />
+                <state relative-caret-position="62">
+                  <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -373,8 +350,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/js/routes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="721">
-                  <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
+                <state relative-caret-position="616">
+                  <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -494,8 +471,8 @@
       <find>A new way</find>
       <find>Experience</find>
       <find>Nagesh</find>
-      <find>@</find>
       <find>Ou</find>
+      <find>@</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -547,9 +524,7 @@
         <option value="$PROJECT_DIR$/resources/sass/pages/_about.scss" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/js/routes.js" />
         <option value="$PROJECT_DIR$/robots.txt" />
-        <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/resources/views/layouts/site.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/pages/AboutPageComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/pages/EcoHabitatPageComponent.vue" />
@@ -558,6 +533,8 @@
         <option value="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" />
         <option value="$PROJECT_DIR$/resources/views/components/footer.blade.php" />
+        <option value="$PROJECT_DIR$/sitemap.xml" />
+        <option value="$PROJECT_DIR$/resources/js/routes.js" />
       </list>
     </option>
   </component>
@@ -707,7 +684,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;Naan&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;Team&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/TeamPageComponent.vue&#10;School&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/SchoolPageComponent.vue&#10;Home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;Naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;ecoh&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;About&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/AboutPageComponent.vue&#10;site&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/layouts/site.blade.php&#10;web&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/routes/web.php&#10;naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;layout&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/layouts&#10;style&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/StyleGuideComponent.vue&#10;typog&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_typography.scss&#10;about&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/AboutPageComponent.vue&#10;scho&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/SchoolPageComponent.vue&#10;r&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/routes.js&#10;schoo&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/SchoolPageComponent.vue&#10;route&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/routes.js&#10;router&#9;null&#9;null&#10;video&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/partials/VideoHeaderComponent.vue&#10;compone&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_components.scss&#10;resp&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_responsive.scss&#10;eco&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;header&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/components/header.blade.php&#10;Footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;Cont&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/ContactPageComponent.vue&#10;create&#9;null&#9;null&#10;Naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;components&#9;null&#9;null&#10;heade&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/header.blade.php&#10;comp&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;naan&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;app.s&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/app.scss&#10;ec&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_eco-habitat.scss&#10;c&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;Ec&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;Eco&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_eco-habitat.scss&#10;EcoHa&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;gallery&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/GalleryPageComponent.vue&#10;team&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/TeamPageComponent.vue&#10;Testim&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/partials/TestimonialsComponent.vue&#10;imag&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/ImageContentComponent.vue&#10;responsive&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_responsive.scss&#10;videoH&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/partials/VideoHeaderComponent.vue&#10;hom&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;Comp&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;school&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_school.scss" />
+    <property name="SearchEverywhereHistoryKey" value="robot&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/robots.txt&#10;sitem&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/sitemap.xml&#10;footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;Naan&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;Team&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/TeamPageComponent.vue&#10;School&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/SchoolPageComponent.vue&#10;Home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;Naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;ecoh&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;About&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/AboutPageComponent.vue&#10;site&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/layouts/site.blade.php&#10;web&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/routes/web.php&#10;naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;layout&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/layouts&#10;style&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/StyleGuideComponent.vue&#10;typog&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_typography.scss&#10;about&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/AboutPageComponent.vue&#10;scho&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/SchoolPageComponent.vue&#10;r&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/routes.js&#10;schoo&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/SchoolPageComponent.vue&#10;route&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/routes.js&#10;router&#9;null&#9;null&#10;video&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/partials/VideoHeaderComponent.vue&#10;compone&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_components.scss&#10;resp&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_responsive.scss&#10;eco&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;header&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/components/header.blade.php&#10;Footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;Cont&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/ContactPageComponent.vue&#10;create&#9;null&#9;null&#10;Naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;components&#9;null&#9;null&#10;heade&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/views/components/header.blade.php&#10;comp&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;naan&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;app.s&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/app.scss&#10;ec&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_eco-habitat.scss&#10;c&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_components.scss&#10;Ec&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;Eco&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/pages/_eco-habitat.scss&#10;EcoHa&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/EcoHabitatPageComponent.vue&#10;gallery&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/GalleryPageComponent.vue&#10;team&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/TeamPageComponent.vue&#10;Testim&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/partials/TestimonialsComponent.vue&#10;imag&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/ImageContentComponent.vue&#10;responsive&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/sass/_responsive.scss&#10;videoH&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/partials/VideoHeaderComponent.vue&#10;hom&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -791,12 +768,12 @@
       <workItem from="1572544718618" duration="4000" />
       <workItem from="1572717945651" duration="7990000" />
       <workItem from="1572884809822" duration="1486000" />
-      <workItem from="1573116511308" duration="6654000" />
+      <workItem from="1573116511308" duration="6874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231302000" />
+    <option name="totallyTimeSpent" value="231522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1107,24 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1956">
-          <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/site.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1160,13 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -1176,8 +1128,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="228" lean-forward="true" selection-start-line="5" selection-start-column="228" selection-end-line="5" selection-end-column="228" />
+        <state relative-caret-position="62">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="181" column="56" lean-forward="true" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
         </state>
       </provider>
     </entry>

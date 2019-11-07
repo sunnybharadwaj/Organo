@@ -37,16 +37,16 @@ let routes = [
     },
     {
         path: '/sustainable-living',
-        component: SustainableLivingPage
+        component: EcoHabitatPage
     },
     {
         path: '/organo-at-school',
         component: SchoolPage
     },
-    {
-        path: '/press',
-        component: PressPage
-    },
+    // {
+    //     path: '/press',
+    //     component: PressPage
+    // },
     {
         path: '/gallery/album/:album',
         component: GalleryAlbumComponent,
@@ -60,10 +60,10 @@ let routes = [
         path: '/contact',
         component: ContactPage
     },
-    {
-        path: '/styleguide',
-        component: StyleGuide
-    },
+    // {
+    //     path: '/styleguide',
+    //     component: StyleGuide
+    // },
     //old links
     {
         path: '/farm-house',

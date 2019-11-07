@@ -43598,14 +43598,15 @@ var routes = [{
   component: _components_pages_NaandiPageComponent__WEBPACK_IMPORTED_MODULE_5__["default"]
 }, {
   path: '/sustainable-living',
-  component: _components_pages_SustainableLivingPageComponent__WEBPACK_IMPORTED_MODULE_6__["default"]
+  component: _components_pages_EcoHabitatPageComponent__WEBPACK_IMPORTED_MODULE_4__["default"]
 }, {
   path: '/organo-at-school',
   component: _components_pages_SchoolPageComponent__WEBPACK_IMPORTED_MODULE_7__["default"]
-}, {
-  path: '/press',
-  component: _components_pages_PressPageComponent__WEBPACK_IMPORTED_MODULE_9__["default"]
-}, {
+}, // {
+//     path: '/press',
+//     component: PressPage
+// },
+{
   path: '/gallery/album/:album',
   component: _components_pages_GalleryAlbumComponent__WEBPACK_IMPORTED_MODULE_13__["default"],
   props: true
@@ -43615,10 +43616,11 @@ var routes = [{
 }, {
   path: '/contact',
   component: _components_pages_ContactPageComponent__WEBPACK_IMPORTED_MODULE_10__["default"]
-}, {
-  path: '/styleguide',
-  component: _components_pages_StyleGuideComponent__WEBPACK_IMPORTED_MODULE_11__["default"]
-}, //old links
+}, // {
+//     path: '/styleguide',
+//     component: StyleGuide
+// },
+//old links
 {
   path: '/farm-house',
   component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
