@@ -167,10 +167,8 @@
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
                     <h2 class="mb-4"><span class="font-normal">the</span> Experience</h2>
-                    <p class="alt-body">Our goal was to capturing the essence of rural living and combining it with the
-                        ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered
-                        to you within a breath-taking atmosphere, healthy organic food and an engaging community
-                        conducive to growth, relaxation and an overall improvement of health.</p>
+                    <p class="alt-body">Our goal was to capture the essence of rural living and combining it with the ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered to you within a breathtaking environment, healthy organic food and an engaging community conducive to growth, relaxation and an overall improvement of health.
+                    </p>
                     <div class="mb-8"></div>
                 </div>
             </ImageContentComponent>
@@ -178,11 +176,8 @@
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
                     <h2 class="mb-4"><span class="font-normal">the</span> Space</h2>
-                    <p class="alt-body">The 33 Acres of land located outskirts of the city of Hyderabad, has home units
-                        and other necessary structures built around an organic farm. Along with all the amenities
-                        expected of a modern villa community, 2/3rd of its space is used for
-                        collective farming - where residents join farmers to farm produce. 1/3rd of the space is
-                        designated for personal farming, where residents can farm independently in their backyard.</p>
+                    <p class="alt-body">The 33 Acres of land located on the outskirts of the city of Hyderabad, has home units and other necessary structures built around an organic farm. Along with all the amenities expected of a modern villa community, 2/3rd of its space is used for collective farming - where residents join farmers to farm produce. 1/3rd of the space is designated for personal farming, where residents can farm independently in their own backyards.
+                    </p>
                     <div class="mb-8"></div>
                 </div>
             </ImageContentComponent>
@@ -191,10 +186,8 @@
                 <div slot="content">
                     <h2 class="mb-4"><span class="font-normal">the</span> Community</h2>
                     <p class="alt-body">
-                        Our intent is to promote a soul of collective living where our members actively participate in
-                        events, socialize in designated places and a well designed exploratory path, share their time,
-                        knowledge and expertise for active social enhancement and the cultural progress of the
-                        community. Naandians live together and work collectively for the sustenance of their home.
+                        Our intent is to promote a spirit of collective living where our members actively participate in events, socialize in designated places and a well designed exploratory path, share their time, knowledge and expertise for active social enhancement, and the cultural progress of the community. Naandians live together and work collectively for the sustenance of their home.
+
                     </p>
                     <div class="mb-8"></div>
                 </div>
@@ -206,15 +199,12 @@
                 <h2 class="mb-8">Naandi Home</h2>
                 <div class="max-w-4xl">
                     <h3 class="font-normal">
-                        We have Incorporated the latest in high-performance building science and home technology. Every
-                        home skillfully combines the outdoor and indoor space to create an experience of being
-                        integrated with the environment around it.
+                        We have incorporated the latest in high-performance building science and home technology. Every home skillfully combines the outdoor and indoor space to create an experience of being integrated with the environment around it.
+
                     </h3>
                     <div class="mb-6"></div>
                     <h3 class="font-normal">
-                        With open halls, large windows, sliding doors facing the farm, terrace, patios and deep
-                        balconies, whether its where you live or visit to get away, Naandi’s the perfect place to relax,
-                        let go and take a dip in nature.
+                        With open halls, large windows, sliding doors facing the farm, terraces, patios and balconies, whether it’s where you live or just visit to get away, Naandi is the perfect place to relax, let go and take a dip in nature.
                     </h3>
                     <div class="mb-8"></div>
                     <div class="txt-btn">Request floor-plans</div>

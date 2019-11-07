@@ -16,9 +16,13 @@
         })(window, document, 'script', 'dataLayer', 'GTM-WL2JRH4');</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Organo builds full-featured sustainable housing and living environments integrated
+                    into the natural world, supportive of a healthy way of living.">
+    <meta name="keywords"
+          content="Rurban, Sustainable Living, Farm House, Housing, Architecture, Horizontal Living, Natural, Nature, Peaceful, Experience, Conservation, Conscious, Reverse Migration, Authentic, Farm , Ecohabitats, Impact, Harmony, Modern, Community, Neighbourhood, Environment, Health , Lifestyle">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{asset('/css/app.css')}}">
-    <title>Organo</title>
+    <title>Organo | Sustainable Rurban Living</title>
 </head>
 <body>
 <noscript>

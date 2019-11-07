@@ -63,9 +63,7 @@
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
                     <h3>Experience a practical learning of Nature and where we stand today.</h3>
-                    <p class="alt-body">With direct examples of application of various sustainable practices, children get to see
-                        first-hand, the results and impending perils of modernization and lay the foundational
-                        understanding towards the culture of conservation and sustainable living. </p>
+                    <p class="alt-body">With direct examples of application of various sustainable practices, children get to see first-hand, the results and impending perils of modernization and lay the foundational understanding towards the culture of conservation and sustainable living.</p>
                     <div class="mb-8"></div>
                 </div>
             </ImageContentComponent>
@@ -97,7 +95,8 @@
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
                     <h3>Express learnings creatively through Art and Craft</h3>
-                    <p class="alt-body">At the end of the day, children get to combine everything they have learnt into producing art and craft on the concepts covered.</p>
+                    <p class="alt-body">At the end of the day, children get to combine everything they have learnt into producing art and craft on the concepts covered.
+                    </p>
                     <div class="mb-8"></div>
                 </div>
             </ImageContentComponent>
@@ -134,6 +133,8 @@
                                 <div class="quote">
                                     <p class="alt-body">
                                         "We were looking out for such an experience for our students. Organo@School turned out to be an enriching and life changing experience not only for them, but for me as an educator as well.
+
+
                                     </p>
                                     <p class="alt-body">
                                         It really helps us understand the larger picture and the necessity of sustainable living. Most importantly, my students are now more aware about their surroundings and will hopefully work towards conservation of nature and experience a deeper connection with it.

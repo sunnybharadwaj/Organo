@@ -11,6 +11,9 @@
 |
 */
 
+
+
+
 Route::get('/{catchall?}', function () {
     return view('welcome');
 })->where('catchall', '[\/\w\.-]*');

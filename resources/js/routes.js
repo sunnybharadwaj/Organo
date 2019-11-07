@@ -64,11 +64,71 @@ let routes = [
         path: '/styleguide',
         component: StyleGuide
     },
+    //old links
+    {
+        path: '/farm-house',
+        component: HomePage
+    },
+    {
+        path: '/concepts',
+        component: HomePage
+    },
+    {
+        path: '/experience-organo',
+        component: HomePage
+    },
+    {
+        path: '/organo-at-school',
+        component: HomePage
+    },
+    {
+        path: '/our-story',
+        component: HomePage
+    },
+    {
+        path: '/blog',
+        component: HomePage
+    },
+    {
+        path: '/contact',
+        component: HomePage
+    },
+    {
+        path: '/jalam',
+        component: HomePage
+    },
+    {
+        path: '/organic-veggies-fruits',
+        component: HomePage
+    },
+    {
+        path: '/earthen-ware',
+        component: HomePage
+    },
+    {
+        path: '/garden-tools',
+        component: HomePage
+    },
+    {
+        path: '/wp-content',
+        component: HomePage
+    },
     {
         path: '*',
-        component: NotFound
+        component: HomePage
     }
 ];
+
+
+
+
+
+
+
+
+
+
+
 
 const router = new VueRouter({
     mode: 'history',

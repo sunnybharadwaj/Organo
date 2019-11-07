@@ -2171,35 +2171,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("works?");
@@ -2336,29 +2307,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -3014,25 +2962,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log(this.screenName);
@@ -3076,16 +3005,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -3751,6 +3670,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("screenName");
@@ -4175,9 +4095,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 var team_list = [{
   name: 'Nagesh Battula',
   description: 'Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner and a self-taught leader. He has over 20 years of extensive experience in residential, commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to develop a project that would be sustainable and net-zero in its resource consumption.',
@@ -4187,35 +4104,35 @@ var team_list = [{
   image_url: '/static/team/nageshbattula.jpg'
 }, {
   name: 'Vijaya Durga',
-  description: 'With over 20 years of experience in the field of interior designing and the head of the Interior design team at FHD, Vijaya has an eye for detail and a sensitivity towards color, fixtures and finishes, that let her impeccable decisions on the spot. She shares the vigor to develop Organo as a highly productive yet aesthetically pleasing farming community.',
+  description: 'With over 20 years of experience in the field of interior designing and the head of the Interior design team at FHD, Vijaya has an eye for detail and a sensitivity towards colors, fixtures and finishes, that let her make impeccable decisions on the spot. She shares the vigor to develop Organo as a highly productive yet aesthetically pleasing farming community.',
   links: {
     linkedIn: ''
   },
   image_url: '/static/team/vijayadurga.jpg'
 }, {
   name: 'Rajendra Kumar',
-  description: 'Raj as we call him is not a definition person, which helped him design the marketing for India’s first sustainable collective farming in the most non-traditional ways. Raj is the quarterback for our Marketing and Sales team driving it passion and vigor. Raj’s vision the project is far out and very fast for everyone to catch up.',
+  description: 'Raj as we call him, is not a definition person, which helped him design the marketing strategy for India’s first sustainable collective farming habitat, in the most non-traditional ways. Raj is the quarterback for our Marketing and Sales team driving it with passion and vigor. Raj’s vision for the project is far out and very fast for everyone to catch up.',
   links: {
     linkedIn: ''
   },
   image_url: '/static/team/rajendrakumar.jpg'
 }, {
   name: 'Dr. Vinod Vemula',
-  description: 'Dr. Vemula heads the Farmer outreach program at Organo. Has more than 27 years of experience in agriculture, forestry, natural resources development & management projects, on farm research & extension. His grassroots level work directly with farmers to middle support s and his extensive international experience gives him the bird\'s eye view to help convert neighboring villages and farmers to turn into Organic with the focus on sustainability.',
+  description: 'Dr. Vemula heads the Farmer outreach program at Organo. Has more than 27 years of experience in agriculture, forestry, natural resources development & management projects, on farm research & extension. His at the grassroots level, works directly with farmers to middle support  and his extensive international experience gives him a bird\'s eye view to help convert neighboring villages and farmers to turn Organic with the focus on sustainability.',
   links: {
     linkedIn: ''
   },
   image_url: '/static/team/drvinodvemula.jpg'
 }, {
   name: 'Dhamothara N',
-  description: 'Dhamu, Director of Operations and head of the Architectural division for FHD has helped get critical design solutions right, without compromising on logistical efficiencies. Dhamu has over 11 years of experience in the field of architecture with several Master planning and large-scale projects to his credit.',
+  description: 'Dhamu, Director of Operations and head of the Architectural division for FHD has helped get critical design solutions right, without compromising on logistical efficiencies. Dhamu has over 11 years of experience in the field of architecture with several master planning and large-scale projects to his credit.',
   links: {
     linkedIn: ''
   },
   image_url: '/static/team/dhamotharan.jpg'
 }, {
   name: 'Mathan Ramaiah',
-  description: 'Mathan graduated from the Columbia University, New York. He has over 12 years of experience working in Indian and International firms, leading several award-winning Masterplans with special emphasis on passive and active sustainable strategies. He is passionately involved in the masterplan and public space design of Organo.',
+  description: 'Mathan graduated from Columbia University, New York. He has over 12 years of experience working in Indian and International firms, leading several award-winning master plans with special emphasis on passive and active sustainable strategies. He is passionately involved in the masterplan and public space design of Organo.',
   links: {
     linkedIn: ''
   },
@@ -4229,35 +4146,35 @@ var team_list = [{
   image_url: '/static/team/niharika.jpg'
 }, {
   name: 'Harinath Rao',
-  description: 'Associate Director, Organo brings in decades of rich functional construction and real estate expertise. As a structural engineer turned businessman, he combines the best of both worlds in melding business expertise with thorough understanding of the technicalities of the business and is focused on creating seamless buyer journeys. He brings in his multi-faceted expertise to add deep value with the accent on delivering superior customer experience.',
+  description: 'Associate Director, Organo brings in decades of rich functional construction and real estate expertise. As a structural engineer turned businessman, he combines the best of both worlds in melding business expertise with a thorough understanding of the technicalities of the business, and is focused on creating seamless buyer journeys. He brings in his multi-faceted expertise to add value with emphasis on delivering superior customer experience.',
   links: {
     linkedIn: ''
   },
   image_url: '/static/team/harinathrao.jpg'
 }, {
   name: 'Meena Murugappan',
-  description: 'With over 17 years of international & local experience across multiple industries, I am currently the Director of Development Strategy. I am passionate about developing real estate products that are first-to-market. Education: B.Arch from SAP & MS in Real Estate Development from MIT, Boston.',
+  description: 'With over 17 years of international & local experience across multiple industries, she is currently the Director of Development Strategy. She is passionate about developing real estate products that are first-to-market. Education: B.Arch from SAP & MS in Real Estate Development from MIT, Boston.',
   links: {
     linkedIn: ''
   },
   image_url: '/static/team/meenamurugappan.jpg'
 }, {
   name: 'Dr. Dharmendar Reddy',
-  description: 'A Management Professional with 17 +years experience in Micro-finance, Agriculture credit, Collections and more. Dr. Dharmendar Reddy is an expertise is in Rural Strategy, establishing new business operations and in establishing new distribution channels. Education: MBA from Kakatiya University, Warangal.',
+  description: 'A Management Professional with 17 +years experience in Micro-finance, Agriculture credit, Collections and more. Dr. Dharmendar Reddy is an expert in Rural Strategy, establishing new business operations and establishing new distribution channels. Education: MBA from Kakatiya University, Warangal.',
   links: {
     linkedIn: ''
   },
   image_url: '/static/team/drdharmendarreddy.jpg'
 }, {
   name: 'Rakesh Koti',
-  description: 'Rakesh Koti heads sustainability at Organo and has a keen interest in developing net-zero environments. He gra BE from IIT, Karagpur & MS in Energy Systems from University of Illinois in Urbana Champaign.',
+  description: 'Rakesh Koti heads sustainability at Organo and has a keen interest in developing net-zero environments. He did his BE from IIT, Kharagpur, & MS in Energy Systems from University of Illinois in Urbana Champaign.',
   links: {
     linkedIn: ''
   },
   image_url: '/static/team/rakeshkoti.jpg'
 }, {
   name: 'Dr. Syamasundar Reddy',
-  description: 'Dr. Reddy specializes in Agriculture Cycles, Crop Production, Plant Protection and Agricultural Marketing related Agro-advisories.',
+  description: 'Dr. Reddy specializes in agriculture cycles, crop production, plant rotection and agricultural marketing related agro-advisories.',
   links: {
     linkedIn: ''
   },
@@ -22590,13 +22507,13 @@ var staticRenderFns = [
     return _c("div", { staticClass: "text-content" }, [
       _c("p", { staticClass: "alt-body mb-4" }, [
         _vm._v(
-          "Organo is the brainchild of the Navira Team. Founded and named\n                                after – Nagesh, Vijaya and Raj –\n                                directors of the FHD group, one of India’s leading design firms. Organo was started with\n                                a shared\n                                vision to provide an authentic living experience to people today, a life that not only\n                                is\n                                technologically progressive but one which revives cultures and brings people together.\n                                Passion for\n                                ‘change’ in the society today as well as in the ways of the industry is the primordial\n                                force that\n                                pushed the team of Navira to start a group that can redefine the rules of the game."
+          "Organo is the brainchild of the Navira Team. It was founded and named after – Nagesh, Vijaya and Raj – directors of the FHD group; one of India’s leading design firms. Organo started with a shared vision to provide an authentic living experience to people today, a life that not only is technologically progressive but one which revives cultures and brings people together. Passion for ‘change’ in the society today as well as in the ways of the industry, is the primordial force that pushed the team of Navira to start a group that can redefine the rules of the game."
         )
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "alt-body" }, [
         _vm._v(
-          "Also, having been in very close quarters to the construction industry\n                                and watching the growth spurt\n                                of Hyderabad, protecting the bio-conservation zone has been of paramount importance to\n                                the Navira\n                                team. That’s what inspired them to form a community of people to own it, to enjoy living\n                                close to\n                                the elements, to create a force to protect it. Thus, Organo was born."
+          "Also, having been in very close quarters to the construction industry and watching the growth spurt of Hyderabad, protecting the bio-conservation zone has been of paramount importance to the Navira team. That’s what inspired them to form a community of people to own it, to enjoy living close to the elements, to create a force to protect it. Thus, Organo was born.\n                            "
         )
       ])
     ])
@@ -22609,7 +22526,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "quote" }, [
         _c("h3", [
           _vm._v(
-            "\n                            “Organo was started to re-establish a conscientious connection with the way we produce and\n                            consume resources as a community. Our goal is to create replicable community development\n                            models\n                            built on triple bottom line success and net zero thinking.”\n                        "
+            "\n                            “Organo was founded to re-establish a conscientious connection with the way we produce and consume resources as a community. Our goal is to create replicable community development models built on triple bottom line success and net zero thinking.”\n                        "
           )
         ]),
         _vm._v(" "),
@@ -22637,12 +22554,12 @@ var staticRenderFns = [
       _c("div", { staticClass: "flex flex-wrap" }, [
         _c("div", { staticClass: "piece w-full md:w-1/2 lg:w-1/3" }, [
           _c("div", { staticClass: "heading alt-body mb-2" }, [
-            _vm._v("The dream")
+            _vm._v("The Dream")
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "It all started with observing the necessity, requirements, issues\n                                    affecting our own personal modern lives and then fully visualizing what can be done\n                                    about it."
+              "It all started with taking note of the necessity, requirements, issues affecting our own personal modern lives and then fully visualizing what can be done about it."
             )
           ])
         ]),
@@ -22654,7 +22571,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "We then brought together subject-matter experts to open up all\n                                    the dimensions and possibilities of the project. These led us to freely research and\n                                    explore the new ideas that we were closely watching."
+              "We then brought together Subject-Matter Experts to open up all the dimensions and possibilities of the project. These led us to freely research and explore new ideas that we were closely watching.\n                                "
             )
           ])
         ]),
@@ -22666,7 +22583,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Net-zero, Sustainable on seven areas that create a natural cycle,\n                                    Minimal design, Farm centric, etc.. All these concepts were generated through the\n                                    process of our research into exploring our ideas."
+              "Net-zero, sustainable on all seven areas that create a natural cycle, minimal design, farm centric, etc.. All these concepts were generated through the process of our research while  exploring our ideas."
             )
           ])
         ]),
@@ -22678,7 +22595,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "From charts to raw materials, we have quickly transformed our\n                                    ideas into executable plans and begun constructing and developing, while also\n                                    testing various ideas that may work towards the same goals."
+              "From charts to raw materials, we quickly transformed our ideas into executable plans and began constructing and developing, while also testing various ideas that may work towards the same goals."
             )
           ])
         ]),
@@ -22690,7 +22607,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Bringing the right people to join the community is very\n                                    important. It is important for members to share a common understanding of the\n                                    principles practiced so they can be an active part of growth of the community."
+              "Bringing the right people to join the community is very important. It is important for members to share a common understanding of the principles practiced so they can be an active part of the growth of the community."
             )
           ])
         ]),
@@ -22702,7 +22619,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "description" }, [
             _vm._v(
-              "Once everything is in place, we then set up processes, measures\n                                    to enable and ensure a natural growth and sustenance of the entire community's\n                                    environment and its surroundings."
+              "Once everything is in place, we then set up processes and measures to enable and ensure the natural growth and sustenance of the entire community's environment and its surroundings."
             )
           ])
         ])
@@ -23116,7 +23033,7 @@ var render = function() {
             _vm._v(" "),
             _c("h3", [
               _vm._v(
-                "\n                An integrated eco-system as a living space, consciously created with sustainability\n                principles at its center, designed for having the minimal impact without contaminating the\n                environment in it or around it."
+                "\n                An integrated eco-system as a living space, consciously created with sustainability principles at its core; designed for having minimal impact without contaminating the environment in or around it."
               )
             ])
           ]
@@ -23189,7 +23106,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    "Health is one of the primary concerns of the modern urban individual, with produce\n                        shipping with high levels of toxins. Having recognized this, we build our communities with Organic\n                        Agriculture at its center. Eco-system first, inhabit later."
+                    "Health is one of the primary concerns of the modern urban individual, with produce containing high levels of toxins. Having recognized this, we build our communities with Organic Agriculture at its center. Ecosystem first, inhabitation later."
                   )
                 ]),
                 _vm._v(" "),
@@ -23213,7 +23130,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    "Building an eco-system requires us to have all the pieces necessary to create a\n                        consistent repeatable cycle. We had to expand our vision entirely towards learning and understanding\n                        what it takes to create a sustainable environments and create natural cycles of growth."
+                    "Building an ecosystem required us to have all the pieces necessary to create a consistent replicable cycle. We had to expand our vision entirely towards learning and understanding what it takes to create sustainable environments and natural cycles of growth."
                   )
                 ]),
                 _vm._v(" "),
@@ -23237,7 +23154,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    "Eco-habitats depend on its habitants for its conservation and sustainability. All\n                        our\n                        community members come together to create an environment of natural growth and sustenance. We\n                        offer you a way to be independently sustainable by yourself as well as join in with the rest of\n                        the community on collective efforts.\n                    "
+                    "Eco-habitats depend on its inhabitants for their conservation and sustainability. All our community members come together to create an environment of natural growth and sustenance. We offer you a way to be independently sustainable by yourself, as well as join in with the rest of the community on collective efforts.\n                    "
                   )
                 ]),
                 _vm._v(" "),
@@ -23257,7 +23174,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    "For many, the sight of a rural setting brings about feelings of\n                        uninterrupted harmony. We wanted to capture that, while still offering you the opportunity for a\n                        comfortable lifestyle with all possible amenities expected from a modern living community. "
+                    "For many, the sight of a rural setting brings about feelings of uninterrupted harmony. We wanted to capture that, while still offering you the opportunity for a comfortable lifestyle with all possible amenities expected from a modern living community."
                   )
                 ]),
                 _vm._v(" "),
@@ -23410,7 +23327,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container mx-auto" }, [
         _c("h2", { staticClass: "font-normal" }, [
           _vm._v(
-            "\n                At Organo, we create eco-habitats at the intersection of rural and urban experiences, offering\n                a way to live a life integrated with nature, to help build sustainable communities that care.\n            "
+            "\n                At Organo, we create eco-habitats offering an intersection of rural and urban experiences, offering a way to live a life integrated with nature, to help build sustainable communities that care.\n            "
           )
         ])
       ])
@@ -23427,7 +23344,7 @@ var staticRenderFns = [
         _c("p", { staticClass: "alt-body" }, [
           _c("span", { staticClass: "font-normal" }, [
             _vm._v(
-              "\n                The advent of rapid urbanization has led us to live in between polluted environments, genetically modified produce and other downsides of densely populated areas, leading to an excessively stressful life.\n            "
+              "The advent of rapid urbanization has led us to live with polluted environments, genetically modified produce and other downsides of densely populated areas, leading to an excessively stressful life."
             )
           ])
         ]),
@@ -23435,7 +23352,7 @@ var staticRenderFns = [
         _c("p", { staticClass: "alt-body" }, [
           _c("span", { staticClass: "font-normal" }, [
             _vm._v(
-              "We often find ourselves in this modern balancing act between living this way and finding ways to escape, relax and re-connect with nature."
+              "We often find ourselves in this modern balancing act between living this way and finding ways to escape, relax and reconnect with nature."
             )
           ])
         ])
@@ -23461,7 +23378,7 @@ var staticRenderFns = [
         _c("p", { staticClass: "alt-body" }, [
           _c("span", { staticClass: "font-normal" }, [
             _vm._v(
-              "We needed to find new ways of living in balance with the ecosystem and all the various parts of it, with access to healthy organic food and fresh air to breath, allowing sustainable growth of a community without affecting the environment which they live in."
+              "We needed to find new ways of living in balance with the ecosystem and the various parts of it, with access to healthy organic food and fresh air to breath, allowing sustainable growth of a community without affecting the environment they live in."
             )
           ])
         ])
@@ -23497,15 +23414,13 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h3", { staticClass: "font-normal" }, [
         _vm._v(
-          "\n                    To pursue sustainability, we have created processes within seven layers or strands which\n                    independently and interdependently work together. "
+          "To pursue sustainability, we have created processes with seven layers or strands which independently and interdependently work together. "
         ),
         _c("span", { staticClass: "font-bold" }, [
-          _vm._v("Food, Water, Air, Earth, Energy, Shelter")
+          _vm._v("Food, Water, Air, Earth, Energy, Shelter and People")
         ]),
-        _vm._v("\n                    and\n                    "),
-        _c("span", { staticClass: "font-bold" }, [_vm._v("People")]),
         _vm._v(
-          " are the central areas that help us think towards a\n                    sustainable future.\n                "
+          " are the central areas that help us think towards a sustainable future."
         )
       ])
     ])
@@ -23519,7 +23434,7 @@ var staticRenderFns = [
         _vm._v("Creating healthy source of nutrition through "),
         _c("span", { staticClass: "font-bold" }, [_vm._v("food")]),
         _vm._v(
-          " / produce grown using organic\n                            farming practices without the need for chemicals."
+          " / produce grown using organic farming practices without the need for chemicals."
         )
       ])
     ])
@@ -23531,23 +23446,7 @@ var staticRenderFns = [
     return _c("p", { staticClass: "alt-body" }, [
       _c("span", { staticClass: "font-normal" }, [
         _vm._v(
-          "Employ advanced scientific procedures of conservation and treatment of "
-        ),
-        _c("span", { staticClass: "font-bold" }, [_vm._v("water")]),
-        _vm._v(" and regularly monitor overall consumption vs production.")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("p", { staticClass: "alt-body" }, [
-      _c("span", { staticClass: "font-normal" }, [
-        _vm._v("An endless supply of fresh "),
-        _c("span", { staticClass: "font-bold" }, [_vm._v("Air")]),
-        _vm._v(
-          " wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System."
+          "Employing advanced scientific procedures for conservation and treatment of water and regularly monitoring overall consumption vs production."
         )
       ])
     ])
@@ -23558,10 +23457,8 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "alt-body" }, [
       _c("span", { staticClass: "font-normal" }, [
-        _vm._v("Protect the "),
-        _c("span", { staticClass: "font-bold" }, [_vm._v("Earth")]),
         _vm._v(
-          " by preserving soil health by using organic methods and fertilizers, employ necessary waste management and recycling processes."
+          "An endless supply of fresh Air wherever you are - We deliver geo-cooled fresh air into homes through our Earth Air Tunnel System."
         )
       ])
     ])
@@ -23572,10 +23469,8 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "alt-body" }, [
       _c("span", { staticClass: "font-normal" }, [
-        _vm._v("Produce all "),
-        _c("span", { staticClass: "font-bold" }, [_vm._v("Energy")]),
         _vm._v(
-          " from within the community area through renewable sources like solar energy and a bio-gas plant and employ procedures to reduce power consumption."
+          "Protecting the Earth by preserving soil health, by using organic methods and fertilizers, employing necessary waste management and recycling processes."
         )
       ])
     ])
@@ -23586,10 +23481,8 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "alt-body" }, [
       _c("span", { staticClass: "font-normal" }, [
-        _vm._v("Create "),
-        _c("span", { staticClass: "font-bold" }, [_vm._v("Shelter")]),
         _vm._v(
-          " within nature while maintaining bio-diversity. Open yet personal living spaces and wide communal spaces incorporating comforts of this day and age."
+          "Producing all Energy from within the community area through renewable sources like solar energy and a biogas plant, and employing procedures to reduce power consumption."
         )
       ])
     ])
@@ -23600,10 +23493,20 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "alt-body" }, [
       _c("span", { staticClass: "font-normal" }, [
-        _vm._v("Encourage a community of "),
-        _c("span", { staticClass: "font-bold" }, [_vm._v("People")]),
         _vm._v(
-          " who live together responsibly, share their time, knowledge and expertise towards co-creating and sustaining the environment around them."
+          "Creating Shelter within nature while maintaining biodiversity. Open yet personal living spaces and wide communal spaces incorporating comforts of this day and age."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "alt-body" }, [
+      _c("span", { staticClass: "font-normal" }, [
+        _vm._v(
+          "Encouraging a community of People who live together responsibly, share their time, knowledge and expertise towards co-creating and sustaining the environment around them."
         )
       ])
     ])
@@ -23629,13 +23532,13 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("p", { staticClass: "alt-body" }, [
                     _vm._v(
-                      '\n                                    "Using vedic farming, Organo Naandi grow 35 varieties of vegetables, 15 varieties of fruits and 95 varieties of medicinal plants at Naandi."\n                                '
+                      '\n                                    "Using vedic farming techniques, Organo Naandi grows 35 varieties of vegetables, 15 varieties of fruits and 95 varieties of medicinal plants at Naandi."\n                                '
                     )
                   ]),
                   _vm._v(" "),
                   _c("p", { staticClass: "alt-body" }, [
                     _vm._v(
-                      '\n                                    We use animal husbandry, rainwater harvesting and control surrounding use of chemicals, employ many other ways to maintain a sustainable cycle for farm-fresh produce.\n                                    "\n                                '
+                      '\n                                    We use animal husbandry, rainwater harvesting, and control the use of chemicals. We employ many other ways to maintain a sustainable cycle for farm-fresh produce.\n                                    "\n                                '
                     )
                   ]),
                   _vm._v(" "),
@@ -24029,7 +23932,7 @@ var render = function() {
             _vm._v(" "),
             _c("p", { staticClass: "hl-body" }, [
               _vm._v(
-                "Organo builds full-featured sustainable living environments harmlessly integrated\n                into the natural world, supportive of a healthy way of living."
+                "Organo builds fully-featured sustainable living environments harmlessly integrated into the natural world, supporting a healthy way of living."
               )
             ]),
             _vm._v(" "),
@@ -24198,7 +24101,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("p", { staticClass: "alt-body event-desc" }, [
                     _vm._v(
-                      "\n                            A day long event that academic institutions can bring their students to experience\n                            nature, filled with fun activities and informational sessions on Sustainability."
+                      "\n                            A day long event when academic institutions can bring their students to experience nature, filled with fun activities and informational sessions on Sustainability."
                     )
                   ])
                 ])
@@ -24224,7 +24127,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "max-w-6xl mb-12" }, [
       _c("h2", [
         _vm._v(
-          "We've taken up the challenge of developing eco-habitats thriving a balanced harmony,\n                    integrated with nature. Combining the best of the urban and the rural worlds, we have created a\n                    new ‘Rurban’ way of life."
+          "We've taken up the challenge of developing eco-habitats thriving in harmony, integrated with nature. Combining the best of the urban and rural worlds, we have created a new ‘Rurban’ way of life."
         )
       ])
     ])
@@ -24237,13 +24140,13 @@ var staticRenderFns = [
       _c("div", { staticClass: "point mb-10" }, [
         _c("h3", { staticClass: "mb-2" }, [
           _vm._v(
-            "A new way of living to counter rapid urbanization. We call it Rurban\n                        Living."
+            "A new way of living to counter rapid urbanization; we call it Rurban Living."
           )
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "The benefits of urbanization and the feel of a rural environment brings\n                        together the best of both worlds. Organo offers an integrated alternate-living experience\n                        where residents could take part in natural farming and other collective activities, while\n                        maintaining their private space."
+            "The benefits of urbanization and the feel of a rural environment brings together the best of both worlds. Organo offers an integrated alternate-living experience where residents could take part in natural farming and other collective activities, while maintaining their own private space."
           )
         ])
       ]),
@@ -24251,13 +24154,13 @@ var staticRenderFns = [
       _c("div", { staticClass: "point mb-10" }, [
         _c("h3", { staticClass: "mb-2" }, [
           _vm._v(
-            "Prosper in nature and live a healthy life while maintaining balance and\n                        sustainability."
+            "Prosper in nature and live a healthy life while maintaining balance and sustainability."
           )
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "Sustainability, biodiversity, harnessing natural resources and natural\n                        living are at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of\n                        sustainable living’ help us individually focus on sustainable development in each of the\n                        distinct areas."
+            "Sustainability, biodiversity, harnessing natural resources for a natural way of living are at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of sustainable living’ help us individually focus on sustainable development in each of these distinct areas."
           )
         ])
       ]),
@@ -24271,7 +24174,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "We are responsible for all the stakeholders and environmental concerns\n                        equally. It helps us create community development models on triple-bottom-line success\n                        (Social, environmental and economic ares) and net-zero thinking. This also led us to create\n                        'Sapthapatha', the seven strands of sustainable development."
+            "We are responsible for all the stakeholders and environmental concerns equally. It helps us create community development models on triple-bottom-line success (Social, environmental and economic ares) and net-zero thinking. This also led us to create 'Sapthapatha', the seven strands of sustainable development."
           )
         ])
       ])
@@ -24297,13 +24200,13 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    '\n                                "I had to take a detour from my hectic life and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we consumed poison.\n                            '
+                    '\n                                "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."\n\n\n                            '
                   )
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    '\n                                Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with  comfort as I know exactly how naturally it was grown.\n                                "\n                            '
+                    '\n                                Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown. "\n                            '
                   )
                 ]),
                 _vm._v(" "),
@@ -24331,10 +24234,8 @@ var staticRenderFns = [
       _c("div", { staticClass: "max-w-4xl mx-auto mb-16" }, [
         _c("h2", { staticClass: "mb-6" }, [
           _vm._v(
-            "Experience Rurbanism first-hand and learn to practice sustainable living through one of\n                        our recurring "
-          ),
-          _c("span", { staticClass: "highlight" }, [_vm._v("events")]),
-          _vm._v(":")
+            "Experience Rurbanism first-hand and practice sustainable living through one of our recurring events:"
+          )
         ])
       ])
     ])
@@ -24349,7 +24250,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body event-desc" }, [
           _vm._v(
-            "Build bonds between friends, family or team members working\n                        together on a natural farm. Teams or any homogeneous group can contact us to schedule\n                        the event."
+            "Build bonds between friends, family or team members working together on a natural farm. Teams or any homogeneous group can contact us to schedule an event."
           )
         ])
       ])
@@ -24367,7 +24268,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body event-desc" }, [
           _vm._v(
-            "\n                        Be informed about various aspects of sustainable living straight from experts in the\n                        field through one of our experiential workshops.\n                    "
+            "\n                        Stay informed about various aspects of sustainable living, straight from experts in the field, through one of our experiential workshops.\n                    "
           )
         ])
       ])
@@ -24708,7 +24609,7 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "alt-body" }, [
                 _vm._v(
-                  "Our goal was to capturing the essence of rural living and combining it with the\n                    ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered\n                    to you within a breath-taking atmosphere, healthy organic food and an engaging community\n                    conducive to growth, relaxation and an overall improvement of health."
+                  "Our goal was to capture the essence of rural living and combining it with the ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered to you within a breathtaking environment, healthy organic food and an engaging community conducive to growth, relaxation and an overall improvement of health.\n                "
                 )
               ]),
               _vm._v(" "),
@@ -24731,7 +24632,7 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "alt-body" }, [
                 _vm._v(
-                  "The 33 Acres of land located outskirts of the city of Hyderabad, has home units\n                    and other necessary structures built around an organic farm. Along with all the amenities\n                    expected of a modern villa community, 2/3rd of its space is used for\n                    collective farming - where residents join farmers to farm produce. 1/3rd of the space is\n                    designated for personal farming, where residents can farm independently in their backyard."
+                  "The 33 Acres of land located on the outskirts of the city of Hyderabad, has home units and other necessary structures built around an organic farm. Along with all the amenities expected of a modern villa community, 2/3rd of its space is used for collective farming - where residents join farmers to farm produce. 1/3rd of the space is designated for personal farming, where residents can farm independently in their own backyards.\n                "
                 )
               ]),
               _vm._v(" "),
@@ -24754,7 +24655,7 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "alt-body" }, [
                 _vm._v(
-                  "\n                    Our intent is to promote a soul of collective living where our members actively participate in\n                    events, socialize in designated places and a well designed exploratory path, share their time,\n                    knowledge and expertise for active social enhancement and the cultural progress of the\n                    community. Naandians live together and work collectively for the sustenance of their home.\n                "
+                  "\n                    Our intent is to promote a spirit of collective living where our members actively participate in events, socialize in designated places and a well designed exploratory path, share their time, knowledge and expertise for active social enhancement, and the cultural progress of the community. Naandians live together and work collectively for the sustenance of their home.\n\n                "
                 )
               ]),
               _vm._v(" "),
@@ -24939,7 +24840,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "max-w-4xl" }, [
           _c("h3", { staticClass: "font-normal" }, [
             _vm._v(
-              "\n                    We have Incorporated the latest in high-performance building science and home technology. Every\n                    home skillfully combines the outdoor and indoor space to create an experience of being\n                    integrated with the environment around it.\n                "
+              "\n                    We have incorporated the latest in high-performance building science and home technology. Every home skillfully combines the outdoor and indoor space to create an experience of being integrated with the environment around it.\n\n                "
             )
           ]),
           _vm._v(" "),
@@ -24947,7 +24848,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h3", { staticClass: "font-normal" }, [
             _vm._v(
-              "\n                    With open halls, large windows, sliding doors facing the farm, terrace, patios and deep\n                    balconies, whether its where you live or visit to get away, Naandi’s the perfect place to relax,\n                    let go and take a dip in nature.\n                "
+              "\n                    With open halls, large windows, sliding doors facing the farm, terraces, patios and balconies, whether it’s where you live or just visit to get away, Naandi is the perfect place to relax, let go and take a dip in nature.\n                "
             )
           ]),
           _vm._v(" "),
@@ -25347,7 +25248,7 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "alt-body" }, [
                 _vm._v(
-                  "With direct examples of application of various sustainable practices, children get to see\n                    first-hand, the results and impending perils of modernization and lay the foundational\n                    understanding towards the culture of conservation and sustainable living. "
+                  "With direct examples of application of various sustainable practices, children get to see first-hand, the results and impending perils of modernization and lay the foundational understanding towards the culture of conservation and sustainable living."
                 )
               ]),
               _vm._v(" "),
@@ -25431,7 +25332,7 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "alt-body" }, [
                 _vm._v(
-                  "At the end of the day, children get to combine everything they have learnt into producing art and craft on the concepts covered."
+                  "At the end of the day, children get to combine everything they have learnt into producing art and craft on the concepts covered.\n                "
                 )
               ]),
               _vm._v(" "),
@@ -25525,7 +25426,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "quote" }, [
                   _c("p", { staticClass: "alt-body" }, [
                     _vm._v(
-                      '\n                                    "We were looking out for such an experience for our students. Organo@School turned out to be an enriching and life changing experience not only for them, but for me as an educator as well.\n                                '
+                      '\n                                    "We were looking out for such an experience for our students. Organo@School turned out to be an enriching and life changing experience not only for them, but for me as an educator as well.\n\n\n                                '
                     )
                   ]),
                   _vm._v(" "),
@@ -26096,7 +25997,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("h3", { staticClass: "font-normal max-w-5xl mx-auto" }, [
               _vm._v(
-                "We are a group of Architects, Designers and\n                        Visionaries with a wide range of subject-matter expertise, focusing our efforts towards designing, building and developing sustainable\n                        eco-habitats."
+                "We are a group of Architects, Designers and\n                        Visionaries with a wide range of subject-matter expertise, focusing our efforts towards\n                        designing, building and developing sustainable eco-habitats."
               )
             ])
           ])
@@ -26124,7 +26025,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
-                  "We eliminate the unnecessary without losing intent and finding the\n                            best solution for a problem in the simplest way possible.\n                        "
+                  "We eliminate the unnecessary, without losing\n                            intent and find the best solution for a problem in the simplest way possible.\n                        "
                 )
               ])
             ]),
@@ -26139,7 +26040,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
-                  "Fearlessly collaborate and benefit from a wide range of skill to\n                            generate synergies between the team.\n                        "
+                  "Fearlessly collaborate and benefit from a wide\n                            range of skills to generate synergies between the team.\n                        "
                 )
               ])
             ]),
@@ -26154,7 +26055,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
-                  "We take responsibility and full ownership of our efforts and\n                            outcomes to make sure we deliver value, every time.\n                        "
+                  "We take responsibility and complete ownership\n                            of our efforts and outcomes to make sure we deliver value, every time.\n                        "
                 )
               ])
             ]),
@@ -26169,7 +26070,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
-                  "We get out of our comfort zone and endlessly learn to adapt in an\n                            ever-changing environment. We persevere to deliver the promised experience, no matter\n                            what it takes.\n                        "
+                  "We get out of our comfort zone and endlessly\n                            learn to adapt in an ever-changing environment. We persevere to deliver the promised\n                            experience, no matter what it takes.\n                        "
                 )
               ])
             ]),
@@ -26184,7 +26085,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
-                  "We don’t judge. We try to understand by observing your needs and\n                            listening without prejudice.\n                        "
+                  "We don’t judge. We try to understand by\n                            observing your needs and listening without prejudice.\n                        "
                 )
               ])
             ])
@@ -26223,7 +26124,7 @@ var staticRenderFns = [
               _c("div", { staticClass: "award" }, [
                 _c("h3", [
                   _vm._v(
-                    "India Green Building Council certified Naandi as to have successfully achieved the Green Building Standards under IGBC Home Platinum"
+                    "India Green Building Council certified Naandi as to have successfully achieved the Green\n                        Building Standards under IGBC Home Platinum"
                   )
                 ])
               ]),
@@ -43717,9 +43618,46 @@ var routes = [{
 }, {
   path: '/styleguide',
   component: _components_pages_StyleGuideComponent__WEBPACK_IMPORTED_MODULE_11__["default"]
+}, //old links
+{
+  path: '/farm-house',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/concepts',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/experience-organo',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/organo-at-school',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/our-story',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/blog',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/contact',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/jalam',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/organic-veggies-fruits',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/earthen-ware',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/garden-tools',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, {
+  path: '/wp-content',
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
   path: '*',
-  component: _components_pages_NotFoundComponent__WEBPACK_IMPORTED_MODULE_12__["default"]
+  component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   mode: 'history',

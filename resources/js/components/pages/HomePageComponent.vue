@@ -47,8 +47,7 @@
                 <h1>Co-creating eco-habitats that celebrate living</h1>
                 <div class="separator"></div>
                 <div class="sm:hidden mb-6"></div>
-                <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
-                    into the natural world, supportive of a healthy way of living.</p>
+                <p class="hl-body">Organo builds fully-featured sustainable living environments harmlessly integrated into the natural world, supporting a healthy way of living.</p>
                 <div class="button-block">
                     <div class="lg-button inline-block">
                         <span class="text" @click="modalShowing = true">Watch Video</span>
@@ -63,7 +62,6 @@
             </div>
         </VideoHeaderComponent>
 
-
         <section id="rurbanism">
             <div class="container mx-auto">
                 <div class="illustration lg-only">
@@ -73,36 +71,23 @@
                     <!--<img :src="'/static/illustrations/all_efforts.png'" alt="">-->
                 </div>
                 <div class="max-w-6xl mb-12">
-                    <h2>We've taken up the challenge of developing eco-habitats thriving a balanced harmony,
-                        integrated with nature. Combining the best of the urban and the rural worlds, we have created a
-                        new ‘Rurban’ way of life.</h2>
+                    <h2>We've taken up the challenge of developing eco-habitats thriving in harmony, integrated with nature. Combining the best of the urban and rural worlds, we have created a new ‘Rurban’ way of life.</h2>
                 </div>
 
                 <div class="key-points max-w-2xl mb-12">
                     <div class="point mb-10">
-                        <h3 class="mb-2">A new way of living to counter rapid urbanization. We call it Rurban
-                            Living.</h3>
-                        <p class="alt-body">The benefits of urbanization and the feel of a rural environment brings
-                            together the best of both worlds. Organo offers an integrated alternate-living experience
-                            where residents could take part in natural farming and other collective activities, while
-                            maintaining their private space.</p>
+                        <h3 class="mb-2">A new way of living to counter rapid urbanization; we call it Rurban Living.</h3>
+                        <p class="alt-body">The benefits of urbanization and the feel of a rural environment brings together the best of both worlds. Organo offers an integrated alternate-living experience where residents could take part in natural farming and other collective activities, while maintaining their own private space.</p>
                     </div>
 
                     <div class="point mb-10">
-                        <h3 class="mb-2">Prosper in nature and live a healthy life while maintaining balance and
-                            sustainability.</h3>
-                        <p class="alt-body">Sustainability, biodiversity, harnessing natural resources and natural
-                            living are at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of
-                            sustainable living’ help us individually focus on sustainable development in each of the
-                            distinct areas.</p>
+                        <h3 class="mb-2">Prosper in nature and live a healthy life while maintaining balance and sustainability.</h3>
+                        <p class="alt-body">Sustainability, biodiversity, harnessing natural resources for a natural way of living are at the driving principles of Organo. Sapthapatha, or the ‘Seven strands of sustainable living’ help us individually focus on sustainable development in each of these distinct areas.</p>
                     </div>
 
                     <div class="point mb-10">
                         <h3 class="mb-2">Our core philosophy is ‘Samavriddhi’ or ‘Prosperity for all’.</h3>
-                        <p class="alt-body">We are responsible for all the stakeholders and environmental concerns
-                            equally. It helps us create community development models on triple-bottom-line success
-                            (Social, environmental and economic ares) and net-zero thinking. This also led us to create
-                            'Sapthapatha', the seven strands of sustainable development.</p>
+                        <p class="alt-body">We are responsible for all the stakeholders and environmental concerns equally. It helps us create community development models on triple-bottom-line success (Social, environmental and economic ares) and net-zero thinking. This also led us to create 'Sapthapatha', the seven strands of sustainable development.</p>
                     </div>
                 </div>
 
@@ -156,11 +141,12 @@
                             <div class="quote">
                                 <h2 class="mb-6">Words from a Naandian:</h2>
                                 <p class="alt-body">
-                                    "I had to take a detour from my hectic life and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we consumed poison.
+                                    "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."
+
+
                                 </p>
                                 <p class="alt-body">
-                                    Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with  comfort as I know exactly how naturally it was grown.
-                                    "
+                                    Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown. "
                                 </p>
 
                                 <div class="mb-8"></div>
@@ -184,8 +170,7 @@
             <div class="container mx-auto text-center">
 
                     <div class="max-w-4xl mx-auto mb-16">
-                        <h2 class="mb-6">Experience Rurbanism first-hand and learn to practice sustainable living through one of
-                            our recurring <span class="highlight">events</span>:</h2>
+                        <h2 class="mb-6">Experience Rurbanism first-hand and practice sustainable living through one of our recurring events:</h2>
 
                         <!--<div class="txt-btn md">Get updates</div>-->
                     </div>
@@ -199,8 +184,7 @@
 
                             <h3 class="event-name">Organo@School</h3>
                             <p class="alt-body event-desc">
-                                A day long event that academic institutions can bring their students to experience
-                                nature, filled with fun activities and informational sessions on Sustainability.</p>
+                                A day long event when academic institutions can bring their students to experience nature, filled with fun activities and informational sessions on Sustainability.</p>
 
 
                         </div>
@@ -210,9 +194,7 @@
                 <div class="w-full lg:w-1/3 recurring-event">
                     <div class="content">
                         <h3 class="event-name">Be a Farmer</h3>
-                        <p class="alt-body event-desc">Build bonds between friends, family or team members working
-                            together on a natural farm. Teams or any homogeneous group can contact us to schedule
-                            the event.</p>
+                        <p class="alt-body event-desc">Build bonds between friends, family or team members working together on a natural farm. Teams or any homogeneous group can contact us to schedule an event.</p>
 
                     </div>
                 </div>
@@ -221,8 +203,7 @@
 
                         <h3 class="event-name">Sustainability Workshops</h3>
                         <p class="alt-body event-desc">
-                            Be informed about various aspects of sustainable living straight from experts in the
-                            field through one of our experiential workshops.
+                            Stay informed about various aspects of sustainable living, straight from experts in the field, through one of our experiential workshops.
                         </p>
 
 
