@@ -2825,6 +2825,57 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -23866,7 +23917,7 @@ var staticRenderFns = [
           _c("h2", { staticClass: "text-center" }, [_vm._v("Spotlight")]),
           _vm._v(" "),
           _c("div", { staticClass: "flex" }, [
-            _c("div", { staticClass: "article-item" }, [
+            _c("div", { staticClass: "article-item w-full lg:w-1/3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
                   attrs: {
@@ -23881,11 +23932,11 @@ var staticRenderFns = [
                   _vm._v("Every Naandian is a farmer!")
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "date" }),
+                _c("div", { staticClass: "date" }, [_vm._v("Aug 22, 2019")]),
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    "They are professionals by the weekday and community farmers by the weekend. They grow\n                            their own vegetables and fruits, breed their own chicken and raise their own cattle for\n                            fresh milk."
+                    "They are professionals by the weekday and community farmers by the weekend. They grow\n                            their own vegetables and fruits, breed their own chicken and raise their own cattle for\n                            fresh milk. Apart from this, they engage..."
                   )
                 ]),
                 _vm._v(" "),
@@ -23895,7 +23946,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "article-item" }, [
+            _c("div", { staticClass: "article-item w-full lg:w-1/3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
                   attrs: {
@@ -23907,14 +23958,14 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "text-content" }, [
                 _c("h3", { staticClass: "article-title" }, [
-                  _vm._v("Every Naandian is a farmer!")
+                  _vm._v("Role of Therapeutic Food")
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "date" }),
+                _c("div", { staticClass: "date" }, [_vm._v("May 12, 2019")]),
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    "They are professionals by the weekday and community farmers by the weekend. They grow\n                            their own vegetables and fruits, breed their own chicken and raise their own cattle for\n                            fresh milk."
+                    "At Organo, every element of nature – air, water, earth – is harnessed, preserved and\n                            nourished. According to ayurveda, human physiology is a reflection of the laws of the\n                            universe, and the more in tune our lives are with nature, the healthier..."
                   )
                 ]),
                 _vm._v(" "),
@@ -23922,7 +23973,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "article-item" }, [
+            _c("div", { staticClass: "article-item w-full lg:w-1/3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
                   attrs: {
@@ -23937,11 +23988,15 @@ var staticRenderFns = [
                   _vm._v("Every Naandian is a farmer!")
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "date" }),
+                _c("div", { staticClass: "date" }, [
+                  _vm._v(
+                    "\n                            May 09, 2019\n                        "
+                  )
+                ]),
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    "They are professionals by the weekday and community farmers by the weekend. They grow\n                            their own vegetables and fruits, breed their own chicken and raise their own cattle for\n                            fresh milk."
+                    "Tremendous amount of energy is gathered around the Agnihotra copper pyramid just at\n                            Agnihotra time. A magnetic-type field is created, which neutralizes negative energies\n                            and reinforces positive energies. – Jaya Prakash, Architect, Vaastu..."
                   )
                 ]),
                 _vm._v(" "),
@@ -23999,7 +24054,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "image" }, [
                       _c("img", {
                         attrs: {
-                          src: "/static/editorial/wide/agnihotra.jpg",
+                          src: "/static/editorial/wide/naandians.jpg",
                           alt: ""
                         }
                       })
@@ -24009,14 +24064,99 @@ var staticRenderFns = [
                       _c("h4", [_vm._v("Every Naandian is a farmer!")]),
                       _vm._v(" "),
                       _c("div", { staticClass: "date" }, [
-                        _vm._v(
-                          "\n                                    February 2019\n                                "
-                        )
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("Aug 22, 2019")
+                        ])
                       ]),
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "They are professionals by the weekday and community farmers by the weekend. They\n                                    grow their own vegetables and fruits, breed their own chicken and raise their\n                                    own cattle for fresh milk."
+                          "They are professionals by the weekday and community farmers by the weekend. They\n                                    grow their own vegetables and fruits, breed their own chicken and raise their\n                                    own cattle for fresh milk. Apart from this, they engage in nature’s bounty with\n                                    serene pockets of mini forests, landscaping and water bodies that are habitats\n                                    for birds, animals, insects and aqua life."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "articles-feed-item" }, [
+                    _c("div", { staticClass: "image" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/editorial/wide/therafood.jpg",
+                          alt: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "text-content" }, [
+                      _c("h4", [_vm._v("Role of Therapeutic Food")]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "date" }, [
+                        _vm._v("May 12, 2019")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "At Organo, every element of nature – air, water, earth – is harnessed, preserved\n                                    and nourished. According to ayurveda, human physiology is a reflection of the\n                                    laws of the universe, and the more in tune our lives are with nature, the\n                                    healthier we will be! Our bodies possess the natural intelligence to process\n                                    foods that are closest to nature, such as fresh whole grains and\n                                    organically-grown fruits and vegetables."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "articles-feed-item" }, [
+                    _c("div", { staticClass: "image" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/editorial/wide/agnihotra.jpg",
+                          alt: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "text-content" }, [
+                      _c("h4", [_vm._v("The Power of Agnihotra")]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "date" }, [
+                        _vm._v("May 09, 2019")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Tremendous amount of energy is gathered around the Agnihotra copper pyramid just\n                                    at Agnihotra time. A magnetic-type field is created, which neutralizes negative\n                                    energies and reinforces positive energies. – Jaya Prakash, Architect, Vaastu &\n                                    Energy Expert – FHD Group Human beings have created problems for themselves with\n                                    their irresponsible greed for more."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "articles-feed-item" }, [
+                    _c("div", { staticClass: "image" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/editorial/wide/sparrow.jpg",
+                          alt: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "text-content" }, [
+                      _c("h4", [
+                        _vm._v(
+                          "Lost and Found - Mission Sparrow at Organo Naandi"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "date" }, [
+                        _vm._v("May 09, 2019")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Remember them? Our gentle little guests! Every morning they would wake us up with a familiar tune.\n                                    Perched on ledges and lofts, they would hop right inside our houses and in the balconies the whole\n                                    day, full of life, taking occasional tiny bites from our leftover supper. Nesting on low branches,\n                                    in our homes and in sheds, they would put a smile on our faces us no matter what. Sparrows have been\n                                    an integral part of our growing up years."
                         )
                       ]),
                       _vm._v(" "),

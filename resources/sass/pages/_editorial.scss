@@ -31,7 +31,6 @@
     margin-bottom: 6px;
   }
 
-
   p {
     font-size: 16px !important;
   }
@@ -44,6 +43,7 @@
   .date {
     opacity: 0.3;
     font-weight: bold;
+    margin-bottom: 12px;
   }
 
   #newsletter-section {
@@ -53,13 +53,20 @@
 
   #feed {
     h3 {
+      font-size: 28px;
       margin-bottom: 28px;
     }
     .image {
       margin-bottom: 12px;
     }
-    .flex>div {
+    .flex > div {
       padding: 0 15px;
+    }
+  }
+
+  #editorial-articles {
+    .articles-feed-item {
+      margin-bottom: 40px;
     }
   }
 
