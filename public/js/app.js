@@ -4551,6 +4551,293 @@ var team_list = [{
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/agnihotra.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/editorial/agnihotra.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/naandians.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/editorial/naandians.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/sparrows.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/editorial/sparrows.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/therafood.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/editorial/therafood.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {}
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/partials/FeatureComponent.vue?vue&type=script&lang=js&":
 /*!************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/partials/FeatureComponent.vue?vue&type=script&lang=js& ***!
@@ -24002,13 +24289,20 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "cta" }, [
-                  _c("a", { staticClass: "std-button", attrs: { href: "" } }, [
-                    _c("span", { staticClass: "text" }, [
-                      _vm._v(
-                        "\n                                    Read More\n                                "
-                      )
-                    ])
-                  ])
+                  _c(
+                    "a",
+                    {
+                      staticClass: "std-button",
+                      attrs: { href: "/editorial/naandians" }
+                    },
+                    [
+                      _c("span", { staticClass: "text" }, [
+                        _vm._v(
+                          "\n                                    Read More\n                                "
+                        )
+                      ])
+                    ]
+                  )
                 ])
               ])
             ]),
@@ -24037,13 +24331,20 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "cta" }, [
-                  _c("a", { staticClass: "std-button", attrs: { href: "" } }, [
-                    _c("span", { staticClass: "text" }, [
-                      _vm._v(
-                        "\n                            Read More\n                            "
-                      )
-                    ])
-                  ])
+                  _c(
+                    "a",
+                    {
+                      staticClass: "std-button",
+                      attrs: { href: "/editorial/therafood" }
+                    },
+                    [
+                      _c("span", { staticClass: "text" }, [
+                        _vm._v(
+                          "\n                            Read More\n                            "
+                        )
+                      ])
+                    ]
+                  )
                 ])
               ])
             ]),
@@ -24060,7 +24361,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "text-content" }, [
                 _c("h3", { staticClass: "article-title" }, [
-                  _vm._v("Every Naandian is a farmer!")
+                  _vm._v("The Power of Agnihotra")
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "date" }, [
@@ -24076,13 +24377,20 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "cta" }, [
-                  _c("a", { staticClass: "std-button", attrs: { href: "" } }, [
-                    _c("span", { staticClass: "text" }, [
-                      _vm._v(
-                        "\n                            Read More\n                            "
-                      )
-                    ])
-                  ])
+                  _c(
+                    "a",
+                    {
+                      staticClass: "std-button",
+                      attrs: { href: "/editorial/agnihotra" }
+                    },
+                    [
+                      _c("span", { staticClass: "text" }, [
+                        _vm._v(
+                          "\n                            Read More\n                            "
+                        )
+                      ])
+                    ]
+                  )
                 ])
               ])
             ])
@@ -24174,7 +24482,10 @@ var staticRenderFns = [
                         _c("div", { staticClass: "cta" }, [
                           _c(
                             "a",
-                            { staticClass: "std-button", attrs: { href: "" } },
+                            {
+                              staticClass: "std-button",
+                              attrs: { href: "/editorial/naandians" }
+                            },
                             [
                               _c("span", { staticClass: "text" }, [
                                 _vm._v(
@@ -24215,7 +24526,10 @@ var staticRenderFns = [
                         _c("div", { staticClass: "cta" }, [
                           _c(
                             "a",
-                            { staticClass: "std-button", attrs: { href: "" } },
+                            {
+                              staticClass: "std-button",
+                              attrs: { href: "/editorial/therafood" }
+                            },
                             [
                               _c("span", { staticClass: "text" }, [
                                 _vm._v(
@@ -24256,7 +24570,10 @@ var staticRenderFns = [
                         _c("div", { staticClass: "cta" }, [
                           _c(
                             "a",
-                            { staticClass: "std-button", attrs: { href: "" } },
+                            {
+                              staticClass: "std-button",
+                              attrs: { href: "/editorial/agnihotra" }
+                            },
                             [
                               _c("span", { staticClass: "text" }, [
                                 _vm._v(
@@ -24301,7 +24618,10 @@ var staticRenderFns = [
                         _c("div", { staticClass: "cta" }, [
                           _c(
                             "a",
-                            { staticClass: "std-button", attrs: { href: "" } },
+                            {
+                              staticClass: "std-button",
+                              attrs: { href: "/editorial/sparrows" }
+                            },
                             [
                               _c("span", { staticClass: "text" }, [
                                 _vm._v(
@@ -27122,6 +27442,428 @@ var staticRenderFns = [
         ])
       ]
     )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/agnihotra.vue?vue&type=template&id=8f9452a6&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/editorial/agnihotra.vue?vue&type=template&id=8f9452a6& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "editorial-template" } }, [
+      _c("article", [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "max-w-4xl px-4" }, [
+            _c("div", { staticClass: "article-header" }, [
+              _c("h3", { staticClass: "primary-color" }, [
+                _vm._v("Organo Editorial")
+              ]),
+              _vm._v(" "),
+              _c("h1", [_vm._v("The Power of Agnihotra")]),
+              _vm._v(" "),
+              _c("div", { staticClass: "date" }, [_vm._v("Aug 22, 2019")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "article-img" }, [
+              _c("img", {
+                attrs: { src: "/static/editorial/std/agnihotra.jpg", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "article-body" }, [
+              _c("p", [
+                _vm._v(
+                  "Tremendous amount of energy is gathered around the Agnihotra copper pyramid just at Agnihotra time. A magnetic-type field is created, which neutralizes negative energies and reinforces positive energies. – Jaya Prakash, Architect, Vaastu & Energy Expert – FHD Group"
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Human beings have created problems for themselves with their irresponsible greed for more by looting natural resources and destroying the environment. Our living spaces have become sources of imbalance which then translate into physical, mental and spiritual ill being of its residents."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "At Organo, we practise Agnihotra, a simple healing fire (Homa) taken from the ancient Vedic sciences of bio energy, psychotherapy, medicine, agriculture, biogenetics, climate engineering and interplanetary communication."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "The process involves the usage of a copper pyramid of a fixed size to light a healing fire. Copper and gold are the only metals prescribed for the pyramid container used for Agnihotra fire which acts as an antidote for all the problems we have created for ourselves and for the whole of nature."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "It is a process of purifying the atmosphere through a specially prepared fire with dried cow-dung cakes and putting some grains of rice & ghee into the fire exactly at sunrise and sunset to the accompaniment of two simple mantras. Agnihotra is tuned to the biorhythm corresponding to sunrise/sunset. Agnihotra is practised at regular intervals in Organo."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Tremendous amounts of energy is gathered around the Agnihotra copper pyramid just at Agnihotra time. A magnetic-type field is created, which neutralizes negative energies and reinforces positive energies. Therefore, a positive pattern is created by one who does Agnihotra merely by his/her performance. Agnihotra purifies the atmosphere of pollutants and neutralizes harmful radiation. The resultant atmosphere gives nourishment to plant life."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Agnihotra and Plants: The ghee is thrust into the atmosphere and attaches itself to the molecular structure of the soil, allowing the soil to retain more moisture. Plants grown in Agnihotra atmosphere are better able to withstand droughts. Agnihotra causes a change in the cellular structure of the plant which sends more nutrients to the fruit of the plant and less to the leaves, stem and roots."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Many people have found that the size, taste, texture and yield of fruits and vegetables grown in Agnihotra atmosphere are superior. Performance of Agnihotra in the garden reduces pest problems and organic gardening and farming are made easier by using Homa (healing fire) techniques."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Medicinal properties of Agnihotra: Agnihotra renews the brain cells, revitalizes the skin and purifies the blood. It is the holistic approach to life. Many people who are normally allergic to smoke experience a healing effect by sitting in Agnihotra atmosphere. The healing effects of Agnihotra are locked in the resultant ash. Thousands of people in different parts of the world have experienced wonderful healings of all types of ailments by using Agnihotra ash."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-8" }),
+            _vm._v(" "),
+            _c(
+              "a",
+              { staticClass: "lg-button ", attrs: { href: "/editorial" } },
+              [_vm._v("Back to Editorial Home")]
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/naandians.vue?vue&type=template&id=29408253&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/editorial/naandians.vue?vue&type=template&id=29408253& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "editorial-template" } }, [
+      _c("article", [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "max-w-4xl px-4" }, [
+            _c("div", { staticClass: "article-header" }, [
+              _c("h3", { staticClass: "primary-color" }, [
+                _vm._v("Organo Editorial")
+              ]),
+              _vm._v(" "),
+              _c("h1", [_vm._v("Every Naandian Is A Farmer!")]),
+              _vm._v(" "),
+              _c("div", { staticClass: "date" }, [_vm._v("Aug 22, 2019")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "article-img" }, [
+              _c("img", {
+                attrs: { src: "/static/editorial/std/naandian.jpg", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "article-body" }, [
+              _c("p", [
+                _vm._v(
+                  "They are professionals by the weekday and community farmers by the weekend. They grow their\n                        own vegetables and fruits, breed their own chicken and raise their own cattle for fresh\n                        milk. Apart from this, they engage in nature’s bounty with serene pockets of mini forests,\n                        landscaping and water bodies that are habitats for birds, animals, insects and aqua\n                        life."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "A new-age urban community driven passionately by the ethos of “agro-culture and sustainable\n                        organic farming”, Organo has developed India’s Largest collective Organic Farming Community.\n                        Thriving on the concept of ‘farm-to-table’, Organo offers its residents the best of both\n                        worlds – an urban lifestyle entrenched with the finer nuances of a rural life. The community\n                        uses the best of technology and nature for effective and productive organic farming.\n                        Organo is for those who are looking for an alternative urban, self-sustainable and healthy\n                        lifestyle, which respects nature and its resources without compromising on their comforts\n                        and conveniences. In other words, it is a community where residents live a life connected to\n                        the nature."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Spread across 35-acres in the lush green bio-conservation zone of Hyderabad – 9 kms. from\n                        APPA Junction on the Himayath Sagar – Chevella Road, it is for those who respect nature’s\n                        ways and want to lead a life of selfreliance through a completely sustainable organic way of\n                        living."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "It has been designed as aholistic farm, where farming It features community farming, personal\n                        farming,nursery, animal husbandry,forest plantation, medicinal plantation, aqua farming, api\n                        culture etc. Apart from a 16.5-acres community farm dedicated to various fruits and\n                        vegetables, every resident will have open spaces in their own farm plot to indulge in their\n                        choice of vegetables and fruits. Together, all these greatly benefit the residents in\n                        leading a sustainable and healthy lifestyle."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "A lot of research and detailing has gone into the design of the project to ensure that it is\n                        viable and appropriate for the residents in every which way. A group of passionate\n                        architects, organic farming professionals, organic product makers and other experts from\n                        diverse and related fields have come together to make Organo a pioneering model that will\n                        inspire a whole generation to shift to the organic way of life. It is an earnest attempt to\n                        re-establish connection with the lost thread of value systems, indigenous knowledge and\n                        technologies native to our land and harmonizing it to today’s necessities. This should be\n                        the start of a change that will help in conservation and enhancement of ecology in the\n                        surroundings and may be even further, in days to come. It’s all about Pooling!\n                        It is a farmer’s community that shares farming related infrastructure while enjoying the\n                        fruits of collective living. The profits of the farms are divided among its members.\n                        Collective farming has been successful where it is adopted as a choice in several\n                        countries."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "At Organo, we explore innovative organic farming methods by employing farming experts, to\n                        maximize the efficiency and effectiveness, in addition to enhancing the health of our\n                        community and the soil."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Knowledge systems: We have all gone through those phases when we wanted to become farmers or\n                        meddle with our home technologies to just run appliances with solar power. But, the\n                        maintenance, upkeep, the research time required for being able to do it is not our everyday\n                        luxury. Organo solves this with expert care for every indulgence to become self-sustainable.\n                        Grid- free power: To be self-reliable for energy needs is a far off aspiration even for\n                        major corporations as the sheer scale involved to be able to do that makes it impractical.\n                        This can be solved when more than 50 families come together – a microgrid, sharing power\n                        with a backup as the grid power can be established."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Water security: Water is a commodity that is a regional resource. Water management techniques\n                        like Rain Water Conservation work efficiently only when applied to a large parcel of\n                        land."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Labour management: One of the missions of Organo is to create a secondary income source for\n                        farmers and create employment plus skill development in surrounding villages, which give an\n                        opportunity to have ample work force to maintain Naandi."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Security: No amount of high-tech security measures can render the same peace of mind that a\n                        group of families living together can provide. A sense of belonging to a group provides\n                        reassurance to all."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-8" }),
+            _vm._v(" "),
+            _c(
+              "a",
+              { staticClass: "lg-button ", attrs: { href: "/editorial" } },
+              [_vm._v("Back Home")]
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/sparrows.vue?vue&type=template&id=332993e5&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/editorial/sparrows.vue?vue&type=template&id=332993e5& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "editorial-template" } }, [
+      _c("article", [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "article-header px-4" }, [
+            _c("h3", { staticClass: "primary-color" }, [
+              _vm._v("Organo Editorial")
+            ]),
+            _vm._v(" "),
+            _c("h1", [
+              _vm._v("Lost and Found - Mission Sparrow at Organo Naandi")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "date" }, [_vm._v("Aug 22, 2019")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "max-w-4xl px-4" }, [
+            _c("div", { staticClass: "article-img" }, [
+              _c("img", {
+                attrs: { src: "/static/editorial/std/therafood.jpg", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "article-body" }, [
+              _c("p", [
+                _vm._v(
+                  "Remember them? Our gentle little guests! Every morning they would wake us up with a familiar tune. Perched on ledges and lofts, they would hop right inside our houses and in the balconies the whole day, full of life, taking occasional tiny bites from our leftover supper. Nesting on low branches, in our homes and in sheds, they would put a smile on our faces us no matter what. Sparrows have been an integral part of our growing up years."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Knowingly or unknowingly, they’ve been our guests who greet us every day, our family, who share our home and food, our friends who never leave us alone. Their cute and chirpy presence, once a regularity is now a rarity. Once aplenty, now it is hard to find even one in today’s urban environment. All this happened in a span of just a few years."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Sparrows were mostly seen around human habitats. Earlier constructions allowed sparrows to nest in nooks and corners, but modern-day constructions don’t have space for birds. Also, with agricultural land moving away from the city, finding food in the concrete jungle is not easy for them."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Also evidence suggests that heavy vehicular pollution and cell phone tower radiation have impacted their existence. But, the fact that these birds are still seen in the outskirts where there is less pollution and radiation, gives us hope."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Organo aims to bring back the days of the sparrow. It actively supports the concepts of miniforest and little ponds to collect rain water and divert them to small wetlands, where indigenous aquatic plants can shelter and sustain species like the sparrows. For all we know, the little fella may be back for good."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "The International Union for Conservation of Nature (IUCN) – the world’s leading authority on biodiversity – estimates that in 2012 – 41% of all amphibians, 33% of all reef-building corals, 25% of all mammals and 13% of all birds are at imminent risk of extinction. Organo pledges to energize biodiversity. The sparrow is back at Organo. Come greet it, today!"
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-8" }),
+            _vm._v(" "),
+            _c(
+              "a",
+              { staticClass: "lg-button ", attrs: { href: "/editorial" } },
+              [_vm._v("Back to Editorial Home")]
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/therafood.vue?vue&type=template&id=0beea070&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/editorial/therafood.vue?vue&type=template&id=0beea070& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "editorial-template" } }, [
+      _c("article", [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _c("div", { staticClass: "article-header px-4" }, [
+            _c("h3", { staticClass: "primary-color" }, [
+              _vm._v("Organo Editorial")
+            ]),
+            _vm._v(" "),
+            _c("h1", [_vm._v("The Role Of Therapeutic Food")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "date" }, [_vm._v("Aug 22, 2019")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "max-w-4xl px-4" }, [
+            _c("div", { staticClass: "article-img" }, [
+              _c("img", {
+                attrs: { src: "/static/editorial/std/therafood.jpg", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "article-body" }, [
+              _c("p", [
+                _vm._v(
+                  "At Organo, every element of nature – air, water, earth – is harnessed, preserved and\n                        nourished."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "According to ayurveda, human physiology is a reflection of the laws of the universe, and the\n                        more in tune our lives are with nature, the healthier we will be! Our bodies possess the\n                        natural intelligence to process foods that are closest to nature, such as fresh whole grains\n                        and organically-grown fruits and vegetables. This makes sense when we consider that we have\n                        evolved as a species over millions of years eating whole, natural foods. It is just in the\n                        last few hundred years that artificial ingredients and toxic pesticides have been introduced\n                        into the food chain. It is no wonder that the incidence of cancer has exploded in the last\n                        few centuries. When our bodies are thrown out of balance due to long-term exposure to toxins\n                        and from living an unhealthy lifestyle, the result is cancer. According to Ayurveda, cancer\n                        is one of the most extreme expressions of imbalance in the body. The social and long-term\n                        cure for cancer is cleaning up our environment and food chain. The increasing incidences of\n                        Irritable Bowel Syndrome, Fatigue, Obesity are all the results of consuming compromised and\n                        adulterated food. As we sow, so we reap. When we toxify our mother earth, the result is that\n                        our bodies become toxic."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Organo understands fully well that the only route to good health is to choose organic,\n                        unprocessed foods. At Organo, every element of nature – air, water, earth – is harnessed,\n                        preserved and nourished. Methods like Tunnel Drafting and Energy Modelling are implemented\n                        in an endeavour to maintain ecological balance. Organic farming is a way of life here. The\n                        vegetables, fruits and herbs grown organically ensure good health of the Naandians."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-8" }),
+            _vm._v(" "),
+            _c(
+              "a",
+              { staticClass: "lg-button ", attrs: { href: "/editorial" } },
+              [_vm._v("Back to Editorial Home")]
+            )
+          ])
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -44105,6 +44847,282 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/pages/editorial/agnihotra.vue":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/agnihotra.vue ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _agnihotra_vue_vue_type_template_id_8f9452a6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./agnihotra.vue?vue&type=template&id=8f9452a6& */ "./resources/js/components/pages/editorial/agnihotra.vue?vue&type=template&id=8f9452a6&");
+/* harmony import */ var _agnihotra_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./agnihotra.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/editorial/agnihotra.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _agnihotra_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _agnihotra_vue_vue_type_template_id_8f9452a6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _agnihotra_vue_vue_type_template_id_8f9452a6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/pages/editorial/agnihotra.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/agnihotra.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/agnihotra.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_agnihotra_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./agnihotra.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/agnihotra.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_agnihotra_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/agnihotra.vue?vue&type=template&id=8f9452a6&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/agnihotra.vue?vue&type=template&id=8f9452a6& ***!
+  \**********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_agnihotra_vue_vue_type_template_id_8f9452a6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./agnihotra.vue?vue&type=template&id=8f9452a6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/agnihotra.vue?vue&type=template&id=8f9452a6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_agnihotra_vue_vue_type_template_id_8f9452a6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_agnihotra_vue_vue_type_template_id_8f9452a6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/naandians.vue":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/naandians.vue ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _naandians_vue_vue_type_template_id_29408253___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./naandians.vue?vue&type=template&id=29408253& */ "./resources/js/components/pages/editorial/naandians.vue?vue&type=template&id=29408253&");
+/* harmony import */ var _naandians_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./naandians.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/editorial/naandians.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _naandians_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _naandians_vue_vue_type_template_id_29408253___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _naandians_vue_vue_type_template_id_29408253___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/pages/editorial/naandians.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/naandians.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/naandians.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_naandians_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./naandians.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/naandians.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_naandians_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/naandians.vue?vue&type=template&id=29408253&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/naandians.vue?vue&type=template&id=29408253& ***!
+  \**********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_naandians_vue_vue_type_template_id_29408253___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./naandians.vue?vue&type=template&id=29408253& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/naandians.vue?vue&type=template&id=29408253&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_naandians_vue_vue_type_template_id_29408253___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_naandians_vue_vue_type_template_id_29408253___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/sparrows.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/sparrows.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _sparrows_vue_vue_type_template_id_332993e5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sparrows.vue?vue&type=template&id=332993e5& */ "./resources/js/components/pages/editorial/sparrows.vue?vue&type=template&id=332993e5&");
+/* harmony import */ var _sparrows_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sparrows.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/editorial/sparrows.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _sparrows_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _sparrows_vue_vue_type_template_id_332993e5___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _sparrows_vue_vue_type_template_id_332993e5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/pages/editorial/sparrows.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/sparrows.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/sparrows.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_sparrows_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./sparrows.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/sparrows.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_sparrows_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/sparrows.vue?vue&type=template&id=332993e5&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/sparrows.vue?vue&type=template&id=332993e5& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sparrows_vue_vue_type_template_id_332993e5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./sparrows.vue?vue&type=template&id=332993e5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/sparrows.vue?vue&type=template&id=332993e5&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sparrows_vue_vue_type_template_id_332993e5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sparrows_vue_vue_type_template_id_332993e5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/therafood.vue":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/therafood.vue ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _therafood_vue_vue_type_template_id_0beea070___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./therafood.vue?vue&type=template&id=0beea070& */ "./resources/js/components/pages/editorial/therafood.vue?vue&type=template&id=0beea070&");
+/* harmony import */ var _therafood_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./therafood.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/editorial/therafood.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _therafood_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _therafood_vue_vue_type_template_id_0beea070___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _therafood_vue_vue_type_template_id_0beea070___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/pages/editorial/therafood.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/therafood.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/therafood.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_therafood_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./therafood.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/therafood.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_therafood_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/editorial/therafood.vue?vue&type=template&id=0beea070&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/pages/editorial/therafood.vue?vue&type=template&id=0beea070& ***!
+  \**********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_therafood_vue_vue_type_template_id_0beea070___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./therafood.vue?vue&type=template&id=0beea070& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/editorial/therafood.vue?vue&type=template&id=0beea070&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_therafood_vue_vue_type_template_id_0beea070___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_therafood_vue_vue_type_template_id_0beea070___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/partials/FeatureComponent.vue":
 /*!***************************************************************!*\
   !*** ./resources/js/components/partials/FeatureComponent.vue ***!
@@ -44672,16 +45690,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_pages_TeamPageComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/pages/TeamPageComponent */ "./resources/js/components/pages/TeamPageComponent.vue");
 /* harmony import */ var _components_pages_EcoHabitatPageComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/pages/EcoHabitatPageComponent */ "./resources/js/components/pages/EcoHabitatPageComponent.vue");
 /* harmony import */ var _components_pages_NaandiPageComponent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/pages/NaandiPageComponent */ "./resources/js/components/pages/NaandiPageComponent.vue");
-/* harmony import */ var _components_pages_EditorialPageComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/pages/EditorialPageComponent */ "./resources/js/components/pages/EditorialPageComponent.vue");
-/* harmony import */ var _components_pages_EventsPageComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/pages/EventsPageComponent */ "./resources/js/components/pages/EventsPageComponent.vue");
-/* harmony import */ var _components_pages_SustainableLivingPageComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/pages/SustainableLivingPageComponent */ "./resources/js/components/pages/SustainableLivingPageComponent.vue");
-/* harmony import */ var _components_pages_SchoolPageComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/pages/SchoolPageComponent */ "./resources/js/components/pages/SchoolPageComponent.vue");
-/* harmony import */ var _components_pages_GalleryPageComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/pages/GalleryPageComponent */ "./resources/js/components/pages/GalleryPageComponent.vue");
-/* harmony import */ var _components_pages_PressPageComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/pages/PressPageComponent */ "./resources/js/components/pages/PressPageComponent.vue");
-/* harmony import */ var _components_pages_ContactPageComponent__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/pages/ContactPageComponent */ "./resources/js/components/pages/ContactPageComponent.vue");
-/* harmony import */ var _components_pages_StyleGuideComponent__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pages/StyleGuideComponent */ "./resources/js/components/pages/StyleGuideComponent.vue");
-/* harmony import */ var _components_pages_NotFoundComponent__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/pages/NotFoundComponent */ "./resources/js/components/pages/NotFoundComponent.vue");
-/* harmony import */ var _components_pages_GalleryAlbumComponent__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/pages/GalleryAlbumComponent */ "./resources/js/components/pages/GalleryAlbumComponent.vue");
+/* harmony import */ var _components_pages_EventsPageComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/pages/EventsPageComponent */ "./resources/js/components/pages/EventsPageComponent.vue");
+/* harmony import */ var _components_pages_SustainableLivingPageComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/pages/SustainableLivingPageComponent */ "./resources/js/components/pages/SustainableLivingPageComponent.vue");
+/* harmony import */ var _components_pages_SchoolPageComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/pages/SchoolPageComponent */ "./resources/js/components/pages/SchoolPageComponent.vue");
+/* harmony import */ var _components_pages_GalleryPageComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/pages/GalleryPageComponent */ "./resources/js/components/pages/GalleryPageComponent.vue");
+/* harmony import */ var _components_pages_PressPageComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/pages/PressPageComponent */ "./resources/js/components/pages/PressPageComponent.vue");
+/* harmony import */ var _components_pages_ContactPageComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/pages/ContactPageComponent */ "./resources/js/components/pages/ContactPageComponent.vue");
+/* harmony import */ var _components_pages_StyleGuideComponent__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/pages/StyleGuideComponent */ "./resources/js/components/pages/StyleGuideComponent.vue");
+/* harmony import */ var _components_pages_NotFoundComponent__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pages/NotFoundComponent */ "./resources/js/components/pages/NotFoundComponent.vue");
+/* harmony import */ var _components_pages_GalleryAlbumComponent__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/pages/GalleryAlbumComponent */ "./resources/js/components/pages/GalleryAlbumComponent.vue");
+/* harmony import */ var _components_pages_EditorialPageComponent__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/pages/EditorialPageComponent */ "./resources/js/components/pages/EditorialPageComponent.vue");
+/* harmony import */ var _components_pages_editorial_naandians__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/pages/editorial/naandians */ "./resources/js/components/pages/editorial/naandians.vue");
+/* harmony import */ var _components_pages_editorial_therafood__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/pages/editorial/therafood */ "./resources/js/components/pages/editorial/therafood.vue");
+/* harmony import */ var _components_pages_editorial_agnihotra__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/pages/editorial/agnihotra */ "./resources/js/components/pages/editorial/agnihotra.vue");
+/* harmony import */ var _components_pages_editorial_sparrows__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/pages/editorial/sparrows */ "./resources/js/components/pages/editorial/sparrows.vue");
+
+
+
+
 
 
 
@@ -44718,23 +45744,23 @@ var routes = [{
   component: _components_pages_EcoHabitatPageComponent__WEBPACK_IMPORTED_MODULE_4__["default"]
 }, {
   path: '/organo-at-school',
-  component: _components_pages_SchoolPageComponent__WEBPACK_IMPORTED_MODULE_9__["default"]
+  component: _components_pages_SchoolPageComponent__WEBPACK_IMPORTED_MODULE_8__["default"]
 }, {
   path: '/sustainability-events',
-  component: _components_pages_EventsPageComponent__WEBPACK_IMPORTED_MODULE_7__["default"]
+  component: _components_pages_EventsPageComponent__WEBPACK_IMPORTED_MODULE_6__["default"]
 }, {
   path: '/press',
-  component: _components_pages_PressPageComponent__WEBPACK_IMPORTED_MODULE_11__["default"]
+  component: _components_pages_PressPageComponent__WEBPACK_IMPORTED_MODULE_10__["default"]
 }, {
   path: '/gallery/album/:album',
-  component: _components_pages_GalleryAlbumComponent__WEBPACK_IMPORTED_MODULE_15__["default"],
+  component: _components_pages_GalleryAlbumComponent__WEBPACK_IMPORTED_MODULE_14__["default"],
   props: true
 }, {
   path: '/gallery',
-  component: _components_pages_GalleryPageComponent__WEBPACK_IMPORTED_MODULE_10__["default"]
+  component: _components_pages_GalleryPageComponent__WEBPACK_IMPORTED_MODULE_9__["default"]
 }, {
   path: '/contact',
-  component: _components_pages_ContactPageComponent__WEBPACK_IMPORTED_MODULE_12__["default"]
+  component: _components_pages_ContactPageComponent__WEBPACK_IMPORTED_MODULE_11__["default"]
 }, // {
 //     path: '/styleguide',
 //     component: StyleGuide
@@ -44778,7 +45804,19 @@ var routes = [{
   component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
   path: '/editorial',
-  component: _components_pages_EditorialPageComponent__WEBPACK_IMPORTED_MODULE_6__["default"]
+  component: _components_pages_EditorialPageComponent__WEBPACK_IMPORTED_MODULE_15__["default"]
+}, {
+  path: '/editorial/naandians',
+  component: _components_pages_editorial_naandians__WEBPACK_IMPORTED_MODULE_16__["default"]
+}, {
+  path: '/editorial/therafood',
+  component: _components_pages_editorial_therafood__WEBPACK_IMPORTED_MODULE_17__["default"]
+}, {
+  path: '/editorial/agnihotra',
+  component: _components_pages_editorial_agnihotra__WEBPACK_IMPORTED_MODULE_18__["default"]
+}, {
+  path: '/editorial/sparrows',
+  component: _components_pages_editorial_sparrows__WEBPACK_IMPORTED_MODULE_19__["default"]
 }, {
   path: '*',
   component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]

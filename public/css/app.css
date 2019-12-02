@@ -11365,6 +11365,10 @@ video {
   z-index: auto;
 }
 
+.primary-color {
+  color: #5D3331 !important;
+}
+
 @font-face {
   font-family: "Aileron";
 
@@ -14204,6 +14208,21 @@ textarea {
 
 #editorial a:hover .text {
   border-bottom: 5px solid #ffde39;
+}
+
+#editorial-template {
+  padding: 120px 0;
+}
+
+#editorial-template .date {
+  padding: 10px 0;
+  font-size: 23px;
+  font-weight: bold;
+  opacity: 0.4;
+}
+
+#editorial-template .article-img {
+  padding: 30px 0;
 }
 
 nav .sd {

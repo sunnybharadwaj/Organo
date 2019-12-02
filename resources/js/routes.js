@@ -5,7 +5,7 @@ import AboutPage from './components/pages/AboutPageComponent'
 import TeamPage from './components/pages/TeamPageComponent'
 import EcoHabitatPage from './components/pages/EcoHabitatPageComponent'
 import NaandiPage from './components/pages/NaandiPageComponent'
-import EditorialPage from './components/pages/EditorialPageComponent'
+
 import EventsPage from './components/pages/EventsPageComponent'
 import SustainableLivingPage from './components/pages/SustainableLivingPageComponent'
 import SchoolPage from './components/pages/SchoolPageComponent'
@@ -15,6 +15,12 @@ import ContactPage from './components/pages/ContactPageComponent'
 import StyleGuide from './components/pages/StyleGuideComponent'
 import NotFound from './components/pages/NotFoundComponent'
 import GalleryAlbumComponent from './components/pages/GalleryAlbumComponent';
+
+import EditorialPage from './components/pages/EditorialPageComponent'
+import NaandiEditorial from './components/pages/editorial/naandians'
+import TheraEditorial from './components/pages/editorial/therafood'
+import AgniEditorial from './components/pages/editorial/agnihotra'
+import SparrowEditorial from './components/pages/editorial/sparrows'
 
 let routes = [
     {
@@ -122,6 +128,22 @@ let routes = [
     {
         path: '/editorial',
         component: EditorialPage
+    },
+    {
+        path: '/editorial/naandians',
+        component: NaandiEditorial
+    },
+    {
+        path: '/editorial/therafood',
+        component: TheraEditorial
+    },
+    {
+        path: '/editorial/agnihotra',
+        component: AgniEditorial
+    },
+    {
+        path: '/editorial/sparrows',
+        component: SparrowEditorial
     },
     {
         path: '*',

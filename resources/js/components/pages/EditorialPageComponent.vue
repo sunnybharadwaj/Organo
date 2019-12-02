@@ -32,7 +32,7 @@
                                 their own vegetables and fruits, breed their own chicken and raise their own cattle for
                                 fresh milk. Apart from this, they engage...</p>
                             <div class="cta">
-                                <a class="std-button" href="">
+                                <a class="std-button" href="/editorial/naandians">
                                     <span class="text">
                                         Read More
                                     </span></a></div>
@@ -50,7 +50,7 @@
                                 universe, and the more in tune our lives are with nature, the healthier...</p>
 
                             <div class="cta">
-                                <a href="" class="std-button"><span class="text">
+                                <a href="/editorial/therafood" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
                             </div>
@@ -61,7 +61,7 @@
                             <img src="/static/editorial/small/agnihotra.png" alt="">
                         </div>
                         <div class="text-content">
-                            <h3 class="article-title">Every Naandian is a farmer!</h3>
+                            <h3 class="article-title">The Power of Agnihotra</h3>
                             <div class="date">
                                 May 09, 2019
                             </div>
@@ -69,7 +69,7 @@
                                 Agnihotra time. A magnetic-type field is created, which neutralizes negative energies
                                 and reinforces positive energies. – Jaya Prakash, Architect, Vaastu...</p>
                             <div class="cta">
-                                <a href="" class="std-button"><span class="text">
+                                <a href="/editorial/agnihotra" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
                             </div>
@@ -133,7 +133,7 @@
                                             habitats
                                             for birds, animals, insects and aqua life.</p>
                                         <div class="cta">
-                                <a href="" class="std-button"><span class="text">
+                                <a href="/editorial/naandians" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
                             </div>
@@ -158,7 +158,7 @@
                                             foods that are closest to nature, such as fresh whole grains and
                                             organically-grown fruits and vegetables.</p>
                                         <div class="cta">
-                                <a href="" class="std-button"><span class="text">
+                                <a href="/editorial/therafood" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
                             </div>
@@ -186,7 +186,7 @@
                                             with
                                             their irresponsible greed for more.</p>
                                         <div class="cta">
-                                <a href="" class="std-button"><span class="text">
+                                <a href="/editorial/agnihotra" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
                             </div>
@@ -213,7 +213,7 @@
                                             what. Sparrows have been
                                             an integral part of our growing up years.</p>
                                         <div class="cta">
-                                <a href="" class="std-button"><span class="text">
+                                <a href="/editorial/sparrows" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
                             </div>
