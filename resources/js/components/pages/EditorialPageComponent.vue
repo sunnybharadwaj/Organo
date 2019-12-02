@@ -1,14 +1,14 @@
 <template>
     <div id="editorial">
-        <div class="container">
-            <div class="page-header">
-                <div class="text-center">
-                    <div class="max-w-5xl mx-auto">
+
+        <div class="page-header">
+            <div class="text-center">
+                <div class="max-w-5xl mx-auto">
+                    <div class="container">
                         <h1 class="mb-4">Organo Editorial</h1>
-                        <div class="max-w-3xl mx-auto">
-                            <h3>Moving the ecosystem ahead with leadership, design thinking and creative problem
-                                solving.
-                                Read about all of our efforts here.</h3>
+                        <div class="max-w-4xl mx-auto">
+                            <h3>We're moving the architectural ecosystem ahead with leadership, design thinking and creative problem
+                                solving. Read about all of our efforts here.</h3>
                         </div>
 
                     </div>
@@ -79,25 +79,25 @@
             </div>
         </div>
 
-        <div id="newsletter-section" class="bg-gray-200">
+        <div id="newsletter-section" class="">
             <div class="container">
                 <div class="newsletter-cta">
-                    <div class="flex">
-                        <div class="text-content">
-                            <h3>
-                                Newsletter
+                    <div class="flex content-end">
+                        <div class="text-content w-full  lg:w-9/12">
+                            <h3 class="primary-color">
+                                Book
                             </h3>
                             <h2>
-                                November 2019
+                                Organo - Volume 2
                             </h2>
-                            <div class="cta">
-                                <a href="" class="std-button"><span class="text">
-                                Read More
+                            <div class="cta mt-8">
+                                <a href="/static/editorial/organo_bookv2.pdf" target="_blank" class="lg-button"><span class="text">
+                                <h3>Download Digital Version</h3>
                                 </span></a>
                             </div>
                         </div>
-                        <div class="image">
-
+                        <div class="image w-full lg:w-3/12">
+                            <img src="/static/editorial/bookv2.jpg" alt="">
                         </div>
                     </div>
 
@@ -133,10 +133,10 @@
                                             habitats
                                             for birds, animals, insects and aqua life.</p>
                                         <div class="cta">
-                                <a href="/editorial/naandians" class="std-button"><span class="text">
+                                            <a href="/editorial/naandians" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
-                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -158,10 +158,10 @@
                                             foods that are closest to nature, such as fresh whole grains and
                                             organically-grown fruits and vegetables.</p>
                                         <div class="cta">
-                                <a href="/editorial/therafood" class="std-button"><span class="text">
+                                            <a href="/editorial/therafood" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
-                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -186,10 +186,10 @@
                                             with
                                             their irresponsible greed for more.</p>
                                         <div class="cta">
-                                <a href="/editorial/agnihotra" class="std-button"><span class="text">
+                                            <a href="/editorial/agnihotra" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
-                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -213,10 +213,10 @@
                                             what. Sparrows have been
                                             an integral part of our growing up years.</p>
                                         <div class="cta">
-                                <a href="/editorial/sparrows" class="std-button"><span class="text">
+                                            <a href="/editorial/sparrows" class="std-button"><span class="text">
                                 Read More
                                 </span></a>
-                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -299,7 +299,6 @@
             </div>
 
         </div>
-
 
 
     </div>

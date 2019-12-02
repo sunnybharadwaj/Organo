@@ -2934,7 +2934,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -24242,16 +24241,16 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { attrs: { id: "editorial" } }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "page-header" }, [
-          _c("div", { staticClass: "text-center" }, [
-            _c("div", { staticClass: "max-w-5xl mx-auto" }, [
+      _c("div", { staticClass: "page-header" }, [
+        _c("div", { staticClass: "text-center" }, [
+          _c("div", { staticClass: "max-w-5xl mx-auto" }, [
+            _c("div", { staticClass: "container" }, [
               _c("h1", { staticClass: "mb-4" }, [_vm._v("Organo Editorial")]),
               _vm._v(" "),
-              _c("div", { staticClass: "max-w-3xl mx-auto" }, [
+              _c("div", { staticClass: "max-w-4xl mx-auto" }, [
                 _c("h3", [
                   _vm._v(
-                    "Moving the ecosystem ahead with leadership, design thinking and creative problem\n                            solving.\n                            Read about all of our efforts here."
+                    "We're moving the architectural ecosystem ahead with leadership, design thinking and creative problem\n                            solving. Read about all of our efforts here."
                   )
                 ])
               ])
@@ -24398,47 +24397,51 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "bg-gray-200", attrs: { id: "newsletter-section" } },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "newsletter-cta" }, [
-              _c("div", { staticClass: "flex" }, [
-                _c("div", { staticClass: "text-content" }, [
-                  _c("h3", [
-                    _vm._v(
-                      "\n                            Newsletter\n                        "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("h2", [
-                    _vm._v(
-                      "\n                            November 2019\n                        "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "cta" }, [
-                    _c(
-                      "a",
-                      { staticClass: "std-button", attrs: { href: "" } },
-                      [
-                        _c("span", { staticClass: "text" }, [
-                          _vm._v(
-                            "\n                            Read More\n                            "
-                          )
-                        ])
-                      ]
-                    )
-                  ])
+      _c("div", { attrs: { id: "newsletter-section" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "newsletter-cta" }, [
+            _c("div", { staticClass: "flex content-end" }, [
+              _c("div", { staticClass: "text-content w-full  lg:w-9/12" }, [
+                _c("h3", { staticClass: "primary-color" }, [
+                  _vm._v(
+                    "\n                            Book\n                        "
+                  )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "image" })
+                _c("h2", [
+                  _vm._v(
+                    "\n                            Organo - Volume 2\n                        "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "cta mt-8" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "lg-button",
+                      attrs: {
+                        href: "/static/editorial/organo_bookv2.pdf",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("span", { staticClass: "text" }, [
+                        _c("h3", [_vm._v("Download Digital Version")])
+                      ])
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "image w-full lg:w-3/12" }, [
+                _c("img", {
+                  attrs: { src: "/static/editorial/bookv2.jpg", alt: "" }
+                })
               ])
             ])
           ])
-        ]
-      ),
+        ])
+      ]),
       _vm._v(" "),
       _c("div", { attrs: { id: "feed" } }, [
         _c("div", { staticClass: "container" }, [

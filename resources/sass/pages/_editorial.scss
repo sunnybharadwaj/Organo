@@ -5,8 +5,8 @@
   }
   .page-header {
     background: $highlight;
-    margin: 120px 0 60px;
-    padding: 80px 30px;
+    margin: 100px 0 60px;
+    padding: 160px 30px;
     h3 {
       font-weight: normal !important;
     }
@@ -47,8 +47,11 @@
   }
 
   #newsletter-section {
-    padding: 120px;
+    background:#ffcfa7;
     margin: 120px 0;
+    .text-content {
+      padding: 80px 0 40px;
+    }
   }
 
   #feed {

@@ -14109,8 +14109,8 @@ textarea {
 
 #editorial .page-header {
   background: #ffde39;
-  margin: 120px 0 60px;
-  padding: 80px 30px;
+  margin: 100px 0 60px;
+  padding: 160px 30px;
 }
 
 #editorial .page-header h3 {
@@ -14151,8 +14151,12 @@ textarea {
 }
 
 #editorial #newsletter-section {
-  padding: 120px;
+  background: #ffcfa7;
   margin: 120px 0;
+}
+
+#editorial #newsletter-section .text-content {
+  padding: 80px 0 40px;
 }
 
 #editorial #feed h3 {
