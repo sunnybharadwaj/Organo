@@ -1,13 +1,19 @@
 <template>
     <div>
-        <h1>Press Page</h1>
-        <ul>
-            <li>Press CTA</li>
-            <li>Press Releases</li>
-            <li>Press Coverage</li>
-            <li>CTAs</li>
-            <li>UpdatesCTAPartial</li>
-        </ul>
+        <div id="introduction">
+            Want to publish about us?
+            Talk to us
+            Download Press Kit
+        </div>
+
+        <div id="cta">
+            <div class="editorial"></div>
+            <div class="newsletter"></div>
+            <div class="gallery"></div>
+        </div>
+
+        Talk to us
+        Download Press Kit
     </div>
 </template>
 

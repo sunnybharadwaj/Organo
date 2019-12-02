@@ -29,6 +29,8 @@
                             <h2 class="album-name">@School Event</h2>
                         </div>
                     </router-link>
+
+                    <!--Videos-->
                 </div>
 
             </div>
