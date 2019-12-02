@@ -45770,6 +45770,21 @@ var routes = [{
   path: '/farm-house',
   component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
+  path: '/editorial',
+  component: _components_pages_EditorialPageComponent__WEBPACK_IMPORTED_MODULE_15__["default"]
+}, {
+  path: '/editorial/naandians',
+  component: _components_pages_editorial_naandians__WEBPACK_IMPORTED_MODULE_16__["default"]
+}, {
+  path: '/editorial/therafood',
+  component: _components_pages_editorial_therafood__WEBPACK_IMPORTED_MODULE_17__["default"]
+}, {
+  path: '/editorial/agnihotra',
+  component: _components_pages_editorial_agnihotra__WEBPACK_IMPORTED_MODULE_18__["default"]
+}, {
+  path: '/editorial/sparrows',
+  component: _components_pages_editorial_sparrows__WEBPACK_IMPORTED_MODULE_19__["default"]
+}, {
   path: '/concepts',
   component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
@@ -45802,21 +45817,6 @@ var routes = [{
 }, {
   path: '/wp-content',
   component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
-}, {
-  path: '/editorial',
-  component: _components_pages_EditorialPageComponent__WEBPACK_IMPORTED_MODULE_15__["default"]
-}, {
-  path: '/editorial/naandians',
-  component: _components_pages_editorial_naandians__WEBPACK_IMPORTED_MODULE_16__["default"]
-}, {
-  path: '/editorial/therafood',
-  component: _components_pages_editorial_therafood__WEBPACK_IMPORTED_MODULE_17__["default"]
-}, {
-  path: '/editorial/agnihotra',
-  component: _components_pages_editorial_agnihotra__WEBPACK_IMPORTED_MODULE_18__["default"]
-}, {
-  path: '/editorial/sparrows',
-  component: _components_pages_editorial_sparrows__WEBPACK_IMPORTED_MODULE_19__["default"]
 }, {
   path: '*',
   component: _components_pages_HomePageComponent__WEBPACK_IMPORTED_MODULE_1__["default"]

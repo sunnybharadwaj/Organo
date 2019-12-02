@@ -82,6 +82,26 @@ let routes = [
         component: HomePage
     },
     {
+        path: '/editorial',
+        component: EditorialPage
+    },
+    {
+        path: '/editorial/naandians',
+        component: NaandiEditorial
+    },
+    {
+        path: '/editorial/therafood',
+        component: TheraEditorial
+    },
+    {
+        path: '/editorial/agnihotra',
+        component: AgniEditorial
+    },
+    {
+        path: '/editorial/sparrows',
+        component: SparrowEditorial
+    },
+    {
         path: '/concepts',
         component: HomePage
     },
@@ -125,26 +145,8 @@ let routes = [
         path: '/wp-content',
         component: HomePage
     },
-    {
-        path: '/editorial',
-        component: EditorialPage
-    },
-    {
-        path: '/editorial/naandians',
-        component: NaandiEditorial
-    },
-    {
-        path: '/editorial/therafood',
-        component: TheraEditorial
-    },
-    {
-        path: '/editorial/agnihotra',
-        component: AgniEditorial
-    },
-    {
-        path: '/editorial/sparrows',
-        component: SparrowEditorial
-    },
+
+
     {
         path: '*',
         component: HomePage
