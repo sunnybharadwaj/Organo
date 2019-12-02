@@ -2876,6 +2876,65 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -23902,10 +23961,12 @@ var staticRenderFns = [
             _c("div", { staticClass: "max-w-5xl mx-auto" }, [
               _c("h1", { staticClass: "mb-4" }, [_vm._v("Organo Editorial")]),
               _vm._v(" "),
-              _c("h3", [
-                _vm._v(
-                  "Moving the ecosystem ahead with leadership, design thinking and creative problem solving.\n                        Read about all of our efforts here."
-                )
+              _c("div", { staticClass: "max-w-3xl mx-auto" }, [
+                _c("h3", [
+                  _vm._v(
+                    "Moving the ecosystem ahead with leadership, design thinking and creative problem\n                            solving.\n                            Read about all of our efforts here."
+                  )
+                ])
               ])
             ])
           ])
@@ -23941,7 +24002,13 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "cta" }, [
-                  _c("a", { attrs: { href: "" } }, [_vm._v("Read More")])
+                  _c("a", { staticClass: "std-button", attrs: { href: "" } }, [
+                    _c("span", { staticClass: "text" }, [
+                      _vm._v(
+                        "\n                                    Read More\n                                "
+                      )
+                    ])
+                  ])
                 ])
               ])
             ]),
@@ -23969,7 +24036,15 @@ var staticRenderFns = [
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                _c("div", { staticClass: "cta" }, [
+                  _c("a", { staticClass: "std-button", attrs: { href: "" } }, [
+                    _c("span", { staticClass: "text" }, [
+                      _vm._v(
+                        "\n                            Read More\n                            "
+                      )
+                    ])
+                  ])
+                ])
               ])
             ]),
             _vm._v(" "),
@@ -24000,7 +24075,15 @@ var staticRenderFns = [
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                _c("div", { staticClass: "cta" }, [
+                  _c("a", { staticClass: "std-button", attrs: { href: "" } }, [
+                    _c("span", { staticClass: "text" }, [
+                      _vm._v(
+                        "\n                            Read More\n                            "
+                      )
+                    ])
+                  ])
+                ])
               ])
             ])
           ])
@@ -24027,7 +24110,19 @@ var staticRenderFns = [
                     )
                   ]),
                   _vm._v(" "),
-                  _c("a", { attrs: { href: "" } }, [_vm._v("Download")])
+                  _c("div", { staticClass: "cta" }, [
+                    _c(
+                      "a",
+                      { staticClass: "std-button", attrs: { href: "" } },
+                      [
+                        _c("span", { staticClass: "text" }, [
+                          _vm._v(
+                            "\n                            Read More\n                            "
+                          )
+                        ])
+                      ]
+                    )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "image" })
@@ -24051,116 +24146,172 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "articles-feed" }, [
                   _c("div", { staticClass: "articles-feed-item" }, [
-                    _c("div", { staticClass: "image" }, [
-                      _c("img", {
-                        attrs: {
-                          src: "/static/editorial/wide/naandians.jpg",
-                          alt: ""
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-content" }, [
-                      _c("h4", [_vm._v("Every Naandian is a farmer!")]),
+                    _c("div", { staticClass: "max-w-2xl" }, [
+                      _c("div", { staticClass: "image" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "/static/editorial/wide/naandians.jpg",
+                            alt: ""
+                          }
+                        })
+                      ]),
                       _vm._v(" "),
-                      _c("div", { staticClass: "date" }, [
+                      _c("div", { staticClass: "text-content" }, [
+                        _c("h4", [_vm._v("Every Naandian is a farmer!")]),
+                        _vm._v(" "),
                         _c("div", { staticClass: "date" }, [
-                          _vm._v("Aug 22, 2019")
+                          _c("div", { staticClass: "date" }, [
+                            _vm._v("Aug 22, 2019")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "They are professionals by the weekday and community farmers by the weekend.\n                                        They\n                                        grow their own vegetables and fruits, breed their own chicken and raise\n                                        their\n                                        own cattle for fresh milk. Apart from this, they engage in nature’s bounty\n                                        with\n                                        serene pockets of mini forests, landscaping and water bodies that are\n                                        habitats\n                                        for birds, animals, insects and aqua life."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "cta" }, [
+                          _c(
+                            "a",
+                            { staticClass: "std-button", attrs: { href: "" } },
+                            [
+                              _c("span", { staticClass: "text" }, [
+                                _vm._v(
+                                  "\n                            Read More\n                            "
+                                )
+                              ])
+                            ]
+                          )
                         ])
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "They are professionals by the weekday and community farmers by the weekend. They\n                                    grow their own vegetables and fruits, breed their own chicken and raise their\n                                    own cattle for fresh milk. Apart from this, they engage in nature’s bounty with\n                                    serene pockets of mini forests, landscaping and water bodies that are habitats\n                                    for birds, animals, insects and aqua life."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "articles-feed-item" }, [
-                    _c("div", { staticClass: "image" }, [
-                      _c("img", {
-                        attrs: {
-                          src: "/static/editorial/wide/therafood.jpg",
-                          alt: ""
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-content" }, [
-                      _c("h4", [_vm._v("Role of Therapeutic Food")]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "date" }, [
-                        _vm._v("May 12, 2019")
+                    _c("div", { staticClass: "max-w-2xl" }, [
+                      _c("div", { staticClass: "image" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "/static/editorial/wide/therafood.jpg",
+                            alt: ""
+                          }
+                        })
                       ]),
                       _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "At Organo, every element of nature – air, water, earth – is harnessed, preserved\n                                    and nourished. According to ayurveda, human physiology is a reflection of the\n                                    laws of the universe, and the more in tune our lives are with nature, the\n                                    healthier we will be! Our bodies possess the natural intelligence to process\n                                    foods that are closest to nature, such as fresh whole grains and\n                                    organically-grown fruits and vegetables."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                      _c("div", { staticClass: "text-content" }, [
+                        _c("h4", [_vm._v("Role of Therapeutic Food")]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("May 12, 2019")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "At Organo, every element of nature – air, water, earth – is harnessed,\n                                        preserved\n                                        and nourished. According to ayurveda, human physiology is a reflection of\n                                        the\n                                        laws of the universe, and the more in tune our lives are with nature, the\n                                        healthier we will be! Our bodies possess the natural intelligence to process\n                                        foods that are closest to nature, such as fresh whole grains and\n                                        organically-grown fruits and vegetables."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "cta" }, [
+                          _c(
+                            "a",
+                            { staticClass: "std-button", attrs: { href: "" } },
+                            [
+                              _c("span", { staticClass: "text" }, [
+                                _vm._v(
+                                  "\n                            Read More\n                            "
+                                )
+                              ])
+                            ]
+                          )
+                        ])
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "articles-feed-item" }, [
-                    _c("div", { staticClass: "image" }, [
-                      _c("img", {
-                        attrs: {
-                          src: "/static/editorial/wide/agnihotra.jpg",
-                          alt: ""
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-content" }, [
-                      _c("h4", [_vm._v("The Power of Agnihotra")]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "date" }, [
-                        _vm._v("May 09, 2019")
+                    _c("div", { staticClass: "max-w-2xl" }, [
+                      _c("div", { staticClass: "image" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "/static/editorial/wide/agnihotra.jpg",
+                            alt: ""
+                          }
+                        })
                       ]),
                       _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Tremendous amount of energy is gathered around the Agnihotra copper pyramid just\n                                    at Agnihotra time. A magnetic-type field is created, which neutralizes negative\n                                    energies and reinforces positive energies. – Jaya Prakash, Architect, Vaastu &\n                                    Energy Expert – FHD Group Human beings have created problems for themselves with\n                                    their irresponsible greed for more."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                      _c("div", { staticClass: "text-content" }, [
+                        _c("h4", [_vm._v("The Power of Agnihotra")]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("May 09, 2019")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "Tremendous amount of energy is gathered around the Agnihotra copper pyramid\n                                        just\n                                        at Agnihotra time. A magnetic-type field is created, which neutralizes\n                                        negative\n                                        energies and reinforces positive energies. – Jaya Prakash, Architect, Vaastu\n                                        &\n                                        Energy Expert – FHD Group Human beings have created problems for themselves\n                                        with\n                                        their irresponsible greed for more."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "cta" }, [
+                          _c(
+                            "a",
+                            { staticClass: "std-button", attrs: { href: "" } },
+                            [
+                              _c("span", { staticClass: "text" }, [
+                                _vm._v(
+                                  "\n                            Read More\n                            "
+                                )
+                              ])
+                            ]
+                          )
+                        ])
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "articles-feed-item" }, [
-                    _c("div", { staticClass: "image" }, [
-                      _c("img", {
-                        attrs: {
-                          src: "/static/editorial/wide/sparrow.jpg",
-                          alt: ""
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-content" }, [
-                      _c("h4", [
-                        _vm._v(
-                          "Lost and Found - Mission Sparrow at Organo Naandi"
-                        )
+                    _c("div", { staticClass: "max-w-2xl" }, [
+                      _c("div", { staticClass: "image" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "/static/editorial/wide/sparrow.jpg",
+                            alt: ""
+                          }
+                        })
                       ]),
                       _vm._v(" "),
-                      _c("div", { staticClass: "date" }, [
-                        _vm._v("May 09, 2019")
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Remember them? Our gentle little guests! Every morning they would wake us up with a familiar tune.\n                                    Perched on ledges and lofts, they would hop right inside our houses and in the balconies the whole\n                                    day, full of life, taking occasional tiny bites from our leftover supper. Nesting on low branches,\n                                    in our homes and in sheds, they would put a smile on our faces us no matter what. Sparrows have been\n                                    an integral part of our growing up years."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                      _c("div", { staticClass: "text-content" }, [
+                        _c("h4", [
+                          _vm._v(
+                            "Lost and Found - Mission Sparrow at Organo Naandi"
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("May 09, 2019")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "Remember them? Our gentle little guests! Every morning they would wake us up\n                                        with a familiar tune.\n                                        Perched on ledges and lofts, they would hop right inside our houses and in\n                                        the balconies the whole\n                                        day, full of life, taking occasional tiny bites from our leftover supper.\n                                        Nesting on low branches,\n                                        in our homes and in sheds, they would put a smile on our faces us no matter\n                                        what. Sparrows have been\n                                        an integral part of our growing up years."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "cta" }, [
+                          _c(
+                            "a",
+                            { staticClass: "std-button", attrs: { href: "" } },
+                            [
+                              _c("span", { staticClass: "text" }, [
+                                _vm._v(
+                                  "\n                            Read More\n                            "
+                                )
+                              ])
+                            ]
+                          )
+                        ])
+                      ])
                     ])
                   ])
                 ])
@@ -24347,8 +24498,7 @@ var staticRenderFns = [
             )
           ])
         ])
-      ]),
-      _vm._v("\n\n    Subscribe for updates\n\n")
+      ])
     ])
   }
 ]

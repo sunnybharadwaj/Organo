@@ -14103,6 +14103,12 @@ textarea {
   padding: 0 25px;
 }
 
+#editorial .page-header {
+  background: #ffde39;
+  margin: 120px 0 60px;
+  padding: 80px 30px;
+}
+
 #editorial .page-header h3 {
   font-weight: normal !important;
 }
@@ -14134,13 +14140,8 @@ textarea {
   font-size: 16px !important;
 }
 
-#editorial .page-header {
-  margin-top: 100px;
-  padding: 60px 0;
-}
-
 #editorial .date {
-  opacity: 0.3;
+  opacity: 0.6;
   font-weight: bold;
   margin-bottom: 12px;
 }
@@ -14179,6 +14180,30 @@ textarea {
 
 #editorial .videos-feed-item {
   margin-bottom: 24px !important;
+}
+
+#editorial a {
+  display: inline-block;
+  padding: 6px 18px 18px 0;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+}
+
+#editorial a .text {
+  color: #5D3331;
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 5px solid white;
+}
+
+#editorial a:hover {
+  cursor: pointer;
+  color: #ffde39;
+}
+
+#editorial a:hover .text {
+  border-bottom: 5px solid #ffde39;
 }
 
 nav .sd {

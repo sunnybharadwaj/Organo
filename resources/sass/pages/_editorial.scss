@@ -4,6 +4,9 @@
     padding: 0 25px;
   }
   .page-header {
+    background: $highlight;
+    margin: 120px 0 60px;
+    padding: 80px 30px;
     h3 {
       font-weight: normal !important;
     }
@@ -35,13 +38,10 @@
     font-size: 16px !important;
   }
 
-  .page-header {
-    margin-top: 100px;
-    padding: 60px 0;
-  }
+
 
   .date {
-    opacity: 0.3;
+    opacity: 0.6;
     font-weight: bold;
     margin-bottom: 12px;
   }
@@ -82,4 +82,27 @@
   .videos-feed-item {
     margin-bottom: 24px !important;
   }
+
+  a {
+    display: inline-block;
+    padding: 6px 18px 18px 0;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.025em;
+    .text {
+      color: $primary-color;
+      display: inline-block;
+      padding-bottom: 5px;
+      border-bottom: 5px solid white;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: $highlight;
+      .text {
+        border-bottom: 5px solid $highlight;
+      }
+    }
+  }
 }
+
