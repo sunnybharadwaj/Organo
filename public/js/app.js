@@ -2707,6 +2707,124 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -23726,62 +23844,104 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "page-header" }, [
-        _c("div", { staticClass: "text-center" }, [
-          _c("h1", [_vm._v("Organo Editorial")]),
-          _vm._v(
-            "\n            Thought leadership\n            Moving the country ahead with design thinking and creative problem solving. Read about all of our efforts here.\n        "
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { attrs: { id: "spotlight" } }, [
-        _c("h2", [_vm._v("Spotlight")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "flex" }, [
-          _c("div", { staticClass: "article-item" }, [
-            _c("div", { staticClass: "image" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "text-content" }, [
-              _c("h3", [_vm._v("Every Naandian is a farmer!")]),
+    return _c("div", { attrs: { id: "editorial" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "page-header" }, [
+          _c("div", { staticClass: "text-center" }, [
+            _c("div", { staticClass: "max-w-5xl mx-auto" }, [
+              _c("h1", { staticClass: "mb-4" }, [_vm._v("Organo Editorial")]),
               _vm._v(" "),
-              _c("div", { staticClass: "date" }),
-              _vm._v(" "),
-              _c("p", [
+              _c("h3", [
                 _vm._v(
-                  "They are professionals by the weekday and community farmers by the weekend. They grow their own vegetables and fruits, breed their own chicken and raise their own cattle for fresh milk."
+                  "Moving the ecosystem ahead with leadership, design thinking and creative problem solving.\n                        Read about all of our efforts here."
                 )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+              ])
             ])
           ])
         ])
       ]),
       _vm._v(" "),
-      _c("div", { attrs: { id: "newsletter-section" } }, [
-        _c("div", { staticClass: "newsletter-cta" }, [
-          _vm._v(
-            "\n            Newsletter\n            November 2019\n            Download\n        "
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { attrs: { id: "feed" } }, [
-        _c("div", { attrs: { id: "editorial-articles" } }, [
-          _c("div", { staticClass: "articles-feed" }, [
-            _c("div", { staticClass: "articles-feed-item" }, [
-              _c("div", { staticClass: "image" }),
+      _c("div", { attrs: { id: "spotlight" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h2", { staticClass: "text-center" }, [_vm._v("Spotlight")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "flex" }, [
+            _c("div", { staticClass: "article-item" }, [
+              _c("div", { staticClass: "image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/static/editorial/small/naandian.png",
+                    alt: ""
+                  }
+                })
+              ]),
               _vm._v(" "),
               _c("div", { staticClass: "text-content" }, [
-                _c("h3", [_vm._v("Every Naandian is a farmer!")]),
+                _c("h3", { staticClass: "article-title" }, [
+                  _vm._v("Every Naandian is a farmer!")
+                ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "date" }),
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    "They are professionals by the weekday and community farmers by the weekend. They grow their own vegetables and fruits, breed their own chicken and raise their own cattle for fresh milk."
+                    "They are professionals by the weekday and community farmers by the weekend. They grow\n                            their own vegetables and fruits, breed their own chicken and raise their own cattle for\n                            fresh milk."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "cta" }, [
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Read More")])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "article-item" }, [
+              _c("div", { staticClass: "image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/static/editorial/small/therafood.png",
+                    alt: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "text-content" }, [
+                _c("h3", { staticClass: "article-title" }, [
+                  _vm._v("Every Naandian is a farmer!")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "date" }),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "They are professionals by the weekday and community farmers by the weekend. They grow\n                            their own vegetables and fruits, breed their own chicken and raise their own cattle for\n                            fresh milk."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "article-item" }, [
+              _c("div", { staticClass: "image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/static/editorial/small/agnihotra.png",
+                    alt: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "text-content" }, [
+                _c("h3", { staticClass: "article-title" }, [
+                  _vm._v("Every Naandian is a farmer!")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "date" }),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "They are professionals by the weekday and community farmers by the weekend. They grow\n                            their own vegetables and fruits, breed their own chicken and raise their own cattle for\n                            fresh milk."
                   )
                 ]),
                 _vm._v(" "),
@@ -23789,25 +23949,262 @@ var staticRenderFns = [
               ])
             ])
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { attrs: { id: "videos" } }, [
-          _c("div", { staticClass: "videos-feed" }, [
-            _c("div", { staticClass: "videos-feed-item" }, [
-              _c("div", { staticClass: "image" }, [
-                _c("a", { attrs: { href: "" } }, [
-                  _c("img", { attrs: { src: "", alt: "" } })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "text-content" }, [
-                _c("p", { staticClass: "title" }, [
-                  _vm._v("Every Naandian is a farmer!")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "date" })
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "bg-gray-200", attrs: { id: "newsletter-section" } },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "newsletter-cta" }, [
+              _c("div", { staticClass: "flex" }, [
+                _c("div", { staticClass: "text-content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                            Newsletter\n                        "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", [
+                    _vm._v(
+                      "\n                            November 2019\n                        "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Download")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "image" })
+              ])
             ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { attrs: { id: "feed" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "flex flex-wrap" }, [
+            _c(
+              "div",
+              {
+                staticClass: "w-full md:w-8/12",
+                attrs: { id: "editorial-articles" }
+              },
+              [
+                _c("h3", [_vm._v("Articles")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "articles-feed" }, [
+                  _c("div", { staticClass: "articles-feed-item" }, [
+                    _c("div", { staticClass: "image" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/editorial/wide/agnihotra.jpg",
+                          alt: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "text-content" }, [
+                      _c("h4", [_vm._v("Every Naandian is a farmer!")]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "date" }, [
+                        _vm._v(
+                          "\n                                    February 2019\n                                "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "They are professionals by the weekday and community farmers by the weekend. They\n                                    grow their own vegetables and fruits, breed their own chicken and raise their\n                                    own cattle for fresh milk."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "cta" }, [_vm._v("Read More")])
+                    ])
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "w-full md:w-4/12", attrs: { id: "videos" } },
+              [
+                _c("h3", [_vm._v("Videos")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "videos-feed" }, [
+                  _c("div", { staticClass: "videos-feed-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "block",
+                        attrs: {
+                          href: "https://www.youtube.com/watch?v=1E_UsUHwz2Y",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "image" }, [
+                          _c("img", {
+                            attrs: {
+                              src: "/static/editorial/videos/airquality.jpg",
+                              alt: ""
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "text-content" }, [
+                          _c("p", { staticClass: "title" }, [
+                            _vm._v(
+                              "Preserving the quality of air at Organo Naandi"
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("Nov 7, 2019")
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "videos-feed-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "block",
+                        attrs: {
+                          href: "https://www.youtube.com/watch?v=PUJmNFgjoAM",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "image" }, [
+                          _c("img", {
+                            attrs: {
+                              src: "/static/editorial/videos/clubhouse.jpg",
+                              alt: ""
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "text-content" }, [
+                          _c("p", { staticClass: "title" }, [
+                            _vm._v(
+                              "India's largest bamboo structure - Organo clubhouse"
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("Sep 18, 2017")
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "videos-feed-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "block",
+                        attrs: {
+                          href: "https://www.youtube.com/watch?v=dy0fQhBVoAQ",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "image" }, [
+                          _c("img", {
+                            attrs: {
+                              src: "/static/editorial/videos/farming.jpg",
+                              alt: ""
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "text-content" }, [
+                          _c("p", { staticClass: "title" }, [
+                            _vm._v("Farming at Organo")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("Aug 1, 2017")
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "videos-feed-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "block",
+                        attrs: {
+                          href: "https://www.youtube.com/watch?v=kJe8_p44LZM",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "image" }, [
+                          _c("img", {
+                            attrs: {
+                              src: "/static/editorial/videos/benefits.jpg",
+                              alt: ""
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "text-content" }, [
+                          _c("p", { staticClass: "title" }, [
+                            _vm._v("Benefits of Organo project")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("Aug 1, 2017")
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "videos-feed-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "block",
+                        attrs: {
+                          href: "https://www.youtube.com/watch?v=wUx6t9hIRvk",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "image" }, [
+                          _c("img", {
+                            attrs: {
+                              src: "/static/editorial/videos/school.jpg",
+                              alt: ""
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "text-content" }, [
+                          _c("p", { staticClass: "title" }, [
+                            _vm._v("Organo@School")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "date" }, [
+                          _vm._v("April 4, 2018")
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            )
           ])
         ])
       ]),
