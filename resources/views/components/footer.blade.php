@@ -59,6 +59,7 @@
                             <router-link to="/contact" class="footer-nav-link">Contact Us</router-link>
                         </div>
                         <div class="w-full md:w-full lg:w-4/12 flex flex-col">
+                            <router-link to="/editorial" class="footer-nav-link">Editorial</router-link>
                             <router-link to="/gallery" class="footer-nav-link">Gallery</router-link>
                             <router-link to="/organo-at-school" class="footer-nav-link">Organo@School</router-link>
 
