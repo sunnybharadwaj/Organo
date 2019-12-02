@@ -5,6 +5,8 @@ import AboutPage from './components/pages/AboutPageComponent'
 import TeamPage from './components/pages/TeamPageComponent'
 import EcoHabitatPage from './components/pages/EcoHabitatPageComponent'
 import NaandiPage from './components/pages/NaandiPageComponent'
+import EditorialPage from './components/pages/EditorialPageComponent'
+import EventsPage from './components/pages/EventsPageComponent'
 import SustainableLivingPage from './components/pages/SustainableLivingPageComponent'
 import SchoolPage from './components/pages/SchoolPageComponent'
 import GalleryPage from './components/pages/GalleryPageComponent'
@@ -43,10 +45,14 @@ let routes = [
         path: '/organo-at-school',
         component: SchoolPage
     },
-    // {
-    //     path: '/press',
-    //     component: PressPage
-    // },
+    {
+        path: '/sustainability-events',
+        component: EventsPage
+    },
+    {
+        path: '/press',
+        component: PressPage
+    },
     {
         path: '/gallery/album/:album',
         component: GalleryAlbumComponent,
@@ -112,6 +118,10 @@ let routes = [
     {
         path: '/wp-content',
         component: HomePage
+    },
+    {
+        path: '/editorial',
+        component: EditorialPage
     },
     {
         path: '*',

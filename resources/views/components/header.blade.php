@@ -54,57 +54,22 @@
                     <div class="link-group">
                         <div class="group-name">Media</div>
                         <div class="group-list">
+                            <router-link class="nav-anchor" to="/editorial"><span class="text">Editorial</span></router-link>
+                            <router-link class="nav-anchor" to="/press"><span class="text">Press</span></router-link>
                             <router-link class="nav-anchor" to="/gallery"><span class="text">Gallery</span></router-link>
                         </div>
                     </div>
                     <div class="link-group">
                         <div class="group-name">Events</div>
                         <div class="group-list">
+                            <router-link class="nav-anchor" to="/organo-at-school"><span class="text">Sustainability Events</span></router-link>
                             <router-link class="nav-anchor" to="/organo-at-school"><span class="text">@School</span></router-link>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="hidden">
-                    <div class="line-1">
-                    <span class="inline-block">
-                        <span class="block">
-                            <router-link class="nav-link" to="/company"><span class="text">Company</span></router-link>
-                        </span>
-                        <span class="block">
-                            <router-link class="nav-link" to="/team"><span class="text">Team</span></router-link>
-                        </span>
-                    </span>
 
-                        <span class="inline-block">
-                        <span class="block">
-                            <router-link class="nav-link" to="/eco-habitats"><span class="text">Eco-Habitats</span></router-link>
-                        </span>
-                        <span class="block">
-                            <router-link class="nav-link" to="/naandi"><span class="text">Naandi</span></router-link>
-                        </span>
-                    </span>
-
-                        <span class="inline-block">
-                        <span class="block">
-                            <a class="nav-link" href="#">Events</a>
-                        </span>
-                        <span class="block">
-                            <router-link class="nav-link" to="/organo-at-school"><span class="text">Organo@School</span></router-link>
-                        </span>
-                    </span>
-
-                        <span class="inline-block">
-                        <span class="block">
-                            <router-link class="nav-link" to="/gallery"><span class="text">Gallery</span></router-link>
-                        </span>
-                        <span class="block">
-                            <a class="nav-link" href="#">&nbsp;</a>
-                        </span>
-                    </span>
-                    </div>
-                </div>
 
 
 
