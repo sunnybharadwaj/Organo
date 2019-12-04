@@ -47,7 +47,7 @@
                 <h1>Co-creating eco-habitats that celebrate living</h1>
                 <div class="separator"></div>
                 <div class="sm:hidden mb-6"></div>
-                <p class="hl-body">Organo builds fully-featured sustainable living environments harmlessly integrated into the natural world, supporting a healthy way of living.</p>
+                <p class="hl-body">Organo builds a fully-featured sustainable living environment with the idea of co-creating spaces.</p>
                 <div class="button-block">
                     <div class="lg-button inline-block">
                         <span class="text" @click="modalShowing = true">Watch Video</span>
@@ -71,13 +71,13 @@
                     <!--<img :src="'/static/illustrations/all_efforts.png'" alt="">-->
                 </div>
                 <div class="max-w-6xl mb-12">
-                    <h2>We've taken up the challenge of developing eco-habitats thriving in harmony, integrated with nature. Combining the best of the urban and rural worlds, we have created a new ‘Rurban’ way of life.</h2>
+                    <h2>We have taken up the challenge of developing eco-habitats in harmony with nature. With the idea of combining the benefits of urban and rural, we have created- ‘Rurbran’ way of living.</h2>
                 </div>
 
                 <div class="key-points max-w-2xl mb-12">
                     <div class="point mb-10">
                         <h3 class="mb-2">A new way of living to counter rapid urbanization; we call it Rurban Living.</h3>
-                        <p class="alt-body">The benefits of urbanization and the feel of a rural environment brings together the best of both worlds. Organo offers an integrated alternate-living experience where residents could take part in natural farming and other collective activities, while maintaining their own private space.</p>
+                        <p class="alt-body">Organo offers an integrated alternative-living experience, where the residents can take part in natural farming and witness the food they eat. They also enjoy collective activities while maintaining their own private space.</p>
                     </div>
 
                     <div class="point mb-10">
@@ -87,7 +87,7 @@
 
                     <div class="point mb-10">
                         <h3 class="mb-2">Our core philosophy is ‘Samavriddhi’ or ‘Prosperity for all’.</h3>
-                        <p class="alt-body">We are responsible for all the stakeholders and environmental concerns equally. It helps us create community development models on triple-bottom-line success (Social, environmental and economic ares) and net-zero thinking. This also led us to create 'Sapthapatha', the seven strands of sustainable development.</p>
+                        <p class="alt-body">We are responsible for all the stakeholders and environmental concerns equally. It helps us create community development models on triple-bottom-line success (Social, environmental and economic areas) and net-zero thinking. This also led us to create 'Sapthapatha', the seven strands of sustainable development.</p>
                     </div>
                 </div>
 
@@ -170,7 +170,7 @@
             <div class="container mx-auto text-center">
 
                     <div class="max-w-4xl mx-auto mb-16">
-                        <h2 class="mb-6">Experience Rurbanism first-hand and practice sustainable living through one of our recurring events:</h2>
+                        <h2 class="mb-6">Experience Rurbanism first-hand and practice sustainable living through our events:</h2>
 
                         <!--<div class="txt-btn md">Get updates</div>-->
                     </div>
@@ -182,9 +182,10 @@
                     <router-link to="/organo-at-school">
                         <div class="content">
 
-                            <h3 class="event-name">Organo@School</h3>
+                            <h3 class="event-name">Organo @ School</h3>
                             <p class="alt-body event-desc">
-                                A day long event when academic institutions can bring their students to experience nature, filled with fun activities and informational sessions on Sustainability.</p>
+                                A Day event where academic institutions can bring their student to give an experience of our sustainability practices.  The event is filled with fun activities, informational sessions on sustainability and ideas of co-creating spaces.
+                            </p>
 
 
                         </div>
@@ -194,7 +195,7 @@
                 <div class="w-full lg:w-1/3 recurring-event">
                     <div class="content">
                         <h3 class="event-name">Be a Farmer</h3>
-                        <p class="alt-body event-desc">Build bonds between friends, family or team members working together on a natural farm. Teams or any homogeneous group can contact us to schedule an event.</p>
+                        <p class="alt-body event-desc">By building bonds between friends, family or team members by working together on natural farming. Teams or homogeneous groups can contact us to schedule an event to experience farming.</p>
 
                     </div>
                 </div>

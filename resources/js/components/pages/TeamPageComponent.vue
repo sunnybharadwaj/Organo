@@ -47,7 +47,7 @@
                         </div>
                         <div class="value">
                             <div class="heading"><h3><span class="hl">E</span>mpathy</h3></div>
-                            <div class="description alt-body font-normal">We don’t judge. We try to understand by
+                            <div class="description alt-body font-normal">We try to understand by
                                 observing your needs and listening without prejudice.
                             </div>
                         </div>

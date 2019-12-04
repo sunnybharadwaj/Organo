@@ -3314,6 +3314,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log(this.screenName);
@@ -23751,7 +23752,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    "Health is one of the primary concerns of the modern urban individual, with produce containing high levels of toxins. Having recognized this, we build our communities with Organic Agriculture at its center. Ecosystem first, inhabitation later."
+                    "Health is one of the primary concerns of the modern urban individual. Having recognized that the toxin levels in the crop produce, we build our communities with natural farming techniques. Making organic Agriculture as its center where we value the ecosystem first and inhabitants later."
                   )
                 ]),
                 _vm._v(" "),
@@ -23769,7 +23770,7 @@ var render = function() {
               _c("div", { attrs: { slot: "content" }, slot: "content" }, [
                 _c("h3", [
                   _vm._v(
-                    "Flora and Fauna necessary to create the sustainable cycle"
+                    "Flora and Fauna are essential to create the sustainable cycle"
                   )
                 ]),
                 _vm._v(" "),
@@ -23799,7 +23800,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    "Eco-habitats depend on its inhabitants for their conservation and sustainability. All our community members come together to create an environment of natural growth and sustenance. We offer you a way to be independently sustainable by yourself, as well as join in with the rest of the community on collective efforts.\n                    "
+                    "Eco-habitats depend on its inhabitants for their maintenance and sustainability. All our community members come together to create an environment of natural growth and sustenance. We offer you a way to be independently sustainable by yourself, as well as join in with the rest of the community on collective efforts.\n                    "
                   )
                 ]),
                 _vm._v(" "),
@@ -23972,7 +23973,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container mx-auto" }, [
         _c("h2", { staticClass: "font-normal" }, [
           _vm._v(
-            "\n                At Organo, we create eco-habitats offering an intersection of rural and urban experiences, offering a way to live a life integrated with nature, to help build sustainable communities that care.\n            "
+            "\n                At Organo, we create eco-habitats offering an intersection of rural and urban experiences, offering a way to live a life which is integrated with nature, to help build sustainable communities that care.\n            "
           )
         ])
       ])
@@ -23989,7 +23990,7 @@ var staticRenderFns = [
         _c("p", { staticClass: "alt-body" }, [
           _c("span", { staticClass: "font-normal" }, [
             _vm._v(
-              "The advent of rapid urbanization has led us to live with polluted environments, genetically modified produce and other downsides of densely populated areas, leading to an excessively stressful life."
+              "Rapid urbanization has led us to live with polluted environments, genetically modified produce and other downsides of densely populated areas, leading to an excessively stressful life."
             )
           ])
         ]),
@@ -24023,7 +24024,7 @@ var staticRenderFns = [
         _c("p", { staticClass: "alt-body" }, [
           _c("span", { staticClass: "font-normal" }, [
             _vm._v(
-              "We needed to find new ways of living in balance with the ecosystem and the various parts of it, with access to healthy organic food and fresh air to breath, allowing sustainable growth of a community without affecting the environment they live in."
+              "We needed to find new ways of living in balance with the ecosystem, with access to healthy natural food and fresh air to breathe which allows us to grow sustainably without affecting the environment."
             )
           ])
         ])
@@ -25234,7 +25235,7 @@ var render = function() {
             _vm._v(" "),
             _c("p", { staticClass: "hl-body" }, [
               _vm._v(
-                "Organo builds fully-featured sustainable living environments harmlessly integrated into the natural world, supporting a healthy way of living."
+                "Organo builds a fully-featured sustainable living environment with the idea of co-creating spaces."
               )
             ]),
             _vm._v(" "),
@@ -25398,12 +25399,12 @@ var render = function() {
               _c("router-link", { attrs: { to: "/organo-at-school" } }, [
                 _c("div", { staticClass: "content" }, [
                   _c("h3", { staticClass: "event-name" }, [
-                    _vm._v("Organo@School")
+                    _vm._v("Organo @ School")
                   ]),
                   _vm._v(" "),
                   _c("p", { staticClass: "alt-body event-desc" }, [
                     _vm._v(
-                      "\n                            A day long event when academic institutions can bring their students to experience nature, filled with fun activities and informational sessions on Sustainability."
+                      "\n                            A Day event where academic institutions can bring their student to give an experience of our sustainability practices.  The event is filled with fun activities, informational sessions on sustainability and ideas of co-creating spaces.\n                        "
                     )
                   ])
                 ])
@@ -25429,7 +25430,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "max-w-6xl mb-12" }, [
       _c("h2", [
         _vm._v(
-          "We've taken up the challenge of developing eco-habitats thriving in harmony, integrated with nature. Combining the best of the urban and rural worlds, we have created a new ‘Rurban’ way of life."
+          "We have taken up the challenge of developing eco-habitats in harmony with nature. With the idea of combining the benefits of urban and rural, we have created- ‘Rurbran’ way of living."
         )
       ])
     ])
@@ -25448,7 +25449,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "The benefits of urbanization and the feel of a rural environment brings together the best of both worlds. Organo offers an integrated alternate-living experience where residents could take part in natural farming and other collective activities, while maintaining their own private space."
+            "Organo offers an integrated alternative-living experience, where the residents can take part in natural farming and witness the food they eat. They also enjoy collective activities while maintaining their own private space."
           )
         ])
       ]),
@@ -25476,7 +25477,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body" }, [
           _vm._v(
-            "We are responsible for all the stakeholders and environmental concerns equally. It helps us create community development models on triple-bottom-line success (Social, environmental and economic ares) and net-zero thinking. This also led us to create 'Sapthapatha', the seven strands of sustainable development."
+            "We are responsible for all the stakeholders and environmental concerns equally. It helps us create community development models on triple-bottom-line success (Social, environmental and economic areas) and net-zero thinking. This also led us to create 'Sapthapatha', the seven strands of sustainable development."
           )
         ])
       ])
@@ -25536,7 +25537,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "max-w-4xl mx-auto mb-16" }, [
         _c("h2", { staticClass: "mb-6" }, [
           _vm._v(
-            "Experience Rurbanism first-hand and practice sustainable living through one of our recurring events:"
+            "Experience Rurbanism first-hand and practice sustainable living through our events:"
           )
         ])
       ])
@@ -25552,7 +25553,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "alt-body event-desc" }, [
           _vm._v(
-            "Build bonds between friends, family or team members working together on a natural farm. Teams or any homogeneous group can contact us to schedule an event."
+            "By building bonds between friends, family or team members by working together on natural farming. Teams or homogeneous groups can contact us to schedule an event to experience farming."
           )
         ])
       ])
@@ -26518,7 +26519,7 @@ var render = function() {
               )
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "button-block" }, [
+            _c("div", { staticClass: "button-block hidden" }, [
               _c("div", { staticClass: "lg-button inline-block mr-8" }, [
                 _c("span", { staticClass: "text" }, [_vm._v("Visit Organo")])
               ]),
@@ -26630,7 +26631,7 @@ var render = function() {
             _vm._v(" "),
             _c("div", { attrs: { slot: "content" }, slot: "content" }, [
               _c("h3", [
-                _vm._v("Express learnings creatively through Art and Craft")
+                _vm._v("Express your inner creativity through Art and Craft.")
               ]),
               _vm._v(" "),
               _c("p", { staticClass: "alt-body" }, [
@@ -27388,7 +27389,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "description alt-body font-normal" }, [
                 _vm._v(
-                  "We don’t judge. We try to understand by\n                            observing your needs and listening without prejudice.\n                        "
+                  "We try to understand by\n                            observing your needs and listening without prejudice.\n                        "
                 )
               ])
             ])

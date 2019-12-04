@@ -47,7 +47,7 @@
                 <div class="separator"></div>
                 <div class="mb-6"></div>
                 <p class="hl-body">Organo@school is a day long event that schools and colleges can bring their students to experience nature first-hand. Children learn, explore and creatively express their learnings in our comprehensivly designed program.</p>
-                <div class="button-block">
+                <div class="button-block hidden">
                     <div class="lg-button inline-block mr-8">
                         <span class="text">Visit Organo</span>
                     </div>
@@ -94,7 +94,7 @@
             <ImageContentComponent>
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
-                    <h3>Express learnings creatively through Art and Craft</h3>
+                    <h3>Express your inner creativity through Art and Craft.</h3>
                     <p class="alt-body">At the end of the day, children get to combine everything they have learnt into producing art and craft on the concepts covered.
                     </p>
                     <div class="mb-8"></div>

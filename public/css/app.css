@@ -12427,6 +12427,13 @@ nav .full-screen-nav .lg-button {
   padding: 20px 0;
 }
 
+.social-icon {
+  position: relative;
+  right: -20px;
+  padding: 20px 0 20px 10px;
+  transform: scale(0.6);
+}
+
 .footer-background {
   margin: 0 10px;
   background: #2e2f2c;

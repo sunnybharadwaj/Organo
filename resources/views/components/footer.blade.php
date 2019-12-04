@@ -3,7 +3,7 @@
         <div class="container mx-auto">
             {{--<h2 class="mb-3">We're hard at work!</h2> --}}
             <div class="max-w-4xl mx-auto">
-                <h3 class="mb-6"><span class="font-normal">With on-going research and development to push the limits even further, we cannot wait to share what we're working on, with you. <strong>Stay tuned</strong>!</span></h3>
+                <h3 class="mb-6"><span class="font-normal">With on-going research and development to push the limits even further, we cannot wait to share what we have in store for you. <strong>Stay tuned</strong>!</span></h3>
             </div>
 
             {{--<div class="txt-btn md">Keep me posted</div>--}}
@@ -11,7 +11,6 @@
 
     </section>
 <div class="footer-container relative">
-
     <div class="footer-strip">
         <div class="container mx-auto">
             <div class="top-section">
@@ -74,6 +73,21 @@
                         <a href="/terms" class="footer-nav-link">Terms</a>
                         <a href="/privacy" class="footer-nav-link">Privacy Policy</a>
                         <a href="/copyright" class="footer-nav-link">Copyright</a>
+                    </div>
+                    <div class="social-icons">
+                        <div class="flex justify-end">
+                            <a href="https://www.facebook.com/OrganoEcologicalFarms/" target="_blank" class="social-icon">
+
+                                <img src="/static/icons/social/facebook.svg" alt="">
+                            </a>
+                            <a class="social-icon" href="https://www.instagram.com/organo_rurbanliving/" target="_blank">
+                                <img src="/static/icons/social/instagram.svg" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/organorurbanliving/" target="_blank" class="social-icon">
+                                <img src="/static/icons/social/linkedin.svg" alt="">
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -64,7 +64,7 @@
         <section>
             <div class="container mx-auto">
                 <h2 class="font-normal">
-                    At Organo, we create eco-habitats offering an intersection of rural and urban experiences, offering a way to live a life integrated with nature, to help build sustainable communities that care.
+                    At Organo, we create eco-habitats offering an intersection of rural and urban experiences, offering a way to live a life which is integrated with nature, to help build sustainable communities that care.
                 </h2>
             </div>
         </section>
@@ -76,7 +76,7 @@
                         <div class="w-full lg:w-1/2">
                             <div class="content">
                                 <h2>Why counter urbanization?</h2>
-                                <p class="alt-body"><span class="font-normal">The advent of rapid urbanization has led us to live with polluted environments, genetically modified produce and other downsides of densely populated areas, leading to an excessively stressful life.</span></p>
+                                <p class="alt-body"><span class="font-normal">Rapid urbanization has led us to live with polluted environments, genetically modified produce and other downsides of densely populated areas, leading to an excessively stressful life.</span></p>
                                 <p class="alt-body"><span class="font-normal">We often find ourselves in this modern balancing act between living this way and finding ways to escape, relax and reconnect with nature.</span></p>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                             <div class="content">
                                 <h2>What needs to be done.</h2>
                                 <p class="alt-body"><span class="font-normal">To counter the effects of urbanization, we needed to explore reverse-migration, going back to the roots from where it all started.</span></p>
-                                <p class="alt-body"><span class="font-normal">We needed to find new ways of living in balance with the ecosystem and the various parts of it, with access to healthy organic food and fresh air to breath, allowing sustainable growth of a community without affecting the environment they live in.</span></p>
+                                <p class="alt-body"><span class="font-normal">We needed to find new ways of living in balance with the ecosystem, with access to healthy natural food and fresh air to breathe which allows us to grow sustainably without affecting the environment.</span></p>
                             </div>
                         </div>
                         <div class="w-full lg:w-1/2">
@@ -129,14 +129,14 @@
                     <div slot="image" class="wide-image"></div>
                     <div slot="content">
                         <h3>Agriculture at the center</h3>
-                        <p class="alt-body">Health is one of the primary concerns of the modern urban individual, with produce containing high levels of toxins. Having recognized this, we build our communities with Organic Agriculture at its center. Ecosystem first, inhabitation later.</p>
+                        <p class="alt-body">Health is one of the primary concerns of the modern urban individual. Having recognized that the toxin levels in the crop produce, we build our communities with natural farming techniques. Making organic Agriculture as its center where we value the ecosystem first and inhabitants later.</p>
                         <div class="mb-8"></div>
                     </div>
                 </ImageContentComponent>
                 <ImageContentComponent>
                     <div slot="image" class="wide-image"></div>
                     <div slot="content">
-                        <h3>Flora and Fauna necessary to create the sustainable cycle</h3>
+                        <h3>Flora and Fauna are essential to create the sustainable cycle</h3>
                         <p class="alt-body">Building an ecosystem required us to have all the pieces necessary to create a consistent replicable cycle. We had to expand our vision entirely towards learning and understanding what it takes to create sustainable environments and natural cycles of growth.</p>
                         <div class="mb-8"></div>
                     </div>
@@ -145,7 +145,7 @@
                     <div slot="image" class="wide-image"></div>
                     <div slot="content">
                         <h3>Self growing communities that take care of themselves</h3>
-                        <p class="alt-body">Eco-habitats depend on its inhabitants for their conservation and sustainability. All our community members come together to create an environment of natural growth and sustenance. We offer you a way to be independently sustainable by yourself, as well as join in with the rest of the community on collective efforts.
+                        <p class="alt-body">Eco-habitats depend on its inhabitants for their maintenance and sustainability. All our community members come together to create an environment of natural growth and sustenance. We offer you a way to be independently sustainable by yourself, as well as join in with the rest of the community on collective efforts.
                         </p>
                         <div class="mb-8"></div>
                     </div>
