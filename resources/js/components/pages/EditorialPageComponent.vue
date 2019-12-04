@@ -91,17 +91,16 @@
                                 Organo - Volume 2
                             </h2>
                             <div class="cta mt-8">
-                                <a href="/static/editorial/organo_bookv2.pdf" target="_blank" class="lg-button"><span class="text">
-                                <h3>Download Digital Version</h3>
-                                </span></a>
+                                <a href="/static/editorial/organo_bookv2.pdf" target="_blank" download class="lg-button"><p class="text">
+                                <h3>Download Digital Version </h3>
+                                    <p class="font-bold">(~80 MB)</p>
+                                </p></a>
                             </div>
                         </div>
                         <div class="image w-full lg:w-3/12">
                             <img src="/static/editorial/bookv2.jpg" alt="">
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

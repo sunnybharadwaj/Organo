@@ -2933,7 +2933,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -24421,13 +24420,19 @@ var staticRenderFns = [
                       staticClass: "lg-button",
                       attrs: {
                         href: "/static/editorial/organo_bookv2.pdf",
-                        target: "_blank"
+                        target: "_blank",
+                        download: ""
                       }
                     },
                     [
-                      _c("span", { staticClass: "text" }, [
-                        _c("h3", [_vm._v("Download Digital Version")])
-                      ])
+                      _c("p", { staticClass: "text" }),
+                      _c("h3", [_vm._v("Download Digital Version ")]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-bold" }, [
+                        _vm._v("(~80 MB)")
+                      ]),
+                      _vm._v(" "),
+                      _c("p")
                     ]
                   )
                 ])
