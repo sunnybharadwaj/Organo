@@ -4454,88 +4454,101 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 var team_list = [{
   name: 'Nagesh Battula',
+  role: 'Managing Director',
   description: 'Nagesh who started and spearheaded the Fountainhead Design Group (FHD), is a natural learner and a self-taught leader. He has over 20 years of extensive experience in residential, commercial, hospitality, retail and luxury interiors projects. It was Nagesh’s vision to develop a project that would be sustainable and net-zero in its resource consumption.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/nageshbattula/'
   },
   image_url: '/static/team/nageshbattula.jpg'
 }, {
   name: 'Vijaya Durga',
+  role: 'Managing Director',
   description: 'With over 20 years of experience in the field of interior designing and the head of the Interior design team at FHD, Vijaya has an eye for detail and a sensitivity towards colors, fixtures and finishes, that let her make impeccable decisions on the spot. She shares the vigor to develop Organo as a highly productive yet aesthetically pleasing farming community.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/vijaya-durga-yadla/'
   },
   image_url: '/static/team/vijayadurga.jpg'
 }, {
   name: 'Rajendra Kumar',
+  role: 'Co Founder, Director',
   description: 'Raj as we call him, is not a definition person, which helped him design the marketing strategy for India’s first sustainable collective farming habitat, in the most non-traditional ways. Raj is the quarterback for our Marketing and Sales team driving it with passion and vigor. Raj’s vision for the project is far out and very fast for everyone to catch up.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/rajendrakumarg/'
   },
   image_url: '/static/team/rajendrakumar.jpg'
-}, {
-  name: 'Dr. Vinod Vemula',
-  description: 'Dr. Vemula heads the Farmer outreach program at Organo. Has more than 27 years of experience in agriculture, forestry, natural resources development & management projects, on farm research & extension. His at the grassroots level, works directly with farmers to middle support  and his extensive international experience gives him a bird\'s eye view to help convert neighboring villages and farmers to turn Organic with the focus on sustainability.',
-  links: {
-    linkedIn: ''
-  },
-  image_url: '/static/team/drvinodvemula.jpg'
-}, {
+}, // {
+//     name: 'Dr. Vinod Vemula',
+//     description: 'Dr. Vemula heads the Farmer outreach program at Organo. Has more than 27 years of experience in agriculture, forestry, natural resources development & management projects, on farm research & extension. His at the grassroots level, works directly with farmers to middle support  and his extensive international experience gives him a bird\'s eye view to help convert neighboring villages and farmers to turn Organic with the focus on sustainability.',
+//     links: {
+//         linkedIn: 'https://www.linkedin.com/in/dr-vinod-goud-vemula-83650138/'
+//     },
+//     image_url: '/static/team/drvinodvemula.jpg'
+// },
+{
   name: 'Dhamothara N',
+  role: 'Director - Operations',
   description: 'Dhamu, Director of Operations and head of the Architectural division for FHD has helped get critical design solutions right, without compromising on logistical efficiencies. Dhamu has over 11 years of experience in the field of architecture with several master planning and large-scale projects to his credit.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/dhamotharan-s-9772a911/'
   },
   image_url: '/static/team/dhamotharan.jpg'
 }, {
   name: 'Mathan Ramaiah',
+  role: 'Director - Design',
   description: 'Mathan graduated from Columbia University, New York. He has over 12 years of experience working in Indian and International firms, leading several award-winning master plans with special emphasis on passive and active sustainable strategies. He is passionately involved in the masterplan and public space design of Organo.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/mathanramaiah/'
   },
   image_url: '/static/team/mathanramaiah.jpg'
 }, {
   name: 'Niharika',
+  role: 'Project Management',
   description: 'An IGBC Accredited Professional LEED Green Associate, Niharika handles the Project Management for Organo. Using her Civil Engineering education and her 10 years of experience in Construction to her advantage, she handles Technical Support, Sustainability and Customer Relations effectively.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/niharikabattula/'
   },
   image_url: '/static/team/niharika.jpg'
 }, {
   name: 'Harinath Rao',
+  role: 'Associate Director',
   description: 'Associate Director, Organo brings in decades of rich functional construction and real estate expertise. As a structural engineer turned businessman, he combines the best of both worlds in melding business expertise with a thorough understanding of the technicalities of the business, and is focused on creating seamless buyer journeys. He brings in his multi-faceted expertise to add value with emphasis on delivering superior customer experience.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/t-harinath-rao-64847340/'
   },
   image_url: '/static/team/harinathrao.jpg'
 }, {
   name: 'Meena Murugappan',
+  role: 'Director - Development Strategy',
   description: 'With over 17 years of international & local experience across multiple industries, she is currently the Director of Development Strategy. She is passionate about developing real estate products that are first-to-market. Education: B.Arch from SAP & MS in Real Estate Development from MIT, Boston.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/meenamurugappan/'
   },
   image_url: '/static/team/meenamurugappan.jpg'
-}, {
-  name: 'Dr. Dharmendar Reddy',
-  description: 'A Management Professional with 17 +years experience in Micro-finance, Agriculture credit, Collections and more. Dr. Dharmendar Reddy is an expert in Rural Strategy, establishing new business operations and establishing new distribution channels. Education: MBA from Kakatiya University, Warangal.',
-  links: {
-    linkedIn: ''
-  },
-  image_url: '/static/team/drdharmendarreddy.jpg'
-}, {
+}, // {
+//     name: 'Dr. Dharmendar Reddy',
+//     description: 'A Management Professional with 17 +years experience in Micro-finance, Agriculture credit, Collections and more. Dr. Dharmendar Reddy is an expert in Rural Strategy, establishing new business operations and establishing new distribution channels. Education: MBA from Kakatiya University, Warangal.',
+//     links: {
+//         linkedIn: 'https://www.linkedin.com/in/dharmendar-reddy-c-939417136/'
+//     },
+//     image_url: '/static/team/drdharmendarreddy.jpg'
+// },
+{
   name: 'Rakesh Koti',
+  role: 'Head of Sustainability',
   description: 'Rakesh Koti heads sustainability at Organo and has a keen interest in developing net-zero environments. He did his BE from IIT, Kharagpur, & MS in Energy Systems from University of Illinois in Urbana Champaign.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/rakeshkoti/'
   },
   image_url: '/static/team/rakeshkoti.jpg'
 }, {
   name: 'Dr. Syamasundar Reddy',
+  role: 'Senior Scientist & Head',
   description: 'Dr. Reddy specializes in agriculture cycles, crop production, plant rotection and agricultural marketing related agro-advisories.',
   links: {
-    linkedIn: ''
+    linkedIn: 'https://www.linkedin.com/in/dr-g-syamasundar-reddy-585b5b16/'
   },
   image_url: '/static/team/drsyamasundarreddy.jpg'
 }];
@@ -27263,6 +27276,18 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
                 _c("h3", [_vm._v(_vm._s(item.name))]),
+                _vm._v(" "),
+                _c("p", { staticClass: "alt-body primary-color" }, [
+                  _vm._v(_vm._s(item.role))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "links mb-4" }, [
+                  _c("ul", [
+                    _c("li", { staticClass: "link" }, [
+                      _vm._v(_vm._s(item.links.linkedIn))
+                    ])
+                  ])
+                ]),
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
