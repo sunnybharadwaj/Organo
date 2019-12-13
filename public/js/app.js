@@ -4455,6 +4455,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 var team_list = [{
   name: 'Nagesh Battula',
   role: 'Managing Director',
@@ -27284,7 +27288,17 @@ var render = function() {
                 _c("div", { staticClass: "links mb-4" }, [
                   _c("ul", [
                     _c("li", { staticClass: "link" }, [
-                      _vm._v(_vm._s(item.links.linkedIn))
+                      _c(
+                        "a",
+                        {
+                          attrs: { href: item.links.linkedIn, target: "_blank" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                                        LinkedIn\n                                    "
+                          )
+                        ]
+                      )
                     ])
                   ])
                 ]),

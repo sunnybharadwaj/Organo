@@ -77,7 +77,11 @@
                             <p class="alt-body primary-color">{{item.role}}</p>
                             <div class="links mb-4">
                                 <ul>
-                                    <li class="link">{{item.links.linkedIn}}</li>
+                                    <li class="link">
+                                        <a :href="item.links.linkedIn" target="_blank">
+                                            LinkedIn
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                             <p>
