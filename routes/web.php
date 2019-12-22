@@ -11,6 +11,19 @@
 |
 */
 
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/admin', 'HomeController@index')->name('home');
+    Route::group(array('prefix' => 'admin'), function () {
+        Route::resource('team', 'MembersController');
+        Route::resource('press', 'ArticlesController');
+    });
+});
+
+
+Auth::routes();
+
+
+
 
 
 
@@ -19,6 +32,5 @@ Route::get('/{catchall?}', function () {
 })->where('catchall', '[\/\w\.-]*');
 
 
-Auth::routes();
 
-//Route::get('/home', 'HomeController@index')->name('home');
+

@@ -1,6 +1,6 @@
 <header class="">
 
-    <nav class="">
+    <nav id="site-nav" class="">
         <div class="brand">
                 <router-link to="/" exact>
                     <div class="flex logo-container">
