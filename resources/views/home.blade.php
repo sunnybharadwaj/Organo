@@ -15,6 +15,11 @@
             <h3>Manage:</h3>
             <ul>
                 <li><a href="/admin/team"><h2>Team</h2></a></li>
+                <li><a href="/admin/testimonial"><h2>Testimonials</h2></a></li>
+                <li><a href="/admin/gallery"><h2>Gallery</h2></a></li>
+                <li><a href="/admin/blog"><h2>Blog</h2></a></li>
+                <li><a href="/admin/press"><h2>Press</h2></a></li>
+                <li><a href="/admin/forms"><h2>Forms</h2></a></li>
             </ul>
         </div>
     </div>

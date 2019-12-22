@@ -16,6 +16,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::group(array('prefix' => 'admin'), function () {
         Route::resource('team', 'MembersController');
         Route::resource('press', 'ArticlesController');
+        Route::resource('testimonial', 'TestimonialsController');
     });
 });
 
