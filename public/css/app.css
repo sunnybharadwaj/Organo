@@ -14380,6 +14380,18 @@ nav .mobile {
   }
 }
 
+#admin h2, #admin .h2 {
+  font-size: 39px;
+}
+
+#admin h3, #admin .h3 {
+  font-size: 31px;
+}
+
+#admin h4, #admin .h4 {
+  font-size: 25px;
+}
+
 nav#admin-nav {
   background: white;
 }
@@ -14401,7 +14413,7 @@ nav#admin-nav #admin-logo {
 
 #admin-team-index .team-list .item {
   border-bottom: 2px solid rgba(146, 146, 146, 0.21);
-  padding: 20px;
+  padding: 15px 25px;
   transition: all 0.2s ease-in-out;
 }
 
