@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/admin', 'HomeController@index')->name('home');
     Route::group(array('prefix' => 'admin'), function () {
@@ -22,6 +21,7 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 Auth::routes();
+
 
 
 

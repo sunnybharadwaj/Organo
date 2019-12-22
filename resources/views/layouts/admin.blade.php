@@ -13,8 +13,8 @@
     @include ('admin.header')
     @yield('content')
     @include ('admin.footer')
-    <script src="{{asset('/js/jquery.min.js')}}"></script>
-    <script src="{{asset('/js/app.js')}}"></script>
+    <script src="/js/jquery.min.js"></script>
+
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="{{mix('js/app.js')}}"></script>
 </body>
