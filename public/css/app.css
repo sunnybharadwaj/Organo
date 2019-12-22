@@ -11399,7 +11399,7 @@ video {
   font-style: normal;
 }
 
-*, html, body {
+html, body {
   font-family: sans-serif, Aileron;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -14380,8 +14380,34 @@ nav .mobile {
   }
 }
 
+nav#admin-nav {
+  background: white;
+}
+
 nav#admin-nav #admin-logo {
   max-width: 240px;
+}
+
+.admin-wrapper {
+  min-height: 100vh;
+  background: #F6F5F8;
+}
+
+.admin-v-card {
+  background: white;
+  border-radius: 4px;
+  margin: 30px auto;
+}
+
+#admin-team-index .team-list .item {
+  border-bottom: 2px solid rgba(146, 146, 146, 0.21);
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+#admin-team-index .team-list .item:hover {
+  background: rgba(253, 249, 125, 0.45);
+  cursor: pointer;
 }
 
 section {

@@ -22,7 +22,7 @@
   font-style: normal;
 }
 
-*, html, body{
+html, body{
   font-family: sans-serif, Aileron;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -34,6 +34,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.045em;
   line-height: 1.2;
+
 }
 
 h2 {

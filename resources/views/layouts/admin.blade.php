@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <title>Organo | Administration Panel</title>
 </head>
-<body>
+<body id="admin">
     @include ('admin.header')
     @yield('content')
     @include ('admin.footer')

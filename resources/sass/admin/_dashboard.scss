@@ -1,0 +1,28 @@
+
+.admin-wrapper {
+  min-height: 100vh;
+  background: $admin-bg;
+
+}
+
+.admin-v-card {
+  background: white;
+  border-radius: 4px;
+  margin: 30px auto;
+  //max-width: 900px;
+  //padding: 20px;
+}
+
+#admin-team-index {
+  .team-list {
+    .item {
+      border-bottom: 2px solid rgba(146, 146, 146, 0.21);
+      padding: 20px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background: rgba(253, 249, 125, 0.45);
+        cursor: pointer;
+      }
+    }
+  }
+}
