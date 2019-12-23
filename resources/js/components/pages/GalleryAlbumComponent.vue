@@ -1,6 +1,7 @@
 <template>
     <div id="album-page">
         <section>
+
             <div class="container mx-auto">
                 <div class="image-item" v-for="index in 10">
                     <div class="image-container">

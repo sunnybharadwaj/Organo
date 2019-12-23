@@ -1146,6 +1146,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['album'],
   mounted: function mounted() {},
@@ -1170,6 +1171,36 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2760,6 +2791,40 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var team_list = [{
   name: 'Nagesh Battula',
   role: 'Managing Director',
@@ -2858,10 +2923,17 @@ var team_list = [{
   image_url: '/static/team/drsyamasundarreddy.jpg'
 }];
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {},
+  mounted: function mounted() {
+    var _this = this;
+
+    axios.get('/api/team').then(function (response) {
+      return _this.data = response.data;
+    });
+  },
   data: function data() {
     return {
-      team_list: team_list
+      team_list: team_list,
+      data: null
     };
   }
 });
@@ -5681,7 +5753,53 @@ var render = function() {
   return _c("div", { attrs: { id: "gallery-page" } }, [
     _c("section", [
       _c("div", { staticClass: "container mx-auto" }, [
-        _c("h1", [_vm._v("Gallery")]),
+        _c("h1", { staticClass: "text-center" }, [_vm._v("Gallery")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "home-images mb-4" }, [
+          _c(
+            "div",
+            { staticClass: "swiper-container slider-component general" },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "swiper-wrapper",
+                  staticStyle: { width: "auto", height: "500px" }
+                },
+                _vm._l(10, function(index) {
+                  return _c("div", { staticClass: "image-item swiper-slide" }, [
+                    _c("div", { staticClass: "image-container " }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/gallery/naandi/" + index + ".jpg",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                }),
+                0
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "swiper-button-next" }),
+              _vm._v(" "),
+              _c("div", { staticClass: "swiper-button-prev" })
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div"),
+        _vm._v(" "),
+        _c(
+          "p",
+          {
+            staticClass:
+              "h4 mb-4 mt-8 primary-color tracking-loose font-bold uppercase"
+          },
+          [_vm._v("Albums")]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "separator-line" }),
         _vm._v(" "),
         _c(
           "div",
@@ -5690,7 +5808,7 @@ var render = function() {
             _c(
               "router-link",
               {
-                staticClass: "album w-1/2",
+                staticClass: "album w-full lg:w-1/2",
                 attrs: { to: "/gallery/album/naandi" }
               },
               [
@@ -5703,7 +5821,7 @@ var render = function() {
                     }
                   }),
                   _vm._v(" "),
-                  _c("h2", { staticClass: "album-name" }, [
+                  _c("h3", { staticClass: "album-name" }, [
                     _vm._v("Organo Naandi")
                   ])
                 ])
@@ -5713,7 +5831,7 @@ var render = function() {
             _c(
               "router-link",
               {
-                staticClass: "album w-1/2",
+                staticClass: "album w-full lg:w-1/2",
                 attrs: { to: "/gallery/album/activities" }
               },
               [
@@ -5726,7 +5844,7 @@ var render = function() {
                     }
                   }),
                   _vm._v(" "),
-                  _c("h2", { staticClass: "album-name" }, [
+                  _c("h3", { staticClass: "album-name" }, [
                     _vm._v("Activities at Naandi")
                   ])
                 ])
@@ -5736,7 +5854,7 @@ var render = function() {
             _c(
               "router-link",
               {
-                staticClass: "album w-1/2",
+                staticClass: "album w-full lg:w-1/2",
                 attrs: { to: "/gallery/album/school" }
               },
               [
@@ -5749,7 +5867,7 @@ var render = function() {
                     }
                   }),
                   _vm._v(" "),
-                  _c("h2", { staticClass: "album-name" }, [
+                  _c("h3", { staticClass: "album-name" }, [
                     _vm._v("@School Event")
                   ])
                 ])
@@ -8244,6 +8362,52 @@ var render = function() {
     _vm._m(0),
     _vm._v(" "),
     _vm._m(1),
+    _vm._v(" "),
+    _c("div", { attrs: { id: "team-list" } }, [
+      _c("div", { staticClass: "container mx-auto" }, [
+        _c(
+          "div",
+          _vm._l(_vm.data, function(item) {
+            return _c("div", { staticClass: "flex flex-wrap team-item" }, [
+              _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
+                _c("div", { staticClass: "image-container bg-blue-200" }, [
+                  _c("img", { attrs: { src: item.image_url, alt: "" } })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-full lg:w-8/12 text-content" }, [
+                _c("h3", [_vm._v(_vm._s(item.name))]),
+                _vm._v(" "),
+                _c("p", { staticClass: "alt-body primary-color" }, [
+                  _vm._v(_vm._s(item.role))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "links mb-4" }, [
+                  _c("ul", [
+                    _c("li", { staticClass: "link" }, [
+                      _c("a", { attrs: { href: item.url, target: "_blank" } }, [
+                        _vm._v(
+                          "\n                                        LinkedIn\n                                    "
+                        )
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n                            " +
+                      _vm._s(item.description) +
+                      "\n                        "
+                  )
+                ])
+              ])
+            ])
+          }),
+          0
+        )
+      ])
+    ]),
     _vm._v(" "),
     _c("div", { attrs: { id: "team-list" } }, [
       _c("div", { staticClass: "container mx-auto" }, [

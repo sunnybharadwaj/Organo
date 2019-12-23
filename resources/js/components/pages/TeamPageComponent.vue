@@ -61,6 +61,38 @@
             </div>
         </section>
 
+        <div id="team-list">
+            <div class="container mx-auto">
+                <div>
+                    <div class="flex flex-wrap team-item" v-for="item in data">
+
+                        <div class="w-full lg:w-4/12 image-wrapper">
+                            <div class="image-container bg-blue-200">
+                                <img :src="item.image_url" alt="">
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-8/12 text-content">
+                            <h3>{{item.name}}</h3>
+                            <p class="alt-body primary-color">{{item.role}}</p>
+                            <div class="links mb-4">
+                                <ul>
+                                    <li class="link">
+                                        <a :href="item.url" target="_blank">
+                                            LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>
+                                {{item.description}}
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div id="team-list">
             <div class="container mx-auto">
@@ -94,6 +126,8 @@
                 </div>
             </div>
         </div>
+
+
 
         <section id="awards" class="bg-gray-200 hidden">
             <div class="container mx-auto">
@@ -234,11 +268,13 @@
     ];
     export default {
         mounted() {
-
+            axios.get('/api/team')
+                .then(response => this.data=response.data);
         },
         data() {
             return {
                 team_list: team_list,
+                data: null
             }
         }
     }

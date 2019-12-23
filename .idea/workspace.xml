@@ -3,36 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c347dcbd-4a43-4b45-b38e-7bdb5bdee96a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PressPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PressPostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VideosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideosController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/2019_12_22_172914_create_photo_tag_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_22_172914_create_photo_tag_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/2019_12_22_173711_create_blogpost_category_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_22_173711_create_blogpost_category_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/illustrations/all_efforts.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/illustrations/all_efforts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/admin/_admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/admin/_admin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/admin/_dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/admin/_dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/admin/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/admin/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_naandi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_naandi.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/gallery/photos/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/gallery/photos/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/press/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/press/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/testimonials/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/testimonials/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/videos/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/videos/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/videos/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/videos/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/videos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/videos/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/videos/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/videos/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/GalleryAlbumComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/GalleryAlbumComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/GalleryPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/GalleryPageComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,8 +58,8 @@
                 <file pinned="false" current-in-tab="true">
                   <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagsController.php">
                     <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="390">
-                        <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+                      <state relative-caret-position="182">
+                        <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
                       </state>
                     </provider>
                   </entry>
@@ -97,8 +71,8 @@
                 <file pinned="false" current-in-tab="true">
                   <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotosController.php">
                     <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="650">
-                        <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+                      <state relative-caret-position="416">
+                        <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
                       </state>
                     </provider>
                   </entry>
@@ -302,14 +276,14 @@
           <entry key="js" value="21" />
           <entry key="json" value="1" />
           <entry key="members" value="3" />
-          <entry key="php" value="226" />
+          <entry key="php" value="229" />
           <entry key="png" value="5" />
           <entry key="rnc" value="4" />
           <entry key="scss" value="58" />
           <entry key="sql" value="1" />
           <entry key="svg" value="3" />
           <entry key="txt" value="2" />
-          <entry key="vue" value="36" />
+          <entry key="vue" value="39" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -322,13 +296,13 @@
           <entry key="Image" value="5" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="21" />
-          <entry key="PHP" value="107" />
+          <entry key="PHP" value="110" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="RNG Compact" value="4" />
           <entry key="SCSS" value="59" />
           <entry key="SVG" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="Vue.js" value="36" />
+          <entry key="Vue.js" value="39" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -337,10 +311,10 @@
           <entry key="dummy" value="1" />
           <entry key="env" value="28" />
           <entry key="js" value="629" />
-          <entry key="php" value="10788" />
+          <entry key="php" value="10929" />
           <entry key="scss" value="5162" />
           <entry key="txt" value="19" />
-          <entry key="vue" value="4115" />
+          <entry key="vue" value="4619" />
           <entry key="xml" value="95" />
         </counts>
       </usages-collector>
@@ -349,10 +323,10 @@
           <entry key=".env file" value="28" />
           <entry key="Blade" value="7387" />
           <entry key="JavaScript" value="629" />
-          <entry key="PHP" value="3401" />
+          <entry key="PHP" value="3542" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="SCSS" value="5162" />
-          <entry key="Vue.js" value="4115" />
+          <entry key="Vue.js" value="4619" />
           <entry key="XML" value="95" />
         </counts>
       </usages-collector>
@@ -365,11 +339,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.61972743">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+                <state relative-caret-position="789">
+                  <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -391,18 +365,6 @@
                     <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#template#0;n#!!top" />
                     <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#template#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="45" selection-start-line="45" selection-end-line="45" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -431,11 +393,29 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/routes/web.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="275">
+                  <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
-                  <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+                <state relative-caret-position="342">
+                  <caret line="268" selection-start-line="268" selection-end-line="268" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
                     <element signature="n#section#0;n#div#0;n#template#0;n#!!top" />
@@ -446,10 +426,22 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/sass/_typography.scss">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/pages/GalleryAlbumComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="550">
-                  <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+                <state relative-caret-position="431">
+                  <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/pages/GalleryPageComponent.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -461,8 +453,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/sass/pages/_naandi.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+                <state relative-caret-position="286">
+                  <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -484,8 +476,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1560">
-                  <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+                <state relative-caret-position="52">
+                  <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -570,10 +562,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2019_12_22_172938_create_tags_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/app/Testimonial.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_12_20_110736_create_members_table.php" />
@@ -602,7 +590,6 @@
         <option value="$PROJECT_DIR$/resources/views/admin/pages/press/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Photo.php" />
         <option value="$PROJECT_DIR$/app/Tag.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/pages/gallery/photos/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/pages/team/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
@@ -621,6 +608,11 @@
         <option value="$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue" />
         <option value="$PROJECT_DIR$/resources/views/components/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/pages/_naandi.scss" />
+        <option value="$PROJECT_DIR$/resources/js/components/pages/GalleryAlbumComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/pages/GalleryPageComponent.vue" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue" />
       </list>
     </option>
   </component>
@@ -777,13 +769,6 @@
             <path>
               <item name="organo" type="b2602c69:ProjectViewProjectNode" />
               <item name="organo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="organo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="organo" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -791,6 +776,37 @@
               <item name="organo" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="organo" type="b2602c69:ProjectViewProjectNode" />
@@ -848,7 +864,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;_home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/pages/_home.scss&#10;HomePage&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;HomePa&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;Home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/HomeController.php&#10;slider&#9;null&#9;null&#10;.container&#9;null&#9;null&#10;app.sc&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/app.scss&#10;site&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/layouts/site.blade.php&#10;naan&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;responsive&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_responsive.scss&#10;typo&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_typography.scss&#10;_naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/pages/_naandi.scss&#10;Naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;app.j&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/app.js&#10;app.&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/app.js&#10;header&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/admin/header.blade.php&#10;admin-logo&#9;null&#9;null&#10;admin&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/admin/_admin.scss&#10;admin-h-c&#9;null&#9;null&#10;das&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/admin/dashboard.blade.php&#10;PhotosC&#9;null&#9;null&#10;web.&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/routes/web.php&#10;TagsCont&#9;null&#9;null&#10;Videos&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/VideosController.php&#10;Press&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/PressPostsController.php&#10;index&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/admin/pages/press/index.blade.php&#10;Member&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/MembersController.php&#10;Testimon&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/TestimonialsController.php&#10;PressP&#9;null&#9;null&#10;dash&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/admin/_dashboard.scss&#10;Test&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/TestimonialsController.php&#10;Memb&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/MembersController.php&#10;HomeContr&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/HomeController.php&#10;create_test&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/database/migrations/2019_12_22_144419_create_testimonials_table.php&#10;create&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/database/migrations/2019_12_22_144419_create_testimonials_table.php&#10;Testimoni&#9;null&#9;null&#10;Testimo&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/TestimonialsController.php&#10;small-text&#9;null&#9;null&#10;app.scss&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/app.scss&#10;PagesC&#9;null&#9;null&#10;web&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/routes/web.php&#10;app.s&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/app.scss&#10;Login&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/Auth/LoginController.php&#10;login&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/auth/login.blade.php&#10;mix.j&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/webpack.mix.js&#10;loginCont&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/Auth/LoginController.php&#10;Membe&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/MembersController.php&#10;crea&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/database/migrations/2019_12_20_110736_create_members_table.php" />
+    <property name="SearchEverywhereHistoryKey" value="Apico&#9;null&#9;null&#10;Team&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/TeamPageComponent.vue&#10;web.ph&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/routes/web.php&#10;ga&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/GalleryAlbumComponent.vue&#10;gallery&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/GalleryAlbumComponent.vue&#10;naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;footer&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/components/footer.blade.php&#10;_home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/pages/_home.scss&#10;HomePage&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;HomePa&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/HomePageComponent.vue&#10;Home&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/HomeController.php&#10;slider&#9;null&#9;null&#10;.container&#9;null&#9;null&#10;app.sc&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/app.scss&#10;site&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/layouts/site.blade.php&#10;naan&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;responsive&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_responsive.scss&#10;typo&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/_typography.scss&#10;_naand&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/pages/_naandi.scss&#10;Naandi&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/components/pages/NaandiPageComponent.vue&#10;app.j&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/app.js&#10;app.&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/js/app.js&#10;header&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/admin/header.blade.php&#10;admin-logo&#9;null&#9;null&#10;admin&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/admin/_admin.scss&#10;admin-h-c&#9;null&#9;null&#10;das&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/admin/dashboard.blade.php&#10;PhotosC&#9;null&#9;null&#10;web.&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/routes/web.php&#10;TagsCont&#9;null&#9;null&#10;Videos&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/VideosController.php&#10;Press&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/PressPostsController.php&#10;index&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/views/admin/pages/press/index.blade.php&#10;Member&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/MembersController.php&#10;Testimon&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/TestimonialsController.php&#10;PressP&#9;null&#9;null&#10;dash&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/admin/_dashboard.scss&#10;Test&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/TestimonialsController.php&#10;Memb&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/MembersController.php&#10;HomeContr&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/HomeController.php&#10;create_test&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/database/migrations/2019_12_22_144419_create_testimonials_table.php&#10;create&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/database/migrations/2019_12_22_144419_create_testimonials_table.php&#10;Testimoni&#9;null&#9;null&#10;Testimo&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/TestimonialsController.php&#10;small-text&#9;null&#9;null&#10;app.scss&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/app.scss&#10;PagesC&#9;null&#9;null&#10;web&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/routes/web.php&#10;app.s&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/resources/sass/app.scss&#10;Login&#9;FILE&#9;file:///Users/sunny/Documents/Work/Chakra/Projects/Organo/repo/organo/app/Http/Controllers/Auth/LoginController.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -952,7 +968,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315414000" />
+    <option name="totallyTimeSpent" value="317227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -967,7 +983,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975025" visible="true" weight="0.17944622" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975025" weight="0.17944622" />
       <window_info id="Structure" order="1" sideWeight="0.5004995" side_tool="true" weight="0.14802982" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5024975" side_tool="true" weight="0.14835165" />
@@ -982,7 +998,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28806984" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28806984" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3297769" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1024,34 +1040,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/videos/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/videos/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/videos/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/testimonials/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/testimonials/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1139,13 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -1157,13 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="38" column="30" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" lean-forward="true" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -1267,13 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/icons/Path 122.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1326,6 +1293,35 @@
     <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/GalleryAlbumComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/pages/HomePageComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -1346,39 +1342,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/footer.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_naandi.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        <state relative-caret-position="286">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/GalleryPageComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="52">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/pages/_naandi.scss">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="275">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/NaandiPageComponent.vue">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#section#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/pages/TeamPageComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
         </state>
       </provider>
     </entry>
