@@ -4,16 +4,51 @@ $admin-bg: #F6F5F8;
 
   h2, .h2 {
     font-size: 39px;
+    letter-spacing:-0.03em;
+    margin-bottom: 0;
   }
   h3, .h3 {
     font-size: 31px;
+    letter-spacing:-0.03em;
+    margin-bottom: 12px;
   }
   h4, .h4 {
     font-size: 25px;
+    letter-spacing:-0.03em;
+    margin-bottom: 0;
   }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  .small-text {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+
 }
 
 @import 'navigation';
 @import 'dashboard';
 
+//Form
+#admin{
+  form {
+    label.label {
+      margin-bottom: 0;
+    }
+
+    .form-title {
+      margin-top:20px;
+      margin-bottom: 30px;
+    }
+
+    textarea {
+      max-width: 100%;
+      margin: 10px 0 30px;
+    }
+  }
+}
 

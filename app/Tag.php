@@ -4,7 +4,7 @@ namespace Organo;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Testimonial extends Model
+class Tag extends Model
 {
-    var $guarded = [];
+    //
 }

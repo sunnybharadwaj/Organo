@@ -14,11 +14,6 @@ class TestimonialsController extends Controller
         return view('admin.pages.testimonials.index' , compact('data'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         return view('admin.pages.testimonials.create');
@@ -29,17 +24,17 @@ class TestimonialsController extends Controller
         $validatedData = $request->validate([
             "quote" => ["required"],
             "name" => "required",
-            "who" => "required",
+            "cred" => "required",
+            "active" => "required"
         ]);
 
-        Member::create($validatedData);
-
+        Testimonial::create($validatedData);
         return redirect('/admin/testimonials');
     }
 
-    public function show($id, Testimonial $testimonial)
+    public function show($id)
     {
-        $currentTestimonial = $testimonial->find($id);
+        $currentTestimonial = Testimonial::all()->find($id);
         return view('admin.pages.testimonials.show', compact('currentTestimonial'));
     }
 
@@ -49,34 +44,35 @@ class TestimonialsController extends Controller
      * @param  \Organo\Testimonial  $testimonial
      * @return \Illuminate\Http\Response
      */
-    public function edit($id, Testimonial $testimonial)
+    public function edit($id)
     {
-        $currentTestimonial = $testimonial->find($id);
+        $currentTestimonial = Testimonial::all()->find($id);
         return view('admin.pages.testimonials.edit', compact('currentTestimonial'));
     }
 
-    public function update($id, Request $request, Testimonial $testimonial)
+    public function update($id, Request $request)
     {
         $currentTestimonial = Testimonial::find($id);;
         $validatedData = $request->validate([
             "quote" => ["required"],
             "name" => "required",
-            "who" => "required",
+            "cred" => "required",
+            "active" => "",
         ]);
 
         $validatedData = (object)$validatedData;
         $currentTestimonial->quote = $validatedData->quote;
         $currentTestimonial->name = $validatedData->name;
-        $currentTestimonial->who = $validatedData->who;
+        $currentTestimonial->cred = $validatedData->cred;
 
         $currentTestimonial->save();
 
         return redirect('/admin/testimonials');
     }
 
-    public function destroy($id, Testimonial $testimonial)
+    public function destroy($id)
     {
-        $testimonial->find($id)->delete();
+        Testimonial::all()->find($id)->delete();
         return redirect('/admin/testimonials');
     }
 }

@@ -43,8 +43,10 @@
 </div>
 
 <script src="{{asset('/js/jquery.min.js')}}"></script>
-<script src="{{asset('/js/rellax/rellax.js')}}"></script>
+{{--<script src="{{asset('/js/rellax/rellax.js')}}"></script>--}}
 <script src="{{asset('/js/app.js')}}"></script>
+<script src="{{asset('/js/manifest.js')}}"></script>
+<script src="{{asset('/js/vendor.js')}}"></script>
 </body>
 </html>
 

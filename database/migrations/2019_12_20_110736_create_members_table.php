@@ -20,6 +20,7 @@ class CreateMembersTable extends Migration
             $table->string('role');
             $table->string('linkedin');
             $table->text('description');
+            $table->string('active');
             $table->timestamps();
         });
     }

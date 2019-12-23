@@ -26,7 +26,8 @@ class MembersController extends Controller
             "name" => "required",
             "role" => "required",
             "linkedin" => "required",
-            "description" => "required"
+            "description" => "required",
+            "active" => "required"
         ]);
 
         $image_upload = $request->file('imagepath');
@@ -61,7 +62,8 @@ class MembersController extends Controller
             "name" => "required",
             "role" => "required",
             "linkedin" => "required",
-            "description" => "required"
+            "description" => "required",
+            "active" => "required"
         ]);
 
         $validatedData = (object)$validatedData;

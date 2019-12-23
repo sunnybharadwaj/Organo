@@ -1,7 +1,7 @@
 @extends ('layouts.admin')
 
 @section('content')
-    <div id="admin-team-index" class="admin-wrapper">
+    <div id="index admin-team-index" class="admin-wrapper">
         <div class="container">
             <div class="text-center">
                 <div class="model-heading py-6">
@@ -16,12 +16,20 @@
                         Add new item
                         </span>
                     </a>
-                    <a href="/admin/team/create" class="button">
+                    <a href="/team" target="_blank" class="button">
                         <span class="status icon">
                               <i class="fa fa-external-link-alt"></i>
                         </span>
                         <span class="inline-block pl-2">
-                        Go to <strong>/team</strong>
+                        View on <strong>/team</strong>
+                        </span>
+                    </a>
+                    <a href="/admin" class="button">
+                        <span class="status icon">
+                              <i class="fa fa-arrow-left"></i>
+                        </span>
+                        <span class="inline-block pl-2">
+                        Back to Dashboard
                         </span>
                     </a>
                 </div>
@@ -55,10 +63,6 @@
 
                 </div>
             </div>
-
-
         </div>
-
-
     </div>
 @endsection

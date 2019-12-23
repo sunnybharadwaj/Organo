@@ -11,11 +11,74 @@
     {{--</div>--}}
 
     <div id="dashboard">
-        <div id="admin-wrapper">
+        <div class="admin-wrapper">
             <div class="container">
+                <div class="flex p-8">
+                    <div class="w-1/3">
+                        <a href="/admin/team">
+                            <div class="admin-h-card mx-3">
+                                <div class="top-div pt-4 mb-2 ">
+                                    <div class="icon">
+                                        <img src="/static/admin/icons/team_admin.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text text-center px-4 py-8">
+                                    <div class="title">
+                                        <h2>Team List</h2>
+
+                                    </div>
+                                    <p class="small-text">Manage records that appear on</p>
+                                    <p>
+                                        <strong>organo.co.in/team</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-1/3">
+                        <a href="/admin/testimonials">
+                            <div class="admin-h-card mx-3">
+                                <div class="top-div pt-4 mb-2 ">
+                                    <div class="icon">
+                                        <img src="/static/admin/icons/testimonials_admin.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text text-center px-4 py-8">
+                                    <div class="title">
+                                        <h2>Testimonials</h2>
+
+                                    </div>
+                                    <p class="small-text">Manage records that appear on</p>
+                                    <p>
+                                        <strong>organo.co.in</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                   <div class="w-1/3">
+                    <a href="/admin/gallery">
+                        <div class="admin-h-card mx-3">
+                            <div class="top-div pt-4 mb-2 ">
+                                <div class="icon">
+                                    <img src="/static/admin/icons/gallery_admin.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text text-center px-4 py-8">
+                                <div class="title">
+                                    <h2>Gallery</h2>
+
+                                </div>
+                                <p class="small-text">Manage records that appear on</p>
+                                <p>
+                                    <strong>organo.co.in/gallery</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                </div>
                 <ul>
-                    <li><a href="/admin/team"><h2>Team</h2></a></li>
-                    <li><a href="/admin/testimonial"><h2>Testimonials</h2></a></li>
                     <li><a href="/admin/gallery"><h2>Gallery</h2></a></li>
                     <li><a href="/admin/blog"><h2>Blog</h2></a></li>
                     <li><a href="/admin/press"><h2>Press</h2></a></li>

@@ -18,6 +18,7 @@ class CreateTestimonialsTable extends Migration
             $table->text('quote');
             $table->string('name');
             $table->string('cred');
+            $table->string('active')->nullable();
             $table->timestamps();
         });
     }
