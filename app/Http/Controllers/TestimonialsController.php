@@ -52,7 +52,7 @@ class TestimonialsController extends Controller
 
     public function update($id, Request $request)
     {
-        $currentTestimonial = Testimonial::find($id);;
+        $currentTestimonial = Testimonial::find($id);
         $validatedData = $request->validate([
             "quote" => ["required"],
             "name" => "required",

@@ -17,6 +17,7 @@ class CreatePresspostsTable extends Migration
             $table->bigIncrements('id');
             $table->text('headline');
             $table->string('url');
+            $table->string('active')->nullable();
             $table->timestamps();
         });
     }

@@ -5,7 +5,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/admin', 'HomeController@index')->name('home');
     Route::group(array('prefix' => 'admin'), function () {
         Route::resource('team', 'MembersController');
-        Route::resource('press', 'ArticlesController');
+        Route::resource('press', 'PressPostsController');
+        Route::resource('videos', 'VideosController');
         Route::resource('testimonials', 'TestimonialsController');
     });
 });

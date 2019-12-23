@@ -12,30 +12,29 @@
         <div class="admin-wrapper py-2">
             <div class="admin-v-card max-w-3xl my-4">
                 <div class="px-4 py-8">
-                    <form class="px-10" method="POST" action="/admin/press/{{$data->id}}" enctype="multipart/form-data">
+                    <form class="px-10" method="POST" action="/admin/videos" enctype="multipart/form-data">
                         @csrf
-                        {{method_field('UPDATE')}}
-                        <h2 class="text-center form-title">Create a new <strong>Post</strong></h2>
+                        <h2 class="text-center form-title">Create a new <strong>Video</strong></h2>
                         <input type="text" name="active" value="true" hidden class="hidden">
 
                         <div class="field">
-                            <label class="label">Headline</label>
+                            <label class="label">Title</label>
                             <div class="control">
-                                <textarea class="textarea" name="headline" id="">{{$data->headline}}</textarea>
+                                <textarea class="textarea" name="title" id="">{{old('title')}}</textarea>
                             </div>
                         </div>
 
                         <div class="field">
-                            <label class="label">URL</label>
+                            <label class="label">Youtube URL</label>
                             <div class="control">
-                                <input class="input" name="url" type="text" value="{{$data->url}}">
+                                <input class="input" name="url" type="text" value="{{old('url')}}">
                             </div>
                         </div>
 
 
 
                         <button type="submit" class="button is-primary">Submit</button>
-                        <a  class="button is-danger" href="/admin/press">Cancel</a>
+                        <a  class="button is-danger" href="/admin/testimonials">Cancel</a>
 
 
                     </form>
