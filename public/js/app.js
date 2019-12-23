@@ -1464,6 +1464,122 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log(this.screenName);
@@ -1836,19 +1952,55 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    $(".slider-component.owl-carousel").owlCarousel({
-      loop: true,
-      items: 1,
-      autoplay: true,
-      autoplayTimeout: 3000,
-      dots: false,
-      nav: false,
-      slideTransition: 'ease-in-out'
-    });
-    var rellax = new Rellax('.rellax');
-  },
+  mounted: function mounted() {},
   data: function data() {
     return {
       screenWidth: screen.width,
@@ -5973,7 +6125,7 @@ var render = function() {
       _c("section", { attrs: { id: "recurring-events" } }, [
         _vm._m(3),
         _vm._v(" "),
-        _c("div", { staticClass: "flex flex-wrap mb-12" }, [
+        _c("div", { staticClass: "flex flex-wrap" }, [
           _c(
             "div",
             { staticClass: "w-full lg:w-1/3 recurring-event" },
@@ -5984,7 +6136,7 @@ var render = function() {
                     _vm._v("Organo @ School")
                   ]),
                   _vm._v(" "),
-                  _c("p", { staticClass: "alt-body event-desc" }, [
+                  _c("p", { staticClass: "event-desc font-bold" }, [
                     _vm._v(
                       "\n                            A Day event where academic institutions can bring their student to give an experience of our sustainability practices.  The event is filled with fun activities, informational sessions on sustainability and ideas of co-creating spaces.\n                        "
                     )
@@ -5999,7 +6151,9 @@ var render = function() {
           _vm._v(" "),
           _vm._m(5)
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _vm._m(6)
     ],
     1
   )
@@ -6070,43 +6224,224 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { attrs: { id: "home-testimonials" } }, [
-      _c("div", { staticClass: "testimonial-component" }, [
+      _c("div", { staticClass: "testimonial-block" }, [
         _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "flex flex-wrap testimonial" }, [
-            _c("div", { staticClass: "w-full lg:w-5/12 image-wrapper " }, [
-              _c("div", { staticClass: "image-container " })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "w-full lg:w-7/12 text-content" }, [
-              _c("div", { staticClass: "quote" }, [
-                _c("h2", { staticClass: "mb-6" }, [
-                  _vm._v("Words from a Naandian:")
+          _c(
+            "div",
+            { staticClass: "swiper-container slider-component general" },
+            [
+              _c("div", { staticClass: "swiper-wrapper" }, [
+                _c("div", { staticClass: "swiper-slide" }, [
+                  _c("div", { staticClass: "quote max-w-2xl mx-auto" }, [
+                    _c("div", { staticClass: "container text-center" }, [
+                      _c(
+                        "div",
+                        { staticClass: "max-w-xs mx-auto mb-10 text-center" },
+                        [
+                          _c("img", {
+                            staticClass: "mx-auto",
+                            attrs: { src: "/static/icons/quote.svg", alt: "" }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4 mb-2" }, [
+                        _vm._v(
+                          '\n                                        "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."\n\n\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4" }, [
+                        _vm._v(
+                          '\n                                        Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mb-8" }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "quote-by" }, [
+                        _c("div", { staticClass: "name h5 hl-body" }, [
+                          _vm._v("M Madhusudan Reddy")
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "about" }, [
+                          _vm._v("Naandian")
+                        ])
+                      ])
+                    ])
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("p", { staticClass: "alt-body" }, [
-                  _vm._v(
-                    '\n                                "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."\n\n\n                            '
-                  )
+                _c("div", { staticClass: "swiper-slide" }, [
+                  _c("div", { staticClass: "quote max-w-2xl mx-auto" }, [
+                    _c("div", { staticClass: "container text-center" }, [
+                      _c(
+                        "div",
+                        { staticClass: "max-w-xs mx-auto mb-10 text-center" },
+                        [
+                          _c("img", {
+                            staticClass: "mx-auto",
+                            attrs: { src: "/static/icons/quote.svg", alt: "" }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4 mb-2" }, [
+                        _vm._v(
+                          '\n                                        "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."\n\n\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4" }, [
+                        _vm._v(
+                          '\n                                        Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mb-8" }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "quote-by" }, [
+                        _c("div", { staticClass: "name h5 hl-body" }, [
+                          _vm._v("M Madhusudan Reddy")
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "about" }, [
+                          _vm._v("Naandian")
+                        ])
+                      ])
+                    ])
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("p", { staticClass: "alt-body" }, [
-                  _vm._v(
-                    '\n                                Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown. "\n                            '
-                  )
+                _c("div", { staticClass: "swiper-slide" }, [
+                  _c("div", { staticClass: "quote max-w-2xl mx-auto" }, [
+                    _c("div", { staticClass: "container text-center" }, [
+                      _c(
+                        "div",
+                        { staticClass: "max-w-xs mx-auto mb-10 text-center" },
+                        [
+                          _c("img", {
+                            staticClass: "mx-auto",
+                            attrs: { src: "/static/icons/quote.svg", alt: "" }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4 mb-2" }, [
+                        _vm._v(
+                          '\n                                        "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."\n\n\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4" }, [
+                        _vm._v(
+                          '\n                                        Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mb-8" }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "quote-by" }, [
+                        _c("div", { staticClass: "name h5 hl-body" }, [
+                          _vm._v("M Madhusudan Reddy")
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "about" }, [
+                          _vm._v("Naandian")
+                        ])
+                      ])
+                    ])
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "mb-8" }),
+                _c("div", { staticClass: "swiper-slide" }, [
+                  _c("div", { staticClass: "quote max-w-2xl mx-auto" }, [
+                    _c("div", { staticClass: "container text-center" }, [
+                      _c(
+                        "div",
+                        { staticClass: "max-w-xs mx-auto mb-10 text-center" },
+                        [
+                          _c("img", {
+                            staticClass: "mx-auto",
+                            attrs: { src: "/static/icons/quote.svg", alt: "" }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4 mb-2" }, [
+                        _vm._v(
+                          '\n                                        "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."\n\n\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4" }, [
+                        _vm._v(
+                          '\n                                        Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mb-8" }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "quote-by" }, [
+                        _c("div", { staticClass: "name h5 hl-body" }, [
+                          _vm._v("M Madhusudan Reddy")
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "about" }, [
+                          _vm._v("Naandian")
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "quote-by" }, [
-                  _c("div", { staticClass: "name hl-body" }, [
-                    _vm._v("M Madhusudan Reddy")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "about" }, [_vm._v("Naandian")])
+                _c("div", { staticClass: "swiper-slide" }, [
+                  _c("div", { staticClass: "quote max-w-2xl mx-auto" }, [
+                    _c("div", { staticClass: "container text-center" }, [
+                      _c(
+                        "div",
+                        { staticClass: "max-w-xs mx-auto mb-10 text-center" },
+                        [
+                          _c("img", {
+                            staticClass: "mx-auto",
+                            attrs: { src: "/static/icons/quote.svg", alt: "" }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4 mb-2" }, [
+                        _vm._v(
+                          '\n                                        "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."\n\n\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "h4" }, [
+                        _vm._v(
+                          '\n                                        Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."\n                                    '
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mb-8" }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "quote-by" }, [
+                        _c("div", { staticClass: "name h5 hl-body" }, [
+                          _vm._v("M Madhusudan Reddy")
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "about" }, [
+                          _vm._v("Naandian")
+                        ])
+                      ])
+                    ])
+                  ])
                 ])
-              ])
-            ])
-          ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "swiper-button-next" }),
+              _vm._v(" "),
+              _c("div", { staticClass: "swiper-button-prev" })
+            ]
+          )
         ])
       ])
     ])
@@ -6133,7 +6468,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "content" }, [
         _c("h3", { staticClass: "event-name" }, [_vm._v("Be a Farmer")]),
         _vm._v(" "),
-        _c("p", { staticClass: "alt-body event-desc" }, [
+        _c("p", { staticClass: "event-desc font-bold" }, [
           _vm._v(
             "By building bonds between friends, family or team members by working together on natural farming. Teams or homogeneous groups can contact us to schedule an event to experience farming."
           )
@@ -6151,13 +6486,44 @@ var staticRenderFns = [
           _vm._v("Sustainability Workshops")
         ]),
         _vm._v(" "),
-        _c("p", { staticClass: "alt-body event-desc" }, [
+        _c("p", { staticClass: "event-desc font-bold" }, [
           _vm._v(
             "\n                        Stay informed about various aspects of sustainable living, straight from experts in the field, through one of our experiential workshops.\n                    "
           )
         ])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "swiper-container slider-component general" },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "swiper-wrapper",
+            staticStyle: { width: "auto", height: "700px" }
+          },
+          [
+            _c("div", { staticClass: "swiper-slide image-container one" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide image-container two" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide image-container three" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide image-container four" })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "swiper-button-next" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "swiper-button-prev" })
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -6181,469 +6547,546 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { attrs: { id: "naandi-page" } },
-    [
-      _c("VideoHeaderComponent", [
-        _c("div", { attrs: { slot: "header-video" }, slot: "header-video" }, [
+  return _c("div", { attrs: { id: "naandi-page" } }, [
+    _c(
+      "div",
+      { staticClass: "hidden" },
+      [
+        _c("VideoHeaderComponent", [
           _c("div", { attrs: { slot: "header-video" }, slot: "header-video" }, [
             _c(
               "div",
-              { staticClass: "mobile" },
+              { attrs: { slot: "header-video" }, slot: "header-video" },
               [
-                _vm.screenName == "mobile"
-                  ? _c("VideoComponent", [
-                      _c(
-                        "video",
-                        {
-                          attrs: {
-                            autoplay: "",
-                            loop: "",
-                            muted: "",
-                            playsinline: ""
-                          },
-                          domProps: { muted: true }
-                        },
-                        [
-                          _c("source", {
-                            attrs: {
-                              src: "/static/videos/mobile/home_mobile.mp4",
-                              type: "video/mp4"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "tablet" },
-              [
-                _vm.screenName == "tablet"
-                  ? _c("VideoComponent", [
-                      _c(
-                        "video",
-                        {
-                          attrs: {
-                            autoplay: "",
-                            loop: "",
-                            muted: "",
-                            playsinline: ""
-                          },
-                          domProps: { muted: true }
-                        },
-                        [
-                          _c("source", {
-                            attrs: {
-                              src: "/static/videos/tablet/home_tablet.mp4",
-                              type: "video/mp4"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {},
-              [
-                _vm.screenName == "sd"
-                  ? _c("VideoComponent", [
-                      _c(
-                        "video",
-                        {
-                          attrs: {
-                            autoplay: "",
-                            loop: "",
-                            muted: "",
-                            playsinline: ""
-                          },
-                          domProps: { muted: true }
-                        },
-                        [
-                          _c("source", {
-                            attrs: {
-                              src: "/static/videos/sd/home_sd.mp4",
-                              type: "video/mp4"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "hd" },
-              [
-                _vm.screenName == "hd"
-                  ? _c("VideoComponent", [
-                      _c(
-                        "video",
-                        {
-                          attrs: {
-                            autoplay: "",
-                            loop: "",
-                            muted: "",
-                            playsinline: ""
-                          },
-                          domProps: { muted: true }
-                        },
-                        [
-                          _c("source", {
-                            attrs: {
-                              src: "/static/videos/hd/home_hd.mp4",
-                              type: "video/mp4"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "wide" },
-              [
-                _vm.screenName == "wide"
-                  ? _c("VideoComponent", [
-                      _c(
-                        "video",
-                        {
-                          attrs: {
-                            autoplay: "",
-                            loop: "",
-                            muted: "",
-                            playsinline: ""
-                          },
-                          domProps: { muted: true }
-                        },
-                        [
-                          _c("source", {
-                            attrs: {
-                              src: "/static/videos/home.mp4",
-                              type: "video/mp4"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              1
+                _c(
+                  "div",
+                  { staticClass: "mobile" },
+                  [
+                    _vm.screenName == "mobile"
+                      ? _c("VideoComponent", [
+                          _c(
+                            "video",
+                            {
+                              attrs: {
+                                autoplay: "",
+                                loop: "",
+                                muted: "",
+                                playsinline: ""
+                              },
+                              domProps: { muted: true }
+                            },
+                            [
+                              _c("source", {
+                                attrs: {
+                                  src: "/static/videos/mobile/home_mobile.mp4",
+                                  type: "video/mp4"
+                                }
+                              })
+                            ]
+                          )
+                        ])
+                      : _vm._e()
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "tablet" },
+                  [
+                    _vm.screenName == "tablet"
+                      ? _c("VideoComponent", [
+                          _c(
+                            "video",
+                            {
+                              attrs: {
+                                autoplay: "",
+                                loop: "",
+                                muted: "",
+                                playsinline: ""
+                              },
+                              domProps: { muted: true }
+                            },
+                            [
+                              _c("source", {
+                                attrs: {
+                                  src: "/static/videos/tablet/home_tablet.mp4",
+                                  type: "video/mp4"
+                                }
+                              })
+                            ]
+                          )
+                        ])
+                      : _vm._e()
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {},
+                  [
+                    _vm.screenName == "sd"
+                      ? _c("VideoComponent", [
+                          _c(
+                            "video",
+                            {
+                              attrs: {
+                                autoplay: "",
+                                loop: "",
+                                muted: "",
+                                playsinline: ""
+                              },
+                              domProps: { muted: true }
+                            },
+                            [
+                              _c("source", {
+                                attrs: {
+                                  src: "/static/videos/sd/home_sd.mp4",
+                                  type: "video/mp4"
+                                }
+                              })
+                            ]
+                          )
+                        ])
+                      : _vm._e()
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "hd" },
+                  [
+                    _vm.screenName == "hd"
+                      ? _c("VideoComponent", [
+                          _c(
+                            "video",
+                            {
+                              attrs: {
+                                autoplay: "",
+                                loop: "",
+                                muted: "",
+                                playsinline: ""
+                              },
+                              domProps: { muted: true }
+                            },
+                            [
+                              _c("source", {
+                                attrs: {
+                                  src: "/static/videos/hd/home_hd.mp4",
+                                  type: "video/mp4"
+                                }
+                              })
+                            ]
+                          )
+                        ])
+                      : _vm._e()
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "wide" },
+                  [
+                    _vm.screenName == "wide"
+                      ? _c("VideoComponent", [
+                          _c(
+                            "video",
+                            {
+                              attrs: {
+                                autoplay: "",
+                                loop: "",
+                                muted: "",
+                                playsinline: ""
+                              },
+                              domProps: { muted: true }
+                            },
+                            [
+                              _c("source", {
+                                attrs: {
+                                  src: "/static/videos/home.mp4",
+                                  type: "video/mp4"
+                                }
+                              })
+                            ]
+                          )
+                        ])
+                      : _vm._e()
+                  ],
+                  1
+                )
+              ]
             )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { attrs: { slot: "header-content" }, slot: "header-content" },
+            [
+              _c("h1", [
+                _vm._v("Urban refinement,"),
+                _c("br"),
+                _vm._v(" Rural ethnicity")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "separator" }),
+              _vm._v(" "),
+              _c("div", { staticClass: "mb-6" }),
+              _vm._v(" "),
+              _c("p", { staticClass: "hl-body" }, [
+                _vm._v(
+                  "Organo builds full-featured sustainable living environments harmlessly integrated\n                    into the natural world, supportive of a healthy way of living."
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "button-block" }, [
+                _c("div", { staticClass: "lg-button inline-block" }, [
+                  _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
+                ])
+              ])
+            ]
+          )
+        ])
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "hero-container" }, [
+      _c("div", { staticClass: "background-image" }, [
+        _c("div", { staticClass: "overlay" }, [
+          _c("div", { staticClass: "text-container" }, [
+            _c("div", { staticClass: "naandi-logo max-w-xs mx-auto" }, [
+              _c("img", {
+                staticClass: "w-full",
+                attrs: { src: "/static/logos/naandi_logo.png", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(0),
+            _vm._v(" "),
+            _c("h4", { staticClass: "max-w-xl mx-auto h4" }, [
+              _vm._v(
+                "Organo builds full-featured sustainable living environments\n                        harmlessly integrated\n                        into the natural world, supportive of a healthy way of living."
+              )
+            ])
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c(
+      "section",
+      {
+        staticClass: "hidden mt-0 bg-gray-100",
+        attrs: { id: "about-project" }
+      },
+      [
+        _c(
+          "section",
+          { staticClass: "about-naandi" },
+          [
+            _c("div", { staticClass: "container mx-auto" }, [
+              _c("div", { staticClass: "wrapper" }, [
+                _c("h3", [
+                  _vm._v(
+                    "Organo’s Naandi is a plush living commune of urban villas built to offer all the\n                        contemporary\n                        living\n                        conveniences while seamlessly integrated with nature."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "separator" }),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Incorporating the latest in high-performance building science and home technology, every home\n                        gathers\n                        around a space that skillfully combines outdoor and indoor living. "
+                  ),
+                  !_vm.more_content
+                    ? _c(
+                        "span",
+                        {
+                          staticClass: "more-link link",
+                          on: { click: _vm.showMoreDetails }
+                        },
+                        [_vm._v("More")]
+                      )
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _vm.more_content
+                  ? _c("div", { staticClass: "more more-content" }, [
+                      _c("p", [
+                        _vm._v(
+                          "These fully air-conditioned signature spaces are embedded with what we call ‘rurban’\n                            nomenclature, which is a heady mix of urban refinement and rural ethnicity. Envisioned\n                            to\n                            invite\n                            families to live fully and generously, these homes have an ingenious arrangement of\n                            interior\n                            space and a unique combination of openness and privacy that makes a relaxed way of life\n                            possible."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Dramatic sliding glass doors open up to enable the home’s interiors to embrace the\n                            natural\n                            world\n                            surrounding it. Abundant windows, full-wall glass panels let in plenty of natural light\n                            and\n                            add\n                            to the feeling of openness and spaciousness. A spacious floor plan, high ceilings, large\n                            bedrooms, luxurious bathrooms, ample storage, servant quarters and other options.. all\n                            make\n                            the\n                            home perfect for you and your family."
+                        )
+                      ])
+                    ])
+                  : _vm._e()
+              ])
+            ]),
+            _vm._v(" "),
+            _c("SliderComponent")
+          ],
+          1
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c("section", { staticClass: "mb-0", attrs: { id: "naandi-intro" } }, [
+      _c("div", { staticClass: "container mx-auto" }, [
+        _c("div", { staticClass: "flex flex-wrap" }, [
+          _c("div", { staticClass: "w-full lg:w-1/2" }, [
+            _c("div", { staticClass: "max-w-xl" }, [
+              _c("div", { staticClass: "naandi-logo hidden" }, [
+                _c("img", {
+                  staticClass: "w-full",
+                  attrs: { src: "/static/logos/naandi_logo.png", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("h2", { staticClass: "mb-4" }, [
+                _vm._v("A way of life for the passionate and conscious.")
+              ]),
+              _vm._v(" "),
+              _vm._m(1),
+              _vm._v(" "),
+              _vm._m(2)
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-full lg:w-1/2" }, [
+            _c("div", { staticClass: "pb-32" }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-full",
+              attrs: { src: "/static/illustrations/naandi_map.png", alt: "" }
+            })
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "image-content-list" },
+      [
+        _c("ImageContentComponent", [
+          _c("div", {
+            staticClass: "wide-image",
+            attrs: { slot: "image" },
+            slot: "image"
+          }),
+          _vm._v(" "),
+          _c("div", { attrs: { slot: "content" }, slot: "content" }, [
+            _c("h2", { staticClass: "mb-4" }, [
+              _c("span", { staticClass: "font-normal" }, [_vm._v("the")]),
+              _vm._v(" Experience")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "alt-body" }, [
+              _vm._v(
+                "Our goal was to capture the essence of rural living and combining it with the\n                    ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered\n                    to you within a breathtaking environment, healthy organic food and an engaging community\n                    conducive to growth, relaxation and an overall improvement of health.\n                "
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-8" })
           ])
         ]),
         _vm._v(" "),
-        _c(
-          "div",
-          { attrs: { slot: "header-content" }, slot: "header-content" },
-          [
-            _c("h1", [
-              _vm._v("Urban refinement,"),
-              _c("br"),
-              _vm._v(" Rural ethnicity")
+        _c("ImageContentComponent", [
+          _c("div", {
+            staticClass: "wide-image",
+            attrs: { slot: "image" },
+            slot: "image"
+          }),
+          _vm._v(" "),
+          _c("div", { attrs: { slot: "content" }, slot: "content" }, [
+            _c("h2", { staticClass: "mb-4" }, [
+              _c("span", { staticClass: "font-normal" }, [_vm._v("the")]),
+              _vm._v(" Space")
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "separator" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "mb-6" }),
-            _vm._v(" "),
-            _c("p", { staticClass: "hl-body" }, [
+            _c("p", { staticClass: "alt-body" }, [
               _vm._v(
-                "Organo builds full-featured sustainable living environments harmlessly integrated\n                into the natural world, supportive of a healthy way of living."
+                "The 33 Acres of land located on the outskirts of the city of Hyderabad, has home\n                    units and other necessary structures built around an organic farm. Along with all the amenities\n                    expected of a modern villa community, 2/3rd of its space is used for collective farming - where\n                    residents join farmers to farm produce. 1/3rd of the space is designated for personal farming,\n                    where residents can farm independently in their own backyards.\n                "
               )
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "button-block" }, [
-              _c("div", { staticClass: "lg-button inline-block" }, [
-                _c("span", { staticClass: "text" }, [_vm._v("Watch Video")])
-              ])
-            ])
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "section",
-        {
-          staticClass: "hidden mt-0 bg-gray-100",
-          attrs: { id: "about-project" }
-        },
-        [
+            _c("div", { staticClass: "mb-8" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("ImageContentComponent", [
+          _c("div", {
+            staticClass: "wide-image",
+            attrs: { slot: "image" },
+            slot: "image"
+          }),
+          _vm._v(" "),
+          _c("div", { attrs: { slot: "content" }, slot: "content" }, [
+            _c("h2", { staticClass: "mb-4" }, [
+              _c("span", { staticClass: "font-normal" }, [_vm._v("the")]),
+              _vm._v(" Community")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "alt-body" }, [
+              _vm._v(
+                "\n                    Our intent is to promote a spirit of collective living where our members actively participate in\n                    events, socialize in designated places and a well designed exploratory path, share their time,\n                    knowledge and expertise for active social enhancement, and the cultural progress of the\n                    community. Naandians live together and work collectively for the sustenance of their home.\n\n                "
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-8" })
+          ])
+        ])
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c("section", [
+      _c("div", { staticClass: "container mx-auto content-section" }, [
+        _c("h2", { staticClass: "mb-8" }, [_vm._v("Our Home")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "max-w-5xl" }, [
+          _c("h3", { staticClass: "h4 font-normal " }, [
+            _vm._v(
+              "\n                    We have incorporated the latest in high-performance building science and home technology. Every\n                    home skillfully combines the outdoor and indoor space to create an experience of being\n                    integrated with the environment around it.\n\n                "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-6" }),
+          _vm._v(" "),
+          _c("h3", { staticClass: "font-normal h4" }, [
+            _vm._v(
+              "\n                    With open halls, large windows, sliding doors facing the farm, terraces, patios and balconies,\n                    whether it’s where you live or just visit to get away, Naandi is the perfect place to relax, let\n                    go and take a dip in nature.\n                "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-8" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "txt-btn" }, [
+            _vm._v("Request floor-plans")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-8" }),
+          _vm._v(" "),
           _c(
-            "section",
-            { staticClass: "about-naandi" },
+            "div",
+            { staticClass: "txt-btn" },
             [
-              _c("div", { staticClass: "container mx-auto" }, [
-                _c("div", { staticClass: "wrapper" }, [
-                  _c("h3", [
-                    _vm._v(
-                      "Organo’s Naandi is a plush living commune of urban villas built to offer all the\n                        contemporary\n                        living\n                        conveniences while seamlessly integrated with nature."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "separator" }),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Incorporating the latest in high-performance building science and home technology, every home\n                        gathers\n                        around a space that skillfully combines outdoor and indoor living. "
-                    ),
-                    !_vm.more_content
-                      ? _c(
-                          "span",
-                          {
-                            staticClass: "more-link link",
-                            on: { click: _vm.showMoreDetails }
-                          },
-                          [_vm._v("More")]
-                        )
-                      : _vm._e()
-                  ]),
-                  _vm._v(" "),
-                  _vm.more_content
-                    ? _c("div", { staticClass: "more more-content" }, [
-                        _c("p", [
-                          _vm._v(
-                            "These fully air-conditioned signature spaces are embedded with what we call ‘rurban’\n                            nomenclature, which is a heady mix of urban refinement and rural ethnicity. Envisioned\n                            to\n                            invite\n                            families to live fully and generously, these homes have an ingenious arrangement of\n                            interior\n                            space and a unique combination of openness and privacy that makes a relaxed way of life\n                            possible."
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("p", [
-                          _vm._v(
-                            "Dramatic sliding glass doors open up to enable the home’s interiors to embrace the\n                            natural\n                            world\n                            surrounding it. Abundant windows, full-wall glass panels let in plenty of natural light\n                            and\n                            add\n                            to the feeling of openness and spaciousness. A spacious floor plan, high ceilings, large\n                            bedrooms, luxurious bathrooms, ample storage, servant quarters and other options.. all\n                            make\n                            the\n                            home perfect for you and your family."
-                          )
-                        ])
-                      ])
-                    : _vm._e()
-                ])
-              ]),
-              _vm._v(" "),
-              _c("SliderComponent")
+              _c("router-link", { attrs: { to: "/gallery" } }, [
+                _vm._v("Browse pictures at the Gallery")
+              ])
             ],
             1
-          )
-        ]
-      ),
-      _vm._v(" "),
-      _c("section", { staticClass: "mb-12", attrs: { id: "naandi-intro" } }, [
-        _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "flex flex-wrap" }, [
-            _c("div", { staticClass: "w-full lg:w-1/2" }, [
-              _c("div", { staticClass: "max-w-xl" }, [
-                _c("div", { staticClass: "naandi-logo" }, [
-                  _c("img", {
-                    staticClass: "w-full",
-                    attrs: { src: "/static/logos/naandi_logo.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("h2", { staticClass: "mb-4" }, [
-                  _vm._v("A way of life for the passionate and conscious.")
-                ]),
-                _vm._v(" "),
-                _vm._m(0),
-                _vm._v(" "),
-                _vm._m(1)
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "w-full lg:w-1/2" }, [
-              _c("div", { staticClass: "pb-32" }),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "w-full",
-                attrs: { src: "/static/illustrations/naandi_map.png", alt: "" }
-              })
-            ])
-          ])
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-8" })
         ])
       ]),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "image-content-list" },
-        [
-          _c("ImageContentComponent", [
-            _c("div", {
-              staticClass: "wide-image",
-              attrs: { slot: "image" },
-              slot: "image"
-            }),
-            _vm._v(" "),
-            _c("div", { attrs: { slot: "content" }, slot: "content" }, [
-              _c("h2", { staticClass: "mb-4" }, [
-                _c("span", { staticClass: "font-normal" }, [_vm._v("the")]),
-                _vm._v(" Experience")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "alt-body" }, [
-                _vm._v(
-                  "Our goal was to capture the essence of rural living and combining it with the ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered to you within a breathtaking environment, healthy organic food and an engaging community conducive to growth, relaxation and an overall improvement of health.\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "mb-8" })
-            ])
-          ]),
+      _vm._m(3)
+    ]),
+    _vm._v(" "),
+    _c(
+      "section",
+      { staticClass: "content-section", attrs: { id: "amenities" } },
+      [
+        _c("div", { staticClass: "container mx-auto" }, [
+          _vm._m(4),
           _vm._v(" "),
-          _c("ImageContentComponent", [
-            _c("div", {
-              staticClass: "wide-image",
-              attrs: { slot: "image" },
-              slot: "image"
-            }),
-            _vm._v(" "),
-            _c("div", { attrs: { slot: "content" }, slot: "content" }, [
-              _c("h2", { staticClass: "mb-4" }, [
-                _c("span", { staticClass: "font-normal" }, [_vm._v("the")]),
-                _vm._v(" Space")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "alt-body" }, [
-                _vm._v(
-                  "The 33 Acres of land located on the outskirts of the city of Hyderabad, has home units and other necessary structures built around an organic farm. Along with all the amenities expected of a modern villa community, 2/3rd of its space is used for collective farming - where residents join farmers to farm produce. 1/3rd of the space is designated for personal farming, where residents can farm independently in their own backyards.\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "mb-8" })
-            ])
-          ]),
+          _c("div", { staticClass: "mb-12" }),
           _vm._v(" "),
-          _c("ImageContentComponent", [
-            _c("div", {
-              staticClass: "wide-image",
-              attrs: { slot: "image" },
-              slot: "image"
-            }),
-            _vm._v(" "),
-            _c("div", { attrs: { slot: "content" }, slot: "content" }, [
-              _c("h2", { staticClass: "mb-4" }, [
-                _c("span", { staticClass: "font-normal" }, [_vm._v("the")]),
-                _vm._v(" Community")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "alt-body" }, [
-                _vm._v(
-                  "\n                    Our intent is to promote a spirit of collective living where our members actively participate in events, socialize in designated places and a well designed exploratory path, share their time, knowledge and expertise for active social enhancement, and the cultural progress of the community. Naandians live together and work collectively for the sustenance of their home.\n\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "mb-8" })
-            ])
-          ])
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _vm._m(2),
-      _vm._v(" "),
-      _c(
-        "section",
-        { staticClass: "content-section", attrs: { id: "amenities" } },
-        [
-          _c("div", { staticClass: "container mx-auto" }, [
-            _vm._m(3),
-            _vm._v(" "),
-            _c("div", { staticClass: "mb-12" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "amenity-list" }, [
-              _c(
-                "div",
-                { staticClass: "flex flex-wrap" },
-                _vm._l(_vm.activities, function(activity) {
-                  return _c(
-                    "div",
-                    { staticClass: "amenity w-full md:w-1/2 lg:w-1/3" },
-                    [
-                      _c("div", { staticClass: "image overflow-y-hidden" }, [
-                        _c("img", {
-                          attrs: { src: activity.imageUrl, alt: "" }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "text-content" }, [
-                        _c("p", { staticClass: "alt-body" }, [
-                          _vm._v(_vm._s(activity.title))
-                        ])
+          _c("div", { staticClass: "amenity-list" }, [
+            _c(
+              "div",
+              { staticClass: "flex flex-wrap" },
+              _vm._l(_vm.activities, function(activity) {
+                return _c(
+                  "div",
+                  { staticClass: "amenity w-full md:w-1/2 lg:w-1/3" },
+                  [
+                    _c("div", { staticClass: "image overflow-y-hidden" }, [
+                      _c("img", { attrs: { src: activity.imageUrl, alt: "" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "text-content" }, [
+                      _c("p", { staticClass: "alt-body" }, [
+                        _vm._v(_vm._s(activity.title))
                       ])
-                    ]
-                  )
-                }),
-                0
-              )
-            ])
+                    ])
+                  ]
+                )
+              }),
+              0
+            )
           ])
-        ]
-      ),
-      _vm._v(" "),
-      _vm._m(4),
-      _vm._v(" "),
-      _c("section", { staticClass: "m-0" }, [_c("SchoolCTAComponent")], 1),
-      _vm._v(" "),
-      _c("section", { attrs: { id: "share-section" } }, [
-        _c("div", { staticClass: "container mx-auto" }, [
-          _c("div", { staticClass: "flex flex-col content-center" }, [
-            _vm._m(5),
-            _vm._v(" "),
-            _c("div", { staticClass: "social-icons" }, [
-              _c("div", { staticClass: "flex" }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("img", {
-                    staticClass: "active",
-                    attrs: { src: "/static/icons/social/whatsapp.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "icon" }, [
-                  _c("img", {
-                    attrs: { src: "/static/icons/social/facebook.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "icon" }, [
-                  _c("img", {
-                    attrs: { src: "/static/icons/social/email.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "icon" }, [
-                  _c("img", {
-                    attrs: {
-                      src: "/static/icons/social/instagram.png",
-                      alt: ""
-                    }
-                  })
-                ])
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _vm._m(5),
+    _vm._v(" "),
+    _c("section", { staticClass: "m-0" }, [_c("SchoolCTAComponent")], 1),
+    _vm._v(" "),
+    _c("section", { attrs: { id: "share-section" } }, [
+      _c("div", { staticClass: "container mx-auto" }, [
+        _c("div", { staticClass: "flex flex-col content-center" }, [
+          _vm._m(6),
+          _vm._v(" "),
+          _c("div", { staticClass: "social-icons" }, [
+            _c("div", { staticClass: "flex" }, [
+              _c("div", { staticClass: "icon" }, [
+                _c("img", {
+                  staticClass: "active",
+                  attrs: { src: "/static/icons/social/whatsapp.png", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "icon" }, [
+                _c("img", {
+                  attrs: { src: "/static/icons/social/facebook.png", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "icon" }, [
+                _c("img", {
+                  attrs: { src: "/static/icons/social/email.png", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "icon" }, [
+                _c("img", {
+                  attrs: { src: "/static/icons/social/instagram.png", alt: "" }
+                })
               ])
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-2" }),
-      _vm._v(" "),
-      _c("section")
-    ],
-    1
-  )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "p-2" }),
+    _vm._v(" "),
+    _c("section")
+  ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h1", [
+      _vm._v("Urban refinement, "),
+      _c("br"),
+      _vm._v("Rural ethnicity")
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -6669,47 +7112,51 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "metrics" }, [
       _c("div", { staticClass: "metric" }, [
-        _c("h2", { staticClass: "number" }, [
+        _c("h1", { staticClass: "number primary-color mb-2" }, [
           _vm._v("36.5 "),
           _c("span", { staticClass: "sub" }, [_vm._v("Acres")])
         ]),
         _vm._v(" "),
-        _c("h3", { staticClass: "description highlight" }, [
-          _c("span", { staticClass: "font-normal" }, [_vm._v("Total Area")])
+        _c("h3", { staticClass: "h4 description highlight" }, [
+          _c("span", { staticClass: "font-bold opacity-50" }, [
+            _vm._v("Total Area")
+          ])
         ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "metric" }, [
-        _c("h2", { staticClass: "number" }, [
+        _c("h1", { staticClass: "number primary-color mb-2" }, [
           _vm._v("6.5 "),
           _c("span", { staticClass: "sub" }, [_vm._v("Acres")])
         ]),
         _vm._v(" "),
-        _c("h3", { staticClass: "description" }, [
-          _c("span", { staticClass: "font-normal" }, [
+        _c("h3", { staticClass: "h4 description" }, [
+          _c("span", { staticClass: "font-bold opacity-50" }, [
             _vm._v("Agricultural Land")
           ])
         ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "metric" }, [
-        _c("h2", { staticClass: "number" }, [
+        _c("h1", { staticClass: "number primary-color mb-2" }, [
           _vm._v("10 "),
           _c("span", { staticClass: "sub" }, [_vm._v("Acres")])
         ]),
         _vm._v(" "),
-        _c("h3", { staticClass: "description" }, [
-          _c("span", { staticClass: "font-normal" }, [
+        _c("h3", { staticClass: "h4 description" }, [
+          _c("span", { staticClass: "font-bold opacity-50" }, [
             _vm._v("Afforested Land")
           ])
         ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "metric" }, [
-        _c("h2", { staticClass: "number" }, [_vm._v("73")]),
+        _c("h1", { staticClass: "number primary-color mb-2" }, [_vm._v("73")]),
         _vm._v(" "),
-        _c("h3", { staticClass: "description" }, [
-          _c("span", { staticClass: "font-normal" }, [_vm._v("Farm Units")])
+        _c("h3", { staticClass: "h4 description" }, [
+          _c("span", { staticClass: "font-bold opacity-50" }, [
+            _vm._v("Farm Units")
+          ])
         ])
       ])
     ])
@@ -6718,61 +7165,28 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", [
-      _c("div", { staticClass: "container mx-auto content-section" }, [
-        _c("h2", { staticClass: "mb-8" }, [_vm._v("Naandi Home")]),
+    return _c("div", { staticClass: "home-images" }, [
+      _c("div", { staticClass: "swiper-container slider-component general" }, [
+        _c(
+          "div",
+          {
+            staticClass: "swiper-wrapper",
+            staticStyle: { width: "auto", height: "700px" }
+          },
+          [
+            _c("div", { staticClass: "swiper-slide image-container one" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide image-container two" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide image-container three" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide image-container four" })
+          ]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "max-w-4xl" }, [
-          _c("h3", { staticClass: "font-normal" }, [
-            _vm._v(
-              "\n                    We have incorporated the latest in high-performance building science and home technology. Every home skillfully combines the outdoor and indoor space to create an experience of being integrated with the environment around it.\n\n                "
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-6" }),
-          _vm._v(" "),
-          _c("h3", { staticClass: "font-normal" }, [
-            _vm._v(
-              "\n                    With open halls, large windows, sliding doors facing the farm, terraces, patios and balconies, whether it’s where you live or just visit to get away, Naandi is the perfect place to relax, let go and take a dip in nature.\n                "
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-8" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "txt-btn" }, [
-            _vm._v("Request floor-plans")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-8" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "txt-btn" }, [
-            _vm._v("Browse pictures at the Gallery")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-8" })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "home-images" }, [
-        _c("div", { staticClass: "flex flex-wrap" }, [
-          _c("div", { staticClass: "slider-component owl-carousel" }, [
-            _c("div", {
-              staticClass: "w-100 w-full lg:w-1/2 image-container one"
-            }),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "w-100 w-full lg:w-1/2 image-container two"
-            }),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "w-100 w-full lg:w-1/2 image-container three"
-            }),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "w-100 w-full lg:w-1/2 image-container four"
-            })
-          ])
-        ])
+        _c("div", { staticClass: "swiper-button-next" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "swiper-button-prev" })
       ])
     ])
   },
@@ -6802,13 +7216,13 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    '\n                                    "Quiet, peaceful, pollution-free and it allows us to relax and calm down in a quiet place, away from the noise and disturbance of city living.\n                                '
+                    '\n                                "Quiet, peaceful, pollution-free and it allows us to relax and calm down in a quiet\n                                place, away from the noise and disturbance of city living.\n                            '
                   )
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "alt-body" }, [
                   _vm._v(
-                    "\n                                    We love to spend our weekends away relaxing at Naandi with the kids. We enjoy a good night's sleep.\n                                    \"\n                                "
+                    "\n                                We love to spend our weekends away relaxing at Naandi with the kids. We enjoy a good\n                                night's sleep.\n                                \"\n                            "
                   )
                 ]),
                 _vm._v(" "),
@@ -9044,19 +9458,22 @@ render._withStripped = true
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
-/* harmony import */ var _components_partials_SliderComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/partials/SliderComponent */ "./resources/js/components/partials/SliderComponent.vue");
-/* harmony import */ var _components_partials_TestimonialsComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/partials/TestimonialsComponent */ "./resources/js/components/partials/TestimonialsComponent.vue");
-/* harmony import */ var _components_partials_SchoolCTAComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/partials/SchoolCTAComponent */ "./resources/js/components/partials/SchoolCTAComponent.vue");
-/* harmony import */ var _components_partials_StandardCTAComponent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/partials/StandardCTAComponent */ "./resources/js/components/partials/StandardCTAComponent.vue");
-/* harmony import */ var _components_partials_FeatureComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/partials/FeatureComponent */ "./resources/js/components/partials/FeatureComponent.vue");
-/* harmony import */ var _components_partials_HelpComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/partials/HelpComponent */ "./resources/js/components/partials/HelpComponent.vue");
-/* harmony import */ var _components_partials_FeedbackComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/partials/FeedbackComponent */ "./resources/js/components/partials/FeedbackComponent.vue");
-/* harmony import */ var _components_partials_VideoHeaderComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/partials/VideoHeaderComponent */ "./resources/js/components/partials/VideoHeaderComponent.vue");
-/* harmony import */ var _components_VideoComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/VideoComponent */ "./resources/js/components/VideoComponent.vue");
-/* harmony import */ var _components_CardModalComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/CardModalComponent */ "./resources/js/components/CardModalComponent.vue");
-/* harmony import */ var _components_ImageContentComponent__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/ImageContentComponent */ "./resources/js/components/ImageContentComponent.vue");
-/* harmony import */ var _components_forms_FormContactComponent__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/forms/FormContactComponent */ "./resources/js/components/forms/FormContactComponent.vue");
+/* harmony import */ var _swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./swiper */ "./resources/js/swiper.js");
+/* harmony import */ var _swiper__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_swiper__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
+/* harmony import */ var _components_partials_SliderComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/partials/SliderComponent */ "./resources/js/components/partials/SliderComponent.vue");
+/* harmony import */ var _components_partials_TestimonialsComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/partials/TestimonialsComponent */ "./resources/js/components/partials/TestimonialsComponent.vue");
+/* harmony import */ var _components_partials_SchoolCTAComponent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/partials/SchoolCTAComponent */ "./resources/js/components/partials/SchoolCTAComponent.vue");
+/* harmony import */ var _components_partials_StandardCTAComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/partials/StandardCTAComponent */ "./resources/js/components/partials/StandardCTAComponent.vue");
+/* harmony import */ var _components_partials_FeatureComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/partials/FeatureComponent */ "./resources/js/components/partials/FeatureComponent.vue");
+/* harmony import */ var _components_partials_HelpComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/partials/HelpComponent */ "./resources/js/components/partials/HelpComponent.vue");
+/* harmony import */ var _components_partials_FeedbackComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/partials/FeedbackComponent */ "./resources/js/components/partials/FeedbackComponent.vue");
+/* harmony import */ var _components_partials_VideoHeaderComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/partials/VideoHeaderComponent */ "./resources/js/components/partials/VideoHeaderComponent.vue");
+/* harmony import */ var _components_VideoComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/VideoComponent */ "./resources/js/components/VideoComponent.vue");
+/* harmony import */ var _components_CardModalComponent__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/CardModalComponent */ "./resources/js/components/CardModalComponent.vue");
+/* harmony import */ var _components_ImageContentComponent__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/ImageContentComponent */ "./resources/js/components/ImageContentComponent.vue");
+/* harmony import */ var _components_forms_FormContactComponent__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/forms/FormContactComponent */ "./resources/js/components/forms/FormContactComponent.vue");
+
 
 
 
@@ -9072,27 +9489,26 @@ __webpack_require__.r(__webpack_exports__);
 
  //Partials
 
-Vue.component('SliderComponent', _components_partials_SliderComponent__WEBPACK_IMPORTED_MODULE_2__["default"]);
-Vue.component('TestimonialsComponent', _components_partials_TestimonialsComponent__WEBPACK_IMPORTED_MODULE_3__["default"]);
-Vue.component('SchoolCTAComponent', _components_partials_SchoolCTAComponent__WEBPACK_IMPORTED_MODULE_4__["default"]);
-Vue.component('StandardCTAComponent', _components_partials_StandardCTAComponent__WEBPACK_IMPORTED_MODULE_5__["default"]);
-Vue.component('FeatureComponent', _components_partials_FeatureComponent__WEBPACK_IMPORTED_MODULE_6__["default"]);
-Vue.component('HelpComponent', _components_partials_HelpComponent__WEBPACK_IMPORTED_MODULE_7__["default"]);
-Vue.component('FeedbackComponent', _components_partials_FeedbackComponent__WEBPACK_IMPORTED_MODULE_8__["default"]);
-Vue.component('VideoHeaderComponent', _components_partials_VideoHeaderComponent__WEBPACK_IMPORTED_MODULE_9__["default"]);
-Vue.component('VideoComponent', _components_VideoComponent__WEBPACK_IMPORTED_MODULE_10__["default"]);
-Vue.component('CardModalComponent', _components_CardModalComponent__WEBPACK_IMPORTED_MODULE_11__["default"]);
-Vue.component('ImageContentComponent', _components_ImageContentComponent__WEBPACK_IMPORTED_MODULE_12__["default"]); //Forms
+Vue.component('SliderComponent', _components_partials_SliderComponent__WEBPACK_IMPORTED_MODULE_3__["default"]);
+Vue.component('TestimonialsComponent', _components_partials_TestimonialsComponent__WEBPACK_IMPORTED_MODULE_4__["default"]);
+Vue.component('SchoolCTAComponent', _components_partials_SchoolCTAComponent__WEBPACK_IMPORTED_MODULE_5__["default"]);
+Vue.component('StandardCTAComponent', _components_partials_StandardCTAComponent__WEBPACK_IMPORTED_MODULE_6__["default"]);
+Vue.component('FeatureComponent', _components_partials_FeatureComponent__WEBPACK_IMPORTED_MODULE_7__["default"]);
+Vue.component('HelpComponent', _components_partials_HelpComponent__WEBPACK_IMPORTED_MODULE_8__["default"]);
+Vue.component('FeedbackComponent', _components_partials_FeedbackComponent__WEBPACK_IMPORTED_MODULE_9__["default"]);
+Vue.component('VideoHeaderComponent', _components_partials_VideoHeaderComponent__WEBPACK_IMPORTED_MODULE_10__["default"]);
+Vue.component('VideoComponent', _components_VideoComponent__WEBPACK_IMPORTED_MODULE_11__["default"]);
+Vue.component('CardModalComponent', _components_CardModalComponent__WEBPACK_IMPORTED_MODULE_12__["default"]);
+Vue.component('ImageContentComponent', _components_ImageContentComponent__WEBPACK_IMPORTED_MODULE_13__["default"]); //Forms
 
-Vue.component('FormContactComponent', _components_forms_FormContactComponent__WEBPACK_IMPORTED_MODULE_13__["default"]);
+Vue.component('FormContactComponent', _components_forms_FormContactComponent__WEBPACK_IMPORTED_MODULE_14__["default"]);
 new Vue({
   el: '#app',
   // components: {
   //     NavComponent
   // },
-  router: _routes__WEBPACK_IMPORTED_MODULE_1__["default"]
+  router: _routes__WEBPACK_IMPORTED_MODULE_2__["default"]
 });
-$(document).ready(function () {});
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
   var Nav = $('nav');
@@ -11458,6 +11874,41 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (router);
+
+/***/ }),
+
+/***/ "./resources/js/swiper.js":
+/*!********************************!*\
+  !*** ./resources/js/swiper.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(document).ready(function () {
+  var mySwiper = new Swiper('.swiper-container', {
+    direction: 'horizontal',
+    autoplay: {
+      delay: 3000
+    },
+    disableOnInteraction: true,
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    scrollbar: {
+      el: '.swiper-scrollbar'
+    }
+  });
+  var swiperContainer = $('.swiper-container');
+  swiperContainer.mouseenter(function () {
+    console.log("here");
+    mySwiper.autoplay.stop();
+  });
+  swiperContainer.mouseleave(function () {
+    mySwiper.autoplay.start();
+  });
+});
 
 /***/ }),
 

@@ -13,7 +13,8 @@
     <div id="dashboard">
         <div class="admin-wrapper">
             <div class="container">
-                <div class="flex p-8 flex-wrap">
+                <p class="text-center pt-12 pb-3 uppercase tracking-wider font-bold opacity-25 mb-0">Administration Panel</p>
+                <div class="flex  flex-wrap">
                     <div class="w-1/3">
                         <a href="/admin/team">
                             <div class="admin-h-card mx-3">
@@ -51,48 +52,6 @@
                                     <p class="small-text">Manage records that appear on</p>
                                     <p>
                                         <strong>organo.co.in</strong>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                   <div class="w-1/3">
-                    <a href="/admin/gallery">
-                        <div class="admin-h-card mx-3">
-                            <div class="top-div pt-4 mb-2 ">
-                                <div class="icon">
-                                    <img src="/static/admin/icons/gallery_admin.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="text text-center px-4 py-8">
-                                <div class="title">
-                                    <h2>Gallery</h2>
-
-                                </div>
-                                <p class="small-text">Manage records that appear on</p>
-                                <p>
-                                    <strong>organo.co.in/gallery</strong>
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                    <div class="w-1/3">
-                        <a href="/admin/blog">
-                            <div class="admin-h-card mx-3">
-                                <div class="top-div pt-4 mb-2 ">
-                                    <div class="icon">
-                                        <img src="/static/admin/icons/blog_admin.svg" alt="">
-                                    </div>
-                                </div>
-                                <div class="text text-center px-4 py-8">
-                                    <div class="title">
-                                        <h2>Blog</h2>
-
-                                    </div>
-                                    <p class="small-text">Manage records that appear on</p>
-                                    <p>
-                                        <strong>organo.co.in/editorial</strong>
                                     </p>
                                 </div>
                             </div>
@@ -140,8 +99,49 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                    <div class="w-1/3 ">
+                        <a >
+                            <div class="admin-h-card disabled mx-3">
+                                <div class="top-div pt-4 mb-2 ">
+                                    <div class="icon">
+                                        <img src="/static/admin/icons/gallery_admin.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text text-center px-4 py-8">
+                                    <div class="title">
+                                        <h2>Gallery</h2>
 
+                                    </div>
+                                    <p class="small-text">Manage records that appear on</p>
+                                    <p>
+                                        <strong>organo.co.in/gallery</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-1/3 ">
+                        <a>
+                            <div class="admin-h-card disabled mx-3">
+                                <div class="top-div pt-4 mb-2 ">
+                                    <div class="icon">
+                                        <img src="/static/admin/icons/blog_admin.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text text-center px-4 py-8">
+                                    <div class="title">
+                                        <h2>Blog</h2>
+
+                                    </div>
+                                    <p class="small-text">Manage records that appear on</p>
+                                    <p>
+                                        <strong>organo.co.in/editorial</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 

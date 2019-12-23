@@ -1,64 +1,89 @@
 <template>
     <div id="naandi-page">
-        <VideoHeaderComponent>
-            <div slot="header-video">
+        <div class="hidden">
+            <VideoHeaderComponent>
                 <div slot="header-video">
-                    <div class="mobile">
-                        <VideoComponent v-if="screenName == 'mobile'">
-                            <video autoplay loop muted playsinline>
-                                <source :src="'/static/videos/mobile/home_mobile.mp4'" type="video/mp4">
-                            </video>
-                        </VideoComponent>
-                    </div>
+                    <div slot="header-video">
+                        <div class="mobile">
+                            <VideoComponent v-if="screenName == 'mobile'">
+                                <video autoplay loop muted playsinline>
+                                    <source :src="'/static/videos/mobile/home_mobile.mp4'" type="video/mp4">
+                                </video>
+                            </VideoComponent>
+                        </div>
 
-                    <div class="tablet">
-                        <VideoComponent v-if="screenName == 'tablet'">
-                            <video autoplay loop muted playsinline>
-                                <source :src="'/static/videos/tablet/home_tablet.mp4'" type="video/mp4">
-                            </video>
-                        </VideoComponent>
-                    </div>
+                        <div class="tablet">
+                            <VideoComponent v-if="screenName == 'tablet'">
+                                <video autoplay loop muted playsinline>
+                                    <source :src="'/static/videos/tablet/home_tablet.mp4'" type="video/mp4">
+                                </video>
+                            </VideoComponent>
+                        </div>
 
-                    <div class="">
-                        <VideoComponent v-if="screenName == 'sd'">
+                        <div class="">
+                            <VideoComponent v-if="screenName == 'sd'">
 
-                            <video autoplay loop muted playsinline>
-                                <source :src="'/static/videos/sd/home_sd.mp4'" type="video/mp4">
-                            </video>
-                        </VideoComponent>
-                    </div>
+                                <video autoplay loop muted playsinline>
+                                    <source :src="'/static/videos/sd/home_sd.mp4'" type="video/mp4">
+                                </video>
+                            </VideoComponent>
+                        </div>
 
-                    <div class="hd">
-                        <VideoComponent v-if="screenName == 'hd'">
-                            <video autoplay loop muted playsinline>
-                                <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
-                            </video>
-                        </VideoComponent>
+                        <div class="hd">
+                            <VideoComponent v-if="screenName == 'hd'">
+                                <video autoplay loop muted playsinline>
+                                    <source :src="'/static/videos/hd/home_hd.mp4'" type="video/mp4">
+                                </video>
+                            </VideoComponent>
+                        </div>
+                        <div class="wide">
+                            <VideoComponent v-if="screenName == 'wide'">
+                                <video autoplay loop muted playsinline>
+                                    <source :src="'/static/videos/home.mp4'" type="video/mp4">
+                                </video>
+                            </VideoComponent>
+                        </div>
                     </div>
-                    <div class="wide">
-                        <VideoComponent v-if="screenName == 'wide'">
-                            <video autoplay loop muted playsinline>
-                                <source :src="'/static/videos/home.mp4'" type="video/mp4">
-                            </video>
-                        </VideoComponent>
+                </div>
+
+                <div slot="header-content">
+                    <h1>Urban refinement,<br/> Rural ethnicity</h1>
+                    <div class="separator"></div>
+                    <div class="mb-6"></div>
+                    <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
+                        into the natural world, supportive of a healthy way of living.</p>
+                    <div class="button-block">
+
+                        <div class="lg-button inline-block">
+                            <span class="text">Watch Video</span>
+                        </div>
+                    </div>
+                </div>
+            </VideoHeaderComponent>
+        </div>
+
+        <!--Header-->
+        <div class="hero-container">
+            <div class="background-image">
+                <div class="overlay">
+                    <div class="text-container">
+                        <div class="naandi-logo max-w-xs mx-auto">
+                            <img :src="'/static/logos/naandi_logo.png'" class="w-full" alt="">
+                        </div>
+                        <h1>Urban refinement, <br/>Rural ethnicity</h1>
+                        <!--<div class="separator"></div>-->
+                        <h4 class="max-w-xl mx-auto h4">Organo builds full-featured sustainable living environments
+                            harmlessly integrated
+                            into the natural world, supportive of a healthy way of living.</h4>
+
+
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div slot="header-content">
-                <h1>Urban refinement,<br/> Rural ethnicity</h1>
-                <div class="separator"></div>
-                <div class="mb-6"></div>
-                <p class="hl-body">Organo builds full-featured sustainable living environments harmlessly integrated
-                    into the natural world, supportive of a healthy way of living.</p>
-                <div class="button-block">
+        <!--Intro-->
 
-                    <div class="lg-button inline-block">
-                        <span class="text">Watch Video</span>
-                    </div>
-                </div>
-            </div>
-        </VideoHeaderComponent>
 
         <section id="about-project" class="hidden mt-0 bg-gray-100">
             <section class="about-naandi">
@@ -107,35 +132,36 @@
         </section>
 
 
-        <section id="naandi-intro" class="mb-12">
+        <section id="naandi-intro" class="mb-0">
             <div class="container mx-auto">
                 <div class="flex flex-wrap">
                     <div class="w-full lg:w-1/2">
                         <div class="max-w-xl">
-                            <div class="naandi-logo">
+                            <div class="naandi-logo hidden">
                                 <img :src="'/static/logos/naandi_logo.png'" class="w-full" alt="">
                             </div>
                             <h2 class="mb-4">A way of life for the passionate and conscious.</h2>
                             <p class="alt-body mb-12">Naandi<span class="font-normal"> is the manifestation of our
                         efforts towards creating a <span class="font-bold">Rurban Eco-habitat</span> on net-zero and triple bottom
-                        line principles. Situated 17km from Hyderabad, we offer sustainable living space, a conscious community and opportunities to work with nature and experience a combination of urban refinement and rural ethnicity.</span></p>
+                        line principles. Situated 17km from Hyderabad, we offer sustainable living space, a conscious community and opportunities to work with nature and experience a combination of urban refinement and rural ethnicity.</span>
+                            </p>
 
                             <div class="metrics">
                                 <div class="metric">
-                                    <h2 class="number">36.5 <span class="sub">Acres</span></h2>
-                                    <h3 class="description highlight"><span class="font-normal">Total Area</span></h3>
+                                    <h1 class="number primary-color mb-2">36.5 <span class="sub">Acres</span></h1>
+                                    <h3 class="h4 description highlight"><span class="font-bold opacity-50">Total Area</span></h3>
                                 </div>
                                 <div class="metric">
-                                    <h2 class="number">6.5 <span class="sub">Acres</span></h2>
-                                    <h3 class="description"><span class="font-normal">Agricultural Land</span></h3>
+                                    <h1 class="number primary-color mb-2">6.5 <span class="sub">Acres</span></h1>
+                                    <h3 class="h4 description"><span class="font-bold opacity-50">Agricultural Land</span></h3>
                                 </div>
                                 <div class="metric">
-                                    <h2 class="number">10 <span class="sub">Acres</span></h2>
-                                    <h3 class="description"><span class="font-normal">Afforested Land</span></h3>
+                                    <h1 class="number primary-color mb-2">10 <span class="sub">Acres</span></h1>
+                                    <h3 class="h4 description"><span class="font-bold opacity-50">Afforested Land</span></h3>
                                 </div>
                                 <div class="metric">
-                                    <h2 class="number">73</h2>
-                                    <h3 class="description"><span class="font-normal">Farm Units</span></h3>
+                                    <h1 class="number primary-color mb-2">73</h1>
+                                    <h3 class="h4 description"><span class="font-bold opacity-50">Farm Units</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -147,27 +173,28 @@
                 </div>
 
 
-
-
             </div>
         </section>
 
         <div class="image-content-list">
             <!--<ImageContentComponent>-->
-                <!--<div slot="image" class="wide-image"></div>-->
-                <!--<div slot="content">-->
-                    <!--<h2 class="mb-4"><span class="font-normal">the</span> Vision</h2>-->
-                    <!--<p class="alt-body">Through our work towards this ideal, we have found seven areas that need our-->
-                        <!--attention - Food, Water, Air, Earth, Energy, Shelter and People. Our efforts in each of these-->
-                        <!--areas work independently and inter-dependently with each other to create a living, breathing-->
-                        <!--environment suitable for all that live in it.</p>-->
-                <!--</div>-->
+            <!--<div slot="image" class="wide-image"></div>-->
+            <!--<div slot="content">-->
+            <!--<h2 class="mb-4"><span class="font-normal">the</span> Vision</h2>-->
+            <!--<p class="alt-body">Through our work towards this ideal, we have found seven areas that need our-->
+            <!--attention - Food, Water, Air, Earth, Energy, Shelter and People. Our efforts in each of these-->
+            <!--areas work independently and inter-dependently with each other to create a living, breathing-->
+            <!--environment suitable for all that live in it.</p>-->
+            <!--</div>-->
             <!--</ImageContentComponent>-->
             <ImageContentComponent>
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
                     <h2 class="mb-4"><span class="font-normal">the</span> Experience</h2>
-                    <p class="alt-body">Our goal was to capture the essence of rural living and combining it with the ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered to you within a breathtaking environment, healthy organic food and an engaging community conducive to growth, relaxation and an overall improvement of health.
+                    <p class="alt-body">Our goal was to capture the essence of rural living and combining it with the
+                        ways of the modern lifestyle. Every comfort you could expect in an urban arrangement is offered
+                        to you within a breathtaking environment, healthy organic food and an engaging community
+                        conducive to growth, relaxation and an overall improvement of health.
                     </p>
                     <div class="mb-8"></div>
                 </div>
@@ -176,7 +203,11 @@
                 <div slot="image" class="wide-image"></div>
                 <div slot="content">
                     <h2 class="mb-4"><span class="font-normal">the</span> Space</h2>
-                    <p class="alt-body">The 33 Acres of land located on the outskirts of the city of Hyderabad, has home units and other necessary structures built around an organic farm. Along with all the amenities expected of a modern villa community, 2/3rd of its space is used for collective farming - where residents join farmers to farm produce. 1/3rd of the space is designated for personal farming, where residents can farm independently in their own backyards.
+                    <p class="alt-body">The 33 Acres of land located on the outskirts of the city of Hyderabad, has home
+                        units and other necessary structures built around an organic farm. Along with all the amenities
+                        expected of a modern villa community, 2/3rd of its space is used for collective farming - where
+                        residents join farmers to farm produce. 1/3rd of the space is designated for personal farming,
+                        where residents can farm independently in their own backyards.
                     </p>
                     <div class="mb-8"></div>
                 </div>
@@ -186,7 +217,10 @@
                 <div slot="content">
                     <h2 class="mb-4"><span class="font-normal">the</span> Community</h2>
                     <p class="alt-body">
-                        Our intent is to promote a spirit of collective living where our members actively participate in events, socialize in designated places and a well designed exploratory path, share their time, knowledge and expertise for active social enhancement, and the cultural progress of the community. Naandians live together and work collectively for the sustenance of their home.
+                        Our intent is to promote a spirit of collective living where our members actively participate in
+                        events, socialize in designated places and a well designed exploratory path, share their time,
+                        knowledge and expertise for active social enhancement, and the cultural progress of the
+                        community. Naandians live together and work collectively for the sustenance of their home.
 
                     </p>
                     <div class="mb-8"></div>
@@ -196,31 +230,42 @@
 
         <section>
             <div class="container mx-auto content-section">
-                <h2 class="mb-8">Naandi Home</h2>
-                <div class="max-w-4xl">
-                    <h3 class="font-normal">
-                        We have incorporated the latest in high-performance building science and home technology. Every home skillfully combines the outdoor and indoor space to create an experience of being integrated with the environment around it.
+                <h2 class="mb-8">Our Home</h2>
+                <div class="max-w-5xl">
+                    <h3 class="h4 font-normal ">
+                        We have incorporated the latest in high-performance building science and home technology. Every
+                        home skillfully combines the outdoor and indoor space to create an experience of being
+                        integrated with the environment around it.
 
                     </h3>
                     <div class="mb-6"></div>
-                    <h3 class="font-normal">
-                        With open halls, large windows, sliding doors facing the farm, terraces, patios and balconies, whether it’s where you live or just visit to get away, Naandi is the perfect place to relax, let go and take a dip in nature.
+                    <h3 class="font-normal h4">
+                        With open halls, large windows, sliding doors facing the farm, terraces, patios and balconies,
+                        whether it’s where you live or just visit to get away, Naandi is the perfect place to relax, let
+                        go and take a dip in nature.
                     </h3>
                     <div class="mb-8"></div>
                     <div class="txt-btn">Request floor-plans</div>
                     <div class="mb-8"></div>
-                    <div class="txt-btn">Browse pictures at the Gallery</div>
+                    <div class="txt-btn">
+                        <router-link to="/gallery">Browse pictures at the Gallery</router-link>
+                    </div>
                     <div class="mb-8"></div>
                 </div>
             </div>
+
+
             <div class="home-images">
-                <div class="flex flex-wrap">
-                    <div class="slider-component owl-carousel">
-                        <div class="w-100 w-full lg:w-1/2 image-container one"></div>
-                        <div class="w-100 w-full lg:w-1/2 image-container two"></div>
-                        <div class="w-100 w-full lg:w-1/2 image-container three"></div>
-                        <div class="w-100 w-full lg:w-1/2 image-container four"></div>
+
+                <div  class="swiper-container slider-component general">
+                    <div class="swiper-wrapper" style="width: auto; height: 700px;">
+                        <div class="swiper-slide image-container one"></div>
+                        <div class="swiper-slide image-container two"></div>
+                        <div class="swiper-slide image-container three"></div>
+                        <div class="swiper-slide image-container four"></div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
 
 
                 </div>
@@ -255,39 +300,41 @@
 
         <section id="naandi-testimonials">
 
-                <div class="testimonial-component">
-                    <div class="container mx-auto">
-                        <div class="flex flex-wrap testimonial">
-                            <div class="w-full lg:w-5/12 image-wrapper ">
-                                <div class="image-container ">
-
-                                </div>
-                            </div>
-                            <div class="w-full lg:w-7/12 text-content">
-                                <div class="quote">
-                                    <h2 class="mb-6">Testimonial:</h2>
-                                    <p class="alt-body">
-                                        "Quiet, peaceful, pollution-free and it allows us to relax and calm down in a quiet place, away from the noise and disturbance of city living.
-                                    </p>
-                                    <p class="alt-body">
-                                        We love to spend our weekends away relaxing at Naandi with the kids. We enjoy a good night's sleep.
-                                        "
-                                    </p>
-
-                                    <div class="mb-8"></div>
-                                    <div class="quote-by">
-                                        <div class="name hl-body">Shwetha Reddy</div>
-                                        <div class="about">Naandian</div>
-                                    </div>
-                                </div>
+            <div class="testimonial-component">
+                <div class="container mx-auto">
+                    <div class="flex flex-wrap testimonial">
+                        <div class="w-full lg:w-5/12 image-wrapper ">
+                            <div class="image-container ">
 
                             </div>
                         </div>
+                        <div class="w-full lg:w-7/12 text-content">
+                            <div class="quote">
+                                <h2 class="mb-6">Testimonial:</h2>
+                                <p class="alt-body">
+                                    "Quiet, peaceful, pollution-free and it allows us to relax and calm down in a quiet
+                                    place, away from the noise and disturbance of city living.
+                                </p>
+                                <p class="alt-body">
+                                    We love to spend our weekends away relaxing at Naandi with the kids. We enjoy a good
+                                    night's sleep.
+                                    "
+                                </p>
 
+                                <div class="mb-8"></div>
+                                <div class="quote-by">
+                                    <div class="name hl-body">Shwetha Reddy</div>
+                                    <div class="about">Naandian</div>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
 
+
                 </div>
+
+            </div>
 
         </section>
 
@@ -330,17 +377,8 @@
 <script>
     export default {
         mounted() {
-            $(".slider-component.owl-carousel").owlCarousel({
-                loop: true,
-                items: 1,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                dots: false,
-                nav: false,
-                slideTransition: 'ease-in-out'
-            });
 
-            var rellax = new Rellax('.rellax');
+
         },
         data() {
             return {

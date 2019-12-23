@@ -88,8 +88,8 @@ class PressPostsController extends Controller
         ]);
 
         $validatedData = (object)$validatedData;
-        $data->quote = $validatedData->headline;
-        $data->name = $validatedData->url;
+        $data->headline = $validatedData->headline;
+        $data->url = $validatedData->url;
 
         $data->save();
         return redirect('/admin/press');

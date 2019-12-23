@@ -19,7 +19,7 @@
                         {{method_field('PATCH')}}
                         @csrf
                         <input type="text" name="active" value="true" hidden class="hidden">
-
+                        <h3 class="h3">Edit Testimonial</h3>
                         <div class="field">
                             <label class="label">Quote</label>
                             <div class="control">

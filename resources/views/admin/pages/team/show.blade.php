@@ -6,10 +6,22 @@
 
         <div class="admin-v-card max-w-4xl pt-1">
             <div class="px-16 py-8 ">
-                <p style="white-space: pre-line">{{$data->title}}</p>
-                <a class="button" href="{{$data->url}}">Visit Site</a>
-                <h3>{{$data->name}}</h3>
-                <h4 class="font-bold">{{$data->cred}}</h4>
+                <div class="flex">
+                    <div class="w-1/2">
+                        <h2>
+                            {{$currentMember->name}}
+                        </h2>
+                        <h3>{{$currentMember->role}}</h3>
+                        <p>{{$currentMember->description}}</p>
+                        <h3><a class="button my-4" target="_blank" href="{{$currentMember->linkedin}}">LinkedIn</a></h3>
+
+                    </div>
+                    <div class="w-1/2">
+                        <div class="max-w-sm">
+                            <img src="/storage/{{$currentMember->imagepath}}" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -18,7 +30,7 @@
 
             </div>
             <div class="link-list">
-                <a href="/admin/videos/{{$data->id}}/edit" class="button">
+                <a href="/admin/team/{{$currentMember->id}}/edit" class="button">
                         <span class="status icon">
                               <i class="fa fa-edit"></i>
                         </span>
@@ -31,7 +43,7 @@
                               <i class="fa fa-edit"></i>
                         </span>
                     <span class="inline-block pl-2">
-                        <form method="POST" action="/admin/videos/{{$data->id}}">
+                        <form method="POST" action="/admin/team/{{$currentMember->id}}">
                             @csrf
                             {{method_field('DELETE')}}
                             <button class="">Delete</button>
@@ -40,12 +52,12 @@
                 </a>
 
 
-                <a href="/admin/videos" class="button">
+                <a href="/admin/team" class="button">
                         <span class="status icon">
                               <i class="fa fa-arrow-left"></i>
                         </span>
                     <span class="inline-block pl-2">
-                        Back to Testimonials
+                        Back to Team
                         </span>
                 </a>
             </div>

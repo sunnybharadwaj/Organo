@@ -11443,21 +11443,35 @@ html, body {
 }
 
 h1 {
-  font-size: 67px !important;
+  font-size: 49px !important;
   font-weight: bold;
   letter-spacing: -0.045em;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 h2 {
-  font-size: 47px;
+  font-size: 39px;
   font-weight: bold;
   letter-spacing: -0.035em;
   line-height: 1.3;
 }
 
 h3 {
-  font-size: 33px;
+  font-size: 31px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  line-height: 1.4;
+}
+
+.h4 {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  line-height: 1.4;
+}
+
+.h5 {
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: -0.025em;
   line-height: 1.4;
@@ -11478,7 +11492,7 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: -0.025em;
   line-height: 1.6;
   margin-bottom: 15px;
@@ -12702,6 +12716,10 @@ textarea {
   }
 }
 
+#home-page #recurring-events {
+  margin-bottom: 0;
+}
+
 #home-page #recurring-events .event-name {
   margin-bottom: 1rem;
 }
@@ -13498,6 +13516,72 @@ textarea {
   }
 }
 
+#naandi-page .hero-container {
+  positon: relative;
+  background-image: url("/static/gallery/naandi/1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+  height: 100vh;
+}
+
+#naandi-page .hero-container .overlay {
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.64);
+}
+
+@media (min-width: 900px) {
+  #naandi-page .hero-container .overlay {
+    background-color: transparent;
+    background-attachment: fixed;
+  }
+}
+
+#naandi-page .hero-container .text-container {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 40px 25px;
+}
+
+@media (min-width: 900px) {
+  #naandi-page .hero-container .text-container {
+    background: rgba(255, 255, 255, 0.64);
+  }
+}
+
+#naandi-page .hero-container .text-container h1 {
+  font-size: 39px !important;
+  margin-bottom: 14px;
+}
+
+#naandi-page .hero-container .text-container .h4 {
+  font-size: 16px;
+}
+
+@media (min-width: 900px) {
+  #naandi-page .hero-container .text-container {
+    background-attachment: fixed;
+  }
+
+  #naandi-page .hero-container .text-container h1 {
+    font-size: 61px !important;
+  }
+
+  #naandi-page .hero-container .text-container .h4 {
+    font-size: 20px !important;
+  }
+}
+
 #naandi-page #naandi-testimonials .image-container {
   height: 100%;
   background-image: url("/static/images/testimonials/naandi_swetha.jpg");
@@ -13529,10 +13613,6 @@ textarea {
   min-width: 140px;
 }
 
-#naandi-page #naandi-intro .metrics .metric h2, #naandi-page #naandi-intro .metrics .metric h3 {
-  display: inline-block;
-}
-
 #naandi-page #naandi-intro .metrics .metric h2 {
   margin-right: 1rem;
 }
@@ -13547,7 +13627,7 @@ textarea {
   }
 }
 
-#naandi-page .home-images .flex .slider-component .image-container {
+#naandi-page .home-images .general.slider-component .image-container {
   width: 100%;
   min-height: 600px;
   background-position: center center;
@@ -13559,19 +13639,19 @@ textarea {
   background-color: #ccc;
 }
 
-#naandi-page .home-images .flex .slider-component .image-container.one {
+#naandi-page .home-images .general.slider-component .image-container.one {
   background-image: url("/static/images/naandi/home/1.jpg");
 }
 
-#naandi-page .home-images .flex .slider-component .image-container.two {
+#naandi-page .home-images .general.slider-component .image-container.two {
   background-image: url("/static/images/naandi/home/2.jpg");
 }
 
-#naandi-page .home-images .flex .slider-component .image-container.three {
+#naandi-page .home-images .general.slider-component .image-container.three {
   background-image: url("/static/images/naandi/home/3.jpg");
 }
 
-#naandi-page .home-images .flex .slider-component .image-container.four {
+#naandi-page .home-images .general.slider-component .image-container.four {
   background-image: url("/static/images/naandi/home/4.jpg");
 }
 
@@ -13598,10 +13678,11 @@ textarea {
 
 #naandi-page #about-project .about-naandi .metrics .metric {
   margin-right: 60px;
+  margin-bottom: 30px;
 }
 
 #naandi-page #about-project .about-naandi .metrics .metric .number {
-  display: inline-block;
+  display: block;
   font-size: 67px !important;
   font-weight: bold;
   letter-spacing: -0.045em;
@@ -13609,14 +13690,30 @@ textarea {
   margin-right: 10px;
 }
 
+@media (min-width: 900px) {
+  #naandi-page #about-project .about-naandi .metrics .metric .number {
+    display: inline-block;
+  }
+}
+
 #naandi-page #about-project .about-naandi .metrics .metric .description {
-  display: inline-block;
-  font-weight: normal !important;
-  font-size: 33px;
-  letter-spacing: -0.025em;
+  display: block;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  letter-spacing: 0.7em !important;
+  text-transform: uppercase !important;
   color: #5D3331;
   line-height: 105px;
   margin: 0;
+}
+
+@media (min-width: 900px) {
+  #naandi-page #about-project .about-naandi .metrics .metric .description {
+    display: inline-block;
+    font-size: 20px !important;
+    letter-spacing: 0.7em !important;
+    text-transform: uppercase !important;
+  }
 }
 
 #naandi-page .image-content-list .image-content-component:nth-child(1) .slider-container {
@@ -13691,6 +13788,7 @@ textarea {
   height: 220px;
   background: gray;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 #naandi-page #amenities .amenity-list p.alt-body {
@@ -14457,7 +14555,6 @@ nav .mobile {
 
 #admin h4, #admin .h4 {
   font-size: 25px;
-  letter-spacing: -0.03em;
   margin-bottom: 0;
 }
 
@@ -14476,6 +14573,19 @@ nav#admin-nav {
 
 nav#admin-nav #admin-logo {
   max-width: 240px;
+}
+
+nav#admin-nav .navbar-item {
+  font-weight: bold;
+  letter-spacing: -0.03em;
+}
+
+nav#admin-nav a.navbar-item:focus, nav#admin-nav a.navbar-item:focus-within, nav#admin-nav a.navbar-item:hover, nav#admin-nav a.navbar-item.is-active, nav#admin-nav .navbar-link:focus, nav#admin-nav .navbar-link:focus-within, nav#admin-nav .navbar-link:hover, nav#admin-nav .navbar-link.is-active {
+  color: #5D3331;
+}
+
+nav#admin-nav .navbar-link:not(.is-arrowless)::after {
+  border-color: #5D3331;
 }
 
 .admin-wrapper {
@@ -14508,6 +14618,15 @@ nav#admin-nav #admin-logo {
 
 .admin-h-card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.13);
+}
+
+.admin-h-card.disabled {
+  opacity: 0.2;
+}
+
+.admin-h-card.disabled:hover {
+  box-shadow: none;
+  cursor: default;
 }
 
 .admin-h-card .top-div {
@@ -14562,13 +14681,47 @@ section {
   margin: 140px 0;
 }
 
+.swiper-container .swiper-button-next, .product-slider .swiper-button-prev {
+  color: #ffde39;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.general.slider-component .image-container {
+  width: 100%;
+  min-height: 600px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+.general.slider-component .image-container.one {
+  background-image: url("/static/images/naandi/home/1.jpg");
+}
+
+.general.slider-component .image-container.two {
+  background-image: url("/static/images/naandi/home/2.jpg");
+}
+
+.general.slider-component .image-container.three {
+  background-image: url("/static/images/naandi/home/3.jpg");
+}
+
+.general.slider-component .image-container.four {
+  background-image: url("/static/images/naandi/home/4.jpg");
+}
+
 .content-block {
   padding: 10px;
   margin: 0 20px;
 }
 
 .container {
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 @media (max-width: 640px) {

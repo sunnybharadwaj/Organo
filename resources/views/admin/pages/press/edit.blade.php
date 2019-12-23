@@ -14,8 +14,8 @@
                 <div class="px-4 py-8">
                     <form class="px-10" method="POST" action="/admin/press/{{$data->id}}" enctype="multipart/form-data">
                         @csrf
-                        {{method_field('UPDATE')}}
-                        <h2 class="text-center form-title">Create a new <strong>Post</strong></h2>
+                        {{method_field('PATCH')}}
+                        <h3 class="">Edit <strong>Press Post</strong></h3>
                         <input type="text" name="active" value="true" hidden class="hidden">
 
                         <div class="field">

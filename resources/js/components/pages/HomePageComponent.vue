@@ -129,40 +129,146 @@
         </div>
 
         <section id="home-testimonials" class="">
-            <div class="testimonial-component">
+            <div class="testimonial-block">
                 <div class="container mx-auto">
-                    <div class="flex flex-wrap testimonial">
-                        <div class="w-full lg:w-5/12 image-wrapper ">
-                            <div class="image-container ">
+                    <div  class="swiper-container slider-component general">
+                        <div class="swiper-wrapper" style="">
+                            <div class="swiper-slide">
+                                <div class="quote max-w-2xl mx-auto">
+                                    <div class="container text-center">
+                                        <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
+                                        <div class="max-w-xs mx-auto mb-10 text-center">
+                                            <img class="mx-auto" src="/static/icons/quote.svg" alt="">
+                                        </div>
+                                        <h4 class="h4 mb-2">
+                                            "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."
 
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-7/12 text-content">
-                            <div class="quote">
-                                <h2 class="mb-6">Words from a Naandian:</h2>
-                                <p class="alt-body">
-                                    "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."
 
+                                        </h4>
+                                        <h4 class="h4">
+                                            Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."
+                                        </h4>
 
-                                </p>
-                                <p class="alt-body">
-                                    Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown. "
-                                </p>
+                                        <div class="mb-8"></div>
+                                        <div class="quote-by">
+                                            <div class="name h5 hl-body">M Madhusudan Reddy</div>
+                                            <div class="about">Naandian</div>
+                                        </div>
+                                    </div>
 
-                                <div class="mb-8"></div>
-                                <div class="quote-by">
-                                    <div class="name hl-body">M Madhusudan Reddy</div>
-                                    <div class="about">Naandian</div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="quote max-w-2xl mx-auto">
+                                    <div class="container text-center">
+                                        <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
+                                        <div class="max-w-xs mx-auto mb-10 text-center">
+                                            <img class="mx-auto" src="/static/icons/quote.svg" alt="">
+                                        </div>
+                                        <h4 class="h4 mb-2">
+                                            "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."
 
+
+                                        </h4>
+                                        <h4 class="h4">
+                                            Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."
+                                        </h4>
+
+                                        <div class="mb-8"></div>
+                                        <div class="quote-by">
+                                            <div class="name h5 hl-body">M Madhusudan Reddy</div>
+                                            <div class="about">Naandian</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="quote max-w-2xl mx-auto">
+                                    <div class="container text-center">
+                                        <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
+                                        <div class="max-w-xs mx-auto mb-10 text-center">
+                                            <img class="mx-auto" src="/static/icons/quote.svg" alt="">
+                                        </div>
+                                        <h4 class="h4 mb-2">
+                                            "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."
+
+
+                                        </h4>
+                                        <h4 class="h4">
+                                            Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."
+                                        </h4>
+
+                                        <div class="mb-8"></div>
+                                        <div class="quote-by">
+                                            <div class="name h5 hl-body">M Madhusudan Reddy</div>
+                                            <div class="about">Naandian</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="quote max-w-2xl mx-auto">
+                                    <div class="container text-center">
+                                        <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
+                                        <div class="max-w-xs mx-auto mb-10 text-center">
+                                            <img class="mx-auto" src="/static/icons/quote.svg" alt="">
+                                        </div>
+                                        <h4 class="h4 mb-2">
+                                            "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."
+
+
+                                        </h4>
+                                        <h4 class="h4">
+                                            Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."
+                                        </h4>
+
+                                        <div class="mb-8"></div>
+                                        <div class="quote-by">
+                                            <div class="name h5 hl-body">M Madhusudan Reddy</div>
+                                            <div class="about">Naandian</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="quote max-w-2xl mx-auto">
+                                    <div class="container text-center">
+                                        <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
+                                        <div class="max-w-xs mx-auto mb-10 text-center">
+                                            <img class="mx-auto" src="/static/icons/quote.svg" alt="">
+                                        </div>
+                                        <h4 class="h4 mb-2">
+                                            "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."
+
+
+                                        </h4>
+                                        <h4 class="h4">
+                                            Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."
+                                        </h4>
+
+                                        <div class="mb-8"></div>
+                                        <div class="quote-by">
+                                            <div class="name h5 hl-body">M Madhusudan Reddy</div>
+                                            <div class="about">Naandian</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
-
-
                 </div>
 
+
             </div>
+
+
+
         </section>
 
 
@@ -177,17 +283,15 @@
 
             </div>
 
-            <div class="flex flex-wrap mb-12">
+            <div class="flex flex-wrap">
                 <div class="w-full lg:w-1/3 recurring-event">
                     <router-link to="/organo-at-school">
                         <div class="content">
 
                             <h3 class="event-name">Organo @ School</h3>
-                            <p class="alt-body event-desc">
+                            <p class="event-desc font-bold">
                                 A Day event where academic institutions can bring their student to give an experience of our sustainability practices.  The event is filled with fun activities, informational sessions on sustainability and ideas of co-creating spaces.
                             </p>
-
-
                         </div>
                     </router-link>
 
@@ -195,7 +299,7 @@
                 <div class="w-full lg:w-1/3 recurring-event">
                     <div class="content">
                         <h3 class="event-name">Be a Farmer</h3>
-                        <p class="alt-body event-desc">By building bonds between friends, family or team members by working together on natural farming. Teams or homogeneous groups can contact us to schedule an event to experience farming.</p>
+                        <p class="event-desc font-bold">By building bonds between friends, family or team members by working together on natural farming. Teams or homogeneous groups can contact us to schedule an event to experience farming.</p>
 
                     </div>
                 </div>
@@ -203,7 +307,7 @@
                     <div class="content">
 
                         <h3 class="event-name">Sustainability Workshops</h3>
-                        <p class="alt-body event-desc">
+                        <p class="event-desc font-bold">
                             Stay informed about various aspects of sustainable living, straight from experts in the field, through one of our experiential workshops.
                         </p>
 
@@ -213,6 +317,18 @@
             </div>
 
         </section>
+        <div  class="swiper-container slider-component general">
+            <div class="swiper-wrapper" style="width: auto; height: 700px;">
+                <div class="swiper-slide image-container one"></div>
+                <div class="swiper-slide image-container two"></div>
+                <div class="swiper-slide image-container three"></div>
+                <div class="swiper-slide image-container four"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+
+        </div>
 
 
 

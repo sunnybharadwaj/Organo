@@ -34,7 +34,7 @@
 
 
                         <button type="submit" class="button is-primary">Submit</button>
-                        <a  class="button is-danger" href="/admin/testimonials">Cancel</a>
+                        <a  class="button is-danger" href="/admin/videos">Cancel</a>
 
 
                     </form>

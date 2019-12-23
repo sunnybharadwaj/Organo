@@ -2,7 +2,7 @@
     <div class="navbar-brand">
         <a href="/">
             <figure class="flex logo-container">
-                <div id="admin-logo" class="mr-4 p-4">
+                <div id="admin-logo" class="py-4 px-12">
                     <img src='/static/organo_logo.png' class="logo" alt="">
                 </div>
 

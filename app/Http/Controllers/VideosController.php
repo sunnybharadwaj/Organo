@@ -83,14 +83,14 @@ class VideosController extends Controller
     {
         $data = Video::find($id);
         $validatedData = $request->validate([
-            "headline" => ["required"],
+            "title" => ["required"],
             "url" => "required",
             "active" => "required"
         ]);
 
         $validatedData = (object)$validatedData;
-        $data->quote = $validatedData->headline;
-        $data->name = $validatedData->url;
+        $data->title = $validatedData->title;
+        $data->url = $validatedData->url;
 
         $data->save();
         return redirect('/admin/videos');

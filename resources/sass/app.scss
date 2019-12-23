@@ -19,12 +19,44 @@ section {
   margin: 140px 0;
 }
 
+.swiper-container .swiper-button-next, .product-slider .swiper-button-prev{
+  color: $highlight;
+  transform: scale(1.2);
+}
+
+.general.slider-component .image-container {
+  width: 100%;
+  min-height: 600px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc;
+
+  &.one {
+    background-image: url('/static/images/naandi/home/1.jpg');
+  }
+  &.two {
+    background-image: url('/static/images/naandi/home/2.jpg');
+  }
+  &.three {
+    background-image: url('/static/images/naandi/home/3.jpg');
+  }
+  &.four {
+    background-image: url('/static/images/naandi/home/4.jpg');
+  }
+}
+
+
+
 .content-block {
   padding: 10px;
   margin: 0 20px;
 }
 .container {
-  padding: 0 20px;
+  padding: 0 30px;
   @media (max-width: 640px) {
     padding: 0 30px;
   }

@@ -15,7 +15,7 @@
                     <form class="px-10" method="POST" action="/admin/videos/{{$data->id}}" enctype="multipart/form-data">
                         @csrf
                         {{method_field('PATCH')}}
-                        <h2 class="text-center form-title">Create a new <strong>Post</strong></h2>
+                        <h3 class="">Edit <strong>Video</strong></h3>
                         <input type="text" name="active" value="true" hidden class="hidden">
 
                         <div class="field">

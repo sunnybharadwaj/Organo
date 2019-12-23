@@ -28,6 +28,14 @@
   &:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.13);
   }
+
+  &.disabled {
+    opacity: 0.2;
+    &:hover {
+      box-shadow: none;
+      cursor: default;
+    }
+  }
   .top-div {
     background: #663E3B;
     border-radius: 4px 4px 0 0;

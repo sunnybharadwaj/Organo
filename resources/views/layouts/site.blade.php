@@ -21,6 +21,7 @@
     <meta name="keywords"
           content="Rurban, Sustainable Living, Farm House, Housing, Architecture, Horizontal Living, Natural, Nature, Peaceful, Experience, Conservation, Conscious, Reverse Migration, Authentic, Farm , Ecohabitats, Impact, Harmony, Modern, Community, Neighbourhood, Environment, Health , Lifestyle">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
     <link rel="stylesheet" href="{{asset('/css/app.css')}}">
     <title>Organo | Sustainable Rurban Living</title>
 </head>
@@ -43,7 +44,7 @@
 </div>
 
 <script src="{{asset('/js/jquery.min.js')}}"></script>
-{{--<script src="{{asset('/js/rellax/rellax.js')}}"></script>--}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 <script src="{{asset('/js/app.js')}}"></script>
 <script src="{{asset('/js/manifest.js')}}"></script>
 <script src="{{asset('/js/vendor.js')}}"></script>

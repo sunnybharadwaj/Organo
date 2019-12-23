@@ -14,7 +14,6 @@ $admin-bg: #F6F5F8;
   }
   h4, .h4 {
     font-size: 25px;
-    letter-spacing:-0.03em;
     margin-bottom: 0;
   }
 
@@ -30,7 +29,25 @@ $admin-bg: #F6F5F8;
 
 }
 
-@import 'navigation';
+nav#admin-nav {
+  background: white;
+  #admin-logo {
+    max-width: 240px;
+  }
+
+  .navbar-item {
+    font-weight: bold;
+    letter-spacing: -0.03em;
+  }
+  a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+    color: $primary-color;
+  }
+
+  .navbar-link:not(.is-arrowless)::after {
+    border-color: $primary-color;
+  }
+}
+
 @import 'dashboard';
 
 //Form

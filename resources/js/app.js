@@ -1,4 +1,5 @@
 import './bootstrap';
+import './swiper';
 import router from './routes'
 
 import SliderComponent from './components/partials/SliderComponent';
@@ -42,9 +43,7 @@ new Vue({
 });
 
 
-$(document).ready(function(){
 
-});
 
 
 $(window).scroll(function() {
