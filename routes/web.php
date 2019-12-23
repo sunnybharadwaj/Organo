@@ -16,6 +16,7 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::group(array('prefix' => 'api'), function () {
     Route::get('/team', 'ApiController@team');
+    Route::get('/videos', 'ApiController@videos');
 });
 
 Auth::routes();

@@ -44,7 +44,7 @@
             </div>
 
             <div class="header-content" slot="header-content">
-                <h1>Co-creating eco-habitats that celebrate living</h1>
+                <h1>Co-creating eco-habitats that celebrate</h1>
                 <div class="separator"></div>
                 <div class="sm:hidden mb-6"></div>
                 <p class="hl-body">Organo builds a fully-featured sustainable living environment with the idea of co-creating spaces.</p>
@@ -166,17 +166,16 @@
                                             <img class="mx-auto" src="/static/icons/quote.svg" alt="">
                                         </div>
                                         <h4 class="h4 mb-2">
-                                            "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."
-
+                                            "Quiet, peaceful, pollution-free and it allows us to relax and calm down in a quiet place, away from the noise and disturbance of city living.
 
                                         </h4>
                                         <h4 class="h4">
-                                            Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."
+                                            We love to spend our weekends away relaxing at Naandi with the kids. We enjoy a good night's sleep. "
                                         </h4>
 
                                         <div class="mb-8"></div>
                                         <div class="quote-by">
-                                            <div class="name h5 hl-body">M Madhusudan Reddy</div>
+                                            <div class="name h5 hl-body">Shwetha Reddy</div>
                                             <div class="about">Naandian</div>
                                         </div>
                                     </div>

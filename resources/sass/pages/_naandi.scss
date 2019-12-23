@@ -12,13 +12,17 @@
     background-color: #ccc;
     height: 100vh;
 
+    @media (min-width: 900px) {
+      background-color: transparent;
+      background-attachment: fixed;
+    }
+
     .overlay {
       height: 100vh;
       background: rgba(255, 255, 255, 0.64);
 
       @media (min-width: 900px) {
         background-color: transparent;
-        background-attachment: fixed;
       }
     }
 

@@ -13529,6 +13529,13 @@ textarea {
   height: 100vh;
 }
 
+@media (min-width: 900px) {
+  #naandi-page .hero-container {
+    background-color: transparent;
+    background-attachment: fixed;
+  }
+}
+
 #naandi-page .hero-container .overlay {
   height: 100vh;
   background: rgba(255, 255, 255, 0.64);
@@ -13537,7 +13544,6 @@ textarea {
 @media (min-width: 900px) {
   #naandi-page .hero-container .overlay {
     background-color: transparent;
-    background-attachment: fixed;
   }
 }
 

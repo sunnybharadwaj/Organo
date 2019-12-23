@@ -1244,8 +1244,31 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {}
+  mounted: function mounted() {
+    var _this = this;
+
+    axios.get('/api/videos').then(function (response) {
+      return _this.video_data = response.data;
+    });
+  },
+  data: function data() {
+    return {
+      video_data: null
+    };
+  }
 });
 
 /***/ }),
@@ -1259,7 +1282,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -3859,7 +3881,7 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("section", { attrs: { id: "bringing-it-togehter" } }, [
-      _c("h2", { staticClass: "text-center" }, [
+      _c("h2", { staticClass: "text-center primary-color" }, [
         _vm._v("Bringing it all together")
       ]),
       _vm._v(" "),
@@ -3976,7 +3998,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container mx-auto" }, [
       _c("div", { staticClass: "quote" }, [
-        _c("h3", [
+        _c("h3", { staticClass: "font-bold" }, [
           _vm._v(
             "\n                            “Organo was founded to re-establish a conscientious connection with the way we produce and consume resources as a community. Our goal is to create replicable community development models built on triple bottom line success and net zero thinking.”\n                        "
           )
@@ -4005,7 +4027,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container mx-auto" }, [
       _c("div", { staticClass: "flex flex-wrap" }, [
         _c("div", { staticClass: "piece w-full md:w-1/2 lg:w-1/3" }, [
-          _c("div", { staticClass: "heading alt-body mb-2" }, [
+          _c("div", { staticClass: "heading alt-body mb-2 primary-color" }, [
             _vm._v("The Dream")
           ]),
           _vm._v(" "),
@@ -4017,7 +4039,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "piece w-full md:w-1/2 lg:w-1/3" }, [
-          _c("div", { staticClass: "heading alt-body mb-2" }, [
+          _c("div", { staticClass: "heading alt-body mb-2 primary-color" }, [
             _vm._v("A Collective Vision")
           ]),
           _vm._v(" "),
@@ -4029,7 +4051,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "piece w-full md:w-1/2 lg:w-1/3" }, [
-          _c("div", { staticClass: "heading alt-body mb-2" }, [
+          _c("div", { staticClass: "heading alt-body mb-2 primary-color" }, [
             _vm._v("Design & Concept")
           ]),
           _vm._v(" "),
@@ -4041,7 +4063,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "piece w-full md:w-1/2 lg:w-1/3" }, [
-          _c("div", { staticClass: "heading alt-body mb-2" }, [
+          _c("div", { staticClass: "heading alt-body mb-2 primary-color" }, [
             _vm._v("Construction & Development")
           ]),
           _vm._v(" "),
@@ -4053,7 +4075,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "piece w-full md:w-1/2 lg:w-1/3" }, [
-          _c("div", { staticClass: "heading alt-body mb-2" }, [
+          _c("div", { staticClass: "heading alt-body mb-2 primary-color" }, [
             _vm._v("Building a community")
           ]),
           _vm._v(" "),
@@ -4065,7 +4087,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "piece w-full md:w-1/2 lg:w-1/3" }, [
-          _c("div", { staticClass: "heading alt-body mb-2" }, [
+          _c("div", { staticClass: "heading alt-body mb-2 primary-color" }, [
             _vm._v("Enabling self-growth")
           ]),
           _vm._v(" "),
@@ -5753,9 +5775,11 @@ var render = function() {
   return _c("div", { attrs: { id: "gallery-page" } }, [
     _c("section", [
       _c("div", { staticClass: "container mx-auto" }, [
-        _c("h1", { staticClass: "text-center" }, [_vm._v("Gallery")]),
+        _c("h1", { staticClass: "text-center primary-color" }, [
+          _vm._v("Gallery")
+        ]),
         _vm._v(" "),
-        _c("div", { staticClass: "home-images mb-4" }, [
+        _c("div", { staticClass: "home-images mb-12" }, [
           _c(
             "div",
             { staticClass: "swiper-container slider-component general" },
@@ -5764,7 +5788,7 @@ var render = function() {
                 "div",
                 {
                   staticClass: "swiper-wrapper",
-                  staticStyle: { width: "auto", height: "500px" }
+                  staticStyle: { width: "auto", height: "600px" }
                 },
                 _vm._l(10, function(index) {
                   return _c("div", { staticClass: "image-item swiper-slide" }, [
@@ -5788,8 +5812,6 @@ var render = function() {
           )
         ]),
         _vm._v(" "),
-        _c("div"),
-        _vm._v(" "),
         _c(
           "p",
           {
@@ -5808,7 +5830,7 @@ var render = function() {
             _c(
               "router-link",
               {
-                staticClass: "album w-full lg:w-1/2",
+                staticClass: "album w-full lg:w-1/3",
                 attrs: { to: "/gallery/album/naandi" }
               },
               [
@@ -5821,7 +5843,7 @@ var render = function() {
                     }
                   }),
                   _vm._v(" "),
-                  _c("h3", { staticClass: "album-name" }, [
+                  _c("h3", { staticClass: "h4 album-name" }, [
                     _vm._v("Organo Naandi")
                   ])
                 ])
@@ -5831,7 +5853,7 @@ var render = function() {
             _c(
               "router-link",
               {
-                staticClass: "album w-full lg:w-1/2",
+                staticClass: "album w-full lg:w-1/3",
                 attrs: { to: "/gallery/album/activities" }
               },
               [
@@ -5844,7 +5866,7 @@ var render = function() {
                     }
                   }),
                   _vm._v(" "),
-                  _c("h3", { staticClass: "album-name" }, [
+                  _c("h3", { staticClass: "h4 album-name" }, [
                     _vm._v("Activities at Naandi")
                   ])
                 ])
@@ -5854,7 +5876,7 @@ var render = function() {
             _c(
               "router-link",
               {
-                staticClass: "album w-full lg:w-1/2",
+                staticClass: "album w-full lg:w-1/3",
                 attrs: { to: "/gallery/album/school" }
               },
               [
@@ -5867,7 +5889,7 @@ var render = function() {
                     }
                   }),
                   _vm._v(" "),
-                  _c("h3", { staticClass: "album-name" }, [
+                  _c("h3", { staticClass: "h4 album-name" }, [
                     _vm._v("@School Event")
                   ])
                 ])
@@ -5875,7 +5897,37 @@ var render = function() {
             )
           ],
           1
-        )
+        ),
+        _vm._v(" "),
+        _c(
+          "p",
+          {
+            staticClass:
+              "h4 mb-4 mt-8 primary-color tracking-loose font-bold uppercase"
+          },
+          [_vm._v("Videos")]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "separator-line" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex flex-wrap" }, [
+          _c(
+            "div",
+            { staticClass: "w-full lg:w-1/3" },
+            _vm._l(_vm.video_data, function(item) {
+              return _c("div", { staticClass: "flex flex-wrap team-item" }, [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "https://img.youtube.com/vi/" + item.video_id + "0.jpg",
+                    alt: ""
+                  }
+                })
+              ])
+            }),
+            0
+          )
+        ])
       ])
     ])
   ])
@@ -6077,9 +6129,7 @@ var render = function() {
             slot: "header-content"
           },
           [
-            _c("h1", [
-              _vm._v("Co-creating eco-habitats that celebrate living")
-            ]),
+            _c("h1", [_vm._v("Co-creating eco-habitats that celebrate")]),
             _vm._v(" "),
             _c("div", { staticClass: "separator" }),
             _vm._v(" "),
@@ -6406,13 +6456,13 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("h4", { staticClass: "h4 mb-2" }, [
                         _vm._v(
-                          '\n                                        "I had to take a detour from my hectic life, and decided to not live in the city anymore where you’re isolated from nature. Due to insecticides and pesticides that are used, felt like we were consuming poison."\n\n\n                                    '
+                          '\n                                        "Quiet, peaceful, pollution-free and it allows us to relax and calm down in a quiet place, away from the noise and disturbance of city living.\n\n                                    '
                         )
                       ]),
                       _vm._v(" "),
                       _c("h4", { staticClass: "h4" }, [
                         _vm._v(
-                          '\n                                        Now when I take a calm relaxed walk in the morning through the farm here, I would pluck a Guava and eat it with comfort as I know exactly how naturally it was grown."\n                                    '
+                          "\n                                        We love to spend our weekends away relaxing at Naandi with the kids. We enjoy a good night's sleep. \"\n                                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -6420,7 +6470,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("div", { staticClass: "quote-by" }, [
                         _c("div", { staticClass: "name h5 hl-body" }, [
-                          _vm._v("M Madhusudan Reddy")
+                          _vm._v("Shwetha Reddy")
                         ]),
                         _vm._v(" "),
                         _c("div", { staticClass: "about" }, [
@@ -8371,7 +8421,9 @@ var render = function() {
             return _c("div", { staticClass: "flex flex-wrap team-item" }, [
               _c("div", { staticClass: "w-full lg:w-4/12 image-wrapper" }, [
                 _c("div", { staticClass: "image-container bg-blue-200" }, [
-                  _c("img", { attrs: { src: item.image_url, alt: "" } })
+                  _c("img", {
+                    attrs: { src: "/storage/" + item.imagepath, alt: "" }
+                  })
                 ])
               ]),
               _vm._v(" "),

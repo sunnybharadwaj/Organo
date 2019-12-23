@@ -68,7 +68,7 @@
 
                         <div class="w-full lg:w-4/12 image-wrapper">
                             <div class="image-container bg-blue-200">
-                                <img :src="item.image_url" alt="">
+                                <img :src="'/storage/' + item.imagepath" alt="">
                             </div>
                         </div>
                         <div class="w-full lg:w-8/12 text-content">
