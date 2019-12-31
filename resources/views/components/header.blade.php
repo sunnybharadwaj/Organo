@@ -22,6 +22,7 @@
                     <router-link to="/eco-habitats" class="lg-button"><span class="text">Eco-Habitats</span></router-link>
                     <router-link to="/naandi" class="lg-button"><span class="text">Naandi</span></router-link>
                     <router-link to="/editorial" class="lg-button"><span class="text">Editorial</span></router-link>
+                    <router-link to="/press" class="lg-button"><span class="text">Press</span></router-link>
                     {{--<router-link to="/sustainable-living" class="lg-button"><span class="text">Sustainable Living</span></router-link>--}}
                     <router-link to="/organo-at-school" class="lg-button"><span class="text">Organo@School</span></router-link>
                     <router-link to="/gallery" class="lg-button"><span class="text">Gallery</span></router-link>
@@ -56,7 +57,7 @@
                         <div class="group-name">Media</div>
                         <div class="group-list">
                             <router-link class="nav-anchor" to="/editorial"><span class="text">Editorial</span></router-link>
-                            {{--<router-link class="nav-anchor" to="/press"><span class="text">Press</span></router-link>--}}
+                            <router-link class="nav-anchor" to="/press"><span class="text">Press</span></router-link>
                             <router-link class="nav-anchor" to="/gallery"><span class="text">Gallery</span></router-link>
                         </div>
                     </div>

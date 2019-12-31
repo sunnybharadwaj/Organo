@@ -1,0 +1,118 @@
+
+#press-page {
+  .cards {
+    p {
+      margin: 0 !important;
+    }
+    .news-wrapper {
+      padding: 0 20px !important;
+
+    }
+
+    .press-page-icon {
+      max-width: 40px;
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+
+
+    .press-card {
+position:relative;
+      max-width: 370px;
+      min-height: 250px;
+      margin: 0 auto 30px;
+background: $primary-color;
+      box-shadow: $box-shadow;
+
+      h4.headline-text {
+        color: white;
+        min-width: 240px;
+      }
+
+      .link {
+        padding: 20px;
+        background: #f9f9f9;
+        position:absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        a {
+          text-decoration: none;
+          width: 100%;
+          font-size: 14px;
+          text-transform: uppercase;
+          padding: 20px;
+          margin: 0 !important;
+          letter-spacing: 0.04em;
+        }
+        &:hover {
+          background:#efefef;
+        }
+      }
+
+      .top, .bottom {
+        min-height: 140px;
+      }
+      .top {
+        position: relative;
+        background: rgba(78, 88, 111, 0.47);
+        .image-wrapper {
+          padding: 5px;
+          max-width: 150px;
+          margin: 0 auto;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+        }
+      }
+
+      .bottom {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+    }
+
+    @media (min-width: 600px) {
+      .press-card {
+        max-width: 280px;
+        margin: 0 auto 30px;
+        .top, .bottom {
+          min-height: 180px;
+        }
+      }
+
+      .nav-wrapper {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
+    @media (min-width: 900px) {
+
+      .press-card {
+        max-width: 300px;
+        margin: 0 auto 30px;
+        .top, .bottom {
+          min-height: 180px;
+        }
+      }
+      .nav-wrapper {
+        max-width: 880px;
+        margin: 0 auto;
+      }
+
+    }
+    @media (min-width: 1200px) {
+
+      .nav-wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+    }
+
+  }
+}

@@ -27,4 +27,8 @@ class ApiController extends Controller
 
         return $store;
     }
+
+    public function press() {
+        return \Organo\PressPost::all();
+    }
 }

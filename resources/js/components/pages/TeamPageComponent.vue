@@ -94,38 +94,38 @@
             </div>
         </div>
 
-        <div id="team-list">
-            <div class="container mx-auto">
-                <div>
-                    <div class="flex flex-wrap team-item" v-for="item in team_list">
+        <!--<div class="hidden">-->
+            <!--<div class="container mx-auto">-->
+                <!--<div>-->
+                    <!--<div class="flex flex-wrap team-item" v-for="item in team_list">-->
 
-                        <div class="w-full lg:w-4/12 image-wrapper">
-                            <div class="image-container bg-blue-200">
-                                <img :src="item.image_url" alt="">
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-8/12 text-content">
-                            <h3>{{item.name}}</h3>
-                            <p class="alt-body primary-color">{{item.role}}</p>
-                            <div class="links mb-4">
-                                <ul>
-                                    <li class="link">
-                                        <a :href="item.links.linkedIn" target="_blank">
-                                            LinkedIn
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p>
-                                {{item.description}}
-                            </p>
+                        <!--<div class="w-full lg:w-4/12 image-wrapper">-->
+                            <!--<div class="image-container bg-blue-200">-->
+                                <!--<img :src="item.image_url" alt="">-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="w-full lg:w-8/12 text-content">-->
+                            <!--<h3>{{item.name}}</h3>-->
+                            <!--<p class="alt-body primary-color">{{item.role}}</p>-->
+                            <!--<div class="links mb-4">-->
+                                <!--<ul>-->
+                                    <!--<li class="link">-->
+                                        <!--<a :href="item.links.linkedIn" target="_blank">-->
+                                            <!--LinkedIn-->
+                                        <!--</a>-->
+                                    <!--</li>-->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <!--<p>-->
+                                <!--{{item.description}}-->
+                            <!--</p>-->
 
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
 
 
 

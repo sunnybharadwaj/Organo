@@ -72,9 +72,9 @@
                         </div>
                         <h1>Urban refinement, <br/>Rural ethnicity</h1>
                         <!--<div class="separator"></div>-->
-                        <h4 class="max-w-xl mx-auto h4">Organo builds full-featured sustainable living environments
+                        <p class="max-w-xl mx-auto h4 naandi-about">Organo builds full-featured sustainable living environments
                             harmlessly integrated
-                            into the natural world, supportive of a healthy way of living.</h4>
+                            into the natural world, supportive of a healthy way of living.</p>
 
 
                     </div>
@@ -132,7 +132,7 @@
         </section>
 
 
-        <section id="naandi-intro" class="mb-0">
+        <section id="naandi-intro" class="mb-24">
             <div class="container mx-auto">
                 <div class="flex flex-wrap">
                     <div class="w-full lg:w-1/2">
@@ -146,20 +146,20 @@
                         line principles. Situated 17km from Hyderabad, we offer sustainable living space, a conscious community and opportunities to work with nature and experience a combination of urban refinement and rural ethnicity.</span>
                             </p>
 
-                            <div class="metrics">
-                                <div class="metric">
+                            <div class="metrics flex flex-wrap">
+                                <div class="metric w-full md:w-1/2">
                                     <h1 class="number primary-color mb-2">36.5 <span class="sub">Acres</span></h1>
                                     <h3 class="h4 description highlight"><span class="font-bold opacity-50">Total Area</span></h3>
                                 </div>
-                                <div class="metric">
+                                <div class="metric w-full md:w-1/2">
                                     <h1 class="number primary-color mb-2">6.5 <span class="sub">Acres</span></h1>
                                     <h3 class="h4 description"><span class="font-bold opacity-50">Agricultural Land</span></h3>
                                 </div>
-                                <div class="metric">
+                                <div class="metric w-full md:w-1/2">
                                     <h1 class="number primary-color mb-2">10 <span class="sub">Acres</span></h1>
                                     <h3 class="h4 description"><span class="font-bold opacity-50">Afforested Land</span></h3>
                                 </div>
-                                <div class="metric">
+                                <div class="metric w-full md:w-1/2">
                                     <h1 class="number primary-color mb-2">73</h1>
                                     <h3 class="h4 description"><span class="font-bold opacity-50">Farm Units</span></h3>
                                 </div>
@@ -245,7 +245,7 @@
                         go and take a dip in nature.
                     </h3>
                     <div class="mb-8"></div>
-                    <div class="txt-btn">Request floor-plans</div>
+                    <a href="/contact" target="_blank"><div class="txt-btn">Request floor-plans</div></a>
                     <div class="mb-8"></div>
                     <div class="txt-btn">
                         <router-link to="/gallery">Browse pictures at the Gallery</router-link>
@@ -298,52 +298,13 @@
         </section>
 
 
-        <section id="naandi-testimonials">
-
-            <div class="testimonial-component">
-                <div class="container mx-auto">
-                    <div class="flex flex-wrap testimonial">
-                        <div class="w-full lg:w-5/12 image-wrapper ">
-                            <div class="image-container ">
-
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-7/12 text-content">
-                            <div class="quote">
-                                <h2 class="mb-6">Testimonial:</h2>
-                                <p class="alt-body">
-                                    "Quiet, peaceful, pollution-free and it allows us to relax and calm down in a quiet
-                                    place, away from the noise and disturbance of city living.
-                                </p>
-                                <p class="alt-body">
-                                    We love to spend our weekends away relaxing at Naandi with the kids. We enjoy a good
-                                    night's sleep.
-                                    "
-                                </p>
-
-                                <div class="mb-8"></div>
-                                <div class="quote-by">
-                                    <div class="name hl-body">Shwetha Reddy</div>
-                                    <div class="about">Naandian</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+        <TestimonialsComponent></TestimonialsComponent>
 
 
-                </div>
-
-            </div>
-
-        </section>
-
-        <section class="m-0">
-            <SchoolCTAComponent></SchoolCTAComponent>
-        </section>
 
 
-        <section id="share-section">
+        <section id="share-section" class="hidden">
+
             <div class="container mx-auto">
                 <div class="flex flex-col content-center">
                     <div>

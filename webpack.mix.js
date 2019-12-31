@@ -7,4 +7,9 @@ mix.js('resources/js/app.js', 'public/js')
         processCssUrls: false,
         postCss: [ tailwindcss('./tailwind.config.js') ],
     })
+    .sourceMaps()
     .browserSync('http://127.0.0.1:8000');
+
+mix.webpackConfig({
+    devtool: "inline-source-map"
+});

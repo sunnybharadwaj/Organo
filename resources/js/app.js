@@ -31,6 +31,7 @@ Vue.component('CardModalComponent', CardModalComponent);
 Vue.component('ImageContentComponent', ImageContentComponent);
 
 
+
 //Forms
 Vue.component('FormContactComponent', FormContactComponent);
 

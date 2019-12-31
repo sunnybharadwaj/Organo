@@ -88,11 +88,11 @@
         <section id="contact-page-form" class="m-0 text-center">
             <div class="container mx-auto">
                 <h2 class="mb-4">If we missed something, <br/> please write us a quick message.</h2>
-                <a href="https://sunnybharadwaj563708.typeform.com/to/nzSQzy" target="_blank" class="txt-btn md">Click here</a>
+                <!--<a href="https://sunnybharadwaj563708.typeform.com/to/nzSQzy" target="_blank" class="txt-btn md">Click here</a>-->
                 <!--<p class="alt-body"><span class="font-normal">Be as specific as you can so we can serve you as soon as possible.</span></p>-->
                 <!--<p class="opacity-50 font-bold">Please fill all below fields</p>-->
                 <!--<div class="form">-->
-                <!--<FormContactComponent></FormContactComponent>-->
+                <FormContactComponent></FormContactComponent>
                 <!--</div>-->
 
             </div>

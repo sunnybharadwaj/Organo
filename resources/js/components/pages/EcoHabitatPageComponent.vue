@@ -48,8 +48,8 @@
                 <p class="pronunciation alt-body">[ <span class="font-bold">ek</span>-oh, <span class="font-bold">ee</span>-koh
                     - <span class="font-bold">hab</span>-i-tat ]
                 </p>
-                <h3>
-                    An integrated eco-system as a living space, consciously created with sustainability principles at its core; designed for having minimal impact without contaminating the environment in or around it.</h3>
+                <p  class="hl-body">
+                    An integrated eco-system as a living space, consciously created with sustainability principles at its core; designed for having minimal impact without contaminating the environment in or around it.</p>
                 <!--<div class="button-block">-->
                 <!--<div class="lg-button inline-block mr-8">-->
                 <!--<span class="text">Learn More</span>-->
@@ -239,43 +239,9 @@
 
 
         <section id="eco-habitat-testimonials">
-            <section id="home-testimonials" class="">
-                <div class="testimonial-component">
-                    <div class="container mx-auto">
-                        <div class="flex flex-wrap testimonial">
-                            <div class="w-full lg:w-5/12 image-wrapper ">
-                                <div class="image-container ">
 
-                                </div>
-                            </div>
-                            <div class="w-full lg:w-7/12 text-content">
-                                <div class="quote">
-                                    <h2 class="mb-6">Words from our team:</h2>
-                                    <p class="alt-body">
-                                        "Using vedic farming techniques, Organo Naandi grows 35 varieties of vegetables, 15 varieties of fruits and 95 varieties of medicinal plants at Naandi."
-                                    </p>
-                                    <p class="alt-body">
-                                        We use animal husbandry, rainwater harvesting, and control the use of chemicals. We employ many other ways to maintain a sustainable cycle for farm-fresh produce.
-                                        "
-                                    </p>
+            <TestimonialsComponent></TestimonialsComponent>
 
-                                    <div class="mb-8"></div>
-                                    <div class="quote-by">
-                                        <div class="name hl-body">Lakshmi Battula</div>
-                                        <div class="about">Farm Supervisor</div>
-                                        <div class="about font-bold">Organo</div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </section>
         </section>
 
 

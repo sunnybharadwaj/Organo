@@ -19,11 +19,11 @@
 
     .overlay {
       height: 100vh;
-      background: rgba(255, 255, 255, 0.64);
+      background: rgba(255, 255, 255, 0.55);
 
-      @media (min-width: 900px) {
-        background-color: transparent;
-      }
+      //@media (min-width: 900px) {
+      //  background-color: transparent;
+      //}
     }
 
 
@@ -31,7 +31,7 @@
 
       background: transparent;
       @media (min-width: 900px) {
-        background: rgba(255, 255, 255, 0.64);
+        //background: rgba(255, 255, 255, 0.64);
       }
       position: absolute;
       width: 100%;
