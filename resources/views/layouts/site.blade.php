@@ -46,8 +46,8 @@
 <script src="{{asset('/js/jquery.min.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 <script src="{{asset('/js/app.js')}}"></script>
-<script src="{{asset('/js/manifest.js')}}"></script>
-<script src="{{asset('/js/vendor.js')}}"></script>
+{{--<script src="{{asset('/js/manifest.js')}}"></script>--}}
+{{--<script src="{{asset('/js/vendor.js')}}"></script>--}}
 </body>
 </html>
 
