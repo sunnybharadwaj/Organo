@@ -61,7 +61,7 @@
                     </div>
 
                     <div>
-                        <div colspan='2' style='text-align:center; padding-top:15px;font-size:12px;'>
+                        <div   style='text-align:center; padding-top:15px;font-size:12px;'>
                             <input id='formsubmit'
                                    type='submit' value='Submit'></input></div>
                     </div>

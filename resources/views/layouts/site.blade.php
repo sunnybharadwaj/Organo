@@ -43,12 +43,10 @@
     @include('components.footer')
 </div>
 
-{{--<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e0ae800e13da80012ea341b&product=inline-share-buttons" async="async"></script>--}}
+
 <script src="{{asset('/js/jquery.min.js')}}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 <script src="{{asset('/js/app.js')}}"></script>
-{{--<script src="{{asset('/js/manifest.js')}}"></script>--}}
-{{--<script src="{{asset('/js/vendor.js')}}"></script>--}}
+
 </body>
 </html>
 

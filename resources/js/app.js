@@ -1,5 +1,5 @@
 import './bootstrap';
-import './swiper';
+
 import router from './routes'
 
 import SliderComponent from './components/partials/SliderComponent';

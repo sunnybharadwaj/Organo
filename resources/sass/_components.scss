@@ -232,68 +232,22 @@
 }
 
 //Testimonials
-.testimonial-component {
-  .testimonial {
-    min-height: 700px;
-    .text-content {
-      position: relative;
-    }
-    .quote {
-      max-width: 450px;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      margin-right: 100px;
 
-    }
-  }
-  @media (max-width: 640px) {
-    .testimonial {
-      .image-wrapper {
-        //height: 100%;
-      }
-      margin-top: 60px;
-      padding: 0;
-      position: relative;
-      min-height: 1000px;
-    }
 
-    .image-container {
-        width: 100%;
-      min-height: 250px;
-    }
+.testimonial-block {
+
+  .h4 {
+    font-size: 18px;
 
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 640px) {
+    .h4 {
+      font-size: 22px !important;
 
+    }
+    @media (min-width: 1024px) {
 
-    margin-top: 80px;
-    .container {
-      padding: 0 30px;
-    }
-    .quote {
-      max-width: none !important;
-      margin-right: 20px !important;
-      position: relative !important;
-    }
-    .testimonial {
-      position: relative;
-      top: 100px;
-      min-height: 700px;
-    }
-
-    .image-wrapper {
-      position: relative;
-      height: auto;
-    }
-
-    .image-container {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 300px;
-      width: 190px;
-      background: $highlight;
+      font-size: 26px;
     }
   }
 }

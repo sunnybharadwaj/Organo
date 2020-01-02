@@ -5,7 +5,7 @@
                 <div class="swiper-wrapper" style="">
                     <div class="swiper-slide">
                         <div class="quote max-w-2xl mx-auto">
-                            <div class="container text-center">
+                            <div class=" text-center">
                                 <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
                                 <div class="max-w-xs mx-auto mb-10 text-center">
                                     <img class="mx-auto" src="/static/icons/quote.svg" alt="">
@@ -17,8 +17,8 @@
 
                                 <div class="mb-8"></div>
                                 <div class="quote-by">
-                                    <div class="name h5 hl-body">M Madhusudan Reddy</div>
-                                    <div class="about">Naandian</div>
+                                    <div class="name h5 hl-body">M Madhusudan Reddy <br/>Naandian</div>
+                                    <div class="about"></div>
                                 </div>
                             </div>
 
@@ -26,7 +26,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="quote max-w-2xl mx-auto">
-                            <div class="container text-center">
+                            <div class=" text-center">
                                 <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
                                 <div class="max-w-xs mx-auto mb-10 text-center">
                                     <img class="mx-auto" src="/static/icons/quote.svg" alt="">
@@ -48,7 +48,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="quote max-w-2xl mx-auto">
-                            <div class="container text-center">
+                            <div class=" text-center">
                                 <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
                                 <div class="max-w-xs mx-auto mb-10 text-center">
                                     <img class="mx-auto" src="/static/icons/quote.svg" alt="">
@@ -70,7 +70,7 @@
 
                     <div class="swiper-slide">
                         <div class="quote max-w-2xl mx-auto">
-                            <div class="container text-center">
+                            <div class=" text-center">
                                 <!--<h2 class="mb-6">Words from a Naandian:</h2>-->
                                 <div class="max-w-xs mx-auto mb-10 text-center">
                                     <img class="mx-auto" src="/static/icons/quote.svg" alt="">
